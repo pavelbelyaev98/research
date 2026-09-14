@@ -113,7 +113,7 @@ The review section itself is part of the story: a wave of refund jokes, meme "bo
 | keybinds | 9 | 5 | 4 |
 | host-only content | 9 | 6 | 3 |
 
-The Japanese and Chinese reviews carry the same top themes: among 465 Japanese reviews, "straight-down digging" (直下) appears in 70 and multiplayer terms in 74; among 187 Simplified Chinese reviews, "optimization" appears in 39 (26 negative) and "refund" in 31.
+The Japanese and Chinese reviews carry the same top themes: among 465 Japanese reviews, "straight-down digging" (直下) appears in 68 and multiplayer terms in 74. Across the 624 Chinese reviews together (187 Simplified + 437 Traditional), 优化/優化 (optimization) appears in 39 (26 negative) and 退款 (refund) in 31; Simplified Chinese alone has 14 optimization mentions and 20 refund mentions.
 
 ---
 
@@ -121,7 +121,7 @@ The Japanese and Chinese reviews carry the same top themes: among 465 Japanese r
 
 A first-person voxel digging game for 1–8 players. You start on a small city plot with a merchant, an upgrade station and a worker area. **Core loop:** click to dig → collect ore and gems (stone, coal, iron, copper, silver, gold, amber, amethyst, emerald, sapphire, ruby, diamond, uranium, adamantine…) → sell at the surface → upgrade pickaxe/shovel (dig radius), backpack, battery/energy, rope/wire traversal, and dynamite → dig deeper. Fast-travel "manhole" checkpoints appear at intervals; consumables include batteries, warp stones, radar, spray paint and dynamite. Ore finds sometimes hide caves, temples, ruins and chests that grant skins, emotes and worker upgrades; NPC workers provide passive income. The goal in 1.0 is 1,000 m, where a red button triggers an ending cutscene (an aircraft bombs the city from above) and offers a reset that keeps your upgrades — a New Game+ in all but name — with new skins to unlock. A hidden T-rex/dinosaur storyline runs through fossil bones found at specific depths; several detailed community guides describe summoning a T-rex boss with them (see the boss note below). The free **2.0 update** adds a second mode with a 5,000 m map, smelting/crafting, blueprints, orbs/equipment rarity, fall damage, friendly fire, and separate progress. The humor is deliberate: chimp/monkey skins, a clown, silly emotes, a golden chimp, and a merchant jokingly described as "John Capitalism."
 
-**Corpus verification and boss note:** early reviews (launch week) insist there is no boss and no combat, while later reviews and detailed Korean/Traditional Chinese guides describe a hidden T-rex fight unlocked by collecting fossils, pressing hidden buttons and using specific emotes; treat the boss as **missable hidden content that most players never see**, and note that some reviews claiming it exists are joke/troll "guides."
+**Corpus verification and boss note:** early reviews (launch week) insist there is no boss and no combat, while later reviews and detailed Traditional Chinese and Korean posts describe a hidden T-rex fight unlocked by collecting fossils, pressing hidden buttons and using specific emotes. One Korean review reports that finding all dinosaur bones and pressing reset opens a hidden easter-egg stage, and a Simplified Chinese review claims a moon easter egg after beating the skeleton T-rex. Treat the boss as **missable hidden content that most players never see**, and note that some reviews claiming it exists are joke/troll "guides."
 
 ---
 
@@ -174,10 +174,10 @@ Upgrades are tangible, the reset keeps your gear, and 100% is achievable in a si
 >
 > "Getting 100% is a real pleasure, not a chore." — French, 3.3 h, positive (translated)
 >
-> "After resetting, the terrain returns to its original state and you can unlock new skins; upgrades, enhancements and items are all retained." — Simplified Chinese, 3.8 h, positive (translated)
+> "After resetting, the terrain returns to its original state and you can unlock new skins; upgrades, enhancements and items are all retained." — Traditional Chinese, 3.8 h, positive, 12 upvotes (translated)
 
 ### 6. Relaxing, podcast-friendly, no-pressure mining
-No combat (in practice), no fall damage, free battery recharge after max upgrades, radar and fast travel — reviewers call it a "mindless" game in the best sense.
+No combat (in practice), no fall damage in 1.0 (2.0 adds it), free battery recharge after max upgrades, radar and fast travel — reviewers call it a "mindless" game in the best sense.
 
 > "The game is exactly what it promises — a chill, laid-back experience… just pure zen digging, selling treasures, and upgrading your gear." — Czech, 5.8 h, positive (translated)
 >
@@ -193,13 +193,15 @@ The devs patched fast after launch, added a performance mode, and later shipped 
 > "Wild Dog gave the game a free update that many another publisher would have sold as a fat DLC." — German, 13.7 h, positive (translated)
 >
 > "as i posted this review, the game got an update wich fixed the issue, i am now recommending this game if you have some friends to mess about with lol" — English, 6.8 h, positive
+>
+> "We sincerely apologize. The version on the first day of the update had a bug that prevented startup on some GPUs, and a fix patch has been released. We would appreciate it if you could check." — Wild Dog (developer response to a Japanese negative review), 13.4 h, negative (translated)
 
 ### 8. Atmosphere and small details (niche)
 Fossils, temples, mineshafts, an underground "civilization" that changes with depth, satisfying dig sound, and an ending that shows your tunnels in cross-section are singled out by fans.
 
 > "As you go deeper underground, civilization evolves, and it's nice that you get a little curious: 'What's next…?'" — Japanese, 1.9 h, positive (translated)
 >
-> "The lack of BGM was wonderful. I love silently continuing to work with only ambient sounds… For us miners, BGM is the sound of drilling, after all." — Japanese, 1.5 h, positive (translated)
+> "The lack of BGM was wonderful. I love silently continuing to work with only ambient sounds… For us miners, BGM is the sound of drilling, after all." — Japanese, 1.5 h, positive, 249 upvotes — the most-upvoted review in the corpus (translated)
 >
 > "The sound design punctuates every strike of the pickaxe with a satisfying clonk, as though the Earth itself is reluctantly acknowledging my authority." — English, 2.6 h, positive
 
@@ -208,7 +210,7 @@ Fossils, temples, mineshafts, an underground "civilization" that changes with de
 ## What reviewers criticize (the bad)
 
 ### 1. Performance is the #1 complaint by a wide margin
-FPS in the single digits on RTX 3070/4090-class hardware, high CPU/RAM load, minutes of shader compilation on every launch, long loads, overheating, occasional BSoD, and a joke-turned-suspicion that the game is secretly mining crypto.
+Reports run from 5–15 FPS on high-end hardware (11 FPS on an RTX 3070, 5–10 FPS even at lowest settings) to stutter and crashes on RTX 4090/3090-class rigs, plus high CPU/RAM load, minutes of shader compilation on every launch, long loads, overheating (one 3090 rig shut down and overheated), occasional BSoD, and a joke-turned-suspicion that the game is secretly mining crypto.
 
 > "Solid 11fps on a 3070" — English, 0.2 h, negative, 13 upvotes
 >
@@ -221,6 +223,8 @@ FPS in the single digits on RTX 3070/4090-class hardware, high CPU/RAM load, min
 > "The game runs fine at the start, but the longer I played, the more my frames dropped, till it was barely 30fps. This was at lowest graphics too" — English, 16 h, negative, 10 upvotes
 >
 > "The strain this game has on CPU and GPU makes me question if it does have a secret crypto mining app in it." — English, 1.4 h, negative, 8 upvotes
+>
+> "The game runs very poorly, even on a good PC… even on the lowest graphics, the game still only runs at around 5–10 FPS." — English, 2.7 h, negative, 12 upvotes
 
 ### 2. Digging straight down trivializes the game
 The fastest strategy is to dig vertically to 1,000 m, skipping exploration, upgrades and content. The developers acknowledged this in patch notes; reviewers see it as the core design flaw.
@@ -245,7 +249,7 @@ Critical-path completion takes ~30–90 minutes; reviewers complain there is no 
 > "Very basic game that you'll finish in an hour. Just dig straight down. No challenge or progress in gameplay, just digging down." — English, 2.1 h, negative, 20 upvotes
 
 ### 4. Multiplayer ownership problems and desync
-Reviewers expected shared loot and money; instead money isn't shared despite the store description, dinosaur bones/end-game buttons are host-only, guests can desync or fail to join, and some achievements are host-only.
+Reviewers expected shared loot and money; instead money isn't shared despite the store description, dinosaur bones and other key actions are host-only, guests can desync or fail to join, and some achievements are host-only.
 
 > "Firstly, money isn't shared, as suggested by the description of the game" — English, 36 h, negative, 11 upvotes
 >
@@ -265,7 +269,7 @@ Crashes every few minutes on some systems; a first crash can leave the game unab
 > "After pressing save and exit, the progress was all gone" — Traditional Chinese, 4.6 h, negative (translated)
 
 ### 6. UI, controls and missing quality of life
-No key rebinding, ESC doesn't close menus, settings don't persist, no sprint (Shift and Space are both jump), no hold-to-dig (one click per swing), blurry visuals with no brightness/bloom controls, and no proper tutorial.
+No key rebinding, ESC doesn't close menus, settings don't persist, no sprint (Shift and Space are both jump), no hold-to-dig (one click per swing), blurry visuals with no graphics or brightness settings, and no proper tutorial.
 
 > "Why it doesn't let you just hold left click to dig is beyond me." — English, 4.7 h, negative
 >
@@ -274,6 +278,8 @@ No key rebinding, ESC doesn't close menus, settings don't persist, no sprint (Sh
 > "No spinting?… The overall design language doesn't seem cohesive. This game needs to be as polished as 'Digging a Hole'" — English, 0.1 h, negative, 53 upvotes
 >
 > "the incessant left-clicking will give you carpal-tunnel syndrome" — English, 1.6 h, negative
+>
+> "The real treasure was the carpal tunnel we got along the way. 10/10" — English, 3.4 h, positive, 99 upvotes
 
 ### 7. "Asset flip" and rip-off accusations
 A large share of negative and mixed reviews call it a blatant clone of A Game About Digging a Hole built from store assets, with no identity of its own.
@@ -289,21 +295,21 @@ Dynamite costs a lot, clears little, and in multiplayer only the host's upgrades
 
 > "Dynamite is beyond useless. Left-clicking twice at any stage of the game has bigger impact than throwing a dynamite." — English, 2 h, negative
 >
-> "bombs do nothing" — Traditional Chinese, 2.4 h, negative (translated)
+> "bombs do nothing" — Traditional Chinese, 2.3 h, negative (translated)
 >
 > "Friends leveling up their dynamite up to level 5, is still equivalent to level 1 damage. Leveling up dynamite only affects the host, not the other players." — English, 7.9 h, positive-with-criticism
 
 ### 9. The ending, story and missing boss
 The story is essentially absent; the 1,000 m ending is a button press and a cutscene nuking the city, which many found baffling. Some early reviews flatly deny that the boss exists.
 
-> "You dig to the bottom, a fighter jet bombs the city, and that's it. Huh?" — Traditional Chinese, 1 h, negative (translated)
+> "You dig to the bottom, a fighter jet bombs the city, and that's it. Huh?" — Traditional Chinese, 1.1 h, negative (translated)
 >
 > "Thanks everyone in the comments for making me work two extra hours like child labor. Where the hell is the boss fight?" — Traditional Chinese, 3.3 h, negative (translated)
 >
 > "The boss fights are lies, there is no combat system at all" — Simplified Chinese, 0.8 h, negative, 86 upvotes (translated)
 
 ### 10. The free 2.0 update split the community
-2.0 added crafting, orbs and 5,000 m, but many long-time players say it made the game slower and more stressful, moved tools behind RNG blueprints, removed teleport totems, and hurt the "dumb fun" pacing.
+2.0 added crafting, orbs, 5,000 m and controller support but removed the 1.0 worker NPCs, and many long-time players say it made the game slower and more stressful, moved tools behind RNG blueprints, removed the teleporters and instant-return stones (travel now depends on battery), and hurt the "dumb fun" pacing.
 
 > "I did not buy this to play an actual game, I bought this to dig a hole. 2.0 made it into a Minecraft-esque game with things to do and damage to take. I did not sign up for that. I signed up to dig a hole stress free. 2.0 patched in stress. 1.0 is PHENOMENAL though." — English, 20.5 h, positive, 14 upvotes
 >
@@ -314,11 +320,13 @@ The story is essentially absent; the 1,000 m ending is a button press and a cuts
 > "2.0 patched in stress. 1.0 is PHENOMENAL though." — English, 20.5 h, positive (same review, condensed)
 
 ### 11. Visuals and readability
-Blurry textures, forced bloom, extreme darkness and pop-in are common complaints; several reviewers report headaches or motion sickness from the underground sections.
+Blurry textures, motion blur that can't be turned off, extreme darkness and pop-in are common complaints; reviewers across several languages report dizziness or motion sickness from the underground sections.
 
 > "Game is extremely blurry and no matter what I do it's still very blurry. Unplayable as is." — English, 1 h, negative
 >
 > "I just get motion sick." — Japanese, 0.9 h, negative (translated)
+>
+> "The lag and the motion blur (even though it's off) are so bad that it makes me motion sick." — Japanese, 13.3 h, negative (translated)
 
 ---
 
@@ -326,9 +334,10 @@ Blurry textures, forced bloom, extreme darkness and pop-in are common complaints
 
 This game's review section deserves its own note, because it affected how several reviewers judged the game:
 
-- **Refund jokes are a genre here.** Multiple high-upvote positive reviews are literally "beat it in under 2 hours and refunded" jokes. The top upvoted positive review at one point read: "Amazing game. The best thing about it is that you can finish it in 40 minutes and refund it." (English, 0.8 h, positive, 43 upvotes). Another: "I give this game, 5 steam refunds out of 10." (English, 1.8 h, positive, 9 upvotes). Russian reviewers posted similar lines: "We got through it with the lads in 49 minutes and got a refund. Got almost all the achievements, thanks a lot!" (translated).
+- **Refund jokes are a genre here.** Multiple high-upvote reviews, positive and negative, are literally "beat it in under 2 hours and refunded" jokes. One of the most-upvoted positive reviews reads: "Amazing game. The best thing about it is that you can finish it in 40 minutes and refund it." (English, 0.8 h, positive, 43 upvotes). Another: "I give this game, 5 steam refunds out of 10." (English, 1.8 h, positive, 9 upvotes). The single most-upvoted negative review (123 upvotes) is the same joke in reverse: "we dug found ending refunded since we beat game in like 1 hour. also this game runs like my grandma which isnt very good" (English, 1.9 h, negative). Russian reviewers posted similar lines: "We got through it with the lads in 49 minutes and got a refund. Got almost all the achievements, thanks a lot!" (translated).
 - **Fake "boss guide" reviews.** Parts of the review section contain elaborate joke guides: a WoW-style multi-phase T-rex raid guide with aggro phases and elemental resistances, a cosmic "Lost Ark: First Sin" lore rewrite, and a troll "real boss unlock" guide. None of this matches the actual game systems; treat such reviews as memes.
 - **Fake-review accusations.** A number of Simplified and Traditional Chinese reviews (including top-voted negatives) accuse the game's Mostly Positive rating of being bought/astroturfed — "Run away, the Very Positive rating is fake and bought" (translated) — and specifically attack the meme/boss-guide reviews as astroturfing. English reviewers make the same accusation more loosely ("These people clearly paid for reviews"). Whether or not any astroturfing occurred, the review section is visibly shaped by joke content and counter-accusations, which is why this document relies on aggregate patterns rather than review-score alone.
+- **Repeated low-effort and meme reviews.** 47 review texts appear more than once in the corpus, and most are tiny meme posts — "." logged 14 times, "good" 12, "good game" 11, "gg" 7, plus "diggy diggy hole" and "monke" — which inflate the review count without adding signal. This is another reason the analysis weights themes and high-upvote quotes over raw totals.
 
 ---
 
@@ -338,10 +347,10 @@ This game's review section deserves its own note, because it affected how severa
 |---|---|---|
 | Co-op | The reason to buy; chaotic fun with 2–8 friends | Broken sync, host-only content, money not shared, some prefer solo |
 | Straight-down digging | A fun speedrun / meme in itself; "i am simpl man, i dig hole" | Destroys exploration and progression; devs acknowledged it |
-| Length | Fine for $5; "each got our $5 worth" | 30–90 min critical path; refund jokes; "only worth a dollar" |
+| Length | Fine for $5; "each got our $5 worth" | 30–90 min critical path; refund jokes; "only worth about a dollar" |
 | v1.0 vs 2.0 | Free update, more content, crafting depth | "Patched in stress", slower, RNG, some say unplayable |
 | Performance | Patches improved it; some run it fine | The dominant criticism: low FPS, crashes, shader waits |
-| Boss / T-rex | Hidden fight with guides, fossils, dynamite; a great payoff for some | "There is no boss"; many never see it; others call it a lie |
+| Boss / T-rex | Hidden fight with guides, fossils, dynamite; a great payoff for some | Several report no boss or no combat at all; many never see it; others call it a lie |
 | Asset reuse | Cheapness is upfront; fun matters more | "Asset flip", "rip-off", "no soul" |
 | Review score | 80% positive; genuinely liked by many | Accusations of bought/meme positive reviews |
 
@@ -349,7 +358,7 @@ This game's review section deserves its own note, because it affected how severa
 
 ## Who the reviews say should buy it
 
-**Recommended for:** a friend group looking for a cheap, funny one-or-two-night co-op game (2–4 players seems to be the sweet spot); fans of A Game About Digging a Hole who want multiplayer; players who enjoy mindless digging with music or podcasts; achievement hunters and anyone who wants an easy 100%.
+**Recommended for:** a friend group looking for a cheap, funny one-or-two-night co-op game (2–4 players comes up most, and the game supports up to 8, with several groups suggesting more players for the boss); fans of A Game About Digging a Hole who want multiplayer; players who enjoy mindless digging with music or podcasts; achievement hunters and anyone who wants an easy 100%.
 
 **Not recommended for:** solo players wanting meaningful progression or a story; anyone with a mid-range or weaker PC (performance complaints are the single biggest theme); players who will optimize the fun out of it by digging straight down; completionists bothered by host-only content; and players sensitive to blur/motion in first-person games. The most common advice is to buy it cheap, play it in one session with friends, and treat it as a party game rather than a long-term sim.
 
@@ -357,7 +366,7 @@ This game's review section deserves its own note, because it affected how severa
 
 ## Caveats
 
-- This document summarizes player opinion, not a technical review. Performance and crash reports cluster around launch (September 2025) and around the 2.0 update (2026); the developer shipped patches (performance mode, CPU cap, Y-invert, faster battery recharge) and some reviewers updated their reviews after fixes.
+- This document summarizes player opinion, not a technical review. Performance and crash reports cluster around launch (September 2025) and around the 2.0 update (2026); the developer shipped patches and hotfixes (a lightweight/performance mode, Y-invert, and a day-one fix for a GPU startup issue reported in reviews) and some reviewers updated their reviews after fixes.
 - The sample is every review retrievable via the App ID 3585800 review endpoint on 14 September 2026 (3,266 of 3,267). All quotations were verified against that raw file; translated quotes are marked.
 - Review-section culture (refund jokes, meme guides, astroturfing accusations) means individual reviews should not be taken at face value; the aggregate theme counts and the corroboration of themes across English, Japanese, Chinese and Russian reviews are more reliable than any single quote.
 - Quotes were lightly cleaned (line breaks, censored profanity, formatting tags) and translated from Japanese, Chinese, Russian, German, French, Czech, Turkish and others where necessary. Attribution gives language, playtime, sentiment, and vote count for the highest-voted quotes.
