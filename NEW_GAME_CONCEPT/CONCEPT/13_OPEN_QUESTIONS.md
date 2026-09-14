@@ -17,7 +17,7 @@ prototyping. When one is decided, it moves to `../DECISIONS.md` with a status.
 | D01/D02 | Exact common and distinctive rosters | — | Counts fixed (20–30 / 30–50); the object lists are content design |
 | — | When does the final meaningful purchase land? | ~75–85% of first completion | Prototype-tuned |
 | — | Zone names | — | Content work; placeholders in use |
-| — | Post-ending endless dig mode | Optional post-credits endless strata / Continue Playing only / more authored post-game content | Deferred (2026-09-14): feasibility of chunked procedural strata + save handling must be proven in a prototype spike before deciding. Evidence: AGADAH's most-upvoted review asks for it |
+| — | Post-ending endless dig mode | Optional post-credits endless strata / Continue Playing only / more authored post-game content | Deferred (2026-09-14): feasibility of chunked procedural strata + save handling must be proven in a prototype spike before deciding. Evidence: AGADAH's most-upvoted review asks for it; Digger: Galactic Treasures evidence (2026-09-15): The post-launch Grandpa's Farm bonus level featuring a 100+ layer Infinity Tunnel ('бесконечный туннель') was celebrated by hardcore players as a highly rewarding pure-digging outlet decoupled from story progression |
 
 ## World and art
 
@@ -29,7 +29,7 @@ prototyping. When one is decided, it moves to `../DECISIONS.md` with a status.
 | F07 | Detector presentation | Hybrid tool glow + edge hint / edge indicator only / tool reaction only | Deferred; options documented; decide with a prototype and review research |
 | F10 | UI art style | Industrial-worksite / other | Clear, not retro; exact style later |
 | W13 | Return-path navigation in a free-form hole (supports Q27's no-return-aids rule) | Current mitigations only (sky-lit shaft, lamps, depth readout, detector) / terrain repack or "spit dirt" ability / route-marker tool / consumable ascent aid | Meltopia's #2 complaint is getting lost (no map, tunnels all alike); One Man's Trash reviewers praised rebuilding staircases with spat-out dirt as the best QoL over AGADAH; Keep Digging players used save-and-exit as an elevator. Recommend a return-navigation prototype metric and a terrain-repack spike. Prototype/release gates now in `14_PROTOTYPE_PLAN.md` §4/§7 |
-| F13 | Performance-induced hitch feel (shader compilation, terrain streaming, late-session FPS decay) | Treat as a feel requirement with a prototype budget (cold-start hitch, stable dig rhythm) / accept / dedicated spike | Biggest cross-corpus negative: Keep Digging optimization 130 EN mentions (86 negative), 5–15 FPS reports, a 53-upvote shader rant; Meltopia freeze/stutter 78. Production targets stay parked; this is about feel and recognition rhythm. Prototype/release gates now in `14_PROTOTYPE_PLAN.md` §4/§7 |
+| F13 | Performance-induced hitch feel (shader compilation, terrain streaming, late-session FPS decay) | Treat as a feel requirement with a prototype budget (cold-start hitch, stable dig rhythm) / accept / dedicated spike | Biggest cross-corpus negative: Keep Digging optimization 130 EN mentions (86 negative), 5–15 FPS reports, a 53-upvote shader rant; Meltopia freeze/stutter 78; Digger: Galactic Treasures synchronous save freezes (15–60s) on voxel serialization. Production targets stay parked; this is about feel and recognition rhythm. Prototype/release gates now in `14_PROTOTYPE_PLAN.md` §4/§7 |
 
 ## Interface and production-adjacent (design-owned)
 

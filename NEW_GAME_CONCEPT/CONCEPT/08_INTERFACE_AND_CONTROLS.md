@@ -70,6 +70,10 @@ point: the hole and the find are the subject.
 - **Autosave** continuously at a measured interval and on events (sales, upgrades, recoveries);
  already implemented in the demo and to be kept (I14).
 - **Three manual save slots** for different worlds/seeds.
+- **Asynchronous, non-blocking save serialization:** save writes must run in background threads or
+ delta-diff chunks with a strict latency budget (<100ms), ensuring the game never freezes, chugs,
+ or hitches the frame rate when saving large voxel hole states (I14, anti-pattern 42; directly prevents
+ the 15–60 second PC freezes observed in *Digger: Galactic Treasures*).
 - Save status is visible but unobtrusive; no save spam.
 - Steam Cloud comes later (I14); the save format is designed so it can be added without changes.
 - Loading restores the exact hole, inventory, display and progression — never fresh terrain with old

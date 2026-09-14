@@ -61,6 +61,7 @@ sinks, large-object extraction.
 | Save integrity | zero lost holes, inventories or display states across interrupted sessions |
 | Feel | no floating snags; no unreachable pickups; no stuck spots |
 | Performance feel | no cold-start hitch on the first dig; stable frame pacing while digging; no progressive decay across a long session (F13) |
+| Save write latency | save serialization takes < 100 ms in background; zero perceptible frame freeze or hitch on save write (I14) |
 | Return navigation | testers find their way back to the surface unaided; none report feeling lost (W13) |
 | Mystery tone | testers describe the deep zone and the impossibilities as awe and curiosity, never dread (Q13) |
 
@@ -91,5 +92,6 @@ sinks, large-object extraction.
 - No save-loss, no terrain reset, no stuck states, no unreachable finds.
 - Session-length stress run keeps dig rhythm stable: no shader or streaming hitch on the normal
   digging path (F13).
+- Save write latency check: saving an extensively deformed late-game excavation causes zero frame freeze or input hitch (I14, anti-pattern 42).
 - Return navigation: testers get back to the surface unaided; no lostness or stuck reports (W13).
 - Mystery tone check: testers read the impossibilities as wonder, not threat (Q13).

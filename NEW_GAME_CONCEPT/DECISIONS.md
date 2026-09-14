@@ -137,7 +137,7 @@ this file: `ITERATION_GUIDE.md`.
 | I11 | Cognitive comfort: pause anywhere, no timed content, no missables, no FOMO | `CONFIRMED` |
 | I12 | Text scale / screen reader: optional later | `DEFERRED` |
 | I13 | Photo mode: pause-only; hide HUD, FOV, filters, watermark; no free camera | `REVISED` |
-| I14 | Saves: autosave + 3 manual slots; Steam Cloud later | `REVISED` |
+| I14 | Saves: autosave + 3 manual slots; Steam Cloud later (evidence flag 2026-09-15: Digger: Galactic Treasures lacked autosaves, causing 2–3 hour progress wipes on crashes; synchronous save serialization caused 15–60s PC freezes; async non-blocking save writes mandated; concept `08` §7, anti-pattern 42) | `REVISED` |
 | I15 | Achievements: a few fair Steam achievements | `REVISED` |
 | I16 | Content disclosure: marketing; not decided | `DEFERRED` |
 
@@ -202,3 +202,5 @@ this file: `ITERATION_GUIDE.md`.
 | 2026-09-14 | Q17 | Value-perception nuance flagged; price unchanged | Cross-corpus price themes (One Man's Trash, AGADAH, Meltopia) | process (user-approved) |
 | 2026-09-14 | D13 | Strict prohibition of real-world political references confirmed | iDigging: buried Trump Bitcoin sparked review backlash; anti-pattern 40 | process (user-approved) |
 | 2026-09-14 | D09 | Finale activation strictly gated behind component insertion, never depth/boundary triggers | iDigging: falling into void triggered ending cutscene; anti-pattern 41 | process (user-approved) |
+| 2026-09-15 | I14 / F13 | Non-blocking asynchronous save serialization mandated (<100ms budget) | Digger: Galactic Treasures 15–60s system chugs on voxel saves + lack of autosave wiped hours on crash; concept 08 §7, 14 §4/§7, anti-pattern 42 | user |
+| 2026-09-15 | — | Post-ending endless dig mode open question updated with positive sandbox evidence | Digger: Galactic Treasures Grandpa's Farm bonus level & 100+ layer Infinity Tunnel praised by players; concept 13 | user |

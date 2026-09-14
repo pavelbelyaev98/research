@@ -74,6 +74,7 @@ overrides it in `../DECISIONS.md`.
 | 38 | Lock achievements behind NG+, RNG or bugs | "INCREDIBLY scummy"; 45/46 forever | Fair one-run achievements (`12`) |
 | 39 | Delete or invalidate the display / collection | progress loss | Display is permanent in the save (`07`) |
 | 41 | Trigger the finale purely via depth or void boundary volumes | Falling into void/collision seams triggering credits | Finale requires intentional physical insertion of components (`11`) |
+| 42 | Block the main thread during save serialization or freeze the game on save | Digger: Galactic Treasures PC freezes for 15–60s on every save due to synchronous whole-world voxel serialization | Asynchronous non-blocking background serialization (<100ms budget) (`08`, `14`) |
 
 ## The one-line version
 
