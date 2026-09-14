@@ -1,5 +1,10 @@
 # The Perfect Digging Game — Design Bible
 
+> **Reference only — NOT this game's design.** This folder is an evidence-based synthesis of the five
+> digging-game review corpora. It describes a *different, hypothetical* game. The actual game being
+> built is in `NEW_GAME_CONCEPT/CONCEPT/`. Use these files for review evidence, genre lessons and
+> anti-pattern checks; never treat their numbers or systems as the current game's spec.
+
 A data-driven design for a first-person digging game that **keeps every strength and fixes every
 recurring mistake** observed across the five Steam review corpora in this repository.
 
@@ -16,7 +21,8 @@ back to something real players wrote in reviews, with the source recorded inline
 | `[OMT]` | One Man's Trash | 330 | 86% Very Positive | $5–7 | 2.5–6 h |
 | `[SPOT]` | The Spotter: Dig or Die | 1,859 | 85% Very Positive | $12.99 | 6–12 h |
 
-Full analyses live one level up (`*_REVIEW_ANALYSIS.md` in the repository root).
+Full analyses live in `../RESEARCH/` (see its `README.md`), with raw data in
+`../RESEARCH/research_data/`.
 
 ## The North Star
 

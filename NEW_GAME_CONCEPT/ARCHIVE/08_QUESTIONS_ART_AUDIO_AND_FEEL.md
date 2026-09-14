@@ -1,7 +1,7 @@
 # 08 — Questions, Round 6: Art, Audio and Game Feel
 
 Rules and directions; asset counts and exact values are prototype/production decisions. Answer by ID;
-answers go to `02_DECISIONS.md`.
+answers go to `DECISIONS.md`.
 
 This round defines how the game looks, sounds and feels moment to moment: visual identity, zone
 palettes, absurdity, camera and hands, dig feedback, audio design, detector presentation and FX

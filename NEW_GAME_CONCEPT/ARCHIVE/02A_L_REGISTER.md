@@ -1,6 +1,6 @@
 # 02A — L-Register (claim status table)
 
-Companion to `02_DECISIONS.md`. **Row status:** 74 rows — 64 CONFIRMED · 4 DEFERRED · 3 REVISED ·
+Companion to `DECISIONS.md`. **Row status:** 74 rows — 64 CONFIRMED · 4 DEFERRED · 3 REVISED ·
 2 REJECTED · 1 OPEN.
 
 ### World and terrain

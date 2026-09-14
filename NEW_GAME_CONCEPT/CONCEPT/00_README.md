@@ -1,8 +1,8 @@
 # Something Down There — Concept
 
 **This document set is written entirely from confirmed decisions.** Every rule here traces to an entry
-in `../02_DECISIONS.md` / `../02A_L_REGISTER.md`. Nothing is assumed; anything undecided is listed in
-`13_OPEN_QUESTIONS.md`.
+in `../DECISIONS.md`. Nothing is assumed; anything undecided is listed in
+`13_OPEN_QUESTIONS.md`. For how research iterations update this design, see `../ITERATION_GUIDE.md`.
 
 ## The game in one paragraph
 
@@ -21,19 +21,19 @@ constructed that should not exist. The last find changes everything; then you ke
 ## The seven pillars
 
 1. **The hole is yours.** Full voxel terrain, untouched start, no pre-dug paths, no intended route.
-   Sideways digging earns its keep through clusters and finds, never through depth multipliers.
+ Sideways digging earns its keep through clusters and finds, never through depth multipliers.
 2. **The signal and the reveal.** A silent detector builds a hunch; the reward is recognizing an
-   object from its half-buried shape. No value radar. No treasure GPS.
+ object from its half-buried shape. No value radar. No treasure GPS.
 3. **One ridiculous machine.** A single tool that visibly escalates into a garage-built absurdity.
-   Automatic adaptation, no mode chores, no replacement tool that invalidates your investment.
+ Automatic adaptation, no mode chores, no replacement tool that invalidates your investment.
 4. **Always a reason to dig, never a reason to fear losing it.** Money is banked only on the surface,
-   but recovery never deletes your finds. The only real cost of failure is time and a fee.
+ but recovery never deletes your finds. The only real cost of failure is time and a fee.
 5. **Short, dense, replayable.** 30–60 minute sessions, 3–5 hours to the ending, randomized
-   placement per save, a personal display that only your hole could fill.
+ placement per save, a personal display that only your hole could fill.
 6. **Fun first, honest always.** Controlled absurdity with deadpan delivery. No horror, no combat,
-   no jump scares, no bait-and-switch. The store page tells the truth.
+ no jump scares, no bait-and-switch. The store page tells the truth.
 7. **Respect the body and the schedule.** Hold-to-dig, full rebinding, comfort settings, no FOMO, no
-   missables, pause anywhere, saves that never lose progress.
+ missables, pause anywhere, saves that never lose progress.
 
 ## Document map
 

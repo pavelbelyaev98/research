@@ -15,31 +15,31 @@ repeatedly, not merely familiar.
 
 ## 2. The detector
 
-The detector is passive equipment: the player never equips it. They simply dig (L31).
+The detector is passive equipment: the player never equips it. They simply dig.
 
 - **Silent and visual.** No audio pings (F07; exact presentation TBD). The tool reacts; a subtle
-  screen-edge hint may show direction and proximity. The reference game's edge indicator is a
-  researched option.
+ screen-edge hint may show direction and proximity. The reference game's edge indicator is a
+ researched option.
 - **Never reveals value or rarity.** A huge object may read "stronger" because of size, but the
-  detector never says what it is. No "special cue" that makes ordinary finds feel like waste.
+ detector never says what it is. No "special cue" that makes ordinary finds feel like waste.
 - **One foreground target at a time**, stable switching, quiet intervals between cues. Constant
-  beeping-like interruption is forbidden.
+ beeping-like interruption is forbidden.
 - **Eligibility is authored per object**, never decided by price, size or metal content. Some
-  distinctive finds deliberately do not signal, so that digging itself keeps rewarding the player
-  outside signal-chasing.
+ distinctive finds deliberately do not signal, so that digging itself keeps rewarding the player
+ outside signal-chasing.
 - Signals can always be ignored; not following one costs nothing but an undiscovered object.
 
 ## 3. The reveal and recognition loop
 
 1. The player digs normally; the object appears partially.
 2. **Interesting objects do not disappear when touched.** They stay physically present; the player
-   excavates around them and watches the silhouette resolve.
+ excavates around them and watches the silhouette resolve.
 3. Once enough is exposed, the object becomes interactable and can be collected.
 4. **Recognition is the reward:** curved metal → handle → rectangular body → "…oh, it's a washing
-   machine."
+ machine."
 5. No archaeology: no brushing minigame, no 100% cleaning requirement, no identification timers, no
-   mailing objects for appraisal (L33). The game decides when enough is revealed; the player
-   decides what is worth revealing.
+ mailing objects for appraisal. The game decides when enough is revealed; the player
+ decides what is worth revealing.
 
 Small/common finds are quick: a bite or two, instant pickup, clear feedback so nothing is collected
 unseen.
@@ -66,7 +66,7 @@ Five authored micro-scene templates to start, rotated and placed procedurally wi
 3. **Household cluster** — plates, bottles, stove, sewing machine in a collapsed heap.
 4. **Machine fragments** — gears, drive shaft, boiler plate leading toward something larger.
 5. **Odd arrangement** — deliberately placed objects (a circle of bottles around a tool), feeding
-   the mystery.
+ the mystery.
 
 Rules: authored relationships, no pre-dug chambers, counted once in the finite population, validated
 for spacing. A cluster is a suggestion, never a quest marker.
@@ -93,18 +93,18 @@ No jackpots that finish the economy; no trash that feels like a waste of a slot.
 
 - The surface display is a growing shelf/wall/column with **predefined outlines** (D11).
 - **Empty frames are visible from the start; the shape inside stays hidden until discovery**
-  (D11b). This gives collection goals without spoiling silhouettes.
+ (D11b). This gives collection goals without spoiling silhouettes.
 - The player never chooses placement: when a unique (or first-find distinctive, if D03 resolves
-  that way) is collected, they carry it to its waiting outline and place it.
+ that way) is collected, they carry it to its waiting outline and place it.
 - The display records name + depth found. No prices, no condition, no rarity labels.
 
 ## 9. Inventory behavior for finds
 
-- The bag is abstract; there is no physical carrying of buckets or crates (L41).
+- The bag is abstract; there is no physical carrying of buckets or crates.
 - **Hard stop when full:** the player cannot pick up; the find stays exactly where it is in the
-  world, and can be retrieved on a later trip (S05b).
+ world, and can be retrieved on a later trip (S05b).
 - **Nothing is ever deleted.** No overflow teleport, no inventory destruction, no drop-on-death.
-- Uniques and ending components never consume capacity and are never lost (L38).
+- Uniques and ending components never consume capacity and are never lost.
 
 ## 10. References and humor
 
@@ -118,7 +118,7 @@ The three-step escalation (D08) is delivered entirely through finds:
 
 1. **Anachronistic junk** — a soda can too deep, a rubber duck in an ancient layer.
 2. **Too correct** — a rustless tool, a bottle standing upright under tons of sediment, a part
-   matching no nearby machine.
+ matching no nearby machine.
 3. **Constructed impossibilities** — machinery built from ancient materials with a modern function.
 
 The trail ends at the final object: **a modern object built in impossibly ancient materials**

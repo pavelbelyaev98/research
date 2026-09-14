@@ -22,11 +22,11 @@ Three or four objects outside the normal bag (D09):
 
 - They are parts of the final mechanism (e.g., segments that fit a housing found at the bottom).
 - They never consume inventory capacity, and can never be lost — not by recovery, falling, or any
-  failure state.
+ failure state.
 - They live in a small permanent case at the surface and appear on the way to the finale.
 - Inserting them at the final object is one obvious interaction, not a puzzle.
 - Their placement is off the main shaft, rewarding lateral exploration and giving the anti-straight-
-  down design its endgame teeth.
+ down design its endgame teeth.
 
 ## 3. The final discovery
 
@@ -42,32 +42,32 @@ The object must be readable at a glance and unmistakably manufactured.
 
 ## 4. The finale sequence
 
-Rules (C01, L64, L65):
+Rules (C01):
 
 - The player reaches and exposes the final object using **the normal upgraded excavation systems**:
-  the machine, the detector, the jetpack, C4. Nothing is disabled, stripped or swapped.
+ the machine, the detector, the jetpack, C4. Nothing is disabled, stripped or swapped.
 - There is **no genre switch**: no stealth, no combat, no puzzle, no timed escape, no chase.
 - The sequence is a **presentation break after a normal excavation payoff** — a cutscene, not a
-  replacement gameplay mode.
+ replacement gameplay mode.
 - No requirement to have maxed every track or found every unique before finishing.
 - Pausing/saving remains available; the finale cannot soft-lock progress.
 
 ## 5. The ending cutscene
 
 - Short, deadpan, and emotionally earned: the impossible object is confirmed; the protagonist
-  becomes famous for the discovery, not rich in the way they planned.
+ becomes famous for the discovery, not rich in the way they planned.
 - No retcon that erases the player's work; the dig mattered and the world reacts to it.
 - The display wall and the hole itself can appear as a quiet montage — the player's own excavation
-  as the record of the journey.
+ as the record of the journey.
 
 ## 6. Continue Playing
 
-After the cutscene (L64, L67, S12):
+After the cutscene ( S12):
 
 - The player returns to the same save with all equipment, upgrades, terrain, display and economy
-  intact.
+ intact.
 - Remaining upgrades can be purchased; missed finds are still findable; display outlines can be
-  completed; achievements remain obtainable.
+ completed; achievements remain obtainable.
 - Late-game money sinks stay live (S03b), so income still means something.
 - Nothing requires a new game; the game explicitly states that the run continues.
 
@@ -77,9 +77,9 @@ Per P05:
 
 - **Beaten:** the final object is found and the components assembled; credits roll.
 - **100%:** all display outlines filled, all upgrade tracks maxed, all zones explored (stat view),
-  and the achievement set completed.
+ and the achievement set completed.
 - **Never required:** clearing every voxel of terrain, erasing the player's own useful routes, or
-  filling an "all dirt removed" meter.
+ filling an "all dirt removed" meter.
 
 ## 8. Undecided
 

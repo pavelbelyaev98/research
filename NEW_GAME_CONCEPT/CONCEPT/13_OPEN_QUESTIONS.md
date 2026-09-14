@@ -1,7 +1,7 @@
 # 13 — Open Questions
 
 Everything intentionally undecided, with its current options and recommendation. None of these block
-prototyping. When one is decided, it moves to `../02_DECISIONS.md` with a status.
+prototyping. When one is decided, it moves to `../DECISIONS.md` with a status.
 
 ## Content and systems
 
@@ -11,7 +11,7 @@ prototyping. When one is decided, it moves to `../02_DECISIONS.md` with a status
 | S10 | How do passive upgrades work? | Find-or-buy (rare find grants a track tier) / find-only / buy-only | Find-or-buy recommended; discuss during play |
 | S09 (late) | Does the machine converge to one vacuum head, or keep adaptive behaviors to the end? | Convergence / perpetual adaptation | Automatic adaptation + late convergence is the working rule; validate in playtest |
 | D01/D02 | Exact common and distinctive rosters | — | Counts fixed (20–30 / 30–50); the object lists are content design |
-| L19 | When does the final meaningful purchase land? | ~75–85% of first completion | Prototype-tuned |
+| — | When does the final meaningful purchase land? | ~75–85% of first completion | Prototype-tuned |
 | — | Zone names | — | Content work; placeholders in use |
 
 ## World and art

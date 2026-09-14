@@ -3,9 +3,9 @@
 ## 1. The minute loop
 
 ```
-DIG  →  SIGNAL  →  INVESTIGATE  →  REVEAL  →  RECOGNIZE  →  COLLECT
- ↑                                                              ↓
-UPGRADE  ←  SELL  ←  SURFACE  ←  (bag full / battery low / curiosity satisfied)
+DIG → SIGNAL → INVESTIGATE → REVEAL → RECOGNIZE → COLLECT
+ ↑ ↓
+UPGRADE ← SELL ← SURFACE ← (bag full / battery low / curiosity satisfied)
 ```
 
 Rules for each beat:
@@ -25,11 +25,11 @@ Rules for each beat:
 ## 2. The session loop (30–60 min)
 
 1. **Plan (1 min):** check the display outlines, the fat wallet, the next upgrade. Pick an intention:
-   "reach the next zone", "chase that signal", "afford the drill".
+ "reach the next zone", "chase that signal", "afford the drill".
 2. **Dig (20–45 min):** descend, chase signals, explore sideways, discover, get greedy.
 3. **Tension (optional):** the bag fills, the battery drops, the return warning turns orange.
 4. **Decide:** keep going for one more thing, or leave with everything. This decision is the game's
-   entire risk.
+ entire risk.
 5. **Return and cash in (5–10 min):** climb, sell, recharge, upgrade, glance at the display wall.
 6. **Repeat** because there is always exactly one thing to buy and one signal uninvestigated.
 
@@ -43,7 +43,7 @@ Rules for each beat:
 | Hours 4–5 | **Ancient constructed** | The final components, the impossible object, the ending; Continue Playing opens |
 
 The last meaningful purchase should land near the end of the run so its power gets used (timing
-prototype-tuned, L19).
+prototype-tuned).
 
 ## 4. Pacing rules (generation enforces these)
 
@@ -54,7 +54,7 @@ prototype-tuned, L19).
 - New object silhouettes keep appearing until the end; the late game is never "more dirt".
 - Novelty is never dumped early: strong finds are distributed across all four zones.
 - These rules validate a candidate layout before it is accepted; an accepted population persists and
-  is never rerolled by a patch (W09, D12).
+ is never rerolled by a patch (W09, D12).
 
 ## 5. Anti-straight-down design
 
@@ -62,12 +62,12 @@ The reviewed failure: the optimal strategy becomes "ignore the game, dig straigh
 answers structurally, not with friction:
 
 1. **Clusters and signals pull sideways** — the best discoveries are rarely on the main shaft.
-2. **Depth influences category, never value** (L05): deep does not automatically mean richer, so a
-   straight shaft skips content but does not out-earn an explorer.
+2. **Depth influences category, never value**: deep does not automatically mean richer, so a
+ straight shaft skips content but does not out-earn an explorer.
 3. **Hard pockets are optional and sideways** (W05b); the main descent is never hard-blocked.
 4. **Components and uniques live off-shaft**, so the ending and the display reward exploration.
 5. **No friction mechanics are used to stop rushing** — no stamina, no drains, no cooldowns, no
-   enemies. The game respects the speedrunner and simply hides its best moments to the side.
+ enemies. The game respects the speedrunner and simply hides its best moments to the side.
 
 ## 6. The core test (if the prototype works, this happens repeatedly)
 

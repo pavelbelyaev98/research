@@ -20,7 +20,7 @@ permanent tutorial text.
 - Inspect-only grid (I04): collected finds with name and a short deadpan inspection line.
 - No stats, no equipping, no sorting chores, no selling here.
 - Uniques/components are marked as not sellable and displayed separately from the bag.
-- Opening it is a pause-friendly moment; looking never drains the battery (L54 spirit).
+- Opening it is a pause-friendly moment; looking never drains the battery.
 
 ## 3. Pause menu
 
@@ -44,7 +44,7 @@ Rules (I07):
 
 - **Every action is fully rebindable** on every device.
 - **Controller parity is mandatory:** every screen, including shop, inventory and display placement,
-  works with a controller; glyphs swap automatically.
+ works with a controller; glyphs swap automatically.
 - **Left-handed preset** mirrors mouse buttons and updates prompts.
 - Sensitivity, invert, deadzone and hold/toggle options exist per action.
 - Optional gyro for fine control.
@@ -53,7 +53,7 @@ Rules (I07):
 ## 5. Feedback rules
 
 - Every pickup has visible, audible feedback; the player never wonders whether something was
-  collected (the "apparently I collected it but didn't see it" failure is banned).
+ collected (the "apparently I collected it but didn't see it" failure is banned).
 - Detector feedback has a visual channel; the game is fully playable muted.
 - Readability is never color-only: shapes, icons and labels back up every color cue.
 
@@ -66,19 +66,19 @@ point: the hole and the find are the subject.
 ## 7. Save system (player-facing)
 
 - **Autosave** continuously at a measured interval and on events (sales, upgrades, recoveries);
-  already implemented in the demo and to be kept (I14).
+ already implemented in the demo and to be kept (I14).
 - **Three manual save slots** for different worlds/seeds.
 - Save status is visible but unobtrusive; no save spam.
 - Steam Cloud comes later (I14); the save format is designed so it can be added without changes.
 - Loading restores the exact hole, inventory, display and progression — never fresh terrain with old
-  purchases (L53).
+ purchases.
 
 ## 8. Settings that must exist (summary)
 
 Motion comfort (FOV, shake, bob, comfort preset), controls (rebinding, sensitivity, handedness),
 audio (ambience/SFX levels, mute), UI (scale where applicable), gameplay toggles (auto-dig assist,
 toggle dig), and save management. Options persist immediately; every effect that exists has a
-corresponding control (I08, L69).
+corresponding control (I08).
 
 ## 9. Accessibility pointer
 

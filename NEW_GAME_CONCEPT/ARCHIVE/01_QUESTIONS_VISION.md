@@ -3,7 +3,7 @@
 **How this works**
 
 - Answer by ID, in any order, in chat or by editing this file. I copy your answers into
-  `02_DECISIONS.md` with a status (`CONFIRMED` / `REVISED` / `REJECTED` / `DELEGATED`) and rationale.
+  `DECISIONS.md` with a status (`CONFIRMED` / `REVISED` / `REJECTED` / `DELEGATED`) and rationale.
 - An unanswered question stays `OPEN`. I never fill in an answer for you.
 - Every question lists options, my recommendation, and the review evidence behind it. You may always
   answer something not in the list — that becomes the recorded decision.
@@ -20,7 +20,7 @@
 **Context:** The document mixes "not a selected mechanic" with dozens of "selected/locked" decisions.
 **Options:**
 - **A)** Everything marked "selected/locked" is binding unless you change it; we only discuss the reopened items.
-- **B)** Nothing is binding; you confirm or reject every L-item individually in `02_DECISIONS.md`.
+- **B)** Nothing is binding; you confirm or reject every L-item individually in `DECISIONS.md`.
 - **C)** Bulk-confirm the audit's KEEP list (21 items) in one go; individually review the RESOLVE list (10 items). *(Recommended)*
 - **D)** Ignore it entirely.
 

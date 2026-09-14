@@ -1,7 +1,7 @@
 # 06 — Questions, Round 4: Discoveries and Content
 
 Rules, categories and variations — exact counts and prices are prototype-tuned (Rule 8). Answer by ID
-in chat; answers go to `02_DECISIONS.md`.
+in chat; answers go to `DECISIONS.md`.
 
 This round defines what the underground actually contains: the find categories, how the detector
 chooses targets, how value and rarity work, how clusters are built, and what the first five authored

@@ -2,7 +2,7 @@
 
 Each entry is a specific failure observed in the five reviewed digging games, and the rule that
 forbids it here. If a proposal matches an entry, it is rejected unless the developer explicitly
-overrides it in `../02_DECISIONS.md`.
+overrides it in `../DECISIONS.md`.
 
 ## Progression and economy
 

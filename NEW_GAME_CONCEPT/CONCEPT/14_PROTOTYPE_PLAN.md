@@ -65,7 +65,7 @@ sinks, large-object extraction.
 
 1. New player, no tutorial, unguided 30 minutes.
 2. Observe: what they dig, whether they follow cues, when they first return, how they react at each
-   station.
+ station.
 3. Inspect the resulting hole: shape, lateral branching, abandoned pockets.
 4. Interview: what they remember finding, what they wanted next, what annoyed them.
 5. Compare against the metrics above; adjust content distribution and feedback before adding content.

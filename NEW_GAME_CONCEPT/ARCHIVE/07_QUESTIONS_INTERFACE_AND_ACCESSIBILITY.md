@@ -1,6 +1,6 @@
 # 07 — Questions, Round 5: Interface and Accessibility
 
-Rules-level. Answer by ID; answers go to `02_DECISIONS.md`.
+Rules-level. Answer by ID; answers go to `DECISIONS.md`.
 
 This round covers what the player sees and touches: HUD, tutorial, menus, controls, comfort and
 accessibility. Art direction and production details come in Round 6.

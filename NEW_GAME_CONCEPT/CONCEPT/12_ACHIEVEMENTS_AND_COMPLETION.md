@@ -12,9 +12,9 @@ collectathons and false "no cheating" detectors. None of that exists here.
 2. All obtainable in a **single playthrough**; no NG+ requirement.
 3. **Deterministic:** no RNG, no seeds, no luck-based unlocks.
 4. **Mode/assist independent:** auto-dig, toggle dig, muted audio and colorblind palettes never block
-   an achievement.
+ an achievement.
 5. **Retroactive and durable:** discovery and progression records persist; loading an old save
-   re-grants anything already earned.
+ re-grants anything already earned.
 6. **No false detectors:** the game never accuses the player of cheating.
 7. **No grinds:** nothing requires clearing every voxel or repeating unfun loops.
 8. **No host-only or online-required achievements** (the game is single-player).
@@ -50,13 +50,13 @@ findable, remaining upgrades purchasable, the display completable.
 ## 5. Tracked stats (for the completion screen)
 
 - Depth records, time played, purchases, finds by tier, uniques collected, clusters discovered,
-  fossils recovered, large objects extracted, mystery finds found, recoveries used, seeds played.
+ fossils recovered, large objects extracted, mystery finds found, recoveries used, seeds played.
 - Stats are informational; only the 100% definition uses a subset.
 
 ## 6. Implementation requirements
 
 - Profile-level stat store written with the save; achievements derived from stats and re-granted on
-  load when conditions are met.
+ load when conditions are met.
 - Offline earning queues locally and syncs to Steam when available.
 - A clean-save 100% verification run must pass before release, including with assists enabled
-  (`14_PROTOTYPE_PLAN.md` lists this as a release gate).
+ (`14_PROTOTYPE_PLAN.md` lists this as a release gate).

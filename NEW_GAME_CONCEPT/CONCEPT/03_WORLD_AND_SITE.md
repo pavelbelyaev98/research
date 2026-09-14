@@ -6,22 +6,22 @@ A drained river-fed reservoir. The working floor sits inside visible former bank
 retaining walls, and leftover waterworks. It is finite, believable and clearly bounded.
 
 - **Dimensions:** TBD in playtest (W01). Constraints: deeper than the reference game's ~100 m;
-  working candidate 24×24×48 m. Depth is the progression axis; the footprint stays contained.
-- **Surface:** authored, not procedurally generated into ugliness (L60). A small worksite yard
-  (see `07_SURFACE_HUB_AND_DISPLAY.md`).
+ working candidate 24×24×48 m. Depth is the progression axis; the footprint stays contained.
+- **Surface:** authored, not procedurally generated into ugliness. A small worksite yard
+ (see `07_SURFACE_HUB_AND_DISPLAY.md`).
 - **Underground:** fully diggable voxel ground except permanent boundaries.
-- **No pre-existing caves or tunnels:** every opening in the ground is one the player made (L04, L09).
+- **No pre-existing caves or tunnels:** every opening in the ground is one the player made.
 
 ## 2. Boundaries (why you cannot dig forever)
 
 Permanent boundaries must look categorically different from any diggable material (W02):
 
 - **Sides:** concrete retaining walls, dam infrastructure, steel pilings — industrial, cracked,
-  obviously not soil.
+ obviously not soil.
 - **Bottom:** solid bedrock shelf.
 - **One edge (undecided, W10):** open water or steep natural rock. Either way: no swimming, no
-  flooding, no water gameplay. Undecided because water as a static wall can look odd; bedrock is
-  more realistic; decide with the art pass.
+ flooding, no water gameplay. Undecided because water as a static wall can look odd; bedrock is
+ more realistic; decide with the art pass.
 
 Rule: never use the same material look for "tough but diggable" and "eternal wall". Players must
 know at a glance what will eventually yield.
@@ -73,34 +73,34 @@ one early and demolishing it later is a designed moment of power.
 ## 6. Terrain technology and cleanup
 
 - **Full voxel**: every diggable cube can be removed; tunnels, overhangs and trenches are legal
-  (W06). Chunk size prototype-tuned (W11).
+ (W06). Chunk size prototype-tuned (W11).
 - **No floating specks**: after a dig, disconnected voxels convert to pickups and fly to the player;
-  nothing collidable is ever left suspended (L10).
+ nothing collidable is ever left suspended.
 - **Debris is visual only**: particles never collide and never deal damage.
 - **Collision always matches the visible mesh.**
 - **Substantial structures survive**: ledges, tunnels and overhangs the player built are preserved;
-  only unsupported crumbs are cleaned.
+ only unsupported crumbs are cleaned.
 - **Progress never resets**: the terrain edit history is saved; loading restores exactly the hole
-  (L53).
+.
 
 ## 7. Lighting and darkness
 
 - **Sky light reaches down open shafts** and fades with depth (F09).
 - **A dim ambient floor** exists everywhere — the game is never pitch black; you can always barely
-  navigate (W03g).
+ navigate (W03g).
 - **Placeable lamps** provide real visibility, let players mark routes, and light finds for photos.
 - **No personal light.** The tool does not act as a headlamp; darkness in covered areas is a reason
-  to place lamps.
+ to place lamps.
 - **Zone lighting moods:** warm daylight near the surface → cool dim mid-depths → near-black deep
-  where lamps are effectively required.
+ where lamps are effectively required.
 
 ## 8. Randomization rules
 
 - Authored: zone layout, depth ranges, boundary placement, general difficulty curve.
 - Randomized per save: find positions, depths within bands, rotations, cluster layouts, some
-  surrounding junk (W09).
+ surrounding junk (W09).
 - The generator produces a candidate layout and validates pacing (Section 4 of
-  `02_CORE_LOOP.md`) before accepting it.
+ `02_CORE_LOOP.md`) before accepting it.
 - The accepted population is finite and persisted; patches never reroll an existing save.
 
 ## 9. No hazards

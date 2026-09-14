@@ -32,9 +32,9 @@ combat, no puzzle, no survival).
 
 - **Priority:** fun, absurdity and curiosity first. Relaxation is a side effect, not the pitch.
 - **Absurdity lives in the machine and the objects.** The tool becomes a garage-built monster; the
-  finds are strange and increasingly impossible. The world itself stays deadpan and straight-faced.
+ finds are strange and increasingly impossible. The world itself stays deadpan and straight-faced.
 - **Humor is object-based and rare.** A funny item description, a ridiculous attachment, a
-  physics gag. No joke quota, no toilet humor, **no body-sound gags** (Q09).
+ physics gag. No joke quota, no toilet humor, **no body-sound gags** (Q09).
 - **The game never winks too hard.** No narrator, no fourth wall, no joke tutorial text.
 - **Some finds are genuinely cool, not funny.** Wonder and absurdity need each other.
 

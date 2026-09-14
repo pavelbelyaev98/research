@@ -25,7 +25,7 @@ Learning happens through the world, not popups (I02, I02b):
 
 - Stenciled signs and painted arrows: **SELL**, **UPGRADE**, **FUEL**.
 - The Sell All machine has a big visible lever/handle; the upgrade bench has a lit panel showing the
-  next tool change; the display wall's empty frames invite inspection.
+ next tool change; the display wall's empty frames invite inspection.
 - A compact pause reference lists controls, and settings explain options.
 - First interactions work on the first try: stand at the machine, press the obvious button.
 
@@ -36,17 +36,17 @@ Learning happens through the world, not popups (I02, I02b):
 - No manual depositing; individual selling is available as a secondary option at the machine.
 - Uniques and components are never sellable and are never at risk of being included.
 - The machine is a running character in its own right: it gets louder and more absurd as the game
-  progresses, without ever becoming a comedy sketch the player must wait through.
+ progresses, without ever becoming a comedy sketch the player must wait through.
 
 ## 4. The upgrade bench
 
 - Shows all six tracks with the next level for each.
 - Every row: current stat/behavior → next, cost, and a one-line practical benefit.
 - Locked future levels are visible with their unlock requirement, so there is always a next goal
-  (the anti-dead-end rule).
+ (the anti-dead-end rule).
 - Purchases are sequential; the bench never lets you skip ahead (I06).
 - Buying produces a visible, immediate change on the machine in your hands — the core reward loop of
-  the surface.
+ the surface.
 
 ## 5. The display wall
 
@@ -54,12 +54,12 @@ The emotional record of the run. It is not a museum with staff; it is a shelf wa
 filling (D11/D11b).
 
 - **Outlines are pre-placed:** rows of empty frames/silhouettes whose shapes are hidden until the
-  corresponding find is discovered.
+ corresponding find is discovered.
 - When a unique (or first-find distinctive, pending D03) is collected, the player carries it to its
-  waiting outline and places it — a small, satisfying physical interaction, not a menu.
+ waiting outline and places it — a small, satisfying physical interaction, not a menu.
 - Each slot shows **name and depth found**. Never a price, condition or rarity label.
 - The wall grows only through play; different saves produce different walls because placement is
-  randomized per seed.
+ randomized per seed.
 - Completing sets/all outlines feeds the 100% definition (P05) and late-game goals.
 
 ## 6. Yard progression (cosmetic only)

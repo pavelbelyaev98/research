@@ -1,7 +1,7 @@
 # 05 — Questions, Round 3: Systems and Progression
 
 Rules and variations only — exact numbers are prototype-tuned (Rule 8). Answer by ID in chat; answers
-are recorded in `02_DECISIONS.md`.
+are recorded in `DECISIONS.md`.
 
 This round covers what money buys, how levels feel, and how the pressure systems behave. Content and
 discoveries (roster, detector targets, mystery beats) is Round 4; interface/accessibility Round 5.

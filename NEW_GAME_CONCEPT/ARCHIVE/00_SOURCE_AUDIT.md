@@ -4,7 +4,7 @@
 notes from user sessions (dated 2026-09-12 etc.).
 **Audited:** 14 September 2026.
 **Process role:** raw material only. Nothing in it is binding unless you confirm it (see `Q01` and the
-L-register in `02_DECISIONS.md`). This audit extracts what is strong, what conflicts, and what the
+L-register in `DECISIONS.md`). This audit extracts what is strong, what conflicts, and what the
 document never answers.
 
 ---
@@ -149,4 +149,4 @@ and honest "continue after credits" endgame goals. Its risks are concentrated in
 large amount of unverified "already implemented" status that this process should treat as fiction
 until you confirm it.
 
-Nothing above is approved. Every L-item is queued for your verdict in `02_DECISIONS.md`.
+Nothing above is approved. Every L-item is queued for your verdict in `DECISIONS.md`.

@@ -3,15 +3,15 @@
 ## 1. The shape of progression
 
 - **One currency: money.** No second currency, no crafting, no blueprints, no license tiers, no RNG
-  gates (L20).
-- **Money is banked only when sold at the surface** (L44). This makes every trip a risk decision
-  without ever deleting anything on failure.
+ gates.
+- **Money is banked only when sold at the surface**. This makes every trip a risk decision
+ without ever deleting anything on failure.
 - **Strictly sequential purchases:** you always buy the next level of a track; a lucky find cannot
-  skip levels (I06).
+ skip levels (I06).
 - **Fully transparent shop:** current → next effect, cost, and practical benefit always shown;
-  locked items visible with their requirement (S11).
+ locked items visible with their requirement (S11).
 - **The final meaningful purchase lands near the end** of the run so its power is used
-  (target ~75–85% of first completion; prototype-tuned, L19).
+ (target ~75–85% of first completion; prototype-tuned).
 
 ## 2. Upgrade tracks (six)
 
@@ -31,11 +31,11 @@ the tool or the HUD — no "invisible +5%" upgrades.
 ## 3. Money in
 
 - Commons and distinctives sell for money; value bands: common income, distinctive value, rare =
-  several expeditions, unique = effect instead of money (D05).
+ several expeditions, unique = effect instead of money (D05).
 - Common finds stay worthwhile at every depth; the deep game does not turn early income into
-  garbage (L35).
+ garbage.
 - Rare finds excite without breaking the curve; a rare find should afford one big upgrade, not half
-  the tree (L36).
+ the tree.
 - Cluster hauls, large-find extraction and display completions provide occasional big paydays.
 
 ## 4. Money out (including late game)
@@ -54,33 +54,32 @@ There is no point where the intended player has literally nothing to buy while s
 
 ## 5. Fuel (shared battery)
 
-- One battery powers **digging and jetpack** (L47).
+- One battery powers **digging and jetpack**.
 - Drain occurs only during powered actions; reading, standing, thinking and inspecting never drain
-  (L54 spirit).
+.
 - Refills are **purchased at the surface**: full or partial, amount and price shown before purchase;
-  bigger tanks keep current fuel rather than granting a refill (S04).
+ bigger tanks keep current fuel rather than granting a refill (S04).
 - **Return-power warning:** an adaptive indicator with safe / risky / critical states — never exact
-  required-energy math. It accounts for depth and the route, not just a percentage threshold (S04,
-  L50).
+ required-energy math. It accounts for depth and the route, not just a percentage threshold (S04).
 - At zero fuel anywhere: automatic recovery to the surface with full fuel, **all finds kept**, a
-  depth-scaled fee, and any shortfall as interest-free debt automatically deducted from future sales
-  (Q26f). No manual rescue option; no confirmation prompt.
+ depth-scaled fee, and any shortfall as interest-free debt automatically deducted from future sales
+ (Q26f). No manual rescue option; no confirmation prompt.
 - Recovery never blocks progress, never deletes items, and never permanently ruins a save.
 
 ## 6. Capacity (the bag)
 
 - **Generous starting capacity**: the first expedition must already feel good; upgrades improve a
-  loop that works, they do not repair a miserable one (L42).
+ loop that works, they do not repair a miserable one.
 - Capacity grows in strong steps; the HUD shows count/capacity continuously (I01).
 - **Hard stop when full:** you cannot pick up; the find stays in the world exactly where it is and
-  can be retrieved later (S05b).
+ can be retrieved later (S05b).
 - **Nothing is ever deleted**: no overflow deletion, no inventory destruction, no loot loss on
-  failure of any kind.
+ failure of any kind.
 - Uniques and ending components never consume capacity.
 
 ## 7. Selling
 
-- Selling happens only at the surface Sell All machine; the inventory screen never sells (L43).
+- Selling happens only at the surface Sell All machine; the inventory screen never sells.
 - **One-button Sell All** (I05) with a physical, comedic machine animation and clear money feedback.
 - Individual selling available at the machine for players who want it.
 - Money is banked instantly on sale; there is no bank/branch/ATM system.

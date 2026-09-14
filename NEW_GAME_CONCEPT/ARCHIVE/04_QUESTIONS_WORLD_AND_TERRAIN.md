@@ -1,6 +1,6 @@
 # 04 — Questions, Round 2: World and Terrain
 
-**How this works:** answer by ID in chat. I record answers in `02_DECISIONS.md`. Unanswered questions
+**How this works:** answer by ID in chat. I record answers in `DECISIONS.md`. Unanswered questions
 stay `OPEN`. Recommendations cite the five review analyses; if you disagree, your answer wins and the
 registers note the change.
 
