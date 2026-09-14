@@ -9,11 +9,9 @@ concept). This guide defines how to run a research iteration without contaminati
 |---|---|---|
 | `RESEARCH/research_data/*.json` | Raw scraped review data | Only for analysis passes |
 | `RESEARCH/*_REVIEW_ANALYSIS.md` | Per-game research documents being iterated on | Yes, as evidence |
-| `PERFECT_DIGGING_GAME/` | Genre synthesis/reference bible — a *different* hypothetical game | Yes, for evidence and anti-patterns only; never as this game's spec |
 | `NEW_GAME_CONCEPT/DECISIONS.md` | The decision register — single source of truth | **Always** |
 | `NEW_GAME_CONCEPT/CONCEPT/` | The game design | For updates only, not as research input |
 | `NEW_GAME_CONCEPT/CONCEPT/13_OPEN_QUESTIONS.md` | Every intentionally undecided item | **Always** |
-| `NEW_GAME_CONCEPT/ARCHIVE/` | Historical process documents | **Never** |
 
 ## 2. The two-stage iteration
 
@@ -29,7 +27,6 @@ Feed a fresh AI session exactly this pack:
 - `NEW_GAME_CONCEPT/DECISIONS.md`
 - `NEW_GAME_CONCEPT/CONCEPT/13_OPEN_QUESTIONS.md`
 - the updated/new research section(s)
-- (optional) the relevant `PERFECT_DIGGING_GAME/` chapters for genre evidence
 
 And request this output format:
 
@@ -84,8 +81,8 @@ The design session (this one) then:
 - **No numbers in design debates.** Values are tuned in the prototype (Rule 8).
 - **No production/marketing questions.** Those are out of scope (Rule 5).
 - **One source of truth.** If a concept file contradicts `DECISIONS.md`, the register wins.
-- **No context dumping.** Never feed the question banks, ARCHIVE, or the whole concept set into a
-  research session; use the context pack in §2.
+- **No context dumping.** Never feed the whole concept set or raw question banks into a research
+  session; use the context pack in §2.
 
 ## 6. Ready-to-paste prompt for the next research session
 
@@ -96,7 +93,6 @@ Context:
 - Decision register: [attach NEW_GAME_CONCEPT/DECISIONS.md]
 - Open design items: [attach NEW_GAME_CONCEPT/CONCEPT/13_OPEN_QUESTIONS.md]
 - New/updated research: [attach the updated analysis or new data summary]
-- Genre evidence reference (not this game's spec): [attach relevant PERFECT_DIGGING_GAME chapters]
 
 Task:
 For every finding relevant to a decision ID, output one row:

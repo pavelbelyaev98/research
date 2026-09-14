@@ -24,8 +24,6 @@ from here.**
 
 - Review records carry only review-relevant fields, one review per line: `language`, `voted_up`, `votes_up`, `timestamp_created`, `playtime_at_review`, `received_for_free`, `primarily_steam_deck`, `review`, plus `developer_response` when the developer replied. All other scrape fields (IDs, profile/avatar, `app_release_date`, `hardware`, `reactions`, vote scores, purchase/refund/early-access flags) were dropped.
 - Paths written inside the analyses (e.g. `research_data/...`) are relative to this folder.
-- The evidence-based synthesis (a different, hypothetical game) lives in
-  `../PERFECT_DIGGING_GAME/` — reference only, not this game's design.
 - The game itself is in `../NEW_GAME_CONCEPT/CONCEPT/`; decisions in
   `../NEW_GAME_CONCEPT/DECISIONS.md`.
 
@@ -68,7 +66,7 @@ Hard rules:
   "(translated)".
 - Preserve attribution: language, playtime at review, sentiment, upvote count.
 - Keep theme/keyword counts labeled approximate, as the existing docs do.
-- Do not touch NEW_GAME_CONCEPT/ or PERFECT_DIGGING_GAME/.
+- Do not touch NEW_GAME_CONCEPT/.
 - If the JSON is too large for one pass, compute aggregates with small scripts; never sample silently
   - if you sample, state exactly how and why.
 - If a change is uncertain, list it as an open question instead of applying it.

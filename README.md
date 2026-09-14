@@ -15,7 +15,6 @@ Start here: **`NEW_GAME_CONCEPT/CONCEPT/00_README.md`**
 | `NEW_GAME_CONCEPT/CONCEPT/` | The game design (16 files, from pitch to prototype plan) |
 | `NEW_GAME_CONCEPT/DECISIONS.md` | The decision register — **single source of truth** for every confirmed choice |
 | `NEW_GAME_CONCEPT/ITERATION_GUIDE.md` | How new research is turned into decision deltas safely |
-| `NEW_GAME_CONCEPT/ARCHIVE/` | Historical process documents — never use as design context |
 
 ## The evidence
 
@@ -28,7 +27,6 @@ Start here: **`NEW_GAME_CONCEPT/CONCEPT/00_README.md`**
 | `RESEARCH/ONE_MANS_TRASH_REVIEW_ANALYSIS.md` | Steam review analysis (330 reviews) |
 | `RESEARCH/THE_SPOTTER_DIG_OR_DIE_REVIEW_ANALYSIS.md` | Steam review analysis (1,859 reviews) |
 | `RESEARCH/research_data/` | Raw scraped review JSON for the five analyses |
-| `PERFECT_DIGGING_GAME/` | Evidence-based synthesis + anti-pattern bible. **Reference only — not this game's design** |
 
 ## Workflow (short version)
 
@@ -78,8 +76,8 @@ Start here: **`NEW_GAME_CONCEPT/CONCEPT/00_README.md`**
 ### Housekeeping rules
 
 - **Never delete a decision.** Strike it through in the table and add a log entry.
-- **Archive, don't delete,** process documents; only `CONCEPT/`, `DECISIONS.md` and
-  `13_OPEN_QUESTIONS.md` are "live".
+- **Keep process documents out of the working tree** — git history is the archive; only `CONCEPT/`,
+  `DECISIONS.md` and `13_OPEN_QUESTIONS.md` are "live".
 - **Commit in git after each decision round** so every change is revertable.
 - If a file's purpose changes, update this README's map in the same commit.
 - Keep numbers out of decisions (Rule 8) and production/marketing questions out of the process

@@ -1,9 +1,8 @@
 # Decision Register
 
 **Single source of truth for the game's design.** If any file in `CONCEPT/` disagrees with this
-register, the register wins. Historical process documents live in `ARCHIVE/` and are not design
-context. Open items live in `CONCEPT/13_OPEN_QUESTIONS.md`. How research updates this file:
-`ITERATION_GUIDE.md`.
+register, the register wins. Open items live in `CONCEPT/13_OPEN_QUESTIONS.md`. How research updates
+this file: `ITERATION_GUIDE.md`.
 
 **Statuses:** `PENDING` · `OPEN` · `DISCUSSING` · `CONFIRMED` · `REVISED` · `REJECTED` · `DELEGATED` · `DEFERRED`
 
