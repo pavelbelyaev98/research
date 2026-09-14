@@ -45,8 +45,6 @@ The consensus is unusually consistent:
 | Reviews with votes | 414 have at least one upvote |
 | Review span | 1 May – 12 September 2026 |
 
-**Language distribution (26 languages):** English 791; Russian 446; German 113; Spanish 84; French 48; Brazilian Portuguese 38; Turkish 37; Polish 31; Japanese 17; Korean 16; Czech 14; plus 15 more languages, the largest being Latin American Spanish 13, Dutch 12, Italian 12, Hungarian 9, Simplified Chinese 7 and Swedish/Ukrainian/Finnish 6 each. (Russian is unusually prominent — the developers are Russian and the game shipped with full Russian localization.)
-
 **Sentiment by month (all languages):**
 
 | Month | Reviews | Positive share |
@@ -58,7 +56,7 @@ The consensus is unusually consistent:
 | September 2026 | 25 | 80% |
 | **Overall** | **1,722** | **85.9%** |
 
-**Theme frequency — keyword mentions across all 791 English reviews:**
+**Theme frequency — keyword mentions across English reviews:**
 
 | Theme | Mentions | Positive | Negative |
 |---|---|---|---|
@@ -90,7 +88,7 @@ The consensus is unusually consistent:
 | co-op / multiplayer (requests) | 7 | 7 | 0 |
 | motion sickness | 5 | 2 | 3 |
 
-In Russian reviews (446), the same top themes appear: "map" 44 mentions, "bug" 55, "money" 48, "shovel" 30, "boring" 28. Keyword counts are indicative; several complaints (e.g. autosave freezes) are mentioned in more reviews than the narrow keywords catch.
+Keyword counts are indicative; several complaints (e.g. autosave freezes) are mentioned in more reviews than narrow keywords catch.
 
 ---
 

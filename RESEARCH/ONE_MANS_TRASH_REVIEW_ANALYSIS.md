@@ -48,9 +48,7 @@ One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to re
 | Commonly reported completion time | ~2.5–5 h for the story (about 2 h at the fastest); 14–16 h for 100% completion |
 | 2-hour refund-window anecdotes | Multiple; e.g. "a game just long enough that you can't return it", and "I played for almost 2h and I don't see myself wanting to go back" (23 votes) |
 
-**Language distribution:** English 199, German 28, Russian 18, Simplified Chinese 17, Korean 13, French 11, Japanese 8, Spanish 6, Turkish 5, Italian/Czech/Polish/Brazilian Portuguese 4 each, Swedish/Ukrainian 2 each, Thai/Portuguese/Latin American Spanish/Norwegian/Danish 1 each.
-
-**Theme frequency in English reviews (approximate keyword mentions, 199 reviews):**
+**Theme frequency in English reviews (approximate keyword mentions):**
 
 | Theme | Mentions | Of which positive | Of which negative |
 |---|---|---|---|
@@ -67,7 +65,7 @@ One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to re
 | jetpack (missing) | 4 | 1 | 3 |
 | FOV / motion sickness | 3 | 1 | 2 |
 
-Worm/horror complaints are more prominent outside English, most of all in Simplified Chinese (9 of 17 reviews, about half), and several detailed Chinese, Korean, Russian and French reviews lead with them.
+Worm/horror complaints are especially prominent outside English, where several detailed international reviews lead with them.
 
 ---
 

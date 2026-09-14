@@ -37,17 +37,15 @@ A Game About Digging a Hole is a one-hour-to-finish, $5 "dig a hole in your back
 | Median playtime — negative reviews | 2.0 h |
 | Median review length | 54 characters (the corpus is full of one-line jokes) |
 | Reviews with 100+ characters | 6,665 |
-| Reviews with at least one upvote | ~5,167 (334 have 10+) |
-| Reviews with 2+ hours at review | 15,116 (92.8% positive) |
+| Reviews with at least one upvote | 5,167 (334 have 10+) |
+| Reviews with 2+ hours at review | 15,166 (92.8% positive) |
 | Reported completion time | 30 min – 2 h (most: ~1–2 h) |
 | Steam Deck reviews | 534 |
 | Reviews from free keys | 272 |
 
 **Timeline:** 8,631 reviews (43%) were posted in launch month (February 2025); a second spike came in November 2025 (1,397 reviews, 95.9% positive). Positive share rises with playtime — 69.7% under 1 h, 87.5% at 2–3 h, ~95% at 5 h+ — consistent with many negatives coming from short, refund-window sessions rather than long-term players.
 
-**Language distribution (top 10):** English 12,086; Russian 2,563; German 1,173; Spanish 725; French 622; Polish 451; Brazilian Portuguese 436; Simplified Chinese 432; Korean 343; Japanese 258. (29 languages in total.)
-
-**Theme frequency — keyword mentions across all 12,086 English reviews:**
+**Theme frequency — keyword mentions across English reviews:**
 
 | Theme | Mentions | Positive | Negative |
 |---|---|---|---|
@@ -59,31 +57,33 @@ A Game About Digging a Hole is a one-hour-to-finish, $5 "dig a hole in your back
 | relax / chill / cozy | 770 | 710 | 60 |
 | drill / shovel / tool talk | 626 | 512 | 114 |
 | story / lore / mystery | 447 | 385 | 62 |
+| memes / 'diggy diggy hole' / dwarf song | 435 | 433 | 2 |
 | repetitive / boring / tedious | 376 | 231 | 145 |
 | moles | 368 | 310 | 58 |
 | click / hold-to-dig / RSI | 275 | 189 | 86 |
+| secrets / keys / radar / garage chest | 235 | 188 | 47 |
 | updates / dev response | 231 | 199 | 32 |
 | dynamite / floating dirt | 223 | 166 | 57 |
 | survival / battery / fall damage | 206 | 147 | 59 |
+| Motherload / flash mining nostalgia | 186 | 135 | 51 |
 | scary / creepy / horror | 169 | 123 | 46 |
 | graphics / visuals | 169 | 141 | 28 |
 | endless / sandbox requests | 154 | 136 | 18 |
 | save / progress loss | 148 | 102 | 46 |
 | bugs / crashes | 142 | 101 | 41 |
+| streamers / YouTube / TikTok hype | 106 | 73 | 33 |
 | audio / music / sound | 100 | 85 | 15 |
 | multiplayer / co-op requests | 71 | 68 | 3 |
 | FOV / motion sickness | 31 | 18 | 13 |
 
-Keyword counts are indicative, not exact categorizations: e.g. "ending" mentions include both praise for the twist and anger at it, and motion-sickness complaints are undercounted in English because reviewers often describe the symptom ("vertigo", "headache") instead.
-
-**Non-English corpora (approximate, original-language keywords):** the same picture holds. Russian (2,563 reviews): ending/moles 370, meditative/relaxing 219, short/little content 135, price/refund 110, updates 33, bugs/crashes 28. German (1,173): ending/moles 133, short/little content 111, relaxing 82, price 71. Spanish (725): short/little content 77, moles/ending 63. French (622): short/little content 106, price 74, moles/ending 56.
+Keyword counts are indicative, not exact categorizations: e.g. "ending" mentions include both praise for the twist and anger at it, and motion-sickness complaints are undercounted because reviewers often describe the symptom ("vertigo", "headache") instead.
 
 ---
 
 ## What reviewers praise (the good)
 
 ### 1. The satisfying, addictive, meditative core loop
-This is the defining praise and it appears in almost every positive review. Dig, fill your backpack and battery, return, sell, upgrade, repeat — reviewers call it hypnotic, zen, "weirdly soothing", and ideal for playing with a podcast, audiobook or TV on.
+This is the defining praise and it appears in almost every positive review. Dig, fill your backpack and battery, return, sell, upgrade, repeat — reviewers call it hypnotic, zen, "weirdly soothing", and ideal for playing with a podcast, audiobook or TV on. Saving is manual, tied to a physical notebook on the workbench in the garage shed; the game's periodic reminder that "You haven't saved in 30 minutes" often serves as players' only realization of how deeply they slipped into a flow state.
 
 > "Its a game about digging a hole. There is genuinely nothing wrong with it. Its mindless fun and mining." — English, 3.1 h, positive, 683 upvotes
 >
@@ -130,11 +130,13 @@ The game taps a specific memory: Motherload and Newgrounds flash mining games, s
 > "the fulfilment of a childhood dream – I always wanted to dig a big hole in the garden." — German, 4.6 h, positive (translated)
 
 ### 6. Humor, meme value and rare dev story
-The absurd premise, the "Diggy Diggy Hole" meme energy, and the fact that it was reportedly a roughly two-week solo side project all earn affection and goodwill. Even many negative reviews praise the concept and the value of a single dev having pulled it off.
+The absurd premise, the "Diggy Diggy Hole" dwarf meme anthem (over 430 direct quotes or references), the quirky junk relics buried in the dirt (such as an old clothes iron), and the fact that it was reportedly a roughly two-week solo side project all earn affection and goodwill. Even many negative reviews praise the concept and the value of a single dev having pulled it off.
 
 > "As they say, I am a dwarf, and I'm digging a hole. Diggy diggy hole." — English, 3.4 h, positive
 >
 > "For a $5 game one dev worked on for fun during his holiday, I was blown away." — English, 8.9 h, positive
+>
+> "I want to express my warmest respect to the devs for spending on professional Russian localization. I was shocked by the realism and detail of the game when I found an abandoned iron at a depth of 10 meters. Absolute GOTY" — Russian, 3.7 h, positive, 221 upvotes (translated)
 >
 > "It's relaxing, ridiculous, and absurdly charming…" — English, 4.4 h, positive
 
@@ -164,6 +166,10 @@ Alongside the ~1–2 h critical path, a visible minority plays it as a completio
 > "Dug the entire yard down to the very end. I cried. wept even. This game was a religious experience. I love hole. I worship hole. hole is love. hole. Amen" — English, 7.8 h, positive, 653 upvotes
 >
 > "Dont listen to the ones calling it short, its as long as you make it be.. (:" — English, 8.3 h, positive, 89 upvotes
+>
+> "I demand a game where I can dig the Kola Superdeep Borehole to 12 km and nothing less! After digging out every patch of earth and gathering over $100,000, I realized that my creative freedom was restricted by white cliffs that cannot even be destroyed with dynamite. I fell into depression. I don't need a plot, I don't need interesting characters and a world. I need a shovel. And I am ready to dig." — Russian, 7.2 h, positive, 364 upvotes (translated)
+>
+> "Understand me, I am a man without challenges in life, everything I've tried has been a failure, not even as a father was I worthy. In this hole I am not looking for treasure, I am looking for myself, I must continue as long as I have strength." — Spanish, 5.9 h, positive, 203 upvotes (translated)
 
 ---
 
@@ -193,7 +199,11 @@ The single most emotional criticism: after ~100 m the game disables your drill, 
 >
 > "ATTENTION INDIE GAME MAKERS: FOR THE LOVE OF GOD, DO NOT CHANGE UP YOUR CORE MECHANICS IN THE LAST FIVE MINUTES OF YOUR GAME." — English, 1.9 h, negative
 >
+> "There is a theory called the 'Peak-End Rule,' which states that a customer's experience is mostly determined by how it starts and how it ends. When I ended my brief 119-minute journey—just enough for a refund—I happened to feel the absolute worst at the beginning and at the end... until I fell into the tunnel surrounded by four wooden planks... Why did the author arrange a horror chase across three consecutive caves? You abandoned every system built up before... Even more disgusting is that the final treasure is completely empty... When players are immersed in your game, ruining the experience with this kind of bad taste is outright malicious." — Simplified Chinese, 2.0 h, negative, 157 upvotes (translated)
+>
 > "Suddenly a game of hide-and-seek and tag with giant moles began, very unpleasant." — Japanese, 2 h, negative, 122 upvotes (translated)
+>
+> "The ending really turns the whole game from a masterpiece into garbage. I bought two hundred dynamites and then it says they can't be used... I'll change to a positive review when players can actually blow up those three rats." — Simplified Chinese, 3.0 h, negative, 110 upvotes (translated)
 >
 > "Did I spend my money, time and motion sickness for this ending?" — Korean, 2.3 h, negative (translated)
 >
@@ -206,7 +216,11 @@ Related: many argue the ending is not signposted at all ("not labelled horror", 
 ### 3. Progression maxes out halfway; money becomes useless
 There are only four upgradeable tools (shovel/drill, backpack, battery, jetpack) with about five tiers each, and most players max them out by roughly the halfway point — often before reaching the deepest and most valuable ores. After that, money has nothing to buy and the loop loses purpose.
 
+Related: backpack capacity creates severe friction once the vacuum drill is unlocked. Because drilling clears volume so quickly, the backpack fills in seconds; any subsequent mineral mined while full is permanently obliterated with an unpleasantly grating "Ore Destroyed" sound effect. Reviewers complain that the game lacks basic inventory management (such as discarding low-value stone or coal to make room for diamonds), forcing tedious round trips to the garage every two minutes or listening to constant destruction cues.
+
 > "In my opinion, there should be at least one more tier of upgrades, since you will have everything maxed out well before you find your first platinum or diamonds, so money is not really useful past a certain point." — English, 2.9 h, negative, 89 upvotes
+>
+> "the inventory at max upgrade is just laughable you fill it up so fast and then every ore you hit after is just destroyed, so you have to jetpack out of your hole to go sell your stuff or you just ignore it and hear that god awful 'Ore Destroyed' sound (and if you have the drill you'll hear it a lot)... trekking out of the whole ever 3-4 minutes is very tedious." — English, 2.0 h, negative
 >
 > "because there are so FEW upgrades to purchase, you will completely max out everything before the hole is even 15% of the way to the bottom." — English, 2.2 h, negative
 >
@@ -233,7 +247,7 @@ Dirt has no physics, so clearing tunnels always leaves tiny floating specks you 
 > "Dynamite sometimes clips through what you're trying to blow up." — English, 15 h, negative
 
 ### 6. Click-spam and missing accessibility/options
-Until late upgrades, digging requires clicking the mouse for every cut — no hold-to-dig on mouse and keyboard (despite hold working on controller). Reviewers with RSI or carpal tunnel warn others off. Basic options are missing: key rebinding (a problem for AZERTY, left-handed and non-QWERTY users), graphics/resolution settings, cloud saves, multiple save slots, and (reportedly) broad FOV control.
+Until late upgrades, digging requires clicking the mouse for every cut. A notable input disparity exists: controller input natively supports holding down the trigger to dig, whereas mouse and keyboard forces a discrete click for every single dig action until the vacuum drill is acquired. Reviewers with RSI or carpal tunnel warn others off, and both PC and controller players repeatedly plead for a true "toggle-dig" option. Basic options are missing: key rebinding (a severe problem for AZERTY, left-handed and non-QWERTY users), graphics/resolution settings, cloud saves, multiple save slots, and broad FOV control.
 
 > "Definitely avoid if you have RSI as all of the shovels but the last two you have to click each time you dig, no hold to dig." — English, 7.6 h, negative
 >
@@ -246,7 +260,7 @@ Until late upgrades, digging requires clicking the mouse for every cut — no ho
 > "The game doesn't support steam cloud saves. It's 2025, and I have to manually move the files from one pc to another?" — English, 11 h, negative
 
 ### 7. Bugs, crashes and save loss
-Unreal Engine fatal errors, black screens, menu lag, crashes on selling ore or buying upgrades, and — repeatedly — save problems: the hole itself is not saved (only upgrades), progress can be wiped by crashes or updates, and manual saves are easy to miss, causing lost hours.
+Unreal Engine fatal errors, black screens, menu lag, crashes on selling ore or buying upgrades, and — repeatedly — save problems. Saving is entirely manual, requiring interaction with an open notebook on the garage workbench; with no autosave (only a 30-minute reminder), a crash or sudden death wipes unbanked progress. Multiple reviewers also complain that saving records tools and money but fails to reliably preserve the dug hole's voxel geometry across sessions, resetting physical tunnels.
 
 > "so far I have gotten 'Fatal Error' for the following: Selling Ore, Recharging my battery, Recharging my health, Buying an upgrade, buying dynamite, buying a lamp." — English, 2 h, negative
 >
@@ -279,8 +293,10 @@ The most requested addition is an endless or sandbox mode; the single most-upvot
 > "If they add an endless mode, that's it. It's over. Will be spending the rest of my days as one with the dirt." — English, 3.9 h, positive, 1,065 upvotes
 
 ### 10. Hype backlash, free alternatives and no updates
-A recurring undercurrent: the game went viral via TikTok/YouTube/streamers, and some buyers feel it is overrated, better suited to watching than playing, or inferior to free games (Roblox diggers, Motherload, old flash games) and cheap genre rivals (Mining Mechs, Super Mining Mechs, SteamWorld Dig). Many also note the developer has effectively moved on — no meaningful updates since launch.
+A recurring undercurrent: the game went viral via TikTok/YouTube/streamers, and some buyers feel it is overrated, better suited to watching than playing, or inferior to free games (Roblox diggers, Motherload, old flash games) and cheap genre rivals (Mining Mechs, Super Mining Mechs, SteamWorld Dig). Many also note the developer has effectively moved on — no meaningful updates since launch. Highly upvoted critical reviews in non-Western communities go further, describing the entire experience as engineered specifically for content creators rather than players.
 
+> "Hard to call this a video game; it feels more like another 'productivity tool' made for the live streaming industry. From its Chinese title 'Digging for Wealth' using standard meme templates, its intention is obvious: follow or manufacture trends and assist streamers in creating content... The final forced plot kill by giant moles is clearly staged: 'Streamers, here is where you scream, slam your desk, or jump in your chair for entertainment!'... This productivity tool serving live streams is not a game at all." — Simplified Chinese, 1.4 h, negative, 148 upvotes (translated)
+>
 > "I assume its hive mind thinking, fueled by streamers, youtube and other social media." — English, 1.6 h, negative
 >
 > "This is a 'meme game'; meant to be played by a few streamers, be popular for a week or two, then fade into obscurity." — English, 5.2 h, negative
@@ -308,7 +324,7 @@ The game's ending is so central to reviews it deserves its own section. This sec
 
 You buy a suspiciously cheap house ($10k) advertised with buried treasure in the backyard and dig to about −100 m. There you find a cavern with giant, roaring mole-creatures. All tools — drill, jetpack, dynamite, lights — are disabled, and you must sneak and run past moles that kill in one touch. The treasure chest at the end is **empty**. You are killed/eaten, and the intro replays: the seller scratches another tally mark into the "For Sale" sign and drives off. The community reading is that you are one in a long line of suckers lured by the promise of treasure — an allegory about greed, or a cynical con. Some love this ("digging your own grave", "a story of the power greed has on the common man", M. Night Shyamalan comparisons); most negative reviews feel tricked.
 
-**Optional secrets:** two randomized keys (found in the first ~50 m) open a chest in the garage, granting an upgraded dynamite and a single-use teleporter (widely criticized as an underwhelming reward); a radar/detector helps locate buried items; rainbow ores exist solely for an achievement; and a well-known money exploit tile near the patio set grants large sums when hit with the drill.
+**Boundaries and secrets:** The excavation area is strictly enclosed on all sides and at the ~100 m floor by indestructible white bedrock that resists even dynamite, preventing infinite descent. As players dig, a handheld metal detector/radar occasionally pings to guide them toward hidden buried objects—including cash suitcases, junk relics like old irons, and stabilized mini-mineshaft pockets. Two randomized keys hidden in the upper ~50 m unlock a chest in the garage shed, granting upgraded dynamite and a single-use teleporter (widely criticized as an underwhelming reward). Rainbow ores spawn purely to fulfill an achievement, and a well-known money exploit tile near the patio set generates infinite funds when drilled, frequently exploited by speedrunners.
 
 ---
 

@@ -45,8 +45,6 @@ Reviewers overwhelmingly agree on the shape of their experience:
 | Reviews with votes | 404 have at least one upvote |
 | Review span | 7 April – 14 September 2026 |
 
-**Language distribution:** English 707; Simplified Chinese 365; Russian 311; Traditional Chinese 62; Spanish 60; French 57; Turkish 54; German 49; Korean 40; Brazilian Portuguese 35; Japanese 35; Polish 23; plus 11 more languages (16–9 reviews each).
-
 **Sentiment by month (all languages):**
 
 | Month | Reviews | Positive share |
@@ -59,7 +57,7 @@ Reviewers overwhelmingly agree on the shape of their experience:
 | September 2026 | 19 | 84% |
 | **Overall** | **1,859** | **85.3%** |
 
-**Theme frequency — keyword mentions across all 707 English reviews:**
+**Theme frequency — keyword mentions across English reviews:**
 
 | Theme | Mentions | Positive | Negative |
 |---|---|---|---|
@@ -92,7 +90,7 @@ Reviewers overwhelmingly agree on the shape of their experience:
 | parkour / jumping | 17 | 9 | 8 |
 | Las Vegas / Las Veganos | 9 | 6 | 3 |
 
-Keyword counts skew low for themes reviewers discussed in Chinese and Russian (most detailed criticism is written in those languages): e.g. motion sickness is mentioned by 10 negative Chinese reviews alone, and guidance problems dominate the Chinese negative reviews.
+Keyword counts skew low for themes discussed in non-English reviews, where issues like motion sickness and navigation guidance receive significant detailed criticism.
 
 ---
 

@@ -27,7 +27,7 @@ This was a specific requirement for this document, so it is stated up front:
 
 ## TL;DR
 
-Keep Digging is a first-person voxel digging game — reviewers most often describe it as A Game About Digging a Hole with 8-player co-op — sold for around $5 and overwhelmingly bought by friend groups, Japanese players (465 reviews) and Traditional Chinese players (437). You dig, sell ore, upgrade your pickaxe/backpack/battery, and go deeper; v1.0 ends at 1,000 m with a button that nukes the city above, and the free 2.0 update adds a 5,000 m crafting/survival mode. There is a hidden T-rex boss route, chimpanzee skins, emotes and plenty of joke content.
+Keep Digging is a first-person voxel digging game — reviewers most often describe it as A Game About Digging a Hole with 8-player co-op — sold for around $5 and overwhelmingly bought by friend groups and international players. You dig, sell ore, upgrade your pickaxe/backpack/battery, and go deeper; v1.0 ends at 1,000 m with a button that nukes the city above, and the free 2.0 update adds a 5,000 m crafting/survival mode. There is a hidden T-rex boss route, chimpanzee skins, emotes and plenty of joke content.
 
 **Praise (recurring):** the co-op chaos, an addictive "one more dig" loop, a cheap price, the humor/monkey business, upgrade progression with New Game+ carrying gear over, and a surprisingly responsive developer.
 
@@ -52,8 +52,6 @@ The review section itself is part of the story: a wave of refund jokes, meme "bo
 | Reviews with votes | 1,164 have at least one upvote |
 | Review span | 11 September 2025 – 13 September 2026 |
 
-**Language distribution:** English 1,368; Japanese 465; Traditional Chinese 437; Simplified Chinese 187; Russian 165; Turkish 130; German 102; Korean 101; French 76; Brazilian Portuguese 54; Polish 49; Spanish 25; plus smaller numbers of other languages.
-
 **Sentiment by month:**
 
 | Month | Reviews | Positive share |
@@ -73,7 +71,7 @@ The review section itself is part of the story: a wave of refund jokes, meme "bo
 | September 2026 | 21 | 67% |
 | **Overall** | **3,266** | **79.6%** |
 
-**Theme frequency — keyword mentions across all 1,368 English reviews:**
+**Theme frequency — keyword mentions across English reviews:**
 
 | Theme | Mentions | Positive | Negative |
 |---|---|---|---|
@@ -112,8 +110,6 @@ The review section itself is part of the story: a wave of refund jokes, meme "bo
 | click / hold-to-dig | 11 | 6 | 5 |
 | keybinds | 9 | 5 | 4 |
 | host-only content | 9 | 6 | 3 |
-
-The Japanese and Chinese reviews carry the same top themes: among 465 Japanese reviews, "straight-down digging" (直下) appears in 68 and multiplayer terms in 74. Across the 624 Chinese reviews together (187 Simplified + 437 Traditional), 优化/優化 (optimization) appears in 39 (26 negative) and 退款 (refund) in 31; Simplified Chinese alone has 14 optimization mentions and 20 refund mentions.
 
 ---
 
@@ -336,7 +332,7 @@ This game's review section deserves its own note, because it affected how severa
 
 - **Refund jokes are a genre here.** Multiple high-upvote reviews, positive and negative, are literally "beat it in under 2 hours and refunded" jokes. One of the most-upvoted positive reviews reads: "Amazing game. The best thing about it is that you can finish it in 40 minutes and refund it." (English, 0.8 h, positive, 43 upvotes). Another: "I give this game, 5 steam refunds out of 10." (English, 1.8 h, positive, 9 upvotes). The single most-upvoted negative review (123 upvotes) is the same joke in reverse: "we dug found ending refunded since we beat game in like 1 hour. also this game runs like my grandma which isnt very good" (English, 1.9 h, negative). Russian reviewers posted similar lines: "We got through it with the lads in 49 minutes and got a refund. Got almost all the achievements, thanks a lot!" (translated).
 - **Fake "boss guide" reviews.** Parts of the review section contain elaborate joke guides: a WoW-style multi-phase T-rex raid guide with aggro phases and elemental resistances, a cosmic "Lost Ark: First Sin" lore rewrite, and a troll "real boss unlock" guide. None of this matches the actual game systems; treat such reviews as memes.
-- **Fake-review accusations.** A number of Simplified and Traditional Chinese reviews (including top-voted negatives) accuse the game's Mostly Positive rating of being bought/astroturfed — "Run away, the Very Positive rating is fake and bought" (translated) — and specifically attack the meme/boss-guide reviews as astroturfing. English reviewers make the same accusation more loosely ("These people clearly paid for reviews"). Whether or not any astroturfing occurred, the review section is visibly shaped by joke content and counter-accusations, which is why this document relies on aggregate patterns rather than review-score alone.
+- **Fake-review accusations.** A number of international reviews (including top-voted negatives) accuse the game's Mostly Positive rating of being bought/astroturfed — "Run away, the Very Positive rating is fake and bought" (translated) — and specifically attack the meme/boss-guide reviews as astroturfing. English reviewers make the same accusation more loosely ("These people clearly paid for reviews"). Whether or not any astroturfing occurred, the review section is visibly shaped by joke content and counter-accusations, which is why this document relies on aggregate patterns rather than review-score alone.
 - **Repeated low-effort and meme reviews.** 47 review texts appear more than once in the corpus, and most are tiny meme posts — "." logged 14 times, "good" 12, "good game" 11, "gg" 7, plus "diggy diggy hole" and "monke" — which inflate the review count without adding signal. This is another reason the analysis weights themes and high-upvote quotes over raw totals.
 
 ---
