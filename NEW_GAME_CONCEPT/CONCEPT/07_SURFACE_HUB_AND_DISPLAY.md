@@ -66,7 +66,9 @@ filling (D11/D11b).
 
 The worksite can visibly grow as milestones pass: more lamps, a shelter over the bench, a tarp over
 the display wall, small decorations bought with late-game money. Purely cosmetic, never functional
-gates, and never a building system (the NOT-list forbids base-building).
+gates, and never a building system (the NOT-list forbids base-building). After the ending, the media
+wall appears (Q31): clippings, a radio and a small TV recording the discovery — the only station the
+story adds to the yard.
 
 ## 7. Rules
 

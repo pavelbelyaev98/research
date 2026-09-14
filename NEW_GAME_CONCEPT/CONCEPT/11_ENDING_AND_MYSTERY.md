@@ -55,7 +55,9 @@ Rules (C01):
 ## 5. The ending cutscene
 
 - Short, deadpan, and emotionally earned: the impossible object is confirmed; the protagonist
- becomes famous for the discovery, not rich in the way they planned.
+  becomes famous for the discovery, not rich in the way they planned.
+- Fame is shown diegetically (Q31): a media wall in the yard — news clippings, a radio, a small TV —
+  starts filling with reports after the discovery; no characters, no dialogue, no crowd.
 - No retcon that erases the player's work; the dig mattered and the world reacts to it.
 - The display wall and the hole itself can appear as a quiet montage — the player's own excavation
  as the record of the journey.

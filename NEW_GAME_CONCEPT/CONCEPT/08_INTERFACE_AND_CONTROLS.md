@@ -18,6 +18,8 @@ permanent tutorial text.
 ## 2. Inventory screen
 
 - Inspect-only grid (I04): collected finds with name and a short deadpan inspection line.
+- Uniques additionally carry a one-sentence story; whether it appears on pickup or when inspected is
+  still open (D14).
 - No stats, no equipping, no sorting chores, no selling here.
 - Uniques/components are marked as not sellable and displayed separately from the bag.
 - Opening it is a pause-friendly moment; looking never drains the battery.

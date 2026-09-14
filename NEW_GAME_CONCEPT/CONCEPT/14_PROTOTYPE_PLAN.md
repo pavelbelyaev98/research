@@ -14,7 +14,7 @@ If that experience does not occur in the prototype, nothing else matters yet.
 
 | Element | Slice version |
 |---|---|
-| Site | One diggable area, full voxel, boundaries visible (concrete + bedrock; water edge optional) |
+| Site | One diggable area, full voxel, boundaries visible (concrete + bedrock) |
 | Tool | One machine, 2–3 upgrade levels with visible bolt-on changes, hold-to-dig, automatic material adaptation stub |
 | Materials | 3 distinct families with different feel (e.g., soil, clay, rock) |
 | Detector | One prototype presentation (tool reaction + edge hint) and one silent distinctive find |

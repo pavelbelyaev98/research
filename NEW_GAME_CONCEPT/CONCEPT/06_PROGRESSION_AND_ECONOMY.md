@@ -24,9 +24,10 @@
 | **Detector** | Range, cue clarity, broad direction | Confident long-range hunches |
 | **C4** | Blast size, pack size, efficiency | Room-clearing blasts; cheaper demolition |
 
-Per-track level count is flexible (~6 by current design), but the structure stays: increments with a
-capability punctuation every roughly third level (S02). Every purchase must be visible or audible on
-the tool or the HUD — no "invisible +5%" upgrades.
+Per-track level count is flexible (~6 by current design), but the structure stays: many small
+increments with a capability punctuation every roughly third level (S02). The 30–45 minute cadence
+target measures these milestone (capability) purchases, not every level. Every purchase must be
+visible or audible on the tool or the HUD — no "invisible +5%" upgrades.
 
 ## 3. Money in
 
@@ -100,7 +101,7 @@ There is no point where the intended player has literally nothing to buy while s
 | Metric | Target |
 |---|---|
 | First purchase | within the first minutes |
-| Median time between meaningful purchases | 30–45 min |
+| Median time between milestone (capability) purchases | 30–45 min; small level purchases land more often |
 | Purchases affordable at any moment | ≥ 3 |
 | Maxed tracks before credits | 50–85% of players (i.e., some left for Continue Playing) |
 | Rare find value | ≈ one big upgrade, never several |

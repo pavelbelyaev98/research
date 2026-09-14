@@ -50,7 +50,7 @@ context. Open items live in `CONCEPT/13_OPEN_QUESTIONS.md`. How research updates
 | Q20 | Complete 1.0, no Early Access; short pre-release demo/playtest window | `CONFIRMED (C03)` |
 | Q21 | No permanent demo | `REVISED` |
 | Q22 | Post-launch: free bugfixes and small QoL only | `REVISED` |
-| Q22b | Ambience and action feedback only; no music; no voice acting | `CONFIRMED` |
+| Q22b | Ambience and action feedback only; no music; no voice acting (evidence flag 2026-09-14: AGADAH music praised; decision reaffirmed) | `CONFIRMED` |
 | Q23 | Localization: parked | `DEFERRED` |
 | Q24 | No co-op; save format stays future-proof | `CONFIRMED` |
 | Q25 | One single difficulty | `REVISED` |
@@ -61,22 +61,23 @@ context. Open items live in `CONCEPT/13_OPEN_QUESTIONS.md`. How research updates
 | Q30 | C4 IN as a late-game tool | `CONFIRMED` |
 | Q30b | One machine + attachments; final form is the absurd shovel-cannon; no separate gun | `CONFIRMED` |
 | Q30c | Crouch IN; lights IN (dark areas exist); item condition OUT | `CONFIRMED` / `REVISED` / `REJECTED` |
+| Q31 | Ending fame shown diegetically: a media wall (news clippings, radio, TV) accumulates in the yard after the discovery; no characters, no dialogue | `CONFIRMED` |
 
 ## Round 2 — World and terrain
 
 | ID | Decision | Status |
 |---|---|---|
-| W01 | Site size: playtest; must exceed 100 m depth; working candidate 24×24×48 m | `OPEN` |
+| W01 | Site depth at least 100 m (exact depth and footprint set by feel in playtest) | `CONFIRMED (depth floor) / OPEN (size)` |
 | W02 | Boundaries: reservoir infrastructure (concrete/dam) + bedrock, visually distinct from diggable ground | `CONFIRMED` |
 | W03 | No personal light; open-shaft sky light + dim ambient floor; placeable lamps for real visibility; never pitch black | `CONFIRMED` |
 | W04 | Four depth zones with changing ground, minerals and mood; exact material list TBD | `DEFERRED` |
 | W05 | Rare optional hard pockets (concrete plug, river-rock lens, gravel shelf); multiple solutions; no specific-upgrade gating | `CONFIRMED` |
-| W06 | Full voxel free-form terrain; tunnels/overhangs; disconnected fragments auto-collected; debris visual-only | `CONFIRMED` |
+| W06 | Full voxel free-form terrain; tunnels/overhangs; disconnected valuable voxels auto-collect, plain dirt vanishes; debris visual-only | `CONFIRMED` |
 | W07 | Four distinct zones: recent fill → old river sediment → deep clay/stone → ancient constructed | `CONFIRMED` |
 | W08 | Compact yard; stations within ~10 s; uniques physically displayed | `CONFIRMED` |
 | W08b | Display: predefined outlines; empty frames visible, shapes hidden; player places finds into waiting spots | `CONFIRMED` |
 | W09 | Validated random placement; authored depth ranges; population persists per save | `CONFIRMED` |
-| W10 | Water vs bedrock at the open edge: undecided; no swimming or flooding either way | `OPEN` |
+| W10 | Open edge is bedrock; no swimming or flooding | `CONFIRMED` |
 | W11 | Voxel/chunk size: prototype-tuned | `DEFERRED` |
 | W12 | No map; depth readout, display and detector direction handle memory | `CONFIRMED` |
 
@@ -85,7 +86,7 @@ context. Open items live in `CONCEPT/13_OPEN_QUESTIONS.md`. How research updates
 | ID | Decision | Status |
 |---|---|---|
 | S01 | Tracks: Tool, Battery, Jetpack, Inventory, Detector + small C4 track | `CONFIRMED` |
-| S02 | Levels: increments with a major capability change roughly every third level; count flexible; visuals escalate | `CONFIRMED` |
+| S02 | Levels: many small increments with a major capability change roughly every third level (the 30–45 min purchase cadence measures these milestones, not every level); count flexible; visuals escalate | `CONFIRMED` |
 | S03 | Money-only progression; late sinks exist | `CONFIRMED` |
 | S03b | Late sinks: extra charges, lamps, display upgrades, cosmetics, conveniences | `CONFIRMED` |
 | S04 | Shared battery; paid surface refill (full/partial); drain only on powered actions; safe/risky/critical warning; bigger tank keeps current fuel | `CONFIRMED` |
@@ -95,7 +96,7 @@ context. Open items live in `CONCEPT/13_OPEN_QUESTIONS.md`. How research updates
 | S07 | Jetpack: stable from the start; upgrades only improve (speed, efficiency, altitude, assists); control never degrades | `CONFIRMED` |
 | S08 | C4: thrown in multiples, stick where they land, remote detonation; powerful; costs money; optional accelerator | `CONFIRMED` |
 | S09 | Tool: automatic material adaptation; no manual switching; converges late; exact late behavior validated in playtest | `CONFIRMED (provisional)` |
-| S10 | Passive upgrades: find-or-buy recommended; discuss during play | `DEFERRED` |
+| S10 | Passive upgrades: deprioritized until playfeel review; find-or-buy still the leading option; passive/unique effects must preserve challenge (no sudden power spikes) | `DEFERRED` |
 | S11 | Shop: fully transparent (current→next, cost, benefit); sequential purchase; locked tiers visible | `CONFIRMED` |
 | S12 | Post-ending: full Continue Playing; economy live; achievements on the same save | `CONFIRMED` |
 
@@ -117,6 +118,7 @@ context. Open items live in `CONCEPT/13_OPEN_QUESTIONS.md`. How research updates
 | D11b | Empty display frames visible; item shapes hidden until discovered | `CONFIRMED` |
 | D12 | Pacing: guaranteed early find; bounded dry spells; one major-scale find per zone; new silhouettes to the end | `CONFIRMED` |
 | D13 | References: original parody only; no real brands or games | `CONFIRMED` |
+| D14 | Uniques carry a one-sentence story; delivery trigger (pickup vs inspection) still open | `CONFIRMED (trigger OPEN)` |
 
 ## Round 5 — Interface and accessibility
 
@@ -186,3 +188,12 @@ context. Open items live in `CONCEPT/13_OPEN_QUESTIONS.md`. How research updates
 | 2026-09-14 | W10 | Water vs bedrock boundary remains open | Developer undecided | user |
 | 2026-09-14 | — | Process docs archived; L-register retired; concept files cleaned of legacy citations | Organization | process |
 | 2026-09-14 | — | Decision register rewritten as the full, standalone source of truth; iteration guide created | Organization | process |
+| 2026-09-14 | W01 | Depth floor fixed at ≥100 m; exact depth/footprint decided by feel in playtest | Developer answer | user |
+| 2026-09-14 | W10 | Open edge decided: bedrock (water ruled out) | Developer answer | user |
+| 2026-09-14 | W06 | Cleanup rule: only valuable disconnected voxels auto-collect; plain dirt vanishes | Developer answer | user |
+| 2026-09-14 | Q31 | Ending fame delivered via diegetic accumulating media wall | Developer answer | user |
+| 2026-09-14 | S02 | Cadence clarified: small levels frequent; 30–45 min target = milestone purchases | Developer answer | user |
+| 2026-09-14 | Q22b | Evidence flag from AGADAH review refresh; no-music decision reaffirmed | Developer answer | user |
+| 2026-09-14 | S10 | Passive upgrades deprioritized until playfeel review | Developer answer | user |
+| 2026-09-14 | D03, S10, — | Decisions deferred; constraint recorded: unique/passive effects must preserve challenge, no sudden power spikes; endless mode gated on a feasibility spike | Developer answers | user |
+| 2026-09-14 | D14 | Uniques carry a one-sentence story; delivery trigger (pickup vs inspection) deferred | Developer answer | user |

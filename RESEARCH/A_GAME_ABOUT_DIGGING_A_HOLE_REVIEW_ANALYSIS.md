@@ -14,8 +14,6 @@
 | **Scraped on** | 14 September 2026 |
 | **Raw data** | `research_data/a_game_about_digging_a_hole_reviews_raw.json` (6.7 MB) |
 
-**Method:** Every review in every language was pulled from Steam's public `store.steampowered.com/appreviews/3244220` API via cursor pagination (201 pages; 3 reviews were no longer retrievable, likely deleted or hidden). Themes were then quantified by keyword analysis across the entire corpus, and every substantive review was read in full: all 1,069 negatives of 100+ characters, all 1,193 positives of 400+ characters, and the 240 most-upvoted reviews of each sentiment. Quotes are verbatim (translated where the original was not English) with language, playtime and vote count where useful.
-
 ---
 
 ## TL;DR
@@ -24,7 +22,7 @@ A Game About Digging a Hole is a one-hour-to-finish, $5 "dig a hole in your back
 
 **Praise (near-universal):** satisfying/zen digging loop, the shovel-to-drill power escalation, $5 value, "exactly what the title says", nostalgia for Motherload/flash mining games, humor and meme appeal, charming voxel visuals, works on Steam Deck.
 
-**Criticism (recurring):** too short / paid-demo feel, the forced mole stealth finale, upgrades max out halfway and money becomes pointless, achievements locked behind a second playthrough, floating dirt specks and collision jank, click-spam with no hold-to-dig, missing basic settings (keybinds, graphics, cloud saves, FOV), save/crash issues, and no updates since launch.
+**Criticism (recurring):** too short / paid-demo feel, the forced mole stealth finale, upgrades max out halfway and money becomes pointless, achievements locked behind a second playthrough, floating dirt specks and collision jank, click-spam with no hold-to-dig, missing basic settings (keybinds, graphics, cloud saves), save/crash issues, motion-sickness/FOV trouble, no endless/sandbox mode, and no updates since launch.
 
 ---
 
@@ -38,11 +36,14 @@ A Game About Digging a Hole is a one-hour-to-finish, $5 "dig a hole in your back
 | Median playtime — positive reviews | 3.5 h |
 | Median playtime — negative reviews | 2.0 h |
 | Median review length | 54 characters (the corpus is full of one-line jokes) |
-| Reviews with 100+ characters | 6,667 |
-| Reviews with at least one upvote | ~5,167 |
+| Reviews with 100+ characters | 6,665 |
+| Reviews with at least one upvote | ~5,167 (334 have 10+) |
+| Reviews with 2+ hours at review | 15,116 (92.8% positive) |
 | Reported completion time | 30 min – 2 h (most: ~1–2 h) |
 | Steam Deck reviews | 534 |
 | Reviews from free keys | 272 |
+
+**Timeline:** 8,631 reviews (43%) were posted in launch month (February 2025); a second spike came in November 2025 (1,397 reviews, 95.9% positive). Positive share rises with playtime — 69.7% under 1 h, 87.5% at 2–3 h, ~95% at 5 h+ — consistent with many negatives coming from short, refund-window sessions rather than long-term players.
 
 **Language distribution (top 10):** English 12,086; Russian 2,563; German 1,173; Spanish 725; French 622; Polish 451; Brazilian Portuguese 436; Simplified Chinese 432; Korean 343; Japanese 258. (29 languages in total.)
 
@@ -52,6 +53,7 @@ A Game About Digging a Hole is a one-hour-to-finish, $5 "dig a hole in your back
 |---|---|---|---|
 | price / value / refund | 1,807 | 1,484 | 323 |
 | short / length | 1,043 | 828 | 215 |
+| achievements / NG+ | 812 | 664 | 148 |
 | satisfying / addictive | 810 | 739 | 71 |
 | ending | 775 | 541 | 234 |
 | relax / chill / cozy | 770 | 710 | 60 |
@@ -59,14 +61,22 @@ A Game About Digging a Hole is a one-hour-to-finish, $5 "dig a hole in your back
 | story / lore / mystery | 447 | 385 | 62 |
 | repetitive / boring / tedious | 376 | 231 | 145 |
 | moles | 368 | 310 | 58 |
+| click / hold-to-dig / RSI | 275 | 189 | 86 |
 | updates / dev response | 231 | 199 | 32 |
+| dynamite / floating dirt | 223 | 166 | 57 |
+| survival / battery / fall damage | 206 | 147 | 59 |
 | scary / creepy / horror | 169 | 123 | 46 |
 | graphics / visuals | 169 | 141 | 28 |
+| endless / sandbox requests | 154 | 136 | 18 |
+| save / progress loss | 148 | 102 | 46 |
 | bugs / crashes | 142 | 101 | 41 |
+| audio / music / sound | 100 | 85 | 15 |
 | multiplayer / co-op requests | 71 | 68 | 3 |
 | FOV / motion sickness | 31 | 18 | 13 |
 
 Keyword counts are indicative, not exact categorizations: e.g. "ending" mentions include both praise for the twist and anger at it, and motion-sickness complaints are undercounted in English because reviewers often describe the symptom ("vertigo", "headache") instead.
+
+**Non-English corpora (approximate, original-language keywords):** the same picture holds. Russian (2,563 reviews): ending/moles 370, meditative/relaxing 219, short/little content 135, price/refund 110, updates 33, bugs/crashes 28. German (1,173): ending/moles 133, short/little content 111, relaxing 82, price 71. Spanish (725): short/little content 77, moles/ending 63. French (622): short/little content 106, price 74, moles/ending 56.
 
 ---
 
@@ -79,7 +89,7 @@ This is the defining praise and it appears in almost every positive review. Dig,
 >
 > "This game put me into a zen-like trance that I haven't felt in a long time. It tickled a part of my lizard brain" — English, 2.5 h, positive
 >
-> "It's a surprisingly meditative experience, no stress, no rush." — Russian, 3.1 h, positive (translated)
+> "It's a surprisingly meditative experience, no stress, no rush." — Russian, 3.1 h, positive (review filed under Russian; body written in English)
 >
 > "I had no idea about the passage of time until I was reminded by the game I hadn't saved in 30 minutes. So much fun." — English, 2.4 h, positive
 
@@ -97,7 +107,7 @@ The sense of progression is a highlight: early clicking is painful, but the thir
 
 > "At that point, it switches from diggy digging to straight up Hoovering dirt and objects. I gotta say, that feels really good in use." — English, 5.7 h, positive, 160 upvotes
 >
-> "Digging feels amazing and even more so at later upgrades." — English, 1.5 h, positive
+> "Digging feels amazing and even more so at later upgrades." — English, 1.5 h, negative (mixed review; quoted from its "pros" list)
 >
 > "Getting the drill feels so good after making a mess with the shovel." — English, 2.7 h, positive
 
@@ -122,7 +132,7 @@ The game taps a specific memory: Motherload and Newgrounds flash mining games, s
 ### 6. Humor, meme value and rare dev story
 The absurd premise, the "Diggy Diggy Hole" meme energy, and the fact that it was reportedly a roughly two-week solo side project all earn affection and goodwill. Even many negative reviews praise the concept and the value of a single dev having pulled it off.
 
-> "I am a dwarf and I'm digging a hole / Diggy, diggy hole, diggy, diggy hole" — English, 3.1 h, positive, 683 upvotes
+> "As they say, I am a dwarf, and I'm digging a hole. Diggy diggy hole." — English, 3.4 h, positive
 >
 > "For a $5 game one dev worked on for fun during his holiday, I was blown away." — English, 8.9 h, positive
 >
@@ -136,6 +146,8 @@ The minimalist, voxel-ish visuals, the dirt and drill audio, and Steam Deck comp
 > "The visuals embrace a minimalist, voxel-inspired style that keeps everything clean and readable." — English, 2.6 h, positive
 >
 > "I played solely on my steam deck with no issues." — English, 3 h, positive
+>
+> "The music and ambient sounds are great" — English, 10.2 h, positive, 49 upvotes
 
 ### 8. The ending twist has genuine fans
 Although the mole finale is the game's most hated moment overall, a significant minority — including several top reviews — love it as a funny, shocking or thematic payoff.
@@ -145,6 +157,13 @@ Although the mole finale is the game's most hated moment overall, a significant 
 > "The story was... surprising. Absolutely worth the $5 for that ending and I'm gonna be thinking about it for a long time." — English, 4.6 h, positive
 >
 > "the moles at the end? Absolutely hilarious - great payoff" — English, 5.2 h, positive
+
+### 9. The game is as long as you make it — clearing the entire yard
+Alongside the ~1–2 h critical path, a visible minority plays it as a completionist sandbox: dig out every speck of the yard, hunt all achievements, and turn a short game into a 6–27 hour project. This is the main counter-argument to "too short", and it is prominent in the most-upvoted reviews.
+
+> "Dug the entire yard down to the very end. I cried. wept even. This game was a religious experience. I love hole. I worship hole. hole is love. hole. Amen" — English, 7.8 h, positive, 653 upvotes
+>
+> "Dont listen to the ones calling it short, its as long as you make it be.. (:" — English, 8.3 h, positive, 89 upvotes
 
 ---
 
@@ -179,6 +198,8 @@ The single most emotional criticism: after ~100 m the game disables your drill, 
 > "Did I spend my money, time and motion sickness for this ending?" — Korean, 2.3 h, negative (translated)
 >
 > "The ending to this game is like eating a burrito and the last bite is nothing but sour cream" — English, 1.8 h, negative, 74 upvotes
+>
+> "Upon reaching the bottom you find a drop down point where you suddenly are thrust from a relaxing grind game to a stealth mission with no clear direction in a dark cavern." — English, 2.4 h, negative, 320 upvotes (the most-upvoted negative review)
 
 Related: many argue the ending is not signposted at all ("not labelled horror", "advertised as cozy"), and reviewers with anxiety or heart conditions specifically ask for a content warning.
 
@@ -212,11 +233,13 @@ Dirt has no physics, so clearing tunnels always leaves tiny floating specks you 
 > "Dynamite sometimes clips through what you're trying to blow up." — English, 15 h, negative
 
 ### 6. Click-spam and missing accessibility/options
-Until late upgrades, digging requires clicking the mouse for every cut — no hold-to-dig on mouse and keyboard (despite hold working on controller). Reviewers with RSI or carpal tunnel warn others off. Basic options are missing: key rebinding (a problem for AZERTY, left-handed and non-QWERTY users), graphics/resolution settings, FOV, cloud saves, and multiple save slots.
+Until late upgrades, digging requires clicking the mouse for every cut — no hold-to-dig on mouse and keyboard (despite hold working on controller). Reviewers with RSI or carpal tunnel warn others off. Basic options are missing: key rebinding (a problem for AZERTY, left-handed and non-QWERTY users), graphics/resolution settings, cloud saves, multiple save slots, and (reportedly) broad FOV control.
 
 > "Definitely avoid if you have RSI as all of the shovels but the last two you have to click each time you dig, no hold to dig." — English, 7.6 h, negative
 >
 > "Let me hold down the mouse button to dig please, I'm not gonna mash m1 over hours or lower my mouse lifespan" — English, 0.1 h, negative
+>
+> "1 accessibility request for my old man hands - toggle dig on and off rather than having to hold button down" — English, 1.5 h, positive, 538 upvotes
 >
 > "No key binding settings. No graphics settings. No cloud saves." — English, 3.3 h, negative
 >
@@ -236,7 +259,7 @@ Unreal Engine fatal errors, black screens, menu lag, crashes on selling ore or b
 ### 8. Survival friction: battery deaths, fall damage, losing ores
 The battery explodes at 0%, sending you back to the surface having lost everything in your inventory; fall damage is harsh and unforgiving; inventory overflow destroys ore. Many reviewers argue the game didn't need survival mechanics at all.
 
-> "why the hell is there a survival system!!! absolutely unnecessary to get dmg in a game like this." — English, 0.6 h, negative
+> "why the hell is there a survival system!!! absolutely unnecessary to get dmg in a game like this." — German, 0.6 h, negative (review filed under German; body written in English)
 >
 > "The whole 'You ran out of energy and lost all your ores' mechanic makes me want to do bad things to the creators." — English, 4.1 h, negative
 >
@@ -251,6 +274,10 @@ Beyond ores, a few money bags, identical supply rooms and a couple of secret key
 >
 > "It had remained on my wishlist for many months... Zero replay value. Don't bother." — English, 2.9 h, negative
 
+The most requested addition is an endless or sandbox mode; the single most-upvoted review in the entire corpus is one line asking for it.
+
+> "If they add an endless mode, that's it. It's over. Will be spending the rest of my days as one with the dirt." — English, 3.9 h, positive, 1,065 upvotes
+
 ### 10. Hype backlash, free alternatives and no updates
 A recurring undercurrent: the game went viral via TikTok/YouTube/streamers, and some buyers feel it is overrated, better suited to watching than playing, or inferior to free games (Roblox diggers, Motherload, old flash games) and cheap genre rivals (Mining Mechs, Super Mining Mechs, SteamWorld Dig). Many also note the developer has effectively moved on — no meaningful updates since launch.
 
@@ -260,14 +287,18 @@ A recurring undercurrent: the game went viral via TikTok/YouTube/streamers, and 
 >
 > "It's a shame the game isn't labeled as Early Access" — French, 3.2 h, positive, 82 upvotes (translated)
 >
+> "Its only update since its release in February is an announcement for the publisher's other game" — English, 7.9 h, negative, 8 upvotes
+>
 > "It's been over a year and still nothing has come." — Turkish, 1.2 h, negative (translated)
 
 ### 11. Motion sickness and eye strain
-A smaller but consistent cluster: reviewers report vertigo, nausea, headaches and eyestrain from the tight first-person FOV and constant camera movement, with no FOV slider available.
+A smaller but consistent cluster: reviewers report vertigo, nausea, headaches and eyestrain from the tight first-person FOV and constant camera movement, with only limited FOV adjustment (reports conflict: one reviewer found a maximum setting of 105, others could not find a slider and edited game files to push it to 130).
 
 > "Sadly I've had to refund this game due to severe motion sickness. If you are prone to this, keep it in mind before buying." — English, 0.4 h, negative
 >
 > "It really messes with my depth perception and ended up giving me eyestrain and a massive headache" — English, 1.5 h, negative
+>
+> "A community forum user suggested maxing out my FOV. This worked wonders. No more motion sickness." — English, 8.3 h, negative, 2 upvotes
 
 ---
 
@@ -285,22 +316,23 @@ You buy a suspiciously cheap house ($10k) advertised with buried treasure in the
 
 | Topic | For | Against |
 |---|---|---|
-| Length | Short, and "doesn't overstay its welcome"; fine for $5 | "Paid demo"; barely longer than nothing; should be $1–3 or free |
+| Length | Short, and "doesn't overstay its welcome"; fine for $5; "as long as you make it" if you clear the whole yard | "Paid demo"; barely longer than nothing; should be $1–3 or free |
 | Ending / moles | Funny, shocking, thematically clever | Bait-and-switch horror; tools removed; unrewarding; should be optional |
 | Price | "Cost of a coffee"; fair; even underpriced | Overhyped at $5; "I paid $3 and still feel ripped off"; wait for sale |
 | Achievements / NG+ | Some enjoy the reason to replay; achievements displayed in the garage | Locked behind a full second run; buggy counters; speedrun achievement is RNG |
 | Refunds | Many keep it because it's cheap and they enjoyed it | Several note you can finish within the 2-hour refund window; some call that practice intentional |
 | Free alternatives | Standalone charm and polish | Better/free options exist: Motherload, Roblox diggers, Mining Mechs, flash games |
-| Audio | Satisfying dig sounds; silence suits the podcast experience | No music; repetitive shovel loop; some found it grating |
+| Audio | Satisfying dig sounds; ambient soundtrack; silence suits the podcast experience | Sparse/ambient music (a few insist there is no music at all); repetitive shovel loop; some found it grating |
+| Endless / sandbox mode | Most-requested addition; completionists get 6–27 h by clearing the whole yard | World is finite at ~100 m; no endless mode; maxing upgrades ends the loop early |
 | Difficulty/survival | Battery and fall damage add tension for a few | Unnecessary survival systems; punishing ore loss; no health/FOV options |
 
 ---
 
 ## What reviewers say about value and who should buy it
 
-**Recommended for:** fans of Motherload/flash mining games and PowerWash-style sims; players who want a cheap, relaxing 1–3 hour "podcast game"; meme-game enjoyers; completionists willing to replay in achievement mode.
+**Recommended for:** fans of Motherload/flash mining games and PowerWash-style sims; players who want a cheap, relaxing 1–3 hour "podcast game"; meme-game enjoyers; completionists willing to replay in achievement mode; and players happy to set their own goal (clearing every speck of dirt can stretch the game to 6+ hours).
 
-**Not recommended for:** players who want depth, systems, replayability or a satisfying story payoff; players with RSI, motion sickness or QWERTY-averse keyboards; anyone expecting the cozy game the store page and trailer suggest; achievement hunters; and players who dislike jumpscares or forced stealth. The most common closing advice is to buy it on sale for $1–3 or watch someone else play it.
+**Not recommended for:** players who want depth, systems, replayability or a satisfying story payoff; anyone who needs an endless/sandbox mode to stay interested; players with RSI, motion sickness or QWERTY-averse keyboards; anyone expecting the cozy game the store page and trailer suggest; achievement hunters; and players who dislike jumpscares or forced stealth. The most common closing advice is to buy it on sale for $1–3 or watch someone else play it.
 
 ---
 
@@ -310,3 +342,4 @@ You buy a suspiciously cheap house ($10k) advertised with buried treasure in the
 - Steam totals drift; the sample is every review retrievable via the API on 14 September 2026 (20,098 of the 20,101 counted by Steam at that time).
 - Quotes were lightly cleaned (line breaks, censored profanity, HTML tags) and translated from Russian, Chinese, Korean, Japanese, German, French, Spanish, Portuguese, Polish and Turkish where necessary. Attribution gives language, playtime at review, sentiment, and vote count for the highest-voted quotes.
 - Keyword frequency counts are approximate: the same review can mention several themes, and counting includes short joke reviews. Treat the table as ranking signal, not exact measurement.
+- `playtime_at_review` includes idle/AFK time (one review shows 413 h for a game this size) and is recorded in minutes; 53 reviews have empty text, and this corpus contains no developer responses. Playtime claims in quotes are reported as written, not re-measured.

@@ -5,8 +5,8 @@
 A drained river-fed reservoir. The working floor sits inside visible former banks, concrete
 retaining walls, and leftover waterworks. It is finite, believable and clearly bounded.
 
-- **Dimensions:** TBD in playtest (W01). Constraints: deeper than the reference game's ~100 m;
- working candidate 24×24×48 m. Depth is the progression axis; the footprint stays contained.
+- **Dimensions:** depth at least 100 m; exact depth and footprint are set by feel in playtest (W01).
+  Depth is the progression axis; the footprint stays contained.
 - **Surface:** authored, not procedurally generated into ugliness. A small worksite yard
  (see `07_SURFACE_HUB_AND_DISPLAY.md`).
 - **Underground:** fully diggable voxel ground except permanent boundaries.
@@ -19,9 +19,8 @@ Permanent boundaries must look categorically different from any diggable materia
 - **Sides:** concrete retaining walls, dam infrastructure, steel pilings — industrial, cracked,
  obviously not soil.
 - **Bottom:** solid bedrock shelf.
-- **One edge (undecided, W10):** open water or steep natural rock. Either way: no swimming, no
- flooding, no water gameplay. Undecided because water as a static wall can look odd; bedrock is
- more realistic; decide with the art pass.
+- **One edge:** natural bedrock shelf (W10). No water, no swimming, no flooding — the drained
+  reservoir's edge reads as ground meeting stone, with no fake-water interaction problems.
 
 Rule: never use the same material look for "tough but diggable" and "eternal wall". Players must
 know at a glance what will eventually yield.
@@ -74,8 +73,8 @@ one early and demolishing it later is a designed moment of power.
 
 - **Full voxel**: every diggable cube can be removed; tunnels, overhangs and trenches are legal
  (W06). Chunk size prototype-tuned (W11).
-- **No floating specks**: after a dig, disconnected voxels convert to pickups and fly to the player;
- nothing collidable is ever left suspended.
+- **No floating specks**: after a dig, disconnected valuable voxels convert to pickups and fly to the
+  player, while plain dirt crumbs simply vanish; nothing collidable is ever left suspended.
 - **Debris is visual only**: particles never collide and never deal damage.
 - **Collision always matches the visible mesh.**
 - **Substantial structures survive**: ledges, tunnels and overhangs the player built are preserved;

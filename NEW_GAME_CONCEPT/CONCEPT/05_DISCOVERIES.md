@@ -6,8 +6,8 @@
 |---|---|---|---|---|
 | **Common** | 20–30 types | Always silent | Sell only | Reliable income, worthwhile at any depth |
 | **Distinctive** | 30–50 types | Noteworthy ones signal; some stay silent by design | **Purpose TBD (D03)** — either first copy to display with duplicates sold, or sell with a snapshot; user is researching | Good money |
-| **Unique** | Small set (a few) | Signals | Kept on the display forever; unsellable; grants a passive benefit | No sale |
-| **Rare passives** | TBD (S10, find-or-buy recommended) | Signals | Grants a permanent effect | No sale |
+| **Unique** | Small set (a few) | Signals | Kept on the display forever; unsellable; carries a one-sentence story; benefit TBD (must not create a sudden power spike) | No sale |
+| **Rare passives** | TBD (S10, deprioritized) | Signals | Grants a permanent effect (challenge-preserving) | No sale |
 
 Commons include the mineral ladder (coal → copper → iron → silver → gold → emerald → ruby → diamond),
 bottles, plain stones, commonplace scrap, packaging and rubbish. "Common" means routine to find
@@ -35,11 +35,11 @@ The detector is passive equipment: the player never equips it. They simply dig.
 2. **Interesting objects do not disappear when touched.** They stay physically present; the player
  excavates around them and watches the silhouette resolve.
 3. Once enough is exposed, the object becomes interactable and can be collected.
-4. **Recognition is the reward:** curved metal → handle → rectangular body → "…oh, it's a washing
- machine."
-5. No archaeology: no brushing minigame, no 100% cleaning requirement, no identification timers, no
- mailing objects for appraisal. The game decides when enough is revealed; the player
- decides what is worth revealing.
+4. **Recognition is the reward:** curved metal → handle → rectangular body → "…oh, it's a washing machine."
+5. **Uniques tell a story:** a unique delivers one deadpan sentence of story — on pickup or on inspection, to be decided (D14). The story is carried by the object, never by a narrator.
+6. No archaeology: no brushing minigame, no 100% cleaning requirement, no identification timers, no
+   mailing objects for appraisal. The game decides when enough is revealed; the player
+   decides what is worth revealing.
 
 Small/common finds are quick: a bite or two, instant pickup, clear feedback so nothing is collected
 unseen.
