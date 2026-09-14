@@ -49,6 +49,7 @@ overrides it in `../DECISIONS.md`.
 | 24 | Toilet/body-sound humor or joke spam | toilet humor backlash | Deadpan object humor, rare, no sound gags (`01`) |
 | 25 | NPCs, dialogue trees, or quest-givers | not wanted; story via objects | Machines and finds only (`07`, `11`) |
 | 26 | Fake difficulty through controls getting worse | — | Jetpack only improves; control quality never degrades (`04`) |
+| 40 | Real-world politics, partisan slogans, or living controversies | "Politics and gaming don't mix"; Trump coin review backlash | Fictional setting; original deadpan parody only (`01`, `05`) |
 
 ## Interface and body
 
@@ -72,6 +73,7 @@ overrides it in `../DECISIONS.md`.
 | 37 | Make balance patches reroll an existing world | "rebalanced… now I can't reach the end of a tunnel" | Population persists; no forced rerolls (`03`) |
 | 38 | Lock achievements behind NG+, RNG or bugs | "INCREDIBLY scummy"; 45/46 forever | Fair one-run achievements (`12`) |
 | 39 | Delete or invalidate the display / collection | progress loss | Display is permanent in the save (`07`) |
+| 41 | Trigger the finale purely via depth or void boundary volumes | Falling into void/collision seams triggering credits | Finale requires intentional physical insertion of components (`11`) |
 
 ## The one-line version
 

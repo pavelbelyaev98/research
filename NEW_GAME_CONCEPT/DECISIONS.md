@@ -111,12 +111,12 @@ this file: `ITERATION_GUIDE.md`.
 | D06 | Clusters: 5 authored micro-scene templates, rotated/placed procedurally | `CONFIRMED` |
 | D07 | First-slice objects: washing machine, hand drill, gearbox, mammoth bone, gramophone | `CONFIRMED` |
 | D08 | Mystery: 3-step escalation (anachronistic junk → too-correct objects → constructed impossibilities) | `CONFIRMED` |
-| D09 | Ending components: 3–4, never lost, no slots, no puzzle, obvious insertion | `CONFIRMED` |
+| D09 | Ending components: 3–4, never lost, no slots, no puzzle, obvious insertion (evidence flag 2026-09-14: iDigging's ending was tied to a depth trigger volume, letting players clip through collision and trigger credits in 8–20 min; physical insertion gate confirmed; anti-pattern 41) | `CONFIRMED` |
 | D10 | Large discoveries: a few per run; excavated then cable-yanked; some may stay | `CONFIRMED` |
 | D11 | Display form: growing wall/shelf with predefined outlines; no player choice of placement | `CONFIRMED` |
 | D11b | Empty display frames visible; item shapes hidden until discovered | `CONFIRMED` |
 | D12 | Pacing: guaranteed early find; bounded dry spells; one major-scale find per zone; new silhouettes to the end | `CONFIRMED` |
-| D13 | References: original parody only; no real brands or games | `CONFIRMED` |
+| D13 | References: original parody only; no real brands or games (evidence flag 2026-09-14: iDigging's buried Trump Bitcoin sparked dedicated negative review backlash across languages; strict ban on real-world politics confirmed; anti-pattern 40) | `CONFIRMED` |
 | D14 | Uniques carry a one-sentence story; delivery trigger (pickup vs inspection) still open | `CONFIRMED (trigger OPEN)` |
 
 ## Round 5 — Interface and accessibility
@@ -200,3 +200,5 @@ this file: `ITERATION_GUIDE.md`.
 | 2026-09-14 | Q13 | Awe-not-dread rule added for impossible content and the deep-zone audio mix | One Man's Trash unadvertised-horror backlash; AGADAH creepy-finale split; concept `11`, `09` | process (user-approved) |
 | 2026-09-14 | W13 / F13 | Prototype and release gates added for return navigation and performance feel | Meltopia lostness; Keep Digging / Meltopia / One Man's Trash performance complaints; concept `14` | process (user-approved) |
 | 2026-09-14 | Q17 | Value-perception nuance flagged; price unchanged | Cross-corpus price themes (One Man's Trash, AGADAH, Meltopia) | process (user-approved) |
+| 2026-09-14 | D13 | Strict prohibition of real-world political references confirmed | iDigging: buried Trump Bitcoin sparked review backlash; anti-pattern 40 | process (user-approved) |
+| 2026-09-14 | D09 | Finale activation strictly gated behind component insertion, never depth/boundary triggers | iDigging: falling into void triggered ending cutscene; anti-pattern 41 | process (user-approved) |
