@@ -12,7 +12,7 @@
 | **Steam rating** | Very Positive (~86% of 1,723 reviews) |
 | **Reviews analyzed** | 1,722 / 1,723 (1,480 positive, 242 negative) |
 | **Scraped on** | 14 September 2026 |
-| **Raw data** | `research_data/meltopia_reviews_raw.json` (3 MB) |
+| **Raw data** | `research_data/meltopia_reviews_raw.json` (1.5 MB) |
 
 **Method:** Every review in every language was pulled from Steam's public `store.steampowered.com/appreviews/3601800` API via cursor pagination (18 pages; 1 review was no longer retrievable). Themes were quantified by keyword analysis across the whole corpus; all 242 negative reviews were read in full, along with a qualitative deep-dive of the 453 substantive positive reviews (250+ characters) and the highest-voted reviews of each sentiment. Quotes are verbatim (translated where the original was not English) with language, playtime, sentiment and upvotes where useful.
 

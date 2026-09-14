@@ -12,7 +12,7 @@
 | **Steam rating** | Very Positive (~89% of 20,101 reviews) |
 | **Reviews analyzed** | 20,098 / 20,101 (17,949 positive, 2,149 negative) |
 | **Scraped on** | 14 September 2026 |
-| **Raw data** | `research_data/a_game_about_digging_a_hole_reviews_raw.json` (29 MB) |
+| **Raw data** | `research_data/a_game_about_digging_a_hole_reviews_raw.json` (13 MB) |
 
 **Method:** Every review in every language was pulled from Steam's public `store.steampowered.com/appreviews/3244220` API via cursor pagination (201 pages; 3 reviews were no longer retrievable, likely deleted or hidden). Themes were then quantified by keyword analysis across the entire corpus, and every substantive review was read in full: all 1,069 negatives of 100+ characters, all 1,193 positives of 400+ characters, and the 240 most-upvoted reviews of each sentiment. Quotes are verbatim (translated where the original was not English) with language, playtime and vote count where useful.
 
