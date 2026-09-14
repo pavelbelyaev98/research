@@ -145,7 +145,7 @@ The game presents itself as a cozy digging game, then introduces worms below a c
 
 > "I was unaware that there would be jumpscare worms, as the game is not labelled as a horror type game" — English, 6.1 h, negative
 >
-> "getting attacked by giant man-eating worms was not part of the advertised experience and killed the fun stone dead for me" — English, 2.8 h, negative
+> "getting attacked by giant man-eating worms… was not part of the advertised experience and killed the fun stone dead for me" — English, 2.8 h, negative
 >
 > "Please give an option to turn off monsters… worm coming after you every 5 seconds" — English, 1.8 h, negative
 >
@@ -209,7 +209,7 @@ A recurring criticism is that the game is a clone with more content but less bal
 > "One Man's Trash is almost a good incremental game, but doesn't quite get there… doesn't understand the balance that game struck to keep it engaging." — English, 6.2 h, negative
 
 ### 7. Repetitive, especially in the back half
-Even favorable reviews warn that "what you see in the first five minutes is all you're going to get" — a fixed, non-random map and one verb (suck) make later hours a slog for some.
+Even favorable reviews warn that "what you see in the first 5 minutes is all you're going to get" — a fixed, non-random map and one verb (suck) make later hours a slog for some.
 
 > "relaxing for the first hour or two then just a painful, annoying slog" — English, 3.6 h, negative
 >
@@ -230,7 +230,7 @@ Even favorable reviews warn that "what you see in the first five minutes is all 
 | Worms | Fun/scary surprise, keeps you tense; one of the few dangers | Unadvertised horror, unavoidable, too frequent; ruined the game |
 | Length | A tight 3–5 h "afternoon game" for a low price | Barely longer than the demo; not enough content |
 | Rope (no jetpack) | Tension and route planning; dirt-spitting is clever | Tedious back-and-forth; softlocks and fall deaths |
-| Derivative of AGADH | "Best one of these digging games", better QoL, more content | Empty clone that misses the original's balance |
+| Derivative of AGADH | "This is the superior digging type game", better QoL, more content | Empty clone that misses the original's balance |
 | Slot machine / gambling | Funny diversion, "choose the mystery box" | Trap: measured 75.7% return rate, "do not bet, kids" |
 | Music | Relaxing, good comedic guitar | Repetitive/annoying; suspected AI |
 | Visuals/skins | Pretty, vibrant, nice lighting | "No pizzaz", boring reskins only |
