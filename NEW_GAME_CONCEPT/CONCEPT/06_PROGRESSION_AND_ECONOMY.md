@@ -56,8 +56,7 @@ There is no point where the intended player has literally nothing to buy while s
 ## 5. Fuel (shared battery)
 
 - One battery powers **digging and jetpack**.
-- Drain occurs only during powered actions; reading, standing, thinking and inspecting never drain
-.
+- Drain occurs only during powered actions; reading, standing, thinking and inspecting never drain.
 - Refills are **purchased at the surface**: full or partial, amount and price shown before purchase;
  bigger tanks keep current fuel rather than granting a refill (S04).
 - **Return-power warning:** an adaptive indicator with safe / risky / critical states — never exact

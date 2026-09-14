@@ -37,7 +37,7 @@ overrides it in `../DECISIONS.md`.
 | 17 | Ship a game where the trailer is the whole game | "what you see in the trailer is what you get" | Four zones, escalating silhouettes, density rules (`02`, `05`) |
 | 18 | Clump all novelty early / empty late game | "the game ends the second it should open up" | Validated pacing, late silhouettes (`02`) |
 | 19 | Depth-only value with nothing sideways | Straight-down trivialization | Clusters, off-shaft components, category-not-value (`03`) |
-| 20 | Unbreakable decoy obstacles | "unbreakable obstacles" complaints | Every boundary looks different; every pocket has solutions (`03`) |
+| 20 | Unbreakable decoy obstacles, or solutions the player cannot discover | "unbreakable obstacles"; One Man's Trash's worm/TNT counterplay existed but was invisible — "there is no way to fight back at all" | Every boundary looks different; every pocket has solutions, and at least one is visibly telegraphed (`03`) |
 
 ## Tone and honesty
 

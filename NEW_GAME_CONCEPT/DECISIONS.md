@@ -39,11 +39,11 @@ this file: `ITERATION_GUIDE.md`.
 | Q10 | Light slow-build mystery | `CONFIRMED` |
 | Q11 | No NPCs; story told by objects, machines, display and environment | `REVISED` |
 | Q12 | Final discovery: a modern object built in impossibly ancient materials | `REVISED` |
-| Q13 | Full NOT-list confirmed (no archaeology/survival/crafting/puzzle/management/hazards/meters) | `CONFIRMED` |
+| Q13 | Full NOT-list confirmed (no archaeology/survival/crafting/puzzle/management/hazards/meters) (evidence flag 2026-09-14: One Man's Trash's #1 complaint is unadvertised horror and AGADAH's forced creepy finale divided its audience — the impossible must read as awe, never threat; concept `11` §1, `09` §6) | `CONFIRMED` |
 | Q14 | Genre fans primary; streamers/meme audience secondary; must be a real game | `CONFIRMED` |
 | Q15 | E10+ / PEGI 7 | `CONFIRMED` |
 | Q16 | 30–60 minute sessions | `CONFIRMED` |
-| Q17 | 3–5 h first completion @ $6.99–9.99 | `CONFIRMED` |
+| Q17 | 3–5 h first completion @ $6.99–9.99 (evidence flag 2026-09-14: perceived value tracks density, polish and replayability more than hours — One Man's Trash at ~$5/~3 h drew "not enough content" complaints while AGADAH at $5/1–2 h holds ~89% positive; no price change) | `CONFIRMED` |
 | Q18 | Per-save randomized world; display per-save; no meta progression (evidence flag 2026-09-14: Keep Digging's gear-carrying reset was widely praised; second-run identity logged as S13) | `CONFIRMED` |
 | Q19 | PC primary; full controller support mandatory; Deck optional; no consoles | `REVISED` |
 | Q20 | Complete 1.0, no Early Access; short pre-release demo/playtest window | `CONFIRMED (C03)` |
@@ -70,7 +70,7 @@ this file: `ITERATION_GUIDE.md`.
 | W02 | Boundaries: reservoir infrastructure (concrete/dam) + bedrock, visually distinct from diggable ground | `CONFIRMED` |
 | W03 | No personal light; open-shaft sky light + dim ambient floor; placeable lamps for real visibility; never pitch black | `CONFIRMED` |
 | W04 | Four depth zones with changing ground, minerals and mood; exact material list TBD | `DEFERRED` |
-| W05 | Rare optional hard pockets (concrete plug, river-rock lens, gravel shelf); multiple solutions; no specific-upgrade gating | `CONFIRMED` |
+| W05 | Rare optional hard pockets (concrete plug, river-rock lens, gravel shelf); multiple solutions; no specific-upgrade gating (evidence flag 2026-09-14: One Man's Trash's worm/TNT counterplay existed but was effectively undiscoverable — reviewers concluded there was no counterplay; pocket solutions must be legible before commitment, concept `03` §5) | `CONFIRMED` |
 | W06 | Full voxel free-form terrain; tunnels/overhangs; disconnected valuable voxels auto-collect, plain dirt vanishes; debris visual-only | `CONFIRMED` |
 | W07 | Four distinct zones: recent fill → old river sediment → deep clay/stone → ancient constructed | `CONFIRMED` |
 | W08 | Compact yard; stations within ~10 s; uniques physically displayed | `CONFIRMED` |
@@ -196,3 +196,7 @@ this file: `ITERATION_GUIDE.md`.
 | 2026-09-14 | S10 | Passive upgrades deprioritized until playfeel review | Developer answer | user |
 | 2026-09-14 | D03, S10, — | Decisions deferred; constraint recorded: unique/passive effects must preserve challenge, no sudden power spikes; endless mode gated on a feasibility spike | Developer answers | user |
 | 2026-09-14 | D14 | Uniques carry a one-sentence story; delivery trigger (pickup vs inspection) deferred | Developer answer | user |
+| 2026-09-14 | W05 | Legibility rule added: hard-pocket solutions must be telegraphed before commitment | One Man's Trash: invisible TNT/worm-head counterplay; concept `03` §5, anti-pattern 20 | process (user-approved) |
+| 2026-09-14 | Q13 | Awe-not-dread rule added for impossible content and the deep-zone audio mix | One Man's Trash unadvertised-horror backlash; AGADAH creepy-finale split; concept `11`, `09` | process (user-approved) |
+| 2026-09-14 | W13 / F13 | Prototype and release gates added for return navigation and performance feel | Meltopia lostness; Keep Digging / Meltopia / One Man's Trash performance complaints; concept `14` | process (user-approved) |
+| 2026-09-14 | Q17 | Value-perception nuance flagged; price unchanged | Cross-corpus price themes (One Man's Trash, AGADAH, Meltopia) | process (user-approved) |

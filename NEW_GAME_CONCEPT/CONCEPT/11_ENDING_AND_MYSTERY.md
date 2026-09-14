@@ -15,6 +15,10 @@ Rules:
 - Each step lives in its zone; never dumped together.
 - Never signposted by UI or dialogue; the display wall serves as the quiet record.
 - Each impossible find is also a real discovery with its own reward; the trail is not a fetch quest.
+- **Awe, never dread.** The impossible is presented as craft, wonder and wrongness — never as a
+  threat, a pursuit or a presence. No stalking or chase staging, no "something is watching" cues;
+  darkness stays calm (Q13). The player should feel *"this should not exist"*, never *"something is
+  coming"*.
 
 ## 2. The ending components
 
@@ -64,7 +68,7 @@ Rules (C01):
 
 ## 6. Continue Playing
 
-After the cutscene ( S12):
+After the cutscene (S12):
 
 - The player returns to the same save with all equipment, upgrades, terrain, display and economy
  intact.

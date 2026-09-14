@@ -3,7 +3,7 @@
 ## 1. One machine
 
 There is exactly one excavation tool. It starts as an ordinary shovel and ends as a garage-built
-absurdity. The player never switches tools; upgrades bolt onto the same object ( F11).
+absurdity. The player never switches tools; upgrades bolt onto the same object (F11).
 
 - **Visible body:** the tool only — no hands visible (F04). The player watches the machine evolve
  for the whole game.
@@ -13,8 +13,7 @@ absurdity. The player never switches tools; upgrades bolt onto the same object (
 
 ## 2. Digging input
 
-- **Hold-to-dig is the default.** Continuous digging from the very first shovel; no click-per-bite
-.
+- **Hold-to-dig is the default.** Continuous digging from the very first shovel; no click-per-bite.
 - **Toggle mode** available; press once to start, once to stop.
 - **Auto-dig assist** available in accessibility settings.
 - **Full rebinding** for every action on keyboard, mouse and controller; left-handed preset;

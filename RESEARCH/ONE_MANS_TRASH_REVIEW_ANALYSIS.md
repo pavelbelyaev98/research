@@ -20,7 +20,7 @@
 
 ## TL;DR
 
-One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to recommend for a relaxed weekend — and just as easy to describe as a 3–5 hour clone of *A Game About Digging a Hole* that overstays its welcome and hides a horror game inside a cozy one.
+One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to recommend for a relaxed weekend — and just as easy to describe as a 3–5 hour clone of *A Game About Digging a Hole* that overstays its welcome and hides a horror game inside a cozy one. Its own hook is the story: you have bought a plot of landfill to recover a buried hard drive holding a fortune in Bitcoin — inspired by the true story of a man who threw away 8,000 BTC — and the dig ends with a choice between the crypto and a mystery box.
 
 **Players overwhelmingly agree on:**
 - The core loop (vacuum → sell → upgrade → go deeper) is genuinely satisfying, addictive and relaxing.
@@ -31,7 +31,7 @@ One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to re
 **Players overwhelmingly agree it should have done differently:**
 - The **worms / horror elements** are the single most controversial and most disliked feature — unadvertised, inescapable, and frequent. The later "cozy mode" update exists because of this.
 - The game is **too short and too shallow** for its price by many accounts; upgrades are mostly small percentage boosts and the toolset never evolves.
-- **Bugs, crashes, no autosave, lost progress and broken achievements** — technical issues are a recurring complaint.
+- **Bugs, crashes, no autosave, lost progress and broken achievements** — technical issues are a recurring complaint, and completionists report missable or never-spawning collectibles blocking 100%.
 - The **rope-only traversal** (no jetpack), health/sandwich RNG and inventory limits make the back half tedious.
 
 ---
@@ -44,19 +44,19 @@ One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to re
 | Positive / negative | 283 (85.8%) / 47 (14.2%) |
 | Median playtime at time of review | 4.6 h |
 | Median playtime — positive reviews | 4.7 h |
-| Median playtime — negative reviews | 3.4 h |
-| Commonly reported completion time | 2.5–6 h |
-| 2-hour refund-window anecdotes | Multiple; e.g. "a game just long enough that you can't return it" |
+| Median playtime — negative reviews | 3.6 h |
+| Commonly reported completion time | ~2.5–5 h for the story (about 2 h at the fastest); 14–16 h for 100% completion |
+| 2-hour refund-window anecdotes | Multiple; e.g. "a game just long enough that you can't return it", and "I played for almost 2h and I don't see myself wanting to go back" (23 votes) |
 
 **Language distribution:** English 199, German 28, Russian 18, Simplified Chinese 17, Korean 13, French 11, Japanese 8, Spanish 6, Turkish 5, Italian/Czech/Polish/Brazilian Portuguese 4 each, Swedish/Ukrainian 2 each, Thai/Portuguese/Latin American Spanish/Norwegian/Danish 1 each.
 
-**Theme frequency in English reviews (keyword mentions, 199 reviews):**
+**Theme frequency in English reviews (approximate keyword mentions, 199 reviews):**
 
 | Theme | Mentions | Of which positive | Of which negative |
 |---|---|---|---|
+| price / value | 30 | 27 | 3 |
 | satisfying / addictive | 27 | 26 | 1 |
 | relax / chill / zone out | 25 | 23 | 2 |
-| price / value | 30 | 27 | 3 |
 | upgrades | 20 | 13 | 7 |
 | collectibles / references | 16 | 14 | 2 |
 | rope | 14 | 10 | 4 |
@@ -67,14 +67,14 @@ One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to re
 | jetpack (missing) | 4 | 1 | 3 |
 | FOV / motion sickness | 3 | 1 | 2 |
 
-Worm/horror complaints are even more prominent in the Chinese, Korean, Russian, Japanese and French reviews, where several detailed reviews lead with them.
+Worm/horror complaints are more prominent outside English, most of all in Simplified Chinese (9 of 17 reviews, about half), and several detailed Chinese, Korean, Russian and French reviews lead with them.
 
 ---
 
 ## What reviewers praise (the good)
 
 ### 1. A genuinely satisfying, hypnotic core loop
-The most consistent praise. Watching dirt vanish into the vacuum is "oddly satisfying," and the dig → sell → upgrade → dig loop earns frequent comparisons to PowerWash Simulator and "mining in Minecraft." Many reviewers describe it as a zen/cozy game to play with a podcast on.
+The most consistent praise. Watching dirt vanish into the vacuum is "oddly satisfying," and the dig → sell → upgrade → dig loop (junk sold on JunkBay, upgrades bought on Junkazon) earns frequent comparisons to PowerWash Simulator and "mining in Minecraft." Several reviewers describe it as a zen/cozy game to play with a podcast on.
 
 > "one of those oddly satisfying games. It's a great zone out game" — English, 4 h, positive
 >
@@ -102,8 +102,8 @@ Reviewers repeatedly highlight two quality-of-life wins over *A Game About Diggi
 >
 > "You're also able to build using the dirt you suck up, letting you shape your environment a little more neatly and form staircases back up." — English, 3.6 h, positive
 
-### 4. Collectibles, references and discoveries down deep
-Hundreds of junk items, rare collectibles with joke descriptions, pop-culture references (reviewers mention a Pulp Fiction nod and "a certain infamous game cartridge"), cars, train cars, mines and a huge spaceship. Many call hunting them the best part.
+### 4. Junk, references and discoveries down deep
+The landfill premise pays off as you dig: cars, train cars, mines, a huge spaceship, a teleporter and a large catalogue of junk, with rare collectibles carrying joke descriptions and pop-culture references (reviewers mention a Pulp Fiction nod and "a certain infamous game cartridge"). Many call hunting them the best part.
 
 > "A TON of rare unique items, that are references to movies and videogames so you always have the joy of understanding that reference" — English, 6 h, positive
 >
@@ -129,12 +129,14 @@ The budget price is the most common counter-argument to every length complaint. 
 >
 > "Great game, thanks to developer for not over pricing it." — English, 20.3 h, positive
 
-### 7. Content expansions and options added after launch
-Reviewers note new difficulty modes, Abyss mode and especially the **cozy mode that removes the worms** — the fix most asked for in early negative reviews. Reviewers also report the game runs fine on Steam Deck after remapping controls.
+### 7. Content expansions, options and a responsive developer after launch
+Reviewers note new difficulty modes, Abyss mode and especially the **cozy mode that removes the worms** — the fix most asked for in early negative reviews, live within days of launch. The solo developer also answers reviews directly: the responses in the corpus confirm the broken achievements were hotfixed, explain that different vacuum abilities were scrapped to keep the release compact, reveal that the demo stops at 50 m while the full dig goes to 200 m, and promise the peaceful option that became cozy mode. Reviewers also report the game runs fine on Steam Deck after remapping controls.
 
 > "There are new game modes now, in the cozy mode you can play the game without the only annoying part of it: the worms" — Brazilian Portuguese, 10.1 h, positive (translated)
 >
 > "Nice that they added some difficulty modes." — English, 2.6 h, positive
+>
+> "I'll add a disclaimer to the description and consider adding a 'Peaceful Mode' without any unwanted surprises!" — developer response to an English review, 1.8 h, negative
 
 ---
 
@@ -153,7 +155,9 @@ The game presents itself as a cozy digging game, then introduces worms below a c
 >
 > "Please label it as a horror game." — Simplified Chinese, 3.8 h, negative (translated)
 
-Even positive reviewers frequently name the worms as their one complaint, and several wished for a weapon, trap or off-switch instead of just running away.
+Even positive reviewers frequently name the worms as their one complaint, and several wished for a weapon, trap or off-switch instead of just running away. A trap does exist, but almost nobody finds it: only a few mine sites contain TNT, and luring a worm over it kills the worm for an achievement and a worm head that counts toward 100% completion.
+
+> "there are only four mine sites with TNT… let the worm pass over it and blow it up — this unlocks an achievement and gives a worm head, which is part of the 100% collection" — Simplified Chinese, 3.5 h, positive-with-criticism (translated)
 
 ### 2. Too short / too little content
 Reviews consistently report finishing in ~2.5–5 hours, and many feel that is not enough. A common accusation: the full game is barely longer than the demo.
@@ -190,7 +194,9 @@ Technical problems appear across languages: crashes shortly after the intro and 
 >
 > "No autosave in 2025 is kinda crazy though" — English, 8.3 h, positive-with-criticism
 
-Achievements were also reported broken (the 1M money and 20-rare-item achievements), and late-game reward bugs were reported by at least one reviewer.
+Achievements were reported broken (the 1M money and 20-rare-item achievements); the developer later confirmed a hotfix, and newer reviews find the achievements fair and 100% doable in one or two runs. The bigger completionist gripe is missable or never-spawning items: one Chinese reviewer warns of missable achievements and collectibles, and an English reviewer who cleared every last block still lacked a rare and a standard item after 14 hours, locking out the last two skins.
+
+> "i cleared out every last bit and i am missing 1 rare item and 1 standard item so i guess i cant finish the game or get the last 2 skins" — English, 16.7 h, positive-with-criticism
 
 ### 5. Traversal, rope and health friction
 There is no jetpack; the only way up is a single central rope. As players widen the pit they must rebuild ramps, and missing the rope means falling damage or death. Health regenerates slowly and cannot be bought, so some reviewers waited AFK for a sandwich to spawn.
@@ -199,7 +205,9 @@ There is no jetpack; the only way up is a single central rope. As players widen 
 >
 > "Having absolutely no way of buying health… me going AFK for 5 minutes to let my health slowly refill is just a waste of time" — English, 6.1 h, negative
 
-One reviewer also reported a potential softlock by digging out the top area so the rope can no longer be reached.
+One reviewer also reported a potential softlock by digging out the top area so the rope can no longer be reached:
+
+> "you can actually softlock yourself incredibly easy by removing enough dirt on top so you can't make the jump from the rope" — English, 3 h, positive-with-criticism
 
 ### 6. Derivative of "A Game About Digging a Hole"
 A recurring criticism is that the game is a clone with more content but less balance — despite many positive reviewers actually preferring it to the original.
@@ -219,7 +227,8 @@ Even favorable reviews warn that "what you see in the first 5 minutes is all you
 - **No FOV slider**, reported to cause motion sickness/nausea; a common request in positive and negative reviews.
 - **Controller support**: missing or broken relative to the demo; Steam Deck works after manual remapping.
 - **Sound design**: some call it lacking; one Russian reviewer found the music annoying and suspected AI generation, while other reviewers call the soundtrack relaxing.
-- **Ending**: several say the payoff is abrupt or unsatisfying; one French reviewer reported both end-game rewards arriving bugged.
+- **Scanner/radar**: one reviewer finds it "completely useless" for endgame cleanup because its range is too small (translated).
+- **Ending**: the finale offers a choice between the cryptocurrency and a mystery box, and reception is split. Some enjoy it — "ending was really chaotic" (English, 8.5 h, positive), "The end is great but I wish I would have taken the mystery option" (English, 27.1 h, positive) — while others find it abrupt or empty: "the ending is so disappointing" (French, 11.9 h, negative, translated), and a Korean reviewer warns not to expect much because the two choices lead to a similar result. One French reviewer also reported both end-game rewards arriving bugged.
 
 ---
 
@@ -230,10 +239,10 @@ Even favorable reviews warn that "what you see in the first 5 minutes is all you
 | Worms | Fun/scary surprise, keeps you tense; one of the few dangers | Unadvertised horror, unavoidable, too frequent; ruined the game |
 | Length | A tight 3–5 h "afternoon game" for a low price | Barely longer than the demo; not enough content |
 | Rope (no jetpack) | Tension and route planning; dirt-spitting is clever | Tedious back-and-forth; softlocks and fall deaths |
-| Derivative of AGADH | "This is the superior digging type game", better QoL, more content | Empty clone that misses the original's balance |
-| Slot machine / gambling | Funny diversion, "choose the mystery box" | Trap: measured 75.7% return rate, "do not bet, kids" |
+| Derivative of AGADH | "This is the superior digging type game", "A Game About Digging a Hole but with way more collectables, unlocks, and no scripted dying at the end" (13 votes), more content | Empty clone that misses the original's balance |
+| Slot machine / gambling | Funny diversion, "choose the mystery box" | "Do not bet, kids": a measured 75.7% return rate, and another reviewer lost ~$3,000 over ~16,000 spins (outcomes are predetermined, so save-scumming works) |
 | Music | Relaxing, good comedic guitar | Repetitive/annoying; suspected AI |
-| Visuals/skins | Pretty, vibrant, nice lighting | "No pizzaz", boring reskins only |
+| Visuals/skins | Pretty, vibrant, nice lighting | "Lacks any pizzaz", boring reskins only |
 
 ---
 
@@ -241,7 +250,7 @@ Even favorable reviews warn that "what you see in the first 5 minutes is all you
 
 **Recommended for:** fans of *A Game About Digging a Hole*, PowerWash-style "chore simulators", and anyone wanting a cheap, low-stress game to play with a podcast for a few evenings. Recommended with cozy mode on for players who dislike horror.
 
-**Not recommended for:** players wanting depth, replayability, or a long game; players sensitive to jumpscares or motion sickness (no FOV slider); and anyone who bounced off the demo or *A Game About Digging a Hole*, since it is the same experience with more collectibles. Many reviews explicitly say **wait for a sale** (~$1–3).
+**Not recommended for:** players wanting depth, replayability, or a long game; completionists, since some collectibles can be missed or fail to spawn; players sensitive to jumpscares or motion sickness (no FOV slider); and anyone who bounced off the demo or *A Game About Digging a Hole*, since it is the same experience with more collectibles. Many reviews explicitly say **wait for a sale** (~$1–3).
 
 ---
 
@@ -249,4 +258,5 @@ Even favorable reviews warn that "what you see in the first 5 minutes is all you
 
 - This document summarizes player opinion; it is not a technical review. Issues reported in reviews (crashes, achievements, autosave) may have been patched since the review was written — several reviewers note the game was receiving updates and ask for FOV/cozy options that have since been added.
 - Steam review totals change over time; the sample is the complete set of 330 reviews visible via the API on 14 September 2026.
+- Theme counts are approximate and keyword-based: one review can touch several themes, short joke reviews are included, and matching is English-biased — much of the most detailed worm and performance feedback is in Chinese, Korean and Russian.
 - Quotes were lightly cleaned (line breaks, censored profanity) and translated from German, Russian, Chinese, Korean, Japanese, French, Spanish, Portuguese and Czech where necessary. Attribution gives language, playtime at review, and sentiment.

@@ -69,6 +69,12 @@ A small number of memorable, optional obstacles (5–8 target) — never walls a
 Every pocket has **multiple solutions**: sufficient tool power, C4, or patience/routing. Discovering
 one early and demolishing it later is a designed moment of power.
 
+Solutions must be **legible before commitment**: the player can see that a pocket has an answer before
+sinking time into it — distinct seams, cracks or fittings that read as C4-friendly, a material
+clearly unlike the eternal boundaries, and a tool that reacts to what it cannot yet bite. "Come back
+with more power" is always a visible answer, never a dead end. An undiscoverable solution is the same
+as no solution.
+
 ## 6. Terrain technology and cleanup
 
 - **Full voxel**: every diggable cube can be removed; tunnels, overhangs and trenches are legal
@@ -79,8 +85,7 @@ one early and demolishing it later is a designed moment of power.
 - **Collision always matches the visible mesh.**
 - **Substantial structures survive**: ledges, tunnels and overhangs the player built are preserved;
  only unsupported crumbs are cleaned.
-- **Progress never resets**: the terrain edit history is saved; loading restores exactly the hole
-.
+- **Progress never resets**: the terrain edit history is saved; loading restores exactly the hole.
 
 ## 7. Lighting and darkness
 

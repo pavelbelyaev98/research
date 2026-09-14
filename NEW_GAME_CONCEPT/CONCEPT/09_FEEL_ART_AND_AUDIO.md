@@ -65,7 +65,9 @@ Ambience and feedback only. **No music. No voice acting** (F06, Q22b).
 - **Action feedback:** dig loops per material, footsteps, jetpack thrust, C4 blast, machine
  interactions, pickup chimes, the Sell All machine's noises.
 - **No audio-only clues.** Every sound that carries information has a visual counterpart. The
- detector is silent by design and readable while muted.
+  detector is silent by design and readable while muted.
+- **No threat-adjacent audio anywhere.** The deep zone hums; it never breathes, whispers, follows or
+  stalks. Nothing in the mix implies a presence (Q13, `11_ENDING_AND_MYSTERY.md`).
 - **Mix:** ambience stays under the dig loop; picking, digging and the Sell All machine are the
  loudest, most satisfying elements.
 - Licensed audio may be used where needed, but custom is preferred; every sound is reviewed for
