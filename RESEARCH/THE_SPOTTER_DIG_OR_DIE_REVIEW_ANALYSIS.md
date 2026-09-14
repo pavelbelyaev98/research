@@ -12,7 +12,7 @@
 | **Steam rating** | Very Positive (~85% of 1,860 reviews) |
 | **Reviews analyzed** | 1,859 / 1,860 (1,585 positive, 274 negative) |
 | **Scraped on** | 14 September 2026 |
-| **Raw data** | `research_data/the_spotter_dig_or_die_reviews_raw.json` (1.5 MB) |
+| **Raw data** | `research_data/the_spotter_dig_or_die_reviews_raw.json` (1 MB) |
 
 **Method:** Every review in every language was pulled from Steam's public `store.steampowered.com/appreviews/3976500` API via cursor pagination (19 pages; 1 review was no longer retrievable). Themes were quantified by keyword analysis across the whole corpus; all 274 negative reviews were read in full, along with a qualitative deep-dive of the 332 substantive positive reviews (250+ characters) and the highest-voted reviews of each sentiment. Quotes are verbatim (translated where the original was not English) with language, playtime, sentiment and upvotes where useful.
 

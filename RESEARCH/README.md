@@ -5,11 +5,11 @@ from here.**
 
 | Game | Analysis | Raw data | Reviews |
 |---|---|---|---|
-| A Game About Digging a Hole | `A_GAME_ABOUT_DIGGING_A_HOLE_REVIEW_ANALYSIS.md` | `research_data/a_game_about_digging_a_hole_reviews_raw.json` (13 MB) | 20,098 |
-| Keep Digging | `KEEP_DIGGING_REVIEW_ANALYSIS.md` | `research_data/keep_digging_reviews_raw.json` (2.2 MB) | 3,266 |
-| Meltopia | `MELTOPIA_REVIEW_ANALYSIS.md` | `research_data/meltopia_reviews_raw.json` (1.5 MB) | 1,722 |
-| One Man's Trash | `ONE_MANS_TRASH_REVIEW_ANALYSIS.md` | `research_data/one_mans_trash_reviews_raw.json` (0.3 MB) | 330 |
-| The Spotter: Dig or Die | `THE_SPOTTER_DIG_OR_DIE_REVIEW_ANALYSIS.md` | `research_data/the_spotter_dig_or_die_reviews_raw.json` (1.5 MB) | 1,859 |
+| A Game About Digging a Hole | `A_GAME_ABOUT_DIGGING_A_HOLE_REVIEW_ANALYSIS.md` | `research_data/a_game_about_digging_a_hole_reviews_raw.json` (6.7 MB) | 20,098 |
+| Keep Digging | `KEEP_DIGGING_REVIEW_ANALYSIS.md` | `research_data/keep_digging_reviews_raw.json` (1.2 MB) | 3,266 |
+| Meltopia | `MELTOPIA_REVIEW_ANALYSIS.md` | `research_data/meltopia_reviews_raw.json` (1 MB) | 1,722 |
+| One Man's Trash | `ONE_MANS_TRASH_REVIEW_ANALYSIS.md` | `research_data/one_mans_trash_reviews_raw.json` (0.2 MB) | 330 |
+| The Spotter: Dig or Die | `THE_SPOTTER_DIG_OR_DIE_REVIEW_ANALYSIS.md` | `research_data/the_spotter_dig_or_die_reviews_raw.json` (1 MB) | 1,859 |
 
 ## How to iterate (Stage 1)
 
@@ -22,7 +22,7 @@ from here.**
 
 ## Notes
 
-- Review records are slimmed to review-relevant fields: `recommendationid`, `author` (`playtime_at_review`, `playtime_forever`, `num_reviews`, `deck_playtime_at_review`), `language`, `review`, `timestamp_created`, `voted_up`, `votes_up`, `votes_funny`, `weighted_vote_score`, `steam_purchase`, `received_for_free`, `refunded`, `written_during_early_access`, `primarily_steam_deck`, plus `developer_response`/`timestamp_dev_responded` when present. Profile/avatar fields, `app_release_date`, `hardware`, `reactions`, `comment_count` and `timestamp_updated` were dropped.
+- Review records carry only review-relevant fields, one review per line: `language`, `voted_up`, `votes_up`, `timestamp_created`, `playtime_at_review`, `received_for_free`, `primarily_steam_deck`, `review`, plus `developer_response` when the developer replied. All other scrape fields (IDs, profile/avatar, `app_release_date`, `hardware`, `reactions`, vote scores, purchase/refund/early-access flags) were dropped.
 - Paths written inside the analyses (e.g. `research_data/...`) are relative to this folder.
 - The evidence-based synthesis (a different, hypothetical game) lives in
   `../PERFECT_DIGGING_GAME/` — reference only, not this game's design.

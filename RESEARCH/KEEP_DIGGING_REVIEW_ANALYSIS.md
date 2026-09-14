@@ -12,7 +12,7 @@
 | **Steam rating** | Mostly Positive (~80% of 3,267 reviews) |
 | **Reviews analyzed** | 3,266 / 3,267 (2,599 positive, 667 negative) |
 | **Scraped on** | 14 September 2026 |
-| **Raw data** | `research_data/keep_digging_reviews_raw.json` (2.2 MB) |
+| **Raw data** | `research_data/keep_digging_reviews_raw.json` (1.2 MB) |
 
 ## Corpus verification
 
