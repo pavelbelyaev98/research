@@ -44,18 +44,18 @@ this file: `ITERATION_GUIDE.md`.
 | Q15 | E10+ / PEGI 7 | `CONFIRMED` |
 | Q16 | 30–60 minute sessions | `CONFIRMED` |
 | Q17 | 3–5 h first completion @ $6.99–9.99 | `CONFIRMED` |
-| Q18 | Per-save randomized world; display per-save; no meta progression | `CONFIRMED` |
+| Q18 | Per-save randomized world; display per-save; no meta progression (evidence flag 2026-09-14: Keep Digging's gear-carrying reset was widely praised; second-run identity logged as S13) | `CONFIRMED` |
 | Q19 | PC primary; full controller support mandatory; Deck optional; no consoles | `REVISED` |
 | Q20 | Complete 1.0, no Early Access; short pre-release demo/playtest window | `CONFIRMED (C03)` |
 | Q21 | No permanent demo | `REVISED` |
 | Q22 | Post-launch: free bugfixes and small QoL only | `REVISED` |
 | Q22b | Ambience and action feedback only; no music; no voice acting (evidence flag 2026-09-14: AGADAH music praised; decision reaffirmed) | `CONFIRMED` |
 | Q23 | Localization: parked | `DEFERRED` |
-| Q24 | No co-op; save format stays future-proof | `CONFIRMED` |
+| Q24 | No co-op; save format stays future-proof (evidence flag 2026-09-14: Keep Digging's #1 praised feature is co-op — 156 EN mentions; co-op requests also in AGADAH 71 and The Spotter 24; demand noted, decision unchanged; social-hook question logged as Q32) | `CONFIRMED` |
 | Q25 | One single difficulty | `REVISED` |
 | Q26 | Recovery keeps all loot; depth-scaled fee + interest-free auto-debt; auto-trigger at 0 fuel | `CONFIRMED` |
-| Q27 | No return aids; vertical return only; keep the return-power warning | `REVISED` |
-| Q28 | No health bar; falls stagger + knock battery; extreme falls trigger recovery | `CONFIRMED` |
+| Q27 | No return aids; vertical return only; keep the return-power warning (evidence flag 2026-09-14: Meltopia's #2 complaint is getting lost; Keep Digging has climb complaints and a save-exit exploit; One Man's Trash praises terrain repack; see W13) | `REVISED` |
+| Q28 | No health bar; falls stagger + knock battery; extreme falls trigger recovery (evidence flag 2026-09-14: Keep Digging reviewers praised no fall damage and disliked 2.0 adding fall death; severity re-opened as S14) | `CONFIRMED` |
 | Q29 | Shared dig + jetpack battery | `CONFIRMED` |
 | Q30 | C4 IN as a late-game tool | `CONFIRMED` |
 | Q30b | One machine + attachments; final form is the absurd shovel-cannon; no separate gun | `CONFIRMED` |

@@ -11,6 +11,9 @@ prototyping. When one is decided, it moves to `../DECISIONS.md` with a status.
 | D14 | When does a unique's one-sentence story appear? | On pickup / on inspection / both | Deferred (2026-09-14); the story itself is confirmed (D14) |
 | S10 | How do passive upgrades work? | Find-or-buy (rare find grants a track tier) / find-only / buy-only | Deprioritized until a playfeel review (2026-09-14); find-or-buy still leading. Constraint: passive/unique effects must preserve challenge — no sudden power spikes |
 | S09 (late) | Does the machine converge to one vacuum head, or keep adaptive behaviors to the end? | Convergence / perpetual adaptation | Automatic adaptation + late convergence is the working rule; validate in playtest |
+| Q32 | Social hooks for a solo game (netcode-free) | None / seed and hole-code sharing / display-wall snapshots or postcards / friend records and depth boards / co-op later | Research-derived: Keep Digging's #1 praised feature is co-op (156 EN mentions; top reviews are friend groups); co-op requests also appear in AGADAH (71) and The Spotter (24). If co-op stays out (Q24), decide whether any cheap social hook is wanted |
+| S13 | What is a second run? | Cold start per save (current Q18) / cosmetic and record carryover / gear-carrying reset after credits / endless strata (already deferred) | Keep Digging's gear-carrying reset was widely praised; pillar 5 promises replayability. Decide after the first playtest |
+| S14 | Fall penalty severity (re-opening the Q28 direction) | Keep stagger + battery knock (current) / reduce to stagger only / no knock outside extreme-fall recovery | Keep Digging reviewers praised no fall damage and disliked 2.0 adding fall death; this audience may read any fall penalty as stress. Prototype it |
 | D01/D02 | Exact common and distinctive rosters | — | Counts fixed (20–30 / 30–50); the object lists are content design |
 | — | When does the final meaningful purchase land? | ~75–85% of first completion | Prototype-tuned |
 | — | Zone names | — | Content work; placeholders in use |
@@ -25,6 +28,8 @@ prototyping. When one is decided, it moves to `../DECISIONS.md` with a status.
 | W11 | Voxel/chunk size | 0.5 m / 0.25 m / 1.0 m | Prototype-tuned; affects feel, recognition and performance |
 | F07 | Detector presentation | Hybrid tool glow + edge hint / edge indicator only / tool reaction only | Deferred; options documented; decide with a prototype and review research |
 | F10 | UI art style | Industrial-worksite / other | Clear, not retro; exact style later |
+| W13 | Return-path navigation in a free-form hole (supports Q27's no-return-aids rule) | Current mitigations only (sky-lit shaft, lamps, depth readout, detector) / terrain repack or "spit dirt" ability / route-marker tool / consumable ascent aid | Meltopia's #2 complaint is getting lost (no map, tunnels all alike); One Man's Trash reviewers praised rebuilding staircases with spat-out dirt as the best QoL over AGADAH; Keep Digging players used save-and-exit as an elevator. Recommend a return-navigation prototype metric and a terrain-repack spike |
+| F13 | Performance-induced hitch feel (shader compilation, terrain streaming, late-session FPS decay) | Treat as a feel requirement with a prototype budget (cold-start hitch, stable dig rhythm) / accept / dedicated spike | Biggest cross-corpus negative: Keep Digging optimization 130 EN mentions (86 negative), 5–15 FPS reports, a 53-upvote shader rant; Meltopia freeze/stutter 78. Production targets stay parked; this is about feel and recognition rhythm |
 
 ## Interface and production-adjacent (design-owned)
 
@@ -32,6 +37,7 @@ prototyping. When one is decided, it moves to `../DECISIONS.md` with a status.
 |---|---|---|---|
 | I03 | Pause menu tabs | Resume / New Game / Settings / Exit | Direction fixed; exact tabs later |
 | I12 | Text scale and screen reader | Optional later | Not needed for first playable; add if budget allows |
+| I17 | Where the player loads in after quit/reload | Resume where saved / resume at the surface / resume at the shaft rim with a cost | Quit-reload as a free elevator would erase the battery trip tension (Keep Digging players used save-and-exit to teleport up). Decide before the prototype save pass |
 | — | Ending staging | One ending / variants | Default assumption: one ending; not decided |
 | — | Final object identity | Ancient household tech / modern machine in ancient materials / other | Direction locked; object chosen after the loop works |
 | — | Achievement final list | 5–10 candidates listed | Finalize with content |

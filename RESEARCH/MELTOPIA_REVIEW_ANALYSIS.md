@@ -26,7 +26,7 @@ The consensus is unusually consistent:
 - **The first 1–2 hours are delightful.** Melting snow is satisfying and meditative, the progression feels good, and the game is a perfect podcast/second-screen experience.
 - **Progress grinds to a halt when you get the Tesla gun**, the second tool. It is slower, far more expensive to upgrade, invalidates all your flamethrower investment, and gates the entire rest of the game. This single design decision is the most common reason for negative reviews.
 - **Getting lost is the #2 problem.** There is no map, tunnels all look alike, and the back half becomes a navigation endurance test.
-- **Technical problems wrap it all up:** multi-second save freezes, lost saves, no Steam Cloud, achievement bugs, softlocks after the Tesla tutorial, and a wave of post-launch balance changes (August 2026) that made heat management harsher — sentiment has drifted from 88% positive in May to 78% in August.
+- **Technical problems wrap it all up:** multi-second save freezes (manual as well as automatic), wiped saves, no Steam Cloud, achievement bugs, and a short-lived softlock after the Tesla tutorial. Repeated heat rebalances from mid-May onward made the cold harsher, and the growing August wave of reviews is dominated by the Tesla grind — sentiment has drifted from 88% positive in May to 78% in August.
 
 ---
 
@@ -40,12 +40,12 @@ The consensus is unusually consistent:
 | Median playtime — positive reviews | 6.7 h |
 | Median playtime — negative reviews | 4.3 h |
 | Reported completion time | 3–8 h (most 5–7 h; 100% around 5–10 h) |
-| Median review length | 140 characters (negatives median 296; positives 120) |
+| Median review length | 140 characters (negatives median 295; positives 119) |
 | Reviews with 100+ characters | 1,009 |
 | Reviews with votes | 414 have at least one upvote |
 | Review span | 1 May – 12 September 2026 |
 
-**Language distribution:** English 791; Russian 446; German 113; Spanish 84; French 48; Brazilian Portuguese 38; Turkish 37; Polish 31; Japanese 17; Korean 16; Czech 14; plus 11 more languages. (Russian is unusually prominent — the developers are Russian and the game shipped with full Russian localization.)
+**Language distribution (26 languages):** English 791; Russian 446; German 113; Spanish 84; French 48; Brazilian Portuguese 38; Turkish 37; Polish 31; Japanese 17; Korean 16; Czech 14; plus 15 more languages, the largest being Latin American Spanish 13, Dutch 12, Italian 12, Hungarian 9, Simplified Chinese 7 and Swedish/Ukrainian/Finnish 6 each. (Russian is unusually prominent — the developers are Russian and the game shipped with full Russian localization.)
 
 **Sentiment by month (all languages):**
 
@@ -54,7 +54,7 @@ The consensus is unusually consistent:
 | May 2026 (launch) | 1,134 | 88% |
 | June 2026 | 176 | 87% |
 | July 2026 | 189 | 84% |
-| August 2026 (heat rebalance backlash) | 198 | 78% |
+| August 2026 (Tesla/grind complaints peak) | 198 | 78% |
 | September 2026 | 25 | 80% |
 | **Overall** | **1,722** | **85.9%** |
 
@@ -84,8 +84,10 @@ The consensus is unusually consistent:
 | shovel | 40 | 27 | 13 |
 | backtracking | 39 | 22 | 17 |
 | AI assets / slop accusations | 23 | 6 | 17 |
+| furnace / stove upgrades | 22 | 14 | 8 |
 | grappling hook | 18 | 11 | 7 |
 | DLC | 17 | 13 | 4 |
+| co-op / multiplayer (requests) | 7 | 7 | 0 |
 | motion sickness | 5 | 2 | 3 |
 
 In Russian reviews (446), the same top themes appear: "map" 44 mentions, "bug" 55, "money" 48, "shovel" 30, "boring" 28. Keyword counts are indicative; several complaints (e.g. autosave freezes) are mentioned in more reviews than the narrow keywords catch.
@@ -94,7 +96,7 @@ In Russian reviews (446), the same top themes appear: "map" 44 mentions, "bug" 5
 
 ## What the game is (for context)
 
-You arrive at Meltopia, a frozen manor/castle on an icebound world. Below it is a large hand-built tunnel network of snow, "cosmic" blue snow and dirt. Core loop: **melt → auto-collect junk → sell at traders/rescue stations → upgrade → unlock deeper areas**. Tools: a heat gun ("meltgun"/flamethrower), a Tesla gun (required for blue snow), a shovel (dirt), dynamite, throwable flares/lightsticks, fuel canisters and a grappling hook. You rebuild a mammoth skeleton and fill pedestals with artifacts in the hub; minecart stations act as fast travel; the hub furnace/stove can be upgraded. There are no enemies and no death — cold slows you, and freezing sends a rescue robot that takes your carried resources. A late-game thermal suit unlocks the coldest biomes. The story is nearly absent until the finale, which reveals a plan to build a giant stove and push the planet closer to the sun. Length: ~3–8 hours to the credits; ~5–10 hours for 100%. A demo preceded launch; cosmetic/supporter DLC (tool skins, soundtrack) exists, and an Endless/Expeditions mode was added post-launch.
+You arrive at Meltopia, a frozen manor/castle on an icebound world. Below it is a large hand-built tunnel network of snow, "cosmic" blue snow and dirt. Core loop: **melt → auto-collect junk → sell at traders/rescue stations → upgrade → unlock deeper areas**; refuelling at stations is free. Tools: a heat gun ("meltgun"/flamethrower), a Tesla gun (required for blue snow), a shovel (dirt), dynamite, throwable flares/lightsticks, fuel canisters and a grappling hook. You rebuild a mammoth skeleton and fill pedestals with artifacts in the hub; minecart stations act as fast travel; the hub furnace/stove can be upgraded. There are no enemies and no combat, but the cold can kill: tiers 1–2 only slow you and tint the screen, freezing in a tier-3 zone is a death, and otherwise a rescue robot arrives and takes the loot you were carrying. A late-game thermal suit unlocks the coldest biomes. The story is nearly absent until the finale, which reveals a plan to build a giant stove and push the planet closer to the sun. Length: ~3–8 hours to the credits; ~5–10 hours for 100%. A demo preceded launch; cosmetic/supporter DLC (gun skins, soundtrack) exists, and a paid Expeditions mode ("Endless") — randomly generated levels where you hunt the stove and its parts — arrived post-launch. A post-launch "I'm Stuck" button returns you to base with your resources intact.
 
 ---
 
@@ -145,18 +147,20 @@ Glowing ice, crystals, sparkles, the cozy hub against cold caves, and an unobtru
 >
 > "This will sound silly, but I very much enjoy the sparkles." — English, 24.1 h, positive
 >
-> "The music lets you relax; even the sounds from collecting loot are relaxing." — English, 8.7 h, positive
+> "The music lets you relax; even the sounds from collecting loot are relaxing." — Spanish-language review (body in English), 8.7 h, positive
 >
 > "A really great and relaxing game. It was hard for me to turn it off to do other things." — German, 3.9 h, positive (translated)
 
-### 6. No enemies, no fail state
-For a large share of players the combat-free design is the point: freezing slows you rather than killing you, and there is nothing chasing you.
+### 6. No enemies, minimal fail pressure
+For a large share of players the combat-free design is the point: nothing chases you, and for most of the game freezing merely slows you and frosts the screen — only tier-3 cold zones actually kill.
 
 > "without being bogged down by annoying mechanics like persistent enemies or a time limit." — English, 5.3 h, positive
 >
-> "The absence of enemies contributes to the charm of the game and reinforces its relaxing atmosphere." — French, 7.5 h, positive (translated)
+> "The absence of enemies contributes to the charm of the game and reinforces its relaxing atmosphere." — French-language review (body in English), 7.5 h, positive
 >
 > "I liked that you don't die, you freeze instead." — Russian, 2.7 h, positive (translated)
+>
+> "I realized the freezing only 'kills' you in level 3 coldness. In level 1 & 2 you only get a speed debuff and an annoying frost tint to your screen." — English, 14.1 h, positive
 
 ### 7. Price-to-content and easy achievements
 At $4–7 for 5–8 hours, most reviewers call it a steal; achievements are easy and completable in a single playthrough (when they register).
@@ -168,11 +172,13 @@ At $4–7 for 5–8 hours, most reviewers call it a steal; achievements are easy
 > "was able to 100% the game with all achievements in 5 hours, which is fine as I do enjoy playing short games from time to time." — English, 5.3 h, positive
 
 ### 8. Responsive developers and quick patches
-The developers post-release shipped patches almost daily, fixed launch bugs and listened to feedback. (They also self-published without Early Access, though reviewers debate whether that was wise.)
+The developers post-release shipped patches almost daily, fixed launch bugs and replied directly to reviews. The corpus holds 51 developer responses, all posted between 1 and 26 May — after that the studio went quiet in the review section. (They also self-published without Early Access, though reviewers debate whether that was wise.)
 
 > "the devs are incredibly active and attentive, have released a patch almost every day since it's launched" — English, 9 h, positive
 >
 > "Developers actively release patches, eradicate shortcomings and listen to the community." — Russian, 7.5 h, positive (translated)
+>
+> "We have added a navigation system that uses navigation markers to guide you to story-related items." — Garden of Dreams (developer response to a Traditional Chinese negative review), 4.6 h, negative (translated)
 
 ### 9. Surprising ending and VR/Deck support (niche)
 The finale is polarizing, but a solid minority love its absurdity. A few reviewers report excellent results in VR via UEVR, and the game runs on Steam Deck.
@@ -197,7 +203,7 @@ About 1–2 hours in, blue "cosmic" snow appears and only the Tesla gun can melt
 > "This game was super relaxing and enjoyable until getting the teslagun. You're forced to use this gun instead of the original flamethrower… This made the game become grindy instead of relaxing." — English, 2.7 h, negative
 
 ### 2. No map — getting lost in identical tunnels
-The most persistent long-term complaint. There is no map, no minimap, no compass, no markers; tunnels look alike and the back half becomes a hunt for the last artifacts. A community member's hand-drawn map in the Steam guides is repeatedly cited as the thing that saved their playthrough.
+The most persistent long-term complaint, and the one the developers answered most directly: there is no map, minimap or compass, and only story-critical items get navigation markers, so collectible hunting still runs on memory. Tunnels look alike and the back half becomes a hunt for the last artifacts. A community member's hand-drawn map in the Steam guides (and a player-made map in the developers' Discord) is repeatedly cited as the thing that saved their playthrough.
 
 > "There's no map. Once all the labyrinth-like tunnels open up and everything starts looking the same, it becomes really easy to completely lose track of where you've already been." — English, 8.2 h, positive-with-criticism
 >
@@ -206,6 +212,8 @@ The most persistent long-term complaint. There is no map, no minimap, no compass
 > "if it weren't for that saint in the guides with a hand-drawn map, I would've gone insane" — Russian, 9.9 h, positive-with-criticism (translated)
 >
 > "no map, no ability to track 'have you checked this bloody passage' and the all look the same" — English, 5.7 h, negative
+>
+> "Without a map it's no fun — it has to continue somewhere, but I just can't find it." — German, 0.4 h, negative (translated)
 
 ### 3. Grind, backtracking and a broken late-game economy
 Small inventory (caps at 100 items) plus fuel plus warmth means constant trips back to traders; upgrade prices spike sharply; and by roughly the halfway point you run out of things to buy, so loot becomes pointless. Reviewers describe hours of walking with nothing to spend money on.
@@ -217,9 +225,11 @@ Small inventory (caps at 100 items) plus fuel plus warmth means constant trips b
 > "Got to a point where I had to run back and forth earning about 200 for every trip, taking 30 seconds each, when the upgrade to increase my digging efficency was nearly 5000. That's nearly 15 minutes of tedious gameplay for a 20% increase in digging power." — English, 6.6 h, negative
 >
 > "It's well made and looks nice but even with fully upgraded backpack it's just hours of tedius back-and-forth. I give up." — English, 6.2 h, negative
+>
+> "All of this could have been solved by just adding a way to regain heat in the shop." — English, 6.2 h, negative, 32 upvotes
 
 ### 4. The shovel is a dud
-The third tool arrives late, cannot be upgraded, is slow, and requires rapid clicking; many players simply skip it with dynamite. It is one of the most-criticized specific features in the game.
+The third tool arrives late, cannot be upgraded, is slow, and requires rapid clicking; many players simply skip it with dynamite (after which the developers said dynamite was made poor against dirt so the shovel matters). It is one of the most-criticized specific features in the game.
 
 > "The Shovel: I hate it. I hate it so much." — English, 6.8 h, positive-with-criticism
 >
@@ -228,7 +238,7 @@ The third tool arrives late, cannot be upgraded, is slow, and requires rapid cli
 > "Game was fun until i got to the shovel. Its so painfully slow and there are no upgrades. Why? Your just making your game unbearable to play." — English, 5.4 h, negative
 
 ### 5. Save system: freezes, lost saves, no cloud
-Saving freezes the entire game for several seconds (up to ~10) every autosave; launch reviews report wiped saves; and — despite the Steam listing — there is no Steam Cloud save. One save slot only; launching Endless mode can overwrite story progress.
+Saving freezes the entire game for several seconds (both autosaves and manual saves); launch reviews report wiped saves and sessions rolled back to an earlier autosave; there is no save-on-exit and — despite the Steam listing — no Steam Cloud save, which hurts players bouncing between PC and Deck. Autosaves can be disabled in the settings (the game itself now points that out), though the workaround can backfire: one reviewer switched autosave off, watched the game freeze after finishing the mammoth, and lost three hours.
 
 > "the autosave feature is so broken because it freezes the ENTIRE game for a good 5 seconds during an autosave" — English, 26.1 h, negative
 >
@@ -237,24 +247,30 @@ Saving freezes the entire game for several seconds (up to ~10) every autosave; l
 > "I really like this game… The only reason I give this a negative review, because It lacks a VERY VERY VERY basic feature of cloud save. I couldn't continue my save file on my laptop." — English, 9.8 h, negative
 >
 > "WHAT A HELL WITH AUTOSAVES? its 2026. not 1990. …why it feels like the game during autosaves trying to hack pentagon's servers from my PC?!" — English, 2.2 h, negative
+>
+> "Auto save for some reason lags the game so i took it off. After finishing the mammoth skeleton the game froze and i lost 3 or so hours of progress." — English, 6 h, negative
 
 ### 6. Bugs, softlocks and achievement failures
-Recurring concrete issues: the tool (especially Tesla) stops working after you freeze and get rescued, requiring a save/reload; carried ice cubes drop through the world when you freeze; the "all achievements" meta-achievement frequently fails to unlock (45/46 forever); crashes during credits; see-through textures and .png artifacts; loot stops spawning; and the late-May tutorial popup at blue ice softlocked the game for days.
+Recurring concrete issues: the tool (especially Tesla) stops working after you freeze and get rescued, requiring a save/reload; carried ice cubes and artifacts drop through the world when you freeze; the "all achievements" meta-achievement frequently fails to unlock (45/46 forever); crashes during credits; the heat-resistance stat can bug out so that a maxed player freezes and dies at random; see-through map seams and .png visual glitches; and the late-May tutorial popup at blue ice softlocked the game for days. Post-launch QoL additions include an "I'm Stuck" button that returns you to base with your resources, though reviewers note it re-arms after every reload.
 
 > "I have 45/46 achievements... the ONLY achievement that hasn't unlocked is the achievement for having all the achievements" — English, 9 h, negative
 >
 > "Please learn from my and other users' mistake. This game is great up until you get the Tesla gun. Then a tutorial window pops up that will not go away and you cannot interact with. Restarting the game had me hit the exact same problem again." — English, 1.1 h, negative
 >
 > "If you die you have to save and reload to be able to melt snow again" — English, 4.7 h, negative
+>
+> "my heat resistance is 1 upgrade from max, but I'm constantly freezing… I permanently have two frost icon indicators, which means I just instantly die from freezing randomly." — English, 2.5 h, negative
 
 ### 7. Almost no story, lore or purpose
-Reviewers wanted notes, artifact descriptions, NPCs, readable documents, or any narrative thread. The hub is full of unexplained doors, pedestals and props; artifacts and furnace upgrades do nothing mechanical. The ending's explanation (a giant stove to move the planet closer to the sun) strikes many as absurd.
+Reviewers wanted notes, artifact descriptions, NPCs, readable documents, or any narrative thread. The hub is full of unexplained doors, pedestals and props; eight artifacts can be displayed but unlock nothing mechanical, and the letters found in rooms contain no readable text. The ending's explanation (a giant stove to move the planet closer to the sun) strikes many as absurd.
 
 > "There is no lore, no plot, just dig and uncover things." — English, 5.5 h, positive-with-criticism
 >
 > "I just wish there was more story development because you KNOW there's a story of some kind going on. Explain all the boots to me please?!" — English, 13.3 h, positive-with-criticism
 >
 > "artifacts are just placed on stands and give no perks" — Russian, 4.1 h, positive-with-criticism (translated)
+>
+> "Would be nice if the items/artifacts we found had descriptions. Or the letters in the rooms we found had actual written notes." — English, 8 h, positive, 10 upvotes
 >
 > "think of the AI genereted nonsense ads you see on your phone. yeah that's the story. using mammoth bones to fuel a furnace to heat up the ice age planet??" — English, 7 h, negative, 8 upvotes
 
@@ -268,35 +284,39 @@ A vocal minority believes the game relies on marketplace/free assets that clash 
 > "lots of different free assets were used which makes everything enviromental detail look weird and out of place. like lots of potions and fantasy magical stuff." — English, 7 h, negative, 8 upvotes
 
 ### 9. Performance, motion sickness and accessibility
-The game is heavy for its look (high GPU usage, 25–30 FPS on some systems, PC heat); there is no way to disable motion blur or screen shake, no FOV slider, and controller sensitivity/rebinding issues. Motion-sickness complaints are rare but pointed.
+The game is heavy for its look (high GPU usage, ~40 FPS on high settings for some, 25–30 FPS or worse for others, PC heat); there is no way to disable motion blur or screen shake, no FOV or brightness slider, and controller sensitivity/rebinding issues. Motion-sickness complaints are rare but pointed.
 
 > "Has no settings to reduce motion sickness, which made it unplayable for me… definitely be wary if you're prone to motion sickness." — English, 0.4 h, negative, 14 upvotes
 >
 > "crashed twice in 30 minutes, crashed HARD. Almost caused a fire." — English, 0.5 h, negative, 7 upvotes
 >
 > "This is literally the only game that heats my PC to 90 degrees in minutes" — Russian, 7.2 h, negative (translated)
+>
+> "the game is too dark for my liking. But I don't believe there was a setting to increase brightness." — English, 8 h, positive, 10 upvotes
 
-### 10. Post-launch balance changes made it harder and colder
-The August 2026 updates rebalanced heat: several reviewers report that even at maximum warmth they now freeze faster than before, can't make return trips, and die in tier-3 cold zones; the same updates were sometimes praised for adding content (Endless mode) but widely disliked for changing the cozy feel.
+### 10. Post-launch heat rebalances made the cold harsher
+From mid-May the developers repeatedly rebalanced heat, and reviewers through the summer report that even at maximum warmth they freeze faster than before, can't make return trips, and die in tier-3 cold zones. The backlash clusters around the May–June patches rather than August, and players say the changes undercut the cozy feel.
 
 > "devs rebalanced something, now i lose too much heat going through an area and cant even reach the end of a tunnel i made without freezing and losing resources." — English, 1.5 h, negative
 >
-> "get 'upgraded technology', don't last as long in the cold. what the hell is this?" — English, 6.8 h, negative
+> "After the latest update my character starts freezing in caves with a single cold snowflake within literally a minute, at maximum clothing upgrades." — Russian, 7.2 h, negative (translated)
 >
-> "This should've been released as Early Access." — English, 5.1 h, negative
+> "get 'upgraded technology', don't last as long in the cold. what the hell is this?" — English, 6.8 h, negative
 
 ### 11. Content, DLC and "Early Access feel"
-The critical path is ~5 hours; the base has empty rooms and doors that never open; DLC arrived quickly (cosmetics, soundtrack, later Endless mode) and some feel the base game was thin. "This should've been released as Early Access" is a recurring line.
+The critical path is ~5 hours; the base has empty rooms and doors that never open; DLC arrived quickly (gun skins, soundtrack, later the paid Expeditions mode) and some feel the base game was thin. "This should've been released as Early Access" is a recurring line. Expeditions — the "Endless mode" — drops you into a randomly generated level to hunt the stove and its parts; reviewers find it thin, and the most common DLC request is co-op.
 
 > "This could have been a cool game if it had stayed in Early Access and actually received some love. As a full release? It's unacceptable." — English, 9.9 h, negative
 >
 > "Its a small fun game, but the weapon reset in the middle and the awful 'frozen' death because there is nothing you can do about it and you lose all your stuff was the last nail in the coffin for me." — English, 2.9 h, negative
+>
+> "Endless Mode (Expeditions) are essentially a streamlined version of the story with no real end." — English, 17.7 h, positive
 
 ---
 
 ## The ending and story (SPOILERS)
 
-The story is delivered almost entirely in the finale. Assembling the mammoth skeleton and finishing the hub furnace triggers a cutscene revealing that the furnace is meant to warm the planet and push it closer to the sun; the mammoth is more a monument than a resurrection, and the ending is presented in an intentionally odd pre-rendered style that reviewers compare to mobile-game ads, The Wandering Earth, Journey's finale, and The Witness's pull-back shot. Reaction is split between finding it funny and unexpected or feeling it invalidates the journey; many note that artifacts, lore props and locked doors (including eight empty pedestals that look like cut DLC hooks) never pay off.
+The story is delivered almost entirely in the finale. Assembling the mammoth skeleton and finishing the hub furnace triggers a cutscene revealing that the furnace is meant to warm the planet and push it closer to the sun; the mammoth is more a monument than a resurrection, and the ending is presented in an intentionally odd pre-rendered style that reviewers compare to mobile-game ads, The Wandering Earth, Journey's finale, No Man's Sky's ancient markings, and The Witness's pull-back shot. Reaction is split between finding it funny and unexpected or feeling it invalidates the journey; many note that artifacts, lore props and the hub's locked doors and spare pedestals never pay off — the eight artifacts unlock nothing mechanical. One Russian reviewer adds that the artifacts feel like they should reference something but never do, and that the in-game Russian reads like a translation from English rather than native writing.
 
 ---
 
@@ -305,14 +325,16 @@ The story is delivered almost entirely in the finale. Assembling the mammoth ske
 | Topic | For | Against |
 |---|---|---|
 | No map | A few love the "pioneer" feeling and claim it builds spatial memory | The dominant mid/late-game complaint; players beg for a map or scan tool |
-| Tesla gun | Some say upgrades eventually make it fine; it's a deliberate change of pace | The most common refund trigger; invalidates flamethrower progression |
-| Heat/cold management | Adds tension without enemies; freeze is forgiving | Post-update it became punishing; tier-3 zones kill; warmth upgrades feel ineffective |
-| Visuals / assets | "Beautiful", "sparkly", cohesive cozy style | "AI slop", mismatched asset-store fantasy props, see-through textures |
+| Tesla gun | A deliberate change of pace; upgrades make it workable, and the challenge is beatable | The most common refund trigger; invalidates flamethrower progression |
+| Heat/cold management | Adds tension without enemies; freezing is forgiving outside tier-3 | Repeated rebalances made it punishing; tier-3 zones kill; warmth upgrades feel ineffective |
+| Visuals / assets | "Beautiful", "sparkly", cohesive cozy style | "AI slop", mismatched asset-store fantasy props, see-through map seams |
 | Length/value | 5–8 h is fine for $4–7; "I feel like I robbed them" | "Should be $2–3", "paid demo", feels like Early Access |
 | Story/lore | The mystery and the final twist land for some | "No lore, no plot"; artifacts and furnace do nothing; ending nonsensical |
 | Achievements | Easy, one-run 100% | "All achievements" achievement frequently broken; fishing for guides |
-| Dev responsiveness | Fast patches, listening to feedback | Live balance changes broke saves/builds; heat nerfs ruined the cozy balance |
-| DLC | Cheap cosmetics/soundtrack; Endless mode is extra content | Paid DLC before the base felt finished; Endless levels thin and can overwrite saves |
+| Dev responsiveness | Fast patches, direct replies to bug reports | Live balance moves the goalposts; a May patch briefly broke second-gun progression |
+| DLC | Cheap cosmetics/soundtrack; Expeditions is extra content | Paid DLC before the base felt finished; Expeditions thin, no real end goal |
+
+The strongest defense of the divisive design comes from one of the two longest-played reviewers (115.9 h): "I don't think that what some people call 'design flaws' are mistakes. They are challenges to overcome, and they definitely can be beaten." — English, 115.9 h, positive
 
 ---
 
@@ -326,7 +348,7 @@ The story is delivered almost entirely in the finale. Assembling the mammoth ske
 
 ## Caveats
 
-- This document summarizes player opinion, not a technical review. Meltopia shipped with real problems (saves, autosave freezes, a Tesla-tutorial softlock, achievement triggers) that the developer patched quickly; many of the harshest reviews were written in the first two weeks. Some complaints were still being reported in September 2026, however, including no cloud saves and save-related freezing.
-- Steam review totals change over time; the sample is every review retrievable via the API on 14 September 2026 (1,722 of 1,723).
-- Quotes were lightly cleaned (line breaks, censored profanity, formatting tags) and translated from Russian, German, French, Spanish, Portuguese, Japanese, Korean, Turkish, Polish, Czech and others where necessary. Attribution gives language, playtime, sentiment, and vote count for the highest-voted quotes.
+- This document summarizes player opinion, not a technical review. Meltopia shipped with real problems (saves, autosave freezes, a Tesla-tutorial softlock, achievement triggers) that the developer patched quickly; many of the harshest launch reviews date from the first days, while others accumulated through the summer as balance patches and the Tesla grind wore players down. Some complaints were still being reported in September 2026, however, including crashes and lost progress.
+- Steam review totals change over time; the sample is every review retrievable via the API on 14 September 2026 (1,722 of 1,723). It also holds 51 developer responses (all posted 1–26 May), 4 empty review bodies, 19 copies received for free, 26 reviews written on Steam Deck, and playtimes up to 132.7 h; a handful of reviews are filed under one language but written in another (English text under Spanish and French tags, Arabic text under English).
+- Quotes were lightly cleaned (line breaks, censored profanity, formatting tags) and translated from Russian, German, French, Spanish, Portuguese, Japanese, Korean, Turkish, Polish, Czech and others where necessary; translations are marked. Attribution gives language, playtime, sentiment, and vote count for the highest-voted quotes.
 - Keyword frequency counts are approximate and English-biased: the same review can touch several themes, and many of the most detailed reviews are in Russian.

@@ -34,7 +34,7 @@ Design rules:
 - Generous input buffering: inputs during animations are never dropped.
 - Aim/placement assistance: snap-to-valid-surface placement for C4 and lamps, generous interaction
  radii, no pixel-perfect hotspots.
-- No fall damage or health management to worry about while learning controls (battery-only failure).
+- No health management and no fall death: bigger falls only stagger you and knock the battery, and extreme falls trigger recovery (Q28), so nothing punitive happens while learning controls.
 
 ## 3. Vision
 
