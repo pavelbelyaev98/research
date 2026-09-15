@@ -1,8 +1,7 @@
 # Something Down There — Concept
 
-**This document set records the current decisions and explicit open choices.** Every rule here traces
-to an entry in `../DECISIONS.md`, with the developer's answers and reasons. Anything undecided is listed in
-`13_OPEN_QUESTIONS.md`. For how research iterations update this design, see `../ITERATION_GUIDE.md`.
+**This document set describes the game.** The chapters are the authoritative concept; genuinely
+undecided choices are collected in [Open Questions](13_OPEN_QUESTIONS.md).
 
 ## The game in one paragraph
 
@@ -17,8 +16,11 @@ constructed that should not exist. The finds belong to a buried place with a his
 gradually reveal parts of one enormous construction. The last find makes their connection clear; then
 you keep playing.
 
-**Platform:** PC (Windows), Unity. Full controller support. **Rating:** E10+ / PEGI 7.
+**Platform:** PC (Windows), Unity. Solo, full controller support. **Rating target:** E10+ / PEGI 7.
 **Price:** $6.99–9.99. **Length:** 3–5 h first completion. **Audio:** ambience and feedback only.
+
+Discovery and upgrading carry equal weight: finding something memorable and feeling the machine
+grow stronger both need to pull the player into the next outing.
 
 ## The seven pillars
 
@@ -39,23 +41,30 @@ you keep playing.
 7. **Respect the body and the schedule.** Hold-to-dig, full rebinding, comfort settings, no FOMO, no
  missables, pause anywhere, saves that never lose progress.
 
+## Release scope
+
+- Complete 1.0 release; no Early Access.
+- A short pre-release demo/playtest window; no permanent demo.
+- Post-launch support: free bug fixes and small quality-of-life improvements.
+- Windows first; Steam Deck support is optional. No console version, co-op or shared economy.
+
 ## Document map
 
 | File | Contents |
 |---|---|
-| `00_README.md` | This page: pitch, pillars, map |
-| `01_FANTASY_AND_TONE.md` | Setting, protagonist, humor, mystery, boundaries |
-| `02_CORE_LOOP.md` | The loop, sessions, pacing, anti-straight-down rules, the core test |
-| `03_WORLD_AND_SITE.md` | Site, boundaries, four zones, materials, lighting, terrain tech |
-| `04_TOOL_AND_MOVEMENT.md` | The machine, adaptation, attachments, jetpack, crouch, C4 |
-| `05_DISCOVERIES.md` | Find tiers, detector rules, clusters, slice objects, large finds |
-| `06_PROGRESSION_AND_ECONOMY.md` | Tracks, levels, money, fuel, capacity, recovery |
-| `07_SURFACE_HUB_AND_DISPLAY.md` | Yard, machines, signage, the special display |
-| `08_INTERFACE_AND_CONTROLS.md` | HUD, object inspection, pause, controls, photo mode, saves |
-| `09_FEEL_ART_AND_AUDIO.md` | Visual style, zone palettes, dig feel, material feel, audio, FX |
-| `10_ACCESSIBILITY_AND_COMFORT.md` | Motion, motor, vision, hearing, cognitive design |
-| `11_ENDING_AND_MYSTERY.md` | Mystery trail, final object, components, Continue Playing |
-| `12_ACHIEVEMENTS_AND_COMPLETION.md` | 5–10 fair achievements; what beaten and 100% mean |
-| `13_OPEN_QUESTIONS.md` | Everything intentionally undecided, with current options |
-| `14_PROTOTYPE_PLAN.md` | Vertical slice scope, experiments, numbers to tune |
-| `15_ANTI_PATTERNS.md` | The game-specific "never do this" list |
+| [Concept overview](00_README.md) | This page: pitch, pillars, map |
+| [Fantasy and Tone](01_FANTASY_AND_TONE.md) | Setting, protagonist, humor, mystery, boundaries |
+| [Core Loop](02_CORE_LOOP.md) | The loop, sessions, pacing, anti-straight-down rules, the core test |
+| [World and Site](03_WORLD_AND_SITE.md) | Site, boundaries, four zones, materials, lighting, terrain tech |
+| [Tool and Movement](04_TOOL_AND_MOVEMENT.md) | The machine, adaptation, attachments, jetpack, crouch, C4 |
+| [Discoveries](05_DISCOVERIES.md) | Find tiers, detector rules, clusters, slice objects, large finds |
+| [Progression and Economy](06_PROGRESSION_AND_ECONOMY.md) | Tracks, levels, money, fuel, capacity, recovery |
+| [Surface Hub and Display](07_SURFACE_HUB_AND_DISPLAY.md) | Yard, machines, signage, the special display |
+| [Interface and Controls](08_INTERFACE_AND_CONTROLS.md) | HUD, object inspection, pause, controls, photo mode, saves |
+| [Game Feel, Art and Audio](09_FEEL_ART_AND_AUDIO.md) | Visual style, zone palettes, dig feel, material feel, audio, FX |
+| [Accessibility and Comfort](10_ACCESSIBILITY_AND_COMFORT.md) | Motion, motor, vision, hearing, cognitive design |
+| [Ending and Mystery](11_ENDING_AND_MYSTERY.md) | Mystery trail, final object, components, Continue Playing |
+| [Achievements and Completion](12_ACHIEVEMENTS_AND_COMPLETION.md) | 5–10 fair achievements; what beaten and 100% mean |
+| [Open Questions](13_OPEN_QUESTIONS.md) | Everything intentionally undecided, with current options |
+| [Prototype Plan](14_PROTOTYPE_PLAN.md) | Vertical slice scope, experiments, numbers to tune |
+| [Anti-Patterns](15_ANTI_PATTERNS.md) | The game-specific "never do this" list |

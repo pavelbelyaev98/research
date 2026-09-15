@@ -5,26 +5,26 @@
 A drained river-fed reservoir. The working floor sits inside visible former banks, concrete
 retaining walls, and leftover waterworks. It is finite, believable and clearly bounded.
 
-- **Dimensions:** depth at least 100 m; exact depth and footprint are set by feel in playtest (W01).
+- **Dimensions:** depth at least 100 m; exact depth and footprint are set by feel in playtest.
   Depth is the progression axis; the footprint stays contained, with useful lateral room for branches.
 - **Surface:** authored, not procedurally generated into ugliness. A small worksite yard
- (see `07_SURFACE_HUB_AND_DISPLAY.md`).
+ (see [Surface Hub and Display](07_SURFACE_HUB_AND_DISPLAY.md)).
 - **Underground:** fully diggable voxel ground except permanent boundaries.
 - **No pre-existing caves or tunnels:** every opening in the ground is one the player made.
 
-- **Buried structures:** authored walls, machinery and filled interiors are allowed (W14). The
+- **Buried structures:** authored walls, machinery and filled interiors are allowed. The
  player digs every opening; no pre-dug rooms or passage network.
-- **Buried history:** workshop, household and waterworks finds belong together (W15). Major parts
- gradually reveal one enormous construction, whose exact form remains open (D18).
+- **Buried history:** workshop, household and waterworks finds belong together. Major parts
+ gradually reveal one enormous construction, whose exact form remains open.
 
 ## 2. Boundaries (why you cannot dig forever)
 
-Permanent boundaries must look categorically different from any diggable material (W02):
+Permanent boundaries must look categorically different from any diggable material:
 
 - **Sides:** concrete retaining walls, dam infrastructure, steel pilings — industrial, cracked,
  obviously not soil.
 - **Bottom:** solid bedrock shelf.
-- **One edge:** natural bedrock shelf (W10). No water, no swimming, no flooding — the drained
+- **One edge:** natural bedrock shelf. No water, no swimming, no flooding — the drained
   reservoir's edge reads as ground meeting stone, with no fake-water interaction problems.
 
 Rule: never use the same material look for "tough but diggable" and "eternal wall". Players must
@@ -33,7 +33,7 @@ know at a glance what will eventually yield.
 ## 3. The four zones
 
 Each zone changes ground, palette, typical finds and mood. Transitions are gradual; there are no
-loading screens or separate levels (W07, F02).
+loading screens or separate levels.
 
 | # | Zone | Ground | Finds typical | Mood |
 |---|---|---|---|---|
@@ -46,9 +46,9 @@ Zone names are placeholders; final naming is content work.
 
 ## 4. Materials
 
-Working set (exact list TBD, W04): prototype five response groups — loose earth, clay/sediment,
+Working set (exact list TBD): prototype five response groups — loose earth, clay/sediment,
 gravel, rock and diggable concrete. Soil, sand and harder variants can look different within these
-groups. Each family differs in **behavior**, not just color (F12):
+groups. Each family differs in **behavior**, not just color:
 
 - sand pours and spills quickly;
 - clay sticks and clumps;
@@ -57,11 +57,11 @@ groups. Each family differs in **behavior**, not just color (F12):
 - rock chips and cracks;
 - concrete sparks and resists, but the starting tool always makes visible progress.
 
-The tool adapts automatically to the material (see `04_TOOL_AND_MOVEMENT.md`); materials reward the
+The tool adapts automatically to the material (see [Tool and Movement](04_TOOL_AND_MOVEMENT.md)); materials reward the
 right behavior but never lock it out. These are cutting responses and visual debris, not a global
-collapse hazard. Power growth outpaces tougher ground over the campaign (S17).
+collapse hazard. Power growth outpaces tougher ground over the campaign.
 
-**Dig along the seam** (W16): some ground has visible cracks or material boundaries. Cutting along
+**Dig along the seam**: some ground has visible cracks or material boundaries. Cutting along
 one frees a larger local section with less work than digging through its center. For example, follow
 a clay seam around a rock section and break that section away. The ground offers a small choice:
 "where would a cut do the most?"
@@ -74,8 +74,7 @@ a clay seam around a rock section and break that section away. The ground offers
 
 ## 5. Tough ground: hard pockets
 
-A small number of memorable, optional obstacles (5–8 target) — never walls across the main descent
-(W05):
+A small number of memorable, optional obstacles (5–8 target) — never walls across the main descent:
 
 | Example | Feel | Behind it |
 |---|---|---|
@@ -94,12 +93,11 @@ as no solution.
 
 ## 6. Terrain technology and cleanup
 
-- **Full voxel**: every diggable cube can be removed; tunnels, overhangs and trenches are legal
- (W06). Chunk size prototype-tuned (W11).
+- **Full voxel**: every diggable cube can be removed; tunnels, overhangs and trenches are legal. Chunk size prototype-tuned.
 - **No floating specks**: disconnected valuables become visible pickups and collect if the bag has
   space; plain dirt crumbs vanish. Full-bag overflow persists nearby without blocking movement.
 - **Interesting finds survive cleanup:** terrain removal and C4 never delete them or bypass deliberate
-  collection (D16).
+  collection.
 - **Debris is visual only**: particles never collide and never deal damage.
 - **Collision always matches the visible mesh.**
 - **Substantial structures survive**: ledges, tunnels and overhangs the player built are preserved;
@@ -108,14 +106,13 @@ as no solution.
 
 ## 7. Lighting and darkness
 
-- **Sky light reaches down open shafts** and fades with depth (F09).
+- **Sky light reaches down open shafts** and fades with depth.
 - **The shaft reads from below:** its light column and drifting dust are landmarks where the shaft
   is visible. Light does not pass through overhangs; the jetpack and reusable lamps support returns.
-  No map, ever (W12, W13).
-- **A dim ambient floor** exists everywhere — ground and object shapes always remain readable
-  (W03).
+  No map, ever.
+- **A dim ambient floor** exists everywhere — ground and object shapes always remain readable.
 - **The dark arrives gradually.** Zone lighting lowers slowly; ambient light preserves recognition.
-  Lamps improve detail, color and atmosphere without becoming a requirement to see the ground (W03).
+  Lamps improve detail, color and atmosphere without becoming a requirement to see the ground.
 - **Placeable lamps** improve visibility, mark familiar places and light finds for photos. Owned
  lamps are reusable, repositionable and do not expire or drain charge; lost support leaves them
  recoverable nearby. Digging and C4 cannot destroy them.
@@ -129,14 +126,15 @@ as no solution.
 - Authored: zone layout, depth ranges, boundary placement, general difficulty curve and relationships
  between buried places and the connected construction parts.
 - Randomized per save: find positions, depths within bands, rotations, cluster layouts, some
- surrounding junk (W09). Variation preserves how related objects and construction parts fit together.
-- The generator produces a candidate layout and validates pacing (Section 4 of
- `02_CORE_LOOP.md`) before accepting it.
-- Every seed contains all required finds, reachable and discoverable with baseline equipment (D17).
+ surrounding junk. Variation preserves how related objects and construction parts fit together.
+- The generator produces a candidate layout and validates [discovery pacing](02_CORE_LOOP.md#4-pacing-rules-generation-enforces-these)
+ before accepting it.
+- Every seed contains all special exhibits, ending parts and achievement-relevant finds, reachable
+ and discoverable with baseline equipment.
 - The accepted population is finite and persisted; patches never reroll an existing save.
 
 ## 9. No hazards
 
-No lava, gas, oxygen, hunger, earthquakes, temperature damage, or monsters (Q13). The only pressure
+No lava, gas, oxygen, hunger, earthquakes, temperature damage, or monsters. The only pressure
 is the shared battery, the bag's capacity, and the player's own greed — all soft, all fair, all
-recoverable (see `06_PROGRESSION_AND_ECONOMY.md`).
+recoverable (see [Progression and Economy](06_PROGRESSION_AND_ECONOMY.md)).

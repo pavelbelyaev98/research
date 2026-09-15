@@ -13,7 +13,7 @@ Rules for each beat:
 | Beat | What happens | Rule |
 |---|---|---|
 | **Dig** | Hold-to-dig bites chunks of voxel ground; dust and material fall; the tool adapts automatically to what it's biting | Always satisfying from the starting shovel, never requires clicking speed |
-| **Signal** | The detector reacts silently — the tool glows/shivers, a subtle edge-of-screen hint grows with proximity and general direction (F07) | One target at a time; quiet intervals; never reveals value; can be ignored |
+| **Signal** | The detector reacts silently — the tool glows/shivers, a subtle edge-of-screen hint grows with proximity and general direction | One target at a time; quiet intervals; never reveals value; can be ignored |
 | **Investigate** | The player chooses to follow the hunch, dig sideways, or keep going down | Signals suggest, never prescribe; ignoring one is never wasted work |
 | **Reveal** | Digging around an interesting object exposes it little by little; shape becomes readable before identity | Objects do not vanish when touched; after enough exposure, the player chooses when to collect |
 | **Recognize** | "Wait… is that a—" The object's silhouette resolves into identity | This moment is the game's core reward; objects must read at partial exposure |
@@ -52,15 +52,15 @@ prototype-tuned).
 
 - A noteworthy discovery is guaranteed early (first ten minutes), staged near the shaft mouth and
   readable within its first bites; the first sale must afford the first purchase so the loop closes
-  in the first session (tuning target `06` §9).
+  in the first session (see [Economy tuning targets](06_PROGRESSION_AND_ECONOMY.md#9-tuning-targets-validated-in-prototype)).
 - Dry spells between noteworthy discoveries are bounded along representative exploration routes;
   this is not an elapsed-time guarantee for every possible path.
 - Related objects cluster; unrelated major finds never clump.
-- One guaranteed major-scale discovery per zone (D12); the large parts build the connected reveal (D18).
+- One guaranteed major-scale discovery per zone; the large parts build the connected reveal.
 - New object silhouettes keep appearing until the end; the late game is never "more dirt".
 - Novelty is never dumped early: strong finds are distributed across all four zones.
 - These rules validate a candidate layout before it is accepted; an accepted population persists and
- is never rerolled by a patch (W09, D12).
+ is never rerolled by a patch.
 
 ## 5. Anti-straight-down design
 
@@ -70,7 +70,7 @@ answers structurally, not with friction:
 1. **Clusters and signals pull sideways** — the best discoveries are rarely on the main shaft.
 2. **Fixed value per type:** deeper zones can contain more valuable things, but a gold bar has the
  same price at every depth. Clusters make lateral discoveries worthwhile; compare earnings in play.
-3. **Hard pockets are optional and sideways** (W05); the main descent is never hard-blocked.
+3. **Hard pockets are optional and sideways**; the main descent is never hard-blocked.
 4. **Components and uniques live off-shaft**, so the ending and the display reward exploration.
  Related finds and the existing detector give required parts a discoverable trail; no blind final hunt.
 5. **No friction mechanics are used to stop rushing** — no stamina, no idle drain, no cooldowns, no

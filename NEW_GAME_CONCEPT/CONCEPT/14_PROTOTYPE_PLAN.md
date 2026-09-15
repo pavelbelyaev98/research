@@ -1,7 +1,6 @@
 # 14 — Prototype and Validation Plan
 
-Purpose: prove the loop before content exists. Numbers are not designed on paper (Rule 8); they are
-discovered here.
+Purpose: prove the loop before content exists. Numerical targets are starting points to test and tune.
 
 ## 1. The core hypothesis to test
 
@@ -10,7 +9,7 @@ discovered here.
 
 A calm, voluntary return followed by eagerness to dig again is equally valid. Also test whether
 related finds suggest a buried place, upgrades transform the scale of excavation, and major parts
-build curiosity about one larger construction (W15, S17, D18).
+build curiosity about one larger construction.
 
 ## 2. Vertical slice scope (first playable)
 
@@ -38,7 +37,7 @@ early; the whole-object payoff must work without a transport shaft to the sky.
 
 ## 3. Experiments (numbers to discover)
 
-- Voxel size vs. dig satisfaction and recognition readability (W11).
+- Voxel size vs. dig satisfaction and recognition readability.
 - Starting shovel speed vs. frustration; fewer stronger upgrade steps and output on familiar ground.
 - Battery drain per powered action vs. outing length; recovery frequency and empty-wallet restart.
 - Bag capacity vs. trip length; where the hard stop actually lands.
@@ -65,17 +64,17 @@ early; the whole-object payoff must work without a transport shaft to the sky.
 | Voluntary lateral digging | the majority of testers dig sideways at least once per session unprompted |
 | Recognition quality | ≥ 80% of testers correctly name slice objects from partial exposure |
 | Voluntary full uncovering | ≥ 70% choose to keep revealing an interesting object rather than skip it |
-| Purchase cadence | prototype-tuned for fewer stronger steps; 30–45 min is an earlier milestone hypothesis |
+| Purchase cadence | prototype-tuned for fewer stronger steps; 30–45 min is a working milestone hypothesis |
 | Trip decision | testers want another outing; pushing for one more find is optional, never a requirement for success |
 | Return friction | yard + return time ≤ ~15% of session time |
 | Station clarity | no tester asks what the Sell or Upgrade stations do after using them once |
 | Recovery | fair, loot-safe and financially recoverable; ordinary return remains convenient |
 | Save integrity | zero lost holes, inventories or display states across interrupted sessions |
 | Feel | no floating snags; no unreachable pickups; no stuck spots |
-| Performance feel | no cold-start hitch on the first dig; stable frame pacing while digging; no progressive decay across a long session (F13) |
+| Performance feel | no cold-start hitch on the first dig; stable frame pacing while digging; no progressive decay across a long session |
 | Save write latency | zero perceptible freeze/hitch; frame-impact budget is tested separately from total background save duration |
-| Return navigation | testers find their way back to the surface unaided; none report feeling lost (W13) |
-| Mystery tone (deep-zone pass) | once those zones exist, testers describe the impossibilities as awe and curiosity, never dread (Q13) |
+| Return navigation | testers find their way back to the surface unaided; none report feeling lost |
+| Mystery tone (deep-zone pass) | once those zones exist, testers describe the impossibilities as awe and curiosity, never dread |
 
 ## 5. The core test script (observe, don't explain)
 
@@ -90,7 +89,7 @@ early; the whole-object payoff must work without a transport shaft to the sky.
 
 1. **Feel prototype:** dig, materials, cleanup, jetpack, battery, recovery. No economy, no art.
 2. **Loop prototype:** sell, upgrade, display, detector, first object recognition.
-3. **Slice:** all vertical-slice elements above with placeholder art (custom models only per A01).
+3. **Slice:** all vertical-slice elements above with placeholder art (custom models only).
 4. **Pacing pass:** multiple seeds, measure the metrics, tune generation rules.
 5. **Content production:** zones 2–4, coherent places, connected construction, full rosters and ending.
  Validate part relationships and the final object before committing the full content set.
@@ -100,13 +99,13 @@ early; the whole-object payoff must work without a transport shaft to the sky.
 
 - Core test moment observed repeatedly in external playtests.
 - All validation metrics met or consciously waived by the developer.
-- Muted + auto-dig + controller-only full run completes with no blockers.
+- Muted + toggle-dig + controller-only full run completes with no blockers.
 - Clean-save 100% completion verified (ending, special exhibits, tracks, zones reached); Steam
  achievements checked separately, with all required finds available in each seed.
 - No save-loss, no terrain reset, no stuck states, no unreachable finds.
 - First-session comprehension: unguided testers complete one full loop unaided and want a second trip.
 - Session-length stress run keeps dig rhythm stable: no shader or streaming hitch on the normal
-  digging path (F13).
-- Save write latency check: saving an extensively deformed late-game excavation causes zero frame freeze or input hitch (I14, anti-pattern 42).
-- Return navigation: testers get back to the surface unaided; no lostness or stuck reports (W13).
-- Mystery tone check: testers read the impossibilities as wonder, not threat (Q13).
+  digging path.
+- Save write latency check: saving an extensively deformed late-game excavation causes zero frame freeze or input hitch.
+- Return navigation: testers get back to the surface unaided; no lostness or stuck reports.
+- Mystery tone check: testers read the impossibilities as wonder, not threat.

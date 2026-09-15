@@ -2,14 +2,14 @@
 
 ## 1. Visual style
 
-Stylized painted low-poly (F01): strong silhouettes, restrained texture detail, painted gradients,
+Stylized painted low-poly: strong silhouettes, restrained texture detail, painted gradients,
 cohesive custom art. Bright and readable, never realistic mud, never asset-store clutter.
 
-- **Zones read instantly:** strong palettes per zone with gradual transitions (F02).
+- **Zones read instantly:** strong palettes per zone with gradual transitions.
 - **Materials read by shape as well as color**, so colorblind players can still tell ground apart.
-- **Objects read by silhouette**, because recognition is the core reward (D07).
-- No AI-generated images or textures; custom Blender models, art direction owned by one style guide
- (A01).
+- **Objects read by silhouette**, because recognition is the core reward.
+- No AI-generated images or textures; custom Blender models, art direction owned by one style guide.
+ AI-assisted modeling with real references is allowed.
 
 ## 2. Zone palettes and mood
 
@@ -20,13 +20,13 @@ cohesive custom art. Bright and readable, never realistic mud, never asset-store
 | Deep clay/stone | Saturated clay reds, dark rock, wet gleam | Dim, lamp-friendly, heavy |
 | Ancient constructed | Cold tones, unnatural smoothness, faint glow accents | Dim ambient, ground and object shapes readable; lamps add detail |
 
-Darkness escalates gradually across the zones; readability always wins over mood (W03, F09).
+Darkness escalates gradually across the zones; readability always wins over mood.
 
 ## 3. The absurdity, visually
 
-Absurdity is controlled and deadpan (F03):
+Absurdity is controlled and deadpan:
 
-- The machine escalates into a welded, bolted, over-batteried monster (F11).
+- The machine escalates into a welded, bolted, over-batteried monster.
 - Objects are placed straight-faced; the jokes are in what they are and what they are worth.
 - Physical comedy is allowed: pile wobble, a car yanked out of the ground, the Sell All machine
  visibly struggling with a haul.
@@ -34,21 +34,21 @@ Absurdity is controlled and deadpan (F03):
 
 ## 4. Dig feel
 
-Chunky, weighted and steady (F05):
+Chunky, weighted and steady:
 
 - Each bite removes a readable chunk; dust and crumbs follow.
 - The camera never shakes or jerks from digging. No motion effects are added just to have toggles
  for them.
-- Audio is per material: sand hisses, clay thumps, rock cracks, concrete grinds (F12).
+- Audio is per material: sand hisses, clay thumps, rock cracks, concrete grinds.
 - The machine's behavior and sound improve with upgrades, so power is felt in the hands, not read
  from a stat screen.
 - Downward digging feels good with the starting shovel; upgrades make it feel ridiculous. Power
- outpaces tougher ground, while automatic material responses stay distinct through the final tier (S17).
+ outpaces tougher ground, while automatic material responses stay distinct through the final tier.
 
 ## 5. Material behavior
 
-Each material family has a distinct response profile (F12). Start with the same five working groups
-as `03_WORLD_AND_SITE.md`; the exact material list remains open:
+Each material family has a distinct response profile. Start with the same five working groups
+as [World and Site](03_WORLD_AND_SITE.md); the exact material list remains open:
 
 | Material | Bite | Residue | Sound |
 |---|---|---|---|
@@ -60,7 +60,7 @@ as `03_WORLD_AND_SITE.md`; the exact material list remains open:
 
 ## 6. Audio design
 
-Ambience and feedback only. **No music. No voice acting** (F06, Q22b).
+Ambience and feedback only. **No music. No voice acting**.
 
 - **Zone ambience layers:** wind and distant water near the surface; drips and settling rock deeper;
  a low, almost-silent hum in the ancient zone. Layers crossfade with depth.
@@ -69,15 +69,15 @@ Ambience and feedback only. **No music. No voice acting** (F06, Q22b).
 - **No audio-only clues.** Every sound that carries information has a visual counterpart. The
   detector is silent by design and readable while muted.
 - **No threat-adjacent audio anywhere.** The deep zone hums; it never breathes, whispers, follows or
-  stalks. Nothing in the mix implies a presence (Q13, `11_ENDING_AND_MYSTERY.md`).
+  stalks. Nothing in the mix implies a presence ([Ending and Mystery](11_ENDING_AND_MYSTERY.md)).
 - **Mix:** ambience stays under the dig loop; picking, digging and the Sell All machine are the
  loudest, most satisfying elements.
 - Licensed audio may be used where needed, but custom is preferred; every sound is reviewed for
- long-session fatigue (A01).
+ long-session fatigue.
 
 ## 7. FX policy
 
-Comfort-safe effects (F08):
+Comfort-safe effects:
 
 - Dust, crumbs, sparkles, smoke from C4, splash from water-adjacent areas.
 - No screen shake, no blood or gore, no full-screen flashes, no chromatic aberration,
@@ -87,7 +87,7 @@ Comfort-safe effects (F08):
 
 ## 8. UI art
 
-Clear, readable, industrial-worksite in flavor (F10; final visual treatment later): stenciled
+Clear, readable, industrial-worksite in flavor (final visual treatment later): stenciled
 labels, simple type, high contrast, scale-friendly. UI never competes with the world; it stays out of
 the way.
 
@@ -95,5 +95,4 @@ the way.
 
 The game should naturally produce absurd, striking screenshots: a ridiculous machine silhouetted in
 a deep hole, a gramophone half-buried in pale sediment, a car mid-yank on a cable, a warm lamp pool
-in a dim ancient zone. Photo mode (pause-only, HUD hidden) exists for exactly these moments
-(I13).
+in a dim ancient zone. Photo mode (pause-only, HUD hidden) exists for exactly these moments.

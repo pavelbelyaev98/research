@@ -2,7 +2,7 @@
 
 ## 1. The mystery trail
 
-Delivered entirely through finds, never through NPCs or text popups (Q11, D08):
+Delivered entirely through finds, never through NPCs or text popups:
 
 | Step | Zone | Examples | Player reaction |
 |---|---|---|---|
@@ -10,7 +10,7 @@ Delivered entirely through finds, never through NPCs or text popups (Q11, D08):
 | 2. Too correct | Deep clay/stone | A rustless tool, a bottle standing upright under tons of sediment, a manufactured part matching no machine nearby | "Wait. Something put this here." |
 | 3. Constructed impossibilities | Ancient constructed | Machinery built from ancient materials with a modern function; objects that are deliberately placed | "This should not exist." |
 
-**One enormous construction** (D18): the major discoveries gradually reveal related parts. Matching
+**One enormous construction**: the major discoveries gradually reveal related parts. Matching
 joints, seams and fittings make the connection visible; the final object explains what they belong
 to. The player uncovers it along their own route, with different discovery orders.
 
@@ -26,12 +26,12 @@ Rules:
  while digging; its components are required when the player chooses to finish the story.
 - **Awe, never dread.** The impossible is presented as craft, wonder and wrongness — never as a
   threat, a pursuit or a presence. No stalking or chase staging, no "something is watching" cues;
-  darkness stays calm (Q13). The player should feel *"this should not exist"*, never *"something is
+  darkness stays calm. The player should feel *"this should not exist"*, never *"something is
   coming"*.
 
 ## 2. The ending components
 
-Three or four objects outside the normal bag (D09):
+Three or four objects outside the normal bag:
 
 - They are parts of the final mechanism (e.g., segments that fit a housing found at the bottom).
 - They never consume inventory capacity, and can never be lost — not by recovery, falling, or any
@@ -46,7 +46,7 @@ Three or four objects outside the normal bag (D09):
 
 ## 3. The final discovery
 
-**A modern object built in impossibly ancient materials** (Q12). The exact object is deliberately not
+**A modern object built in impossibly ancient materials**. The exact object is deliberately not
 chosen yet; it is decided after the loop works, with directions such as:
 
 - an absurd household technology reconstructed from ancient materials;
@@ -54,14 +54,14 @@ chosen yet; it is decided after the loop works, with directions such as:
 - some familiar modern invention that is *too familiar*, found where nothing human should reach;
 - an impossibly ancient original of the player's machine.
 
-None is selected. The final object makes the larger construction's earlier parts fit together (D18).
+None is selected. The final object makes the larger construction's earlier parts fit together.
 
 The payoff is not the object's name; it is the certainty: **this should absolutely not exist here.**
 The object must be readable at a glance and unmistakably manufactured.
 
 ## 4. The finale sequence
 
-Rules (C01):
+Rules:
 
 - The player reaches and exposes the final object using **the normal upgraded excavation systems**:
  the machine, the detector, the jetpack, C4. Nothing is disabled, stripped or swapped.
@@ -77,7 +77,7 @@ Rules (C01):
 
 - **One ending**, pausable and skippable. Short, deadpan, and emotionally earned: the impossible object is confirmed; the protagonist
   becomes famous for the discovery, not rich in the way they planned.
-- Fame is shown diegetically (Q31): a media wall in the yard — news clippings, a radio, a small TV —
+- Fame is shown diegetically: a media wall in the yard — news clippings, a radio, a small TV —
   starts filling with printed/captioned reports after the discovery; no characters, dialogue, crowd,
   music or voices. Radio/TV props stay silent or captioned.
 - No retcon that erases the player's work; the dig mattered and the world reacts to it.
@@ -85,22 +85,23 @@ Rules (C01):
   this hole, never a generic montage.
 - The display wall and the hole itself can appear as a quiet montage — the player's own excavation
  as the record of the journey.
+- **Timelapse candidate:** a short, skippable view of this save changing from untouched ground to
+ the final hole could make the scale of the player's work visible. Before-and-after views are a
+ simpler fallback. This remains an [open presentation choice](13_OPEN_QUESTIONS.md#interface-and-ending).
 
 ## 6. Continue Playing
 
-After the cutscene (S12):
+After the cutscene:
 
 - The player returns to the same save with all equipment, upgrades, terrain, display and economy
  intact.
 - Remaining upgrades can be purchased; missed finds are still findable; the special collection can
  be completed in any compatible display arrangement; achievements remain obtainable.
-- Late-game purchases support remaining discoveries or decoration (S03b). Once the finite site and
- upgrades are complete, money may stop mattering; no endless layers or extra post-game campaign (Q33).
+- Late-game purchases support remaining discoveries or decoration. Once the finite site and
+ upgrades are complete, money may stop mattering; no endless layers or extra post-game campaign.
 - Nothing requires a new game; the game explicitly states that the run continues.
 
 ## 7. Completion
-
-Per P05:
 
 - **Beaten:** the final object is found and the components assembled; credits roll.
 - **100% on this save:** ending completed, all special exhibits collected and placed, all upgrade
@@ -113,4 +114,5 @@ Per P05:
 
 - The exact final object (direction locked, object TBD after prototype).
 - Exact staging and length of the cutscene.
-These are listed in `13_OPEN_QUESTIONS.md` and are non-blocking for prototype work.
+
+These are listed in [Open Questions](13_OPEN_QUESTIONS.md) and are non-blocking for prototype work.
