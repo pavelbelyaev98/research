@@ -31,6 +31,7 @@ Learning happens through the world, not popups (I02, I02b):
  the stenciled signs, the Sell All lever and the lit upgrade panel are the teaching tools, and the
  session ends with a completed loop and a reason to come back (prototype gate in `14` §4).
 - First interactions work on the first try: stand at the machine, press the obvious button.
+- **Every system explains itself where it is used:** signs and objects must cover the stations, C4, lamps and the detector; Ore Factory Squad's unexplained systems sent players searching for guides while its forced tutorial drew restart complaints — this game needs neither.
 
 ## 3. The Sell All machine
 

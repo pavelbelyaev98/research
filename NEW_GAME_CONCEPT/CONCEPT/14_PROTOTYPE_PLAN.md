@@ -44,6 +44,8 @@ sinks, large-object extraction.
 - Hard pocket: how many attempts before players leave and return later.
 - Rare find value: how many expeditions a "big find" should equal.
 - Station time: seconds spent in the yard per trip.
+- Tool-tier regression: time-to-clear per material family for each new head vs the previous tier — no new tier may be slower in ground the player already digs.
+- C4 value: digging time saved per charge vs its price — a charge must clearly pay for itself.
 
 ## 4. Validation metrics (playtest gates)
 

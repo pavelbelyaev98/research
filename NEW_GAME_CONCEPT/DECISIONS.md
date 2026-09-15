@@ -34,16 +34,16 @@ this file: `ITERATION_GUIDE.md`.
 | Q05 | Fictional country; Eastern-European-coded humor and objects | `CONFIRMED` |
 | Q06 | Silent first-person nobody; no face, no voice | `CONFIRMED` |
 | Q07 | Discovery and upgrade carry equal weight | `CONFIRMED` |
-| Q08 | Fun/absurdity/curiosity first; relaxation secondary; honest marketing (evidence: relaxing/chill is the most positively-rated theme in Hydroneer's reviews — the calm payoff stays a first-class result of the loop, never an afterthought) | `CONFIRMED` |
+| Q08 | Fun/absurdity/curiosity first; relaxation secondary; honest marketing (evidence: relaxing/chill is the most positively-rated theme in Hydroneer's reviews — the calm payoff stays a first-class result of the loop, never an afterthought; Ore Factory Squad's reviewers recommend it for exactly that calm while its day timer and sleep penalty are their sharpest solo complaint, so time pressure never enters the loop) | `CONFIRMED` |
 | Q09 | Humor object/deadpan based, rare, never a main pillar; no toilet/body-sound gags | `REVISED` |
 | Q10 | Light slow-build mystery (evidence: hidden finds and unsolved oddities are among the most-praised elements in digging-game reviews, while forced story chores are among the most resented — the trail stays discovery-driven, optional and rewarded by the finds themselves; concept `11` §1) | `CONFIRMED` |
 | Q11 | No NPCs; story told by objects, machines, display and environment | `REVISED` |
 | Q12 | Final discovery: a modern object built in impossibly ancient materials | `REVISED` |
-| Q13 | Full NOT-list confirmed (no archaeology/survival/crafting/puzzle/management/hazards/meters) (evidence: unadvertised horror is One Man's Trash's #1 complaint and AGADAH's creepy finale divided its audience — the impossible must read as awe, never threat; concept `11` §1, `09` §6) | `CONFIRMED` |
+| Q13 | Full NOT-list confirmed (no archaeology/survival/crafting/puzzle/management/hazards/meters) (evidence: unadvertised horror is One Man's Trash's standout complaint and AGADAH's creepy finale divided its audience — the impossible must read as awe, never threat; concept `11` §1, `09` §6) | `CONFIRMED` |
 | Q14 | Genre fans primary; streamers/meme audience secondary; must be a real game | `CONFIRMED` |
 | Q15 | E10+ / PEGI 7 | `CONFIRMED` |
 | Q16 | 30–60 minute sessions | `CONFIRMED` |
-| Q17 | 3–5 h first completion @ $6.99–9.99 (evidence: perceived value tracks density, polish and replayability more than hours — One Man's Trash at ~3 h drew "not enough content" complaints while AGADAH at 1–2 h holds ~89% positive; price unchanged) | `CONFIRMED` |
+| Q17 | 3–5 h first completion @ $6.99–9.99 (evidence: perceived value tracks density, polish and replayability more than hours — One Man's Trash at ~3 h drew "not enough content" complaints while AGADAH at a similar size keeps a strongly positive rating; Ore Factory Squad's 15–20 h still drew "not enough content" because progression hit a hard cap before the player was done — the ending lands after the loop is fully expressed and post-credits goals stay visible; price unchanged) | `CONFIRMED` |
 | Q18 | Per-save randomized world; display per-save; no meta progression (evidence: Keep Digging players widely praised the gear-carrying reset; second-run identity logged as S13) | `CONFIRMED` |
 | Q19 | PC primary; full controller support mandatory; Deck optional; no consoles | `REVISED` |
 | Q20 | Complete 1.0, no Early Access; short pre-release demo/playtest window | `CONFIRMED (C03)` |
@@ -51,10 +51,10 @@ this file: `ITERATION_GUIDE.md`.
 | Q22 | Post-launch: free bugfixes and small QoL only | `REVISED` |
 | Q22b | Ambience and action feedback only; no music; no voice acting (evidence: AGADAH's music is specifically praised in its reviews; no-music decision reaffirmed) | `CONFIRMED` |
 | Q23 | Localization: parked | `DEFERRED` |
-| Q24 | No co-op; save format stays future-proof (evidence: co-op is Keep Digging's #1 praised feature, one of the most-requested additions in AGADAH and The Spotter, and a genuine couch highlight for Hydroneer players — demand is persistent across games, so this is **re-opened for decisioning**; social hook tracked as Q32) | `DISCUSSING` |
+| Q24 | No co-op; save format stays future-proof (evidence: co-op is Keep Digging's most-praised feature, one of the most-requested additions in AGADAH and The Spotter, and a genuine couch highlight for Hydroneer players; Ore Factory Squad's co-op is its most-praised mode while its top negative reviews are solo players fighting timers and workloads built for groups — demand is persistent across games, so this is **re-opened for decisioning**; any outcome keeps the solo loop complete on its own; social hook tracked as Q32) | `DISCUSSING` |
 | Q25 | One single difficulty | `REVISED` |
 | Q26 | Recovery keeps all loot; depth-scaled fee + interest-free auto-debt; auto-trigger at 0 fuel (evidence: losing collected loot or progress is the most trust-destroying theme in digging-game reviews — failure costing only time and a fee is strongly supported) | `CONFIRMED` |
-| Q27 | No return aids; vertical return only; keep the return-power warning (evidence: Meltopia's #2 complaint is getting lost; Keep Digging players climbed badly enough to use save-exit as an elevator; One Man's Trash players praised terrain repack; see W13) | `REVISED` |
+| Q27 | No return aids; vertical return only; keep the return-power warning (evidence: getting lost is one of Meltopia's top complaints; Keep Digging players climbed badly enough to use save-exit as an elevator; One Man's Trash players praised terrain repack; see W13) | `REVISED` |
 | Q28 | No health bar; falls stagger + knock battery; extreme falls trigger recovery (evidence: Keep Digging players praised no fall damage and disliked the patch that added fall death; severity re-opened as S14) | `CONFIRMED` |
 | Q29 | Shared dig + jetpack battery | `CONFIRMED` |
 | Q30 | C4 IN as a late-game tool | `CONFIRMED` |
@@ -87,14 +87,14 @@ this file: `ITERATION_GUIDE.md`.
 | S01 | Tracks: Tool, Battery, Jetpack, Inventory, Detector + small C4 track | `CONFIRMED` |
 | S02 | Levels: many small increments with a major capability change roughly every third level (the 30–45 min purchase cadence measures these milestones, not every level); count flexible; visuals escalate | `CONFIRMED` |
 | S03 | Money-only progression; late sinks exist; value never grows by combining (concept `06` §8) | `CONFIRMED` |
-| S03b | Late sinks: extra charges, lamps, display upgrades, cosmetics, conveniences (evidence: "the game is over once the setup runs itself" / money becomes pointless is Hydroneer's most repeated long-term complaint — late sinks plus final-purchase timing are the answer inside a 3–5 h run) | `CONFIRMED` |
+| S03b | Late sinks: extra charges, lamps, display upgrades, cosmetics, conveniences (evidence: "the game is over once the setup runs itself" / money becomes pointless is Hydroneer's most repeated long-term complaint — late sinks plus final-purchase timing are the answer inside a 3–5 h run; Ore Factory Squad's level cap with nothing left to buy or chase is its most common endgame complaint — visible post-max goals are the direct answer) | `CONFIRMED` |
 | S04 | Shared battery; paid surface refill (full/partial); drain only on powered actions; safe/risky/critical warning; bigger tank keeps current fuel (evidence: upkeep mechanics that interrupt digging — stamina, commutes, maintenance — are among the most-resisted features in digging-game reviews; drain only on powered actions is the right line) | `CONFIRMED` |
 | S05 | Generous starting capacity; strong growth steps | `CONFIRMED` |
 | S05b | Hard stop when full; finds stay in the world; uniques/key items never blocked; nothing deleted | `CONFIRMED` |
 | S06 | Detector: range/clarity/direction upgrades; never value or rarity; visual cues; one target; quiet intervals | `CONFIRMED` |
 | S07 | Jetpack: stable from the start; upgrades only improve (speed, efficiency, altitude, assists); control never degrades | `CONFIRMED` |
-| S08 | C4: thrown in multiples, stick where they land, remote detonation; powerful; costs money; optional accelerator | `CONFIRMED` |
-| S09 | Tool: automatic material adaptation; no manual switching; converges late; exact late behavior validated in playtest | `CONFIRMED (provisional)` |
+| S08 | C4: thrown in multiples, stick where they land, remote detonation; powerful; costs money; optional accelerator (evidence: Ore Factory Squad's paid explosives were ignored because the blast did not justify the price — a charge must clearly beat digging time for its cost; "properly powerful" is a prototype gate) | `CONFIRMED` |
+| S09 | Tool: automatic material adaptation; no manual switching; converges late; exact late behavior validated in playtest (evidence: Ore Factory Squad's tool tiers read as "more or less the same" and its upgraded jackhammer was worse in ground the shovel already cleared — adaptation must show distinct, felt behavior per material) | `CONFIRMED (provisional)` |
 | S10 | Passive upgrades: deprioritized until playfeel review; find-or-buy still the leading option; passive/unique effects must preserve challenge (no sudden power spikes) | `DEFERRED` |
 | S11 | Shop: fully transparent (current→next, cost, benefit); sequential purchase; locked tiers visible | `CONFIRMED` |
 | S12 | Post-ending: full Continue Playing; economy live; achievements on the same save | `CONFIRMED` |
@@ -124,17 +124,17 @@ this file: `ITERATION_GUIDE.md`.
 | ID | Decision | Status |
 |---|---|---|
 | I01 | HUD minimal: depth, bag count/capacity, battery, return warning; detector feedback diegetic | `CONFIRMED` |
-| I02 | No tutorial (evidence: Hydroneer's hands-off onboarding is a "refund-window wall" — reviews under 2 h are 41% positive versus 86–91% beyond, and most players never sell an item; diegetic learning carries a first-session full-loop gate; concept `07` §2 / `14` §4) | `REVISED` |
+| I02 | No tutorial (evidence: Hydroneer's hands-off onboarding is a "refund-window wall" — short-session reviews reject it while later ones turn positive, and many players never find the first sale; Ore Factory Squad's forced tutorial could not be skipped or saved through and drew restarts, while its unexplained systems sent players searching for guides — no tutorial, but every system must teach itself in-world; diegetic learning carries a first-session full-loop gate; concept `07` §2 / `14` §4) | `REVISED` |
 | I02b | Learning via diegetic labels/signs on machines; pause reference lists controls | `CONFIRMED` |
 | I03 | Pause menu: direction Resume / New Game / Settings / Exit; exact tabs later | `DEFERRED` |
-| I04 | Inventory: inspect-only grid; no stats/equipping/sorting; selling only at the machine (evidence: physical one-item-at-a-time handling is Hydroneer's #1 complaint — the abstract bag avoids it; concept `05` §9) | `CONFIRMED` |
-| I05 | Selling: one-button Sell All with physical animation; individual selling available there (evidence: players love hands-on physicality but hate carrying — the haul leaves the bag as one animated pile at the machine; concept `07` §3) | `CONFIRMED` |
+| I04 | Inventory: inspect-only grid; no stats/equipping/sorting; selling only at the machine (evidence: physical one-item-at-a-time handling is Hydroneer's biggest complaint — the abstract bag avoids it; concept `05` §9) | `CONFIRMED` |
+| I05 | Selling: one-button Sell All with physical animation; individual selling available there (evidence: players love hands-on physicality but hate carrying — the tactile payoff belongs at the machine, once; Ore Factory Squad's praised forklift/pallet physicality was bypassed by players the moment it became manual labor; the haul leaves the bag as one animated pile at the machine; concept `07` §3) | `CONFIRMED` |
 | I06 | Purchase order: strict sequence; no skipping; future levels visible | `CONFIRMED` |
 | I07 | Controls: hold-to-dig + toggle; full rebinding; controller parity; left-handed preset; sensitivity; optional gyro | `CONFIRMED` |
 | I08 | Motion comfort: FOV slider, shake 0–100% (low default), head bob toggle, comfort preset, no forced roll; settings persist (evidence: motion-sickness complaints recur across digging-game reviews — a first-launch comfort calibration preview is added; concept `10` §1) | `CONFIRMED` |
 | I09 | Readability: colorblind palettes, shape+label redundancy, contrast option, subtitles for all significant sounds | `CONFIRMED` |
 | I10 | Motor access: auto-dig assist, toggle holds, one-hand presets, no mashing/QTEs, generous buffering | `CONFIRMED` |
-| I11 | Cognitive comfort: pause anywhere, no timed content, no missables, no FOMO | `CONFIRMED` |
+| I11 | Cognitive comfort: pause anywhere, no timed content, no missables, no FOMO (evidence: Ore Factory Squad's day/night deadlines, closed contract counters and sleep penalty turned a game its players recommend as chill into a solo rush — the clock never gates digging or content) | `CONFIRMED` |
 | I12 | Text scale / screen reader: optional later | `DEFERRED` |
 | I13 | Photo mode: pause-only; hide HUD, FOV, filters, watermark; no free camera | `REVISED` |
 | I14 | Saves: autosave + 3 manual slots + independent rolling backup generations; Steam Cloud later (evidence: save integrity is the biggest trust issue in the genre's reviews — async non-blocking writes plus independent rolling backups are mandated; concept `08` §7, anti-pattern 42) | `REVISED` |
@@ -149,7 +149,7 @@ this file: `ITERATION_GUIDE.md`.
 | F02 | Strong distinct palettes per zone with gradual transitions | `CONFIRMED` |
 | F03 | Controlled absurdity: insane homemade tool + object identity + physical comedy; deadpan | `CONFIRMED` |
 | F04 | Tool only visible; no hands | `REVISED` |
-| F05 | Dig feel: chunky, weighted, per-material debris/audio, steady camera, no shake | `CONFIRMED` |
+| F05 | Dig feel: chunky, weighted, per-material debris/audio, steady camera, no shake (evidence: dig feel is the strongest positive theme in Ore Factory Squad's reviews — reviewers single out smooth digging and the absence of floating debris as its best quality) | `CONFIRMED` |
 | F06 | Audio: layered zone ambience + per-material dig loops + station feedback; no music/VO | `CONFIRMED` |
 | F07 | Detector presentation: deferred; options documented (hybrid / edge indicator / tool reaction) | `DEFERRED` |
 | F08 | FX: comfort-safe (dust/crumbs/sparkles/C4 smoke); no shake/gore/flashes; adjustable | `CONFIRMED` |
@@ -171,7 +171,7 @@ this file: `ITERATION_GUIDE.md`.
 
 | ID | Decision | Status |
 |---|---|---|
-| A01 | Assets: custom Blender models (AI-assisted workflow acceptable, real references); no AI-generated images/textures; licensed audio only if needed; parody references only | `CONFIRMED (REVISED)` |
+| A01 | Assets: custom Blender models (AI-assisted workflow acceptable, real references); no AI-generated images/textures; licensed audio only if needed; parody references only (evidence: Ore Factory Squad's most-upvoted negative review accuses it of being vibe-coded end to end while its positive reviews defend it as "not AI slop" — cohesive custom art is a trust feature) | `CONFIRMED (REVISED)` |
 | C01 | Keep core fantasy; revisions per Q02 | `CONFIRMED` |
 | C02 | Setting and motivation per Q04 | `CONFIRMED` |
 | C03 | Release approach per Q20 | `CONFIRMED` |
@@ -215,3 +215,4 @@ this file: `ITERATION_GUIDE.md`.
 | 2026-09-15 | — | Pruned other-game bug/marketing citations from the register and concept set per developer preference; removed anti-pattern 43 (feature-tag honesty) and the bug-only flags on Q24/I14/W06; game-relevant rules retained (backups, achievement eligibility, exploit invariant, onboarding gate) | Developer feedback | assistant (user-requested) |
 | 2026-09-15 | Q24 | No-co-op decision re-opened for decisioning (status `DISCUSSING`) | Persistent co-op praise and requests across the review corpora (Keep Digging's #1 praised feature; AGADAH, The Spotter, Hydroneer couch co-op) | assistant (user-requested) |
 | 2026-09-15 | — | Inline evidence flags reworded to game/player-feedback style; dates removed from flags | Developer preference | assistant (user-requested) |
+| 2026-09-15 | — | Ore Factory Squad delta: anti-patterns 46–47 added; evidence extended on 3/4/15/19/34; flags added on Q08/Q17/Q24/S03b/S08/S09/I02/I05/I11/A01/F05; open questions W01/F07/D03/S15 updated; prototype checks added for tool-tier regressions and C4 payback | `RESEARCH/ORE_FACTORY_SQUAD_REVIEW_ANALYSIS.md` | assistant (user-requested) |
