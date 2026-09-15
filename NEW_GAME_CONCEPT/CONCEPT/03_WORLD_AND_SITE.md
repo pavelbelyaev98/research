@@ -90,6 +90,8 @@ as no solution.
 ## 7. Lighting and darkness
 
 - **Sky light reaches down open shafts** and fades with depth (F09).
+- **The shaft reads from below:** the main shaft's light column and drifting dust motes make the
+  way up legible at any depth — natural light, not a HUD aid, and no map widget (W12, W13).
 - **A dim ambient floor** exists everywhere — the game is never pitch black; you can always barely
  navigate (W03g).
 - **Placeable lamps** provide real visibility, let players mark routes, and light finds for photos.

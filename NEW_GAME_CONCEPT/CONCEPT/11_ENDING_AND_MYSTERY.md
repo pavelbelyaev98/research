@@ -63,6 +63,8 @@ Rules (C01):
 - Fame is shown diegetically (Q31): a media wall in the yard — news clippings, a radio, a small TV —
   starts filling with reports after the discovery; no characters, no dialogue, no crowd.
 - No retcon that erases the player's work; the dig mattered and the world reacts to it.
+- The reports reference the finds actually displayed and the depths reached — the epilogue pays off
+  this hole, never a generic montage.
 - The display wall and the hole itself can appear as a quiet montage — the player's own excavation
  as the record of the journey.
 

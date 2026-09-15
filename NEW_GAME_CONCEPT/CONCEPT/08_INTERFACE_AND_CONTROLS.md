@@ -74,6 +74,9 @@ point: the hole and the find are the subject.
  delta-diff chunks with a strict latency budget (<100ms), ensuring the game never freezes, chugs,
  or hitches the frame rate when saving large voxel hole states (I14, anti-pattern 42; directly prevents
  the 15–60 second PC freezes observed in *Digger: Galactic Treasures*).
+- **Independent rolling backups:** several backup generations are written at different save events,
+ and a corrupted active save can never take the backups down with it. Loading a damaged save falls
+ back to the newest valid generation and says so plainly — the world is never silently reset.
 - Save status is visible but unobtrusive; no save spam.
 - Steam Cloud comes later (I14); the save format is designed so it can be added without changes.
 - Loading restores the exact hole, inventory, display and progression — never fresh terrain with old

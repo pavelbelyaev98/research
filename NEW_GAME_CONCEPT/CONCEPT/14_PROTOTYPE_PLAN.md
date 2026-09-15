@@ -50,6 +50,7 @@ sinks, large-object extraction.
 | Metric | Target |
 |---|---|
 | First noteworthy discovery | within the first 10 minutes, every seed |
+| First-session full loop (onboarding) | an unguided tester finds, sells and buys in one session; nobody needs a wiki or video to complete one loop |
 | Voluntary lateral digging | the majority of testers dig sideways at least once per session unprompted |
 | Recognition quality | ≥ 80% of testers correctly name slice objects from partial exposure |
 | Voluntary full uncovering | ≥ 70% choose to keep revealing an interesting object rather than skip it |
@@ -90,6 +91,7 @@ sinks, large-object extraction.
 - Muted + auto-dig + controller-only full run completes with no blockers.
 - Clean-save 100% completion verified (achievements, display, tracks, zones).
 - No save-loss, no terrain reset, no stuck states, no unreachable finds.
+- First-session comprehension: unguided testers complete one full loop unaided and want a second trip.
 - Session-length stress run keeps dig rhythm stable: no shader or streaming hitch on the normal
   digging path (F13).
 - Save write latency check: saving an extensively deformed late-game excavation causes zero frame freeze or input hitch (I14, anti-pattern 42).

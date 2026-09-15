@@ -1,6 +1,6 @@
 # Research — Evidence Layer
 
-The five Steam review corpora behind the game's design. **Evidence only: never edit the game design
+The Steam review corpora behind the game's design. **Evidence only: never edit the game design
 from here.**
 
 | Game | Analysis | Raw data | Reviews |
@@ -10,6 +10,8 @@ from here.**
 | Meltopia | `MELTOPIA_REVIEW_ANALYSIS.md` | `research_data/meltopia_reviews_raw.json` (1 MB) | 1,722 |
 | One Man's Trash | `ONE_MANS_TRASH_REVIEW_ANALYSIS.md` | `research_data/one_mans_trash_reviews_raw.json` (0.2 MB) | 330 |
 | The Spotter: Dig or Die | `THE_SPOTTER_DIG_OR_DIE_REVIEW_ANALYSIS.md` | `research_data/the_spotter_dig_or_die_reviews_raw.json` (1 MB) | 1,859 |
+| Digger: Galactic Treasures | `DIGGER_GALACTIC_TREASURES_REVIEW_ANALYSIS.md` | `research_data/digger_galactic_treasures_reviews_raw.json` (0.4 MB) | 729 |
+| Hydroneer | `HYDRONEER_REVIEW_ANALYSIS.md` | `research_data/hydroneer_reviews_raw.json` (11 MB) | 28,474 |
 
 ## How to iterate (Stage 1)
 
@@ -56,10 +58,10 @@ Process:
 5. Find gaps: themes, quotes or player behaviors in the data the document misses. Rank them
    important / minor / skip.
 6. Present a change plan as a list and wait for my approval before editing.
-7. After approval, update the file in place, preserving its structure: header table, method/corpus
-   verification, TL;DR, numbers, praise, criticism, divergent opinions, who should buy, caveats,
-   spoiler sections.
-8. Add a short "Revision notes (date)" section at the end listing what changed and why.
+7. After approval, update the file in place, preserving its structure: header table, TL;DR, numbers,
+   praise, criticism, divergent opinions, who should buy, caveats, spoiler sections.
+8. Keep it a seamless current document: no method section, no provenance notes, no revision notes,
+   and no dates beyond the scraped-on line in the header table.
 
 Hard rules:
 - Never invent quotes, numbers or themes. Quotes are verbatim from the JSON; translations are marked

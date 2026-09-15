@@ -10,23 +10,25 @@ research iteration (improve analyses → delta against decisions → new questio
 
 Start here: **`NEW_GAME_CONCEPT/CONCEPT/00_README.md`**
 
-| Path | What it is |
-|---|---|
-| `NEW_GAME_CONCEPT/CONCEPT/` | The game design (16 files, from pitch to prototype plan) |
-| `NEW_GAME_CONCEPT/DECISIONS.md` | The decision register — **single source of truth** for every confirmed choice |
-| `NEW_GAME_CONCEPT/ITERATION_GUIDE.md` | How new research is turned into decision deltas safely |
+| Path                                  | What it is                                                                    |
+| ------------------------------------- | ----------------------------------------------------------------------------- |
+| `NEW_GAME_CONCEPT/CONCEPT/`           | The game design (16 files, from pitch to prototype plan)                      |
+| `NEW_GAME_CONCEPT/DECISIONS.md`       | The decision register — **single source of truth** for every confirmed choice |
+| `NEW_GAME_CONCEPT/ITERATION_GUIDE.md` | How new research is turned into decision deltas safely                        |
 
 ## The evidence
 
-| Path | What it is |
-|---|---|
-| `RESEARCH/README.md` | Evidence-layer index and iteration instructions |
-| `RESEARCH/A_GAME_ABOUT_DIGGING_A_HOLE_REVIEW_ANALYSIS.md` | Steam review analysis (20,098 reviews) |
-| `RESEARCH/KEEP_DIGGING_REVIEW_ANALYSIS.md` | Steam review analysis (3,266 reviews) |
-| `RESEARCH/MELTOPIA_REVIEW_ANALYSIS.md` | Steam review analysis (1,722 reviews) |
-| `RESEARCH/ONE_MANS_TRASH_REVIEW_ANALYSIS.md` | Steam review analysis (330 reviews) |
-| `RESEARCH/THE_SPOTTER_DIG_OR_DIE_REVIEW_ANALYSIS.md` | Steam review analysis (1,859 reviews) |
-| `RESEARCH/research_data/` | Raw scraped review JSON for the five analyses |
+| Path                                                      | What it is                                      |
+| --------------------------------------------------------- | ----------------------------------------------- |
+| `RESEARCH/README.md`                                      | Evidence-layer index and iteration instructions |
+| `RESEARCH/A_GAME_ABOUT_DIGGING_A_HOLE_REVIEW_ANALYSIS.md` | Steam review analysis (20,098 reviews)          |
+| `RESEARCH/KEEP_DIGGING_REVIEW_ANALYSIS.md`                | Steam review analysis (3,266 reviews)           |
+| `RESEARCH/MELTOPIA_REVIEW_ANALYSIS.md`                    | Steam review analysis (1,722 reviews)           |
+| `RESEARCH/ONE_MANS_TRASH_REVIEW_ANALYSIS.md`              | Steam review analysis (330 reviews)             |
+| `RESEARCH/THE_SPOTTER_DIG_OR_DIE_REVIEW_ANALYSIS.md`      | Steam review analysis (1,859 reviews)           |
+| `RESEARCH/DIGGER_GALACTIC_TREASURES_REVIEW_ANALYSIS.md`   | Steam review analysis (729 reviews)             |
+| `RESEARCH/HYDRONEER_REVIEW_ANALYSIS.md`                   | Steam review analysis (28,474 reviews)          |
+| `RESEARCH/research_data/`                                 | Raw scraped review JSON for the analyses        |
 
 ## Workflow (short version)
 

@@ -47,7 +47,9 @@ prototype-tuned).
 
 ## 4. Pacing rules (generation enforces these)
 
-- A noteworthy discovery is guaranteed early (first ten minutes).
+- A noteworthy discovery is guaranteed early (first ten minutes), staged near the shaft mouth and
+  readable within its first bites; the first sale must afford the first purchase so the loop closes
+  in the first session (tuning target `06` §9).
 - Dry spells between noteworthy discoveries are bounded.
 - Related objects cluster; unrelated major finds never clump.
 - At most one major-scale discovery per zone.

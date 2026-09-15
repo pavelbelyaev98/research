@@ -27,12 +27,18 @@ Learning happens through the world, not popups (I02, I02b):
 - The Sell All machine has a big visible lever/handle; the upgrade bench has a lit panel showing the
  next tool change; the display wall's empty frames invite inspection.
 - A compact pause reference lists controls, and settings explain options.
+- **First-session full loop:** an unguided newcomer must find, sell and buy without a wiki or video —
+ the stenciled signs, the Sell All lever and the lit upgrade panel are the teaching tools, and the
+ session ends with a completed loop and a reason to come back (prototype gate in `14` §4).
 - First interactions work on the first try: stand at the machine, press the obvious button.
 
 ## 3. The Sell All machine
 
 - One press processes everything sellable in the bag.
 - **Animated sequence:** the machine rattles, jostles its contents, then coughs up coin feedback.
+- **The haul drop:** the bag's contents appear as a single animated pile that the machine rattles
+  and eats — the tactile payoff happens once, at the machine, and can never be carried, dropped or
+  lost on the way home.
 - No manual depositing; individual selling is available as a secondary option at the machine.
 - Uniques and components are never sellable and are never at risk of being included.
 - The machine is a running character in its own right: it gets louder and more absurd as the game

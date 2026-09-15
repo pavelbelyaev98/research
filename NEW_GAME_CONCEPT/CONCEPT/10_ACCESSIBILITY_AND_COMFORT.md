@@ -21,7 +21,9 @@ Design rules:
 - No cinematic camera takeovers, no rotating elevator shots on the critical path.
 - Camera motion is smooth at any frame rate.
 - A player who says "I get motion sick" in the first-launch wizard gets the comfort preset applied
- automatically.
+  automatically.
+- A short first-launch camera preview ("look around — does this feel right?") lets the player set
+  FOV and shake and applies the comfort preset before the first dig.
 
 ## 2. Motor accessibility
 

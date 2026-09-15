@@ -18,6 +18,9 @@ collectathons and false "no cheating" detectors. None of that exists here.
 6. **No false detectors:** the game never accuses the player of cheating.
 7. **No grinds:** nothing requires clearing every voxel or repeating unfun loops.
 8. **No host-only or online-required achievements** (the game is single-player).
+9. **Visible-state eligibility only.** No hidden cheat/mod flag can silently lock achievements. If a
+ save becomes ineligible (e.g., debug), the game says so in plain language and points to a clean-save
+ path; saves that never cheated are never punished.
 
 ## 3. Candidate set (to be finalized with content)
 

@@ -93,13 +93,15 @@ There is no point where the intended player has literally nothing to buy while s
 - No dead end where everything is purchased halfway through the run.
 - No loot deletion as a failure consequence.
 - No item durability; tools never break.
+- No object whose sale value increases by combining, stacking or re-merging — value is fixed per
+  type (value-stacking exploits cannot exist by construction).
 - No payed power, no premium currency, no microtransactions.
 
 ## 9. Tuning targets (validated in prototype; exact values per Rule 8)
 
 | Metric | Target |
 |---|---|
-| First purchase | within the first minutes |
+| First purchase | affordable from the first sale; within the first minutes |
 | Median time between milestone (capability) purchases | 30–45 min; small level purchases land more often |
 | Purchases affordable at any moment | ≥ 3 |
 | Maxed tracks before credits | 50–85% of players (i.e., some left for Continue Playing) |

@@ -1,6 +1,6 @@
 # 15 — Anti-Patterns (never ship these)
 
-Each entry is a specific failure observed in the five reviewed digging games, and the rule that
+Each entry is a specific failure observed in the reviewed digging-game corpora, and the rule that
 forbids it here. If a proposal matches an entry, it is rejected unless the developer explicitly
 overrides it in `../DECISIONS.md`.
 
@@ -15,13 +15,14 @@ overrides it in `../DECISIONS.md`.
 | 5 | Make rare finds buy half the tree | Jackpots destroy pacing | Rare = several expeditions, never half the tree (`05`) |
 | 6 | Force repeat trips or grinds for the finale | "40 to 60 more trips to the bottom" | Finale readiness is natural; no grind wall (`02`, `06`) |
 | 7 | Irreversible build choices | "to try new turret I have to start completely over" | No permanent branches; all purchases additive (`06`) |
+| 44 | Gate progression behind a minigame or non-digging activity | Hydroneer's King's quest demanded token crops, a 1.5-weight lobster and 600-crop soup deliveries — "quest grind fest", 109-upvote token complaint | The only gates are money and tool power; the dig is always the answer (`06` §1) |
 
 ## Pressure and failure
 
 | # | Never | Evidence | Rule here |
 |---|---|---|---|
 | 8 | Delete carried loot on failure | "want to do bad things to the creators"; freeze-loss | Recovery keeps everything; fee + debt only (`06`) |
-| 9 | Add stamina/commute mechanics that interrupt digging | "remove the beer drinking crap… I want to dig" | Battery is the only pressure; no commuting design (`03`) |
+| 9 | Add stamina/commute mechanics that interrupt digging | "remove the beer drinking crap… I want to dig"; Hydroneer's no-inventory hauling loop is its #1 complaint (447 neg EN mentions) | Battery is the only pressure; no commuting design (`03`) |
 | 10 | Punish falls with health/chip damage | "fall damage is not gracious"; 1-voxel specks break legs | Battery knock + stagger; never health (`04`, `10`) |
 | 11 | Add hunger, oxygen, warmth, food meters | "absolutely unnecessary to have dmg in a game like this" | None; NOT-list (`03`) |
 | 12 | Make darkness pitch black | "extreme darkness" complaints | Dim ambient floor everywhere (`03`) |
@@ -63,15 +64,16 @@ overrides it in `../DECISIONS.md`.
 | 32 | Color-only information | colorblind lockout | Shape + label redundancy (`10`) |
 | 33 | Audio-only clues in a music-less game | playable-muted requirement | Visual counterparts for every cue (`09`) |
 | 34 | A permanent tutorial or popup spam | tutorial complaints | No tutorial; diegetic labels (`07`) |
+| 45 | Land an interaction anywhere but where the player aims | Hydroneer's offset drop cursor — a second cursor below the right hand — is its second-most-negative theme (19% positive; 99-upvote placement complaint) | Results land at the aim point or at a clearly previewed valid surface (`08` §4, `10` §2) |
 
 ## Saves and trust
 
 | # | Never | Evidence | Rule here |
 |---|---|---|---|
 | 35 | Lose the hole, inventory or display on load | "saving only saves your upgrades, not the hole" | Full state persistence (`08`) |
-| 36 | Delete or corrupt saves; no backups | "Saves disappeared?!" | Autosave + manual slots + atomic writes (`08`) |
+| 36 | Delete or corrupt saves; no backups | "Saves disappeared?!" | Autosave + manual slots + independent rolling backup generations with validated fallback (`08` §7) |
 | 37 | Make balance patches reroll an existing world | "rebalanced… now I can't reach the end of a tunnel" | Population persists; no forced rerolls (`03`) |
-| 38 | Lock achievements behind NG+, RNG or bugs | "INCREDIBLY scummy"; 45/46 forever | Fair one-run achievements (`12`) |
+| 38 | Lock achievements behind NG+, RNG or bugs | "INCREDIBLY scummy"; 45/46 forever | Fair one-run achievements derived from visible state (`12`) |
 | 39 | Delete or invalidate the display / collection | progress loss | Display is permanent in the save (`07`) |
 | 41 | Trigger the finale purely via depth or void boundary volumes | Falling into void/collision seams triggering credits | Finale requires intentional physical insertion of components (`11`) |
 | 42 | Block the main thread during save serialization or freeze the game on save | Digger: Galactic Treasures PC freezes for 15–60s on every save due to synchronous whole-world voxel serialization | Asynchronous non-blocking background serialization (<100ms budget) (`08`, `14`) |
