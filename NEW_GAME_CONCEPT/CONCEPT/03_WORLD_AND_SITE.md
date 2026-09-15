@@ -61,16 +61,22 @@ The tool adapts automatically to the material (see [Tool and Movement](04_TOOL_A
 right behavior but never lock it out. These are cutting responses and visual debris, not a global
 collapse hazard. Power growth outpaces tougher ground over the campaign.
 
-**Dig along the seam**: some ground has visible cracks or material boundaries. Cutting along
-one frees a larger local section with less work than digging through its center. For example, follow
+**Dig along the seam**: some ground has visible cracks or material boundaries. Cutting broadly
+along one frees a larger local section with less work than digging through its center. For example, follow
 a clay seam around a rock section and break that section away. The ground offers a small choice:
 "where would a cut do the most?"
 
-- Use the same tool and normal digging input; broad, readable seams need no precise tracing.
+- Use the same tool and normal digging input; broad, readable cuts along a seam reward the player
+  without requiring a pixel-perfect or fully traced perimeter.
+- **Physical payoff:** cutting along a seam triggers distinct feedback — a sharp stress crack, a subtle
+  physical shift of the worked slab, and a heavy fracturing break as the section gives way.
 - Digging straight through always works. Seams offer an optional efficiency gain from the start;
- stronger upgrades make the resulting cuts larger and more satisfying.
-- Removal stays local to the worked section. Finds survive for normal collection, and unrelated
- ledges or overhangs remain intact; this does not add a collapse hazard.
+  stronger upgrades make the resulting cuts larger and more satisfying.
+- **Normal cleanup rules apply:** plain dirt crumbs vanish, embedded valuables remain in place without
+  bonus duplicates, and interesting finds survive intact for deliberate partial exposure and recognition.
+  Breaking a slab never creates extra loot or bypasses recognition.
+- Removal stays local to the worked section. Unrelated ledges, tunnels, and overhangs remain stable;
+  this does not add a collapse hazard.
 
 ## 5. Tough ground: hard pockets
 

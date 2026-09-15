@@ -85,9 +85,10 @@ Rules:
   this hole, never a generic montage.
 - The display wall and the hole itself can appear as a quiet montage — the player's own excavation
  as the record of the journey.
-- **Timelapse candidate:** a short, skippable view of this save changing from untouched ground to
- the final hole could make the scale of the player's work visible. Before-and-after views are a
- simpler fallback. This remains an [open presentation choice](13_OPEN_QUESTIONS.md#interface-and-ending).
+- **Timelapse candidate:** a short, skippable retrospective sequence of this save changing from untouched
+  ground to the final excavated hole makes the scale of the player's work visible during the finale/credits.
+  Before-and-after views are a simpler fallback. Live surveying stations or cross-section viewer props are
+  strictly excluded to uphold the "no map, ever" pillar. This remains an [open presentation choice](13_OPEN_QUESTIONS.md#interface-and-ending).
 
 ## 6. Continue Playing
 

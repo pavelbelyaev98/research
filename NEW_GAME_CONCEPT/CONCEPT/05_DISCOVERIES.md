@@ -101,8 +101,13 @@ Clusters should read as parts of a coherent buried place — a household, worksh
 
 A few per run (target 3–5): a car, a large appliance pile, a machinery section. The player
 excavates most of it first; a short local extraction gives the physical payoff, then the whole object
-is transferred to its surface destination. No car-wide shaft to the sky or cinematic camera; the
-player stays in control. Test the animation beneath ceilings without visible cable clipping.
+is transferred to its surface destination. For suitable heavy finds (like a vehicle or boiler), this
+local release can feature bladder-assisted unsticking: attaching salvage bladders that inflate with a
+hiss, heave the find with a satisfying mud-release pop, and unstick it from the ground.
+
+Once released, the whole object transfers to the surface automatically. No crawler sled, widened routes,
+car-wide shaft to the sky or cinematic camera takeovers; the player stays in control. Test the transfer
+presentation beneath ceilings and overhangs without visible cable clipping.
 Extraction always delivers the whole object — a large find that yields only a token part reads as a
 letdown. Some very large discoveries may remain in place permanently as landmarks; their
 non-extractable nature is clear and discovery is credited in place.

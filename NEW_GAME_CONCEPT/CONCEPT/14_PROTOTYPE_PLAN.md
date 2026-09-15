@@ -32,12 +32,15 @@ build curiosity about one larger construction.
 | Story | One anachronistic junk object for the mystery trail |
 
 Explicitly out of the slice: zones 2–4, the full roster, the ending, achievements, photo mode, late
-sinks and finished large-object content. Test local extraction beneath an overhang separately and
-early; the whole-object payoff must work without a transport shaft to the sky.
+sinks and finished large-object content. Test local extraction (including bladder-assisted release
+and mud unsticking) beneath an overhang separately and early; the whole-object payoff must work
+without a transport shaft to the sky or cable clipping.
 
 ## 3. Experiments (numbers to discover)
 
 - Voxel size vs. dig satisfaction and recognition readability.
+- Seam cleaving: verify that broad cuts along visible seams trigger the crack → shift → break feedback
+  cleanly without disrupting neighboring geometry, creating duplicate loot, or auto-collecting finds unseen.
 - Starting shovel speed vs. frustration; fewer stronger upgrade steps and output on familiar ground.
 - Battery drain per powered action vs. outing length; recovery frequency and empty-wallet restart.
 - Bag capacity vs. trip length; where the hard stop actually lands.

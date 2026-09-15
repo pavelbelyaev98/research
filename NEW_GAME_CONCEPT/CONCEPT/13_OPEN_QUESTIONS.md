@@ -27,7 +27,7 @@ Once a choice is made, document it in the relevant chapter and remove it here.
 | Topic | Open choice | Leaning / next step |
 |---|---|---|
 | Price on hover | Small fixed price once a sellable find is exposed enough to collect / price only when selling | Test whether the small hover price adds anticipation. No hidden-item or unsellable-item prices; no delayed common pickups |
-| Ending presentation | Exact staging and length; short timelapse / before-and-after views / final-hole montage | One personal, pausable/skippable ending. A readable timelapse of this save's excavation could show the scale of the player's work; before-and-after is the simpler fallback |
+| Ending presentation | Exact staging and length; short timelapse / before-and-after views / final-hole montage | One personal, pausable/skippable ending. A readable retrospective timelapse of this save's excavation could show the scale of the player's work; before-and-after is the simpler fallback. (Live cross-section viewers or survey stations are excluded to uphold the "no map, ever" pillar.) |
 | Text scale and screen reader | Optional later additions | Scope remains undecided; sound captions are already required |
 
 ## Tuning

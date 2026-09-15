@@ -40,6 +40,8 @@ Chunky, weighted and steady:
 - The camera never shakes or jerks from digging. No motion effects are added just to have toggles
  for them.
 - Audio is per material: sand hisses, clay thumps, rock cracks, concrete grinds.
+- **Seam cleaving feedback:** cutting broadly along a seam produces a sharp stress crack, a subtle
+ visual settling shift, and a heavy fracturing break as the worked slab gives way.
 - The machine's behavior and sound improve with upgrades, so power is felt in the hands, not read
  from a stat screen.
 - Downward digging feels good with the starting shovel; upgrades make it feel ridiculous. Power
@@ -64,8 +66,8 @@ Ambience and feedback only. **No music. No voice acting**.
 
 - **Zone ambience layers:** wind and distant water near the surface; drips and settling rock deeper;
  a low, almost-silent hum in the ancient zone. Layers crossfade with depth.
-- **Action feedback:** dig loops per material, footsteps, jetpack thrust, C4 blast, machine
- interactions, pickup chimes, the Sell All machine's noises.
+- **Action feedback:** dig loops per material, seam fractures, footsteps, jetpack thrust, salvage
+  bladder inflation and mud-release pop, C4 blast, machine interactions, pickup chimes, the Sell All machine's noises.
 - **No audio-only clues.** Every sound that carries information has a visual counterpart. The
   detector is silent by design and readable while muted.
 - **No threat-adjacent audio anywhere.** The deep zone hums; it never breathes, whispers, follows or
