@@ -16,6 +16,38 @@
 
 ---
 
+## My playthrough (primary evidence)
+
+*Notes from my own full playthrough of Meltopia — written by me, the developer of our game, not by Meltopia's developer. These are the primary evidence; corpus agreement is noted in italics.*
+
+### Overall
+Meltopia was better than One Man's Trash and more satisfying to play. For the setting and material fantasy, ice (or anything more beautiful) is preferable to trash.
+
+### Display and uniques
+- I liked carrying uniques and placing them in their spots — only kind of, but it worked and kept me doing it.
+- Common items should be visible before pickup. They were vacuumed into the inventory without me ever seeing them first, and that felt bad; seeing the thing is part of the reward, even when it is junk.
+
+*Corpus: reviewers like the artifact loop and the mammoth rebuild (Praise 4), but the most repeated collectible complaint is that displayed artifacts unlock nothing — "artifacts are just placed on stands and give no perks" (Criticism 7). No review raises the unseen-pickup issue.*
+
+### Autosaves
+- The autosaves were bad — visible stutters and no trust that progress was safe.
+
+*Corpus: saving freezes the game for several seconds and launch reviews report wiped saves; it is one of the top technical complaints (Criticism 5).*
+
+### Upgrading
+- Upgrading does not need an animation. I do not want to wait through a presentation every time I buy something.
+
+*Corpus: the visible bolt-on changes to tools and the stove are singled out as a highlight (Praise 3) — keep the visible change, cut the wait.*
+
+### Tools and navigation
+- The tools and weapons were annoying (the Tesla slowdown, the shovel), and horizontal navigation was a chore.
+
+*Corpus: the Tesla gun is the #1 design complaint (Criticism 1), the shovel is its own top complaint (Criticism 4), and no map plus identical tunnels makes getting lost the #2 overall problem (Criticism 2).*
+
+Match with the corpus: high — every complaint except the upgrade animation and unseen pickups is a documented top criticism.
+
+---
+
 ## TL;DR
 
 Meltopia is a cozy first-person "melt-'em-up": instead of digging, you thaw snow and ice with a heat gun in a frozen manor and its labyrinthine underground tunnels, collecting junk, artifacts and mammoth bones, then selling and upgrading. It is a close cousin of A Game About Digging a Hole and PowerWash Simulator, made by a small (reportedly Russian) studio, and it was a budget hit at $6.99.

@@ -38,12 +38,12 @@ I got no satisfaction from this game, and every other digging game I have played
 
 ### Progression, gates and friction
 - There are too many upgrades, and the upgrades did not make sense — I did not care about reading about them.
-- At roughly 20 m a hard depth blocker stopped me from digging deeper and forced me to keep digging out my current area instead. **Blocking progress to force grinding is off-putting.**
+- At roughly 20 m (and again at later tiers) a hard depth blocker stopped me from digging deeper until I upgraded my tool, which forced me to keep digging out my current area to afford it. **A gate that reads as a wall and forces grinding is off-putting — it must read as a clear next step.**
 - Powerful timed upgrades felt good to use. That may only be because the base game was boring, so I am unsure they belong in our game; I would rather decide from the corpus.
 - Fall damage is annoying, and the overheating mechanic is really annoying.
 - I did not like that there was no jetpack. **I would prefer a jetpack over the rope or any other get-back-up mechanic.**
 
-*Corpus: shallow, meaningless upgrades are a top criticism (Criticism 3: "upgrades are tiny and lack impact", invisible +5% effects), and reviewers also hate tier/license gating (the ~$20,000 membership wall). The missing jetpack is agreed on, with the rope dividing opinion (Criticism 5; Divergent opinions). Timed upgrades and overheating are not review themes, so there is no support either way.*
+*Corpus: shallow, meaningless upgrades are a top criticism (Criticism 3: "upgrades are tiny and lack impact", invisible +5% effects), and reviewers also hate tier/license gating (the ~$20,000 membership wall): the game's depth is gated by tool-upgrade tiers along the way, with the demo stopping at 50 m and the full dig reaching 200 m per the developer's own response. The missing jetpack is agreed on, with the rope dividing opinion (Criticism 5; Divergent opinions). Timed upgrades and overheating are not review themes, so there is no support either way.*
 
 ### Selling and UI
 - One interface for both selling and buying/upgrading is good UX: after selling I can upgrade immediately, without walking anywhere. I am also fine with the classic split where one place sells and another buys — as long as **selling itself is made more interesting**.
@@ -110,6 +110,7 @@ One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to re
 | Median playtime — positive reviews | 4.7 h |
 | Median playtime — negative reviews | 3.6 h |
 | Commonly reported completion time | ~2.5–5 h for the story (about 2 h at the fastest); 14–16 h for 100% completion |
+| Depth | 50 m demo; 200 m full game (developer response); depth is gated by tool-upgrade tiers |
 | 2-hour refund-window anecdotes | Multiple; e.g. "a game just long enough that you can't return it", and "I played for almost 2h and I don't see myself wanting to go back" (23 votes) |
 
 **Theme frequency in English reviews (approximate keyword mentions):**
