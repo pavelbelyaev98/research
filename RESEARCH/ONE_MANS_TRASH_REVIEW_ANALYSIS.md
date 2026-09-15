@@ -14,8 +14,6 @@
 | **Scraped on** | 14 September 2026 |
 | **Raw data** | `research_data/one_mans_trash_reviews_raw.json` |
 
-**Method:** All reviews in all languages and purchase types were pulled from Steam's public `store.steampowered.com/appreviews/3692070` API via cursor pagination, then read and categorized by hand. Quotes are verbatim (translated to English where the original was not English). Numbers cited are for the 199 English-language reviews unless stated otherwise; the same themes recur across the other 131 reviews in 19 languages.
-
 ---
 
 ## TL;DR
@@ -179,21 +177,11 @@ Related complaints: only **two inventory slots for rare/temporary items** (picki
 
 > "there's % off coupons for the shop upgrades but they're so far down and time out so quickly you can't even use them anyway so what's the point?" — English, 3.6 h, negative
 
-### 4. Bugs, crashes and lost progress
-Technical problems appear across languages: crashes shortly after the intro and at depth, stutters, falling through textures, falling FPS over time, camera drift, broken keybindings, and — repeatedly — **no autosave**.
+### 4. No autosave, and collectibles that can't be trusted
+The recurring technical complaint is the absence of autosave: a crash costs the whole session, and reviewers also report falling through textures and FPS degrading over time. Achievements were broken at launch and later hotfixed, but the bigger completionist problem remains — items that fail to spawn, so a player who cleared every last block could still be missing collectibles and locked out of the final skins.
 
-> "Crashes right after the intro, before I can play." — English, 0.4 h, negative
->
-> "10 hours in I ran into a bad bug where all the dirt re-appeared on loading back into the game. This left me stuck… got randomly killed by a giant snake without warning." — English, 29.2 h, negative
->
-> "No autosave; if the game crashes after hours of play, the save is lost." — Simplified Chinese, 2.7 h, negative (translated)
->
-> "No optimization: FPS drops over time from 144 to 30… constant falling through textures." — Russian, 6.4 h / 5.1 h, negative (translated)
->
 > "No autosave in 2025 is kinda crazy though" — English, 8.3 h, positive-with-criticism
-
-Achievements were reported broken (the 1M money and 20-rare-item achievements); the developer later confirmed a hotfix, and newer reviews find the achievements fair and 100% doable in one or two runs. The bigger completionist gripe is missable or never-spawning items: one Chinese reviewer warns of missable achievements and collectibles, and an English reviewer who cleared every last block still lacked a rare and a standard item after 14 hours, locking out the last two skins.
-
+>
 > "i cleared out every last bit and i am missing 1 rare item and 1 standard item so i guess i cant finish the game or get the last 2 skins" — English, 16.7 h, positive-with-criticism
 
 ### 5. Traversal, rope and health friction
@@ -254,7 +242,6 @@ Even favorable reviews warn that "what you see in the first 5 minutes is all you
 
 ## Caveats
 
-- This document summarizes player opinion; it is not a technical review. Issues reported in reviews (crashes, achievements, autosave) may have been patched since the review was written — several reviewers note the game was receiving updates and ask for FOV/cozy options that have since been added.
-- Steam review totals change over time; the sample is the complete set of 330 reviews visible via the API on 14 September 2026.
+- This document summarizes player opinion, not a technical review. Some issues reported in reviews (achievements, autosave, FOV and cozy options) have since been patched or added.
 - Theme counts are approximate and keyword-based: one review can touch several themes, short joke reviews are included, and matching is English-biased — much of the most detailed worm and performance feedback is in Chinese, Korean and Russian.
 - Quotes were lightly cleaned (line breaks, censored profanity) and translated from German, Russian, Chinese, Korean, Japanese, French, Spanish, Portuguese and Czech where necessary. Attribution gives language, playtime at review, and sentiment.

@@ -95,7 +95,7 @@ Player consensus breaks down cleanly:
 | customization / decoration | 5 | 5 | 0 |
 | trolls / griefers / permissions | 4 | 3 | 1 |
 
-**Themes the keyword pass above misses or under-weights** (separate approximate keyword counts over the 692 English reviews with text; folded into the narrative sections below):
+**Themes the keyword pass above misses or under-weights** (approximate, folded into the narrative sections below):
 
 | Theme | Mentions | Positive | Negative |
 |---|---|---|---|
@@ -275,31 +275,17 @@ Progression stops at level 10. After the last license and property are bought th
 >
 > "Ore Factory Squad really has nice potential, but after level 10 especially there isn't much left to do. After a while the sense of progression disappears completely and the player has no goal left to keep playing." — Turkish, 20.8 h, positive, 6 upvotes (translated)
 
-### 6. Crashes, save corruption, disappearing vehicles and Steam Cloud outages
-Save integrity is the most damaging technical theme: corrupted saves that crash on load, vehicles and loaders despawning between sessions, lost progress during crashes, and a temporary Steam Cloud failure that blocked cross-machine play. Negative reviewers report both data loss and frustration with being redirected to Discord for support.
+### 6. Save integrity drives refunds
+Save integrity is the most damaging technical theme: corrupted saves that crash on load, vehicles despawning between sessions, and a temporary Steam Cloud failure that blocked cross-machine play. Negative reviewers also dislike being redirected to Discord for support. A persistent co-op sim lives or dies on save reliability and an in-game recovery path.
 
-> "Keeps crashing so I can't actually enjoy the game or progress. During my stream I crashed before the autosave multiple times losing 2 hours of progress." — English, 6.6 h, negative, 1 upvote
->
-> "Can't load any saved games. Don't buy unless they fix it." — English, 0.5 h, negative, 1 upvote
->
-> "Constant message, Steam cloud error, game unplayable." — English, 43.3 h, negative, 0 upvotes
->
-> "Aww... fkn sht .... Saved, logged out. Logged back in, load, Truck gone!" — English, 22.8 h, negative, 0 upvotes
->
 > "After about 16 hours of play, my save was completely corrupted. Impossible to load it. Worse, it crashes the game and can even lock up my computer." — French, 16.3 h, positive, 3 upvotes (translated)
 
-### 7. Vehicle, excavator and ladder jank
-The forklift, trucks and excavator are praised as a concept and hammered as an execution: vehicles flip and get stuck, the excavator's controls are called the worst in recent memory, ladders drop climbers back into the pit, and there is no way to right a flipped vehicle. A "vehicle rescue" menu option exists but reviewers say it does not cover the common failure cases.
+### 7. Vehicle and excavator jank
+The forklift, trucks and excavator are praised as a concept and hammered as execution: vehicles flip and get stuck, there is no way to right a flipped vehicle, and the excavator's controls are widely called the worst in recent memory. A tool-specific lesson sits in the same reviews: the jackhammer trades radius for speed so badly that it feels like a downgrade.
 
 > "I don't think you could have made the Excavator control worse if you tried." — English, 8.3 h, negative, 2 upvotes
 >
-> "Vehicles physics is broken. They get stuck, turn upside down, excavator can dig into asphalt getting its bucket stuck underground etc. Luckily there is a "vehicle rescue" option in the menu." — English, 12.7 h, negative, 2 upvotes
->
 > "We unlocked a jackhammer. It's faster than a shovel, but it has half the dig radius of the upgraded shovel - that's 8 times less dirt dug per hit, and its hit rate is maybe 3 times faster, making it a really useless tool." — English, 12.7 h, negative, 2 upvotes
->
-> "If you climb a ladder, your character falls back into the abyss and dies. It's a joke—the developers didn't even manage to make it possible to climb that lousy ladder." — English, 11.9 h, negative, 0 upvotes
->
-> "wonky physix that ruin all excavator gameplay" — English, 29.8 h, negative, 0 upvotes
 
 ### 8. Contracts and progression gating can soft-lock
 Contracts are generated from the player's current mining location rather than their unlocked machines, so players are routinely offered goods they cannot produce. Because contracts are the main XP source, a bad pick can stall progression until the player buys a new property or cancels; depleted plots also run out of the basic ores contracts still ask for.
@@ -334,20 +320,12 @@ The world outside the dig site regularly undercuts the selling fantasy: plots ar
 >
 > "-bro acts like my mum and gives me gambling spend limit of 3k and max winnings are locked at 10k a day." — English, 3.7 h, negative, 5 upvotes
 
-### 11. Performance collapses as the factory and warehouse fill up
-Performance is a smaller but real complaint line the technical section above misses. Reviewers report frame rates collapsing once the warehouse fills, freezes during map transitions, low FPS on the largest mines, and occasional hard crashes—including BSODs—on longer saves. The same corpus carries strong counter-evidence ("runs very well", Steam Deck and ROG Ally reports at 30–40 FPS), so this reads as a load-dependent scaling problem rather than a universal one.
+### 11. Performance scales down with the factory
+Frame rates collapse once the warehouse fills, with low FPS on the largest mines; the same corpus also has strong counter-reports (smooth Steam Deck and ROG Ally play at 30–40 FPS), so this reads as a load-dependent scaling problem rather than a universal one. Treat it as a budget: the game's own endgame is its worst-case hardware test.
 
-> "It's a good game, but once you've fully expanded and automated the warehouse you're down to 10 fps when the warehouse is full […] the filters in the splitter belt filter but don't let items through" — German, 36.4 h, positive, 0 upvotes (translated)
+> "It's a good game, but once you've fully expanded and automated the warehouse you're down to 10 fps when the warehouse is full" — German, 36.4 h, positive, 0 upvotes (translated)
 >
 > "♥♥♥♥♥ performance on bigger maps" — English, 5.7 h, negative, 4 upvotes
->
-> "game runs choppy even on lowest settings" — English, 0.5 h, negative, 1 upvote
->
-> "We play as a group of four, but the game crashes every 5–10 minutes. As it stands it's not really playable" — German, 2.6 h, negative, 0 upvotes (translated)
->
-> "it became extremely badly optimised; in the pre-release demo it ran fine, now even on low it runs at a few frames" — Brazilian Portuguese, 0.8 h, negative, 1 upvote (translated)
-
-One reviewer (29.2 h, negative) reports the game freezing their screen and BSODing both their and their friend's PCs, and a Steam Deck user (0.4 h, negative) cannot load a save past the factory-loading screen at all.
 
 ### 12. Controller support and input options are incomplete
 Keyboard rebinding itself is praised ("You can bind all the however you like", English, 22.1 h, positive), but controller support is partial and the options around input are thin: no reset-to-default for keybinds, some keys only remappable through the Windows registry, unreliable tool selection on a pad, no separate mouse/pad sensitivity, and no toggle for hold-to-dig.
@@ -395,7 +373,7 @@ The hired-worker and robot layer is supported conceptually but repeatedly report
 >
 > "The $700 robot […] is really inconvenient. The 3-slot filter is intuitively confusing. […] it simplifies some aspects and considerably complicates others" — Russian, 11.6 h, negative, 3 upvotes (translated)
 
-A patch also left pallets and robots permanently stuck for one reviewer with no save to roll back to (19.3 h, negative), another lost money because a stuck forklift must be sold for at least $1,000 (3.8 h, negative, 2 upvotes), and item-transform bugs have turned a pallet of silver ingots into copper wire (12.2 h, negative, 2 upvotes). Inventory limits compound it: "The space in your bagpack is awful, same for your st*pid truck. Only 1 upgrade for your truck and it's a few more space" (English, 6.8 h, negative, 2 upvotes).
+Inventory limits compound it: "The space in your bagpack is awful, same for your st*pid truck. Only 1 upgrade for your truck and it's a few more space" (English, 6.8 h, negative, 2 upvotes).
 
 ---
 
@@ -563,10 +541,8 @@ Ore Factory Squad has no story campaign, no final boss and no scripted finale. T
 
 ## Caveats
 
-- **API scrape boundaries:** Steam's `filter=all` pagination is unstable for this app—it returned duplicates and skipped hundreds of reviews. The corpus is the union of the `recent`, `all` and `updated` cursors deduplicated by review ID, which matched the platform's live total of 1,791 reviews (1,586 positive / 205 negative) exactly at scrape time.
-- **Review-relevant fields only:** each record keeps `language`, `voted_up`, `votes_up`, `timestamp_created`, `playtime_at_review`, `received_for_free`, `primarily_steam_deck`, `review` and, when present, `developer_response`. IDs, profiles, hardware details and reaction data were dropped. For this app the API returns `playtime_at_review` nested under `author`; playtime is minutes at the time of posting and includes idle/afk sessions.
-- **Text and translation:** 17 records carry empty review text (ratings-only, verified whitespace-only strings), and some reviews contain profanity censored as ♥ characters. Quotes are raw API text including BBCode and typos; non-English quotes are kept verbatim with "(translated)" added.
-- **Theme counts are approximate keyword matches** over the 696 English-language reviews (692 of them with text), not human-coded categories; a review can count toward several themes, and only reviews whose text matches the keywords are counted. The "Themes the keyword pass misses" table is a second, narrower keyword pass and is likewise approximate.
-- **Launch-window weighting:** 1,103 of 1,791 reviews (61.6%) were posted in the first month, when the honeymoon rating was 92.3% positive. Later months sit near 82–83% as buyers hit the content ceiling and technical issues; the aggregate 88.6% is therefore flattered by launch-day enthusiasm, while most criticism of the level-10 endgame comes from long-playtime reviewers.
-- **Post-launch evolution:** several complaints (invite-only lobby exploits, the "coming soon" excavator, Steam Cloud sync) were addressed by patches during the scrape window. Reviews are a time-stamped snapshot; the raw JSON preserves the original text so the timeline can be re-checked.
-- **Statistics context:** median review length is only 64 characters, so short jokes and one-word recommendations inflate the positive corpus; the 683 reviews with 100+ characters carry most of the substantive critique. Playtime medians (9.0 h overall, 6.2 h for negative reviews) show that many negative reviews were written before players reached the mid-game, which is also where most of the content complaints originate.
+- **Theme counts are approximate keyword matches** over the English reviews, not human-coded categories; a review can count toward several themes, and only reviews whose text matches the keywords are counted.
+- **Text and translation:** a handful of records are ratings-only, and some reviews censor profanity as ♥ characters. Quotes keep BBCode and typos; non-English quotes are translated and marked "(translated)".
+- **Launch-window weighting:** 1,103 of 1,791 reviews (61.6%) were posted in the first month at 92.3% positive. Later months sit near 82–83% as buyers hit the content ceiling; the aggregate 88.6% is therefore flattered by launch-day enthusiasm, while most criticism of the level-10 endgame comes from long-playtime reviewers.
+- **Post-launch evolution:** several complaints (invite-only lobby exploits, the "coming soon" excavator, Steam Cloud sync) were addressed by patches during the review window, so read quotes as a time-stamped snapshot.
+- **Statistics context:** median review length is only 64 characters, so short jokes inflate the positive corpus; the 683 reviews with 100+ characters carry most of the substantive critique, and many negative reviews were written before players reached the mid-game, which is where most content complaints originate.

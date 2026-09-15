@@ -186,7 +186,7 @@ The small team at TWEN replies to reviews directly—67 reviews in the corpus ca
 ## What reviewers criticize (the bad)
 
 ### 1. Multiplayer desync and host-centric chunk unloading
-The foremost technical disaster in the corpus stems from network architecture: voxel chunks and terrain collider data are calculated strictly relative to the host's position. When guest clients venture further than ~200–300 meters down a shaft while the host remains near the surface, the ground unloads entirely beneath the client's feet, causing them to jitter violently and fall through the world. Joining and hosting fail outright for some players, lobbies must be restarted repeatedly, and several groups report all of their PCs running at their limits. TWEN's standing reply attributes this to the host's machine—"lags and teleportation depend on the internet speed of the lobby owner and the power of his computer"—and recommends that the strongest PC host, an explanation the detailed analysis in the corpus disputes.
+The foremost technical disaster in the corpus stems from network architecture: voxel chunks and terrain collider data are calculated strictly relative to the host's position. When guest clients venture further than ~200–300 meters down a shaft while the host remains near the surface, the ground unloads entirely beneath the client's feet, causing them to jitter violently and fall through the world. Joining and hosting fail outright for some players, lobbies must be restarted repeatedly, and several groups report all of their PCs running at their limits. TWEN's standing reply attributes this to the host's machine—"lags and teleportation depend on the internet speed of the lobby owner and the power of his computer"—and recommends that the strongest PC host, an explanation reviewers dispute.
 
 > "the big game breaking issue in multiplayer that people are complaining about is caused by the world only updating relative to the host's location, it has nothing to do with weak hardware or an unstable connection. When a client is around 300 meters from the host, the world starts unloading for them, causing them to jitter out and fall through the world" — English, 1.4 h, negative, 54 upvotes
 >
@@ -198,29 +198,19 @@ The foremost technical disaster in the corpus stems from network architecture: v
 >
 > "lags and teleportation depend on the internet speed of the lobby owner and the power of his computer" — developer response to English, 2.1 h, negative, 7 upvotes
 
-### 2. Chronic collision clipping, void-falling, and random teleportation
-Even in single-player sessions, collision detection is exceptionally brittle. Players report clipping into sheer rock walls, being teleported unexpectedly back up to the surface or onto house roofs with invisible ceilings, becoming trapped in permanent falling sound loops, invisible enemies attacking without warning, and walking into a freshly dug hole only to get stuck and rubberband in place. Placed items can despawn, and the neighbor cannot be hit with vegetables when he stands on the right side of the fence.
+### 2. Collision, teleporting and void falls are constant
+Even in single-player, collision is brittle: players clip into rock, get teleported back to the surface or onto roofs with invisible floors, get stuck in falling-sound loops, and walk into their own hole only to rubberband in place. Placed items can despawn and the neighbor can become unhittable. It is the most consistently reported frustration in the corpus.
 
 > "falling through the world
 > - getting teleported around
 > - getting teleported specifically onto the roof which has an invisible floor" — English, 1.2 h, negative, 13 upvotes
 >
-> "Game is borderline unplayable, i kept teleporting all over the place i couldnt mine anything for more then a minute before getting teleported out of the main map." — English, 0.9 h, negative, 21 upvotes
->
-> "it teleports me to the top for no reason, can't do anything about it, do not recommend this game" — Russian, 4.0 h, negative, 1 upvotes (translated)
->
 > "you get stuck in every rock, can often look through walls, endlessly hear the falling sound." — Russian, 0.8 h, negative, 22 upvotes (translated)
->
-> "items when you try to place them they despawn, if you make a hole and you jump right into it you will get stuck and rubberband around, if the neighbor goes on the right side of the fence you can't hit with the veggies" — English, 2.1 h, negative, 7 upvotes
 
-### 3. The accidental China ending glitch bypass
-Because reaching the geographic bottom triggers the "China" finale cutscene, any player who clips through the map or experiences the multiplayer de-sync void fall plummets into the end-of-game trigger volume. Dozens of reviews recount beating the game involuntarily in 8 to 20 minutes without ever buying mid-game tools.
+### 3. The ending triggers by falling through the world
+Reaching the bottom fires the "China" finale cutscene, so any void fall or multiplayer de-sync drops players straight into the end trigger — many beat the game involuntarily in 8–20 minutes without buying mid-game tools. The design lesson: endings need an intentional gate, not just a depth check.
 
-> "We made it to china without having half the upgrades because we fell there and boom wow you beat the game lame!" — English, 1.4 h, negative, 1 upvotes
->
 > "friend proceeds to fall through the map and unlock an ending, all within 8 minutes" — English, 0.1 h, negative, 8 upvotes
->
-> "This game is beyond laggy, i couldnt even get in 20 meters deep without falling through the map entirely. Even got to beat the game because we fell all the way to china multiple times." — English, 1.4 h, negative
 >
 > "Good and relaxed co-op game, unfortunately bugged through the floor after 1.6 hours and got the first ending :D" — German, 1.6 h, positive, 3 upvotes (translated)
 
@@ -248,20 +238,12 @@ Storage is the single most requested change in the corpus. One reviewer reports 
 >
 > "The ending is an ordeal because the monsters and especially the far too many gems annoy you so much and you constantly have to sell again (need storage improvement // ability to simply destroy items)" — German, 2.2 h, negative, 8 upvotes (translated)
 
-### 6. Save files, disappearing items, and unreliable achievements
-The save system exhibits major defects. Upon saving, quitting, and reloading, players often find that custom-excavated complex shafts have been wiped and replaced with a generic vertical hole; one reviewer reports a hole down to only 50% of their previous depth. Placed furniture, lamps, and other decorative items above ground level routinely vanish, resetting progress toward the house-renovation ending; one reviewer watched their carefully organized, stacked items disappear. Other reload glitches include grass growing back over already-dug holes with resources left floating in place, and a purchased alarm dog vanishing after every re-login. There is only one save slot and it is shared between solo and multiplayer, so loading multiplayer can overwrite a solo world (and vice versa). Achievements are also unreliable: depth milestones frequently fail to trigger, and in co-op only one player per save can earn the distance achievements.
+### 6. Saves, collectibles and achievements lose progress
+Reloading often replaces intricately dug shafts with a generic vertical hole, and placed furniture above ground can vanish — resetting progress toward the house-renovation ending. There is one save slot shared between solo and multiplayer, so loading one mode can overwrite the other, and achievements (depth milestones especially) often fail to trigger or only count for one co-op player. The lesson: one save slot plus non-persistent placed items is a progress-loss trap.
 
 > "after re-entering the game, all items above ground level can disappear. Resetting the house fullness counter." — Russian, 83.5 h, positive, 2 upvotes (translated)
 >
-> "If you save the game and leave and would like to continue next day then the game doesnt save digged hole it just digs random tunnel down and thats it." — English, 3.1 h, negative
->
-> "I legitimately wanted to make it a thumb up until the game broke. Other bugs would be fine but wiping out my stuff is a no for anyone" — English, 11.9 h, negative
->
-> "after restarting the game, there is grass all over the holes already dug and resources lying around... the dog was gone again after every re-login." — German, 2.2 h, negative (translated)
->
-> "You can only have 1 save file - playing online is 1 and if you play tutorial afterwards to get the achievment, you will lose your save files with your friends. Only one person can get the distance achievments per save file - had to play it multiple times." — German, 9.1 h, negative
->
-> "trying to get the achievements was very broken as the depth achievements would not trigger most of the time. It was also irritating to load my save and find all my tunnels replaced by a random hole of random depth in the center of the yard." — English, 3.9 h, negative, 1 upvotes
+> "You can only have 1 save file - playing online is 1 and if you play tutorial afterwards to get the achievment, you will lose your save files with your friends. Only one person can get the distance achievments per save file - had to play it multiple times." — German, 9.1 h, negative (translated)
 
 ### 7. Floating dirt particles, snagging, and traversal friction
 Voxel destruction frequently leaves behind invisible or microscopic dirt fragments suspended in mid-air. Players falling down their main shafts repeatedly snag against these imperceptible collision points, halting momentum and requiring awkward mid-air tool swinging to clear passage.
@@ -316,16 +298,12 @@ The corpus contains no colorblind, FOV, subtitle, or motion-sickness requests, b
 >
 > "i missed half the tutorial because the text just vanishes after 10 seconds" — English, 0.7 h, negative, 1 upvotes
 
-### 12. Performance and crashes on capable hardware
-Performance complaints are not limited to weak machines. Reviewers report 30 FPS on an RTX 3080 Ti, stutter deep underground on an RTX 4060 Ti, no difference between low and ultra on a system above the recommended spec, PCs heating up, an RTX 4070 blue-screen, and a full PC crash during the tutorial that left the player unable to move their camera. Hosts can also crash when a guest spams shop purchases. The developer asks players for their specs and recommends enabling V-Sync to cap GPU usage, and says the cause of the heavy CPU/GPU load has been identified with optimizations rolling out.
+### 12. Performance is heavy for what the game looks like
+Reviewers on capable hardware — RTX 3080 Ti, 4060 Ti, 4070 — report 30 FPS, deep-underground stutter, no difference between low and ultra, PCs heating up and occasional hard crashes, while the developer points to V-Sync and ongoing optimization. Cheap-looking art does not buy a pass; players judge performance against what they see on screen.
 
 > "very good game my 3080ti had me with 30 fps! ... i recommend having a beefy pc tho" — English, 1.2 h, positive, 2 upvotes
 >
 > "I have the recommended configuration, and yet even with the game on low, I feel like my PC is going to explode. Whether I'm on low or ultra, it doesn't change anything." — English, 0.4 h, negative, 3 upvotes
->
-> "when you are very deep down, like -700m, the game started to lag with an RTX 4060 ti graphics card." — English, 2.5 h, positive, 3 upvotes
->
-> "enable v-sync and will be used only 30% gpu" — developer response to English, 0.3 h, negative, 4 upvotes
 
 ### 13. Presentation: stock-looking art and grating audio
 A detailed Russian review takes the presentation apart: cartoonish stock-model art compared unfavorably to AGADAH's pastel style, and audio that reuses the same stock "whoosh" on every swing and pickup plus a cash-register chime on every sale, over a single short music loop. The reviewer recommends playing without sound entirely. English reviewers are mostly forgiving of the low-fi art, but note spelling errors and AI-generated shop icons.
@@ -356,16 +334,10 @@ The upgrade curve is widely criticized: tools are very expensive and mostly just
 >
 > "the big bomb frees too little area" — German, 2.2 h, negative (translated)
 
-### 16. Post-1.0 regression and update fatigue
-Not all patches improved the game. A reviewer with over 100 hours logged reports that 1.0 made the game worse: constant stuck states and hangs, dug terrain refilling so progress barely advances, valuable items destroyed without warning when the (now smaller) inventory is nearly full, and bombs that stick, kill the player, and barely damage terrain—concluding the game is unplayable and dead. Others report that every update adds more bugs, that the game was abandoned with no updates, and that police simply stop spawning (which also soft-locks the police-visit achievement). Counterpoint: other reviewers credit early patches with fixing major complaints.
+### 16. Update history split the player base
+Some long-time players say 1.0 regressed the game — more stuck states, dug terrain refilling, a smaller inventory — while others credit the patches with fixing major complaints. The pattern worth noting: frequent updates keep a small game alive but can cost progress and trust if each one lands with new problems. Police also stop spawning in some saves, which soft-locks the police-visit achievement.
 
 > "With version 1.0 the game is no longer worth recommending! You constantly get stuck, the game hangs, you fall through the landscape... valuable items are destroyed in rows even though you don't get any warning that the inventory is (nearly) full... already-dug ground constantly refills... the inventory expansion seems to have been reduced again" — German, 108.0 h, negative, 6 upvotes (translated)
->
-> "With every update more bugs are added—and by that I don't mean the enemies." — German, 7.5 h, negative, 2 upvotes (translated)
->
-> "was fun for first 5 hours, then got incredibly boring. had huge potential, gut no updates at all" — German, 13.3 h, negative
->
-> "Never Updated. Multiplayer broken. Beat the game in like 30 mins." — English, 2.6 h, negative
 
 ---
 
@@ -457,8 +429,7 @@ Ideas that players explicitly ask for, kept as design input:
 
 ## Caveats
 
-- **Corpus coverage:** This document analyzes every review retrievable via Steam's public API on 14 September 2026 (862 of 862 reviews counted live by Steam, capturing 100% of the live review corpus).
-- **Language weighting:** While English represents 31.3% of reviews (270 records), Russian (30.4%, 262 records) and German (20.3%, 175 records) together constitute over half the total dataset. Quotes from non-English reviews have been translated verbatim to provide balanced representation across all player regions.
-- **Patch and early access status:** Reviews began on 5 March 2025 (early access) and the game reached 1.0 two months later, followed by multiple patches. The corpus contains both praise for early fixes and reports that 1.0 and later updates regressed collision, terrain persistence and inventory size; the Trump branding on the buried coin was removed after launch-week complaints. Fundamental host-centric chunk desync, collision snags and save flaws persist in late-2026 reviews.
-- **Quote reliability:** The corpus contains obvious joke reviews and a few high-effort essays that read as AI-generated (one 12 h review credits the game with oxygen management and structural stability, which no other review mentions). Quotes were chosen from reviews whose claims are corroborated elsewhere wherever possible.
-- **Subjective nature of reviews:** Steam reviews reflect subjective player impressions at the time of play rather than exhaustive technical audits; playtimes cited represent hours logged at the exact moment each review was posted.
+- **Language weighting:** English is 31.3% of reviews; Russian (30.4%) and German (20.3%) together make up over half the corpus, so many quotes are translated.
+- **Version matters:** reviews began at early access in March 2025 and the game reached 1.0 two months later. The corpus contains both praise for early fixes and reports that later updates regressed collision, terrain persistence and inventory size; the Trump branding on the buried coin was removed after launch-week complaints.
+- **Joke and low-effort reviews are common,** and a few high-effort positive essays make claims no other review corroborates. Quotes were chosen from reviews whose claims are corroborated elsewhere wherever possible.
+- Playtimes are hours logged at the moment each review was posted.

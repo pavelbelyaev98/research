@@ -14,8 +14,6 @@
 | **Scraped on** | 14 September 2026 |
 | **Raw data** | `research_data/the_spotter_dig_or_die_reviews_raw.json` (1 MB) |
 
-**Method:** Every review in every language was pulled from Steam's public `store.steampowered.com/appreviews/3976500` API via cursor pagination (19 pages; 1 review was no longer retrievable). Themes were quantified by keyword analysis across the whole corpus; all 274 negative reviews were read in full, along with a qualitative deep-dive of the 332 substantive positive reviews (250+ characters) and the highest-voted reviews of each sentiment. Quotes are verbatim (translated where the original was not English) with language, playtime, sentiment and upvotes where useful.
-
 ---
 
 ## TL;DR
@@ -209,7 +207,7 @@ Upgrades across five tiers are gated behind large gold/diamond costs, and the wh
 > "Very addictive… but why not recommend? It can be finished in 5 hours — 2.5 if you don't care about details — and then you never want to play again. Addictive, but extremely low playability." — Simplified Chinese, 35.2 h, negative, 13 upvotes (translated)
 
 ### 3. Tower defense: weak AI, forced babysitting, and irreversible choices
-Automatic turrets are widely called ineffective until late, so nights require manual attendance; but once upgraded they can trivialize the game. The main-gun branch choice is permanent, meaning you cannot try another turret without restarting the whole game — one of the most-upvoted complaints. Failing a base defense rolls you back to a save, and with no meta-progression, some reviewer call it a softlock risk.
+Automatic turrets are widely called ineffective until late, so nights require manual attendance; but once upgraded they can trivialize the game. The main-gun branch choice is permanent, meaning you cannot try another turret without restarting the whole game — one of the most-upvoted complaints. Failing a base defense rolls you back to a save, and with no meta-progression some reviewers call it a softlock risk.
 
 > "I HATE THAT IN ORDER TO TRY NEW TURRET I HAVE TO START COMPLETELY OVER. I SHOULD BE ABLE TO JUST BUY AND SWAP." — English, 9.5 h, positive, 26 upvotes
 >
@@ -248,29 +246,21 @@ The game ends with a reveal that retroactively reframes everything as a joke, an
 >
 > "The ending feels like a joke, and a massive let down for all of the time spent on digging." — English, 27 h, negative (spoiler)
 >
-> "All that time digging? Pointless. All of the excited stuff you find on the way… Means nothing." — English, 27 h, negative (spoiler)
->
 > "Getting a reward like that and not being able to actually use it was kind of a bummer." — English, 10.1 h, positive-with-criticism
 
-### 7. Bugs, crashes and save loss
-A broad technical cluster: fatal errors and crashes (especially on some Intel CPUs at launch), save files vanishing or corrupting, story softlocks (the President's message and bunker code), the "unstuck" button killing you in a loop, drones you can't exit, terrain clipping and X-ray vision from stacked dynamite, and achievements that stop counting.
+### 7. Save loss and softlocks
+The most damaging reports are wiped or corrupted saves (one reviewer lost two whole runs, about 12 hours), story softlocks around the President's message and a bunker code, and an "unstuck" button that can kill you in a loop. Multiple save slots, generous autosaving and a safe unstuck path are minimum requirements for a long digging run.
 
 > "This is a negative review because I lost whole save twice resulting in ~12 hrs of gameplay lost." — English, 12.5 h, negative
 >
-> "The game keeps crashing and throwing errors nonstop… after about 10 minutes, the game will crash with an error, and you will lose your progress." — Simplified Chinese, 9.6 h, negative
->
 > "Got stuck on a ladder, gyrating up and down, so I used 'unstuck' (which kills you) and repeatedly died in a loop and had to alt+F4 after 3.5 hours." — English, 3.5 h, negative, 4 upvotes
->
-> "Saves disappeared?! Saves disappeared?! Saves disappeared?!" — Simplified Chinese, 20.2 h, negative (translated)
 
 ### 8. Motion sickness, eye strain and performance
-An unusually frequent complaint for a non-VR game: headaches, nausea, vertigo and eye strain, sometimes within 15–30 minutes, even from players who normally don't get motion sick. Drill speed is also tied to frame rate, and several reviewers report worsening FPS as they excavate more terrain or nearly max out their hardware on low settings.
+An unusually frequent complaint for a non-VR game: headaches, nausea, vertigo and eye strain, sometimes within 15–30 minutes, even from players who normally don't get motion sick, and with no comfort settings to address it. Performance also worsens as more terrain is excavated, though far less universally than the comfort complaints.
 
 > "I was having fun until it started making me nauseous… I have played 3D games for years and this is the first one that does this." — Simplified Chinese, 2 h, negative (translated)
 >
 > "it's also the only game that i have played in the last few years that gives me a headache, eye strain and dizzyness after an hour of play." — English, 5 h, negative
->
-> "Drill speed changes with fps so you get high speed at 160fps but then gets really slow at 30-60 fps." — English, 10.3 h, negative
 
 ### 9. Achievements are hostile, grindy or bugged
 Completionists are a vocal share of the reviewers, and they are unhappy: a 12-metre basketball shot with false "no cheating" detection, collect-every-pizza/cheese/hula-doll hunts, "clear all dirt" grinds, and achievements that simply never register. Several describe abandoning 100% plans — or the game — over them.
@@ -345,7 +335,6 @@ At the end of the story you destroy "Las Veganos" as part of a scripted sequence
 
 ## Caveats
 
-- This document summarizes player opinion, not a technical review. Most reported bugs were addressed in patches (the devs shipped ~8 updates in the first two weeks); some reviewers updated their reviews from negative to positive after fixes. Items like broken achievements and cloud saves were still being reported at the end of the review window.
-- Steam review totals change over time; the sample is every review retrievable via the API on 14 September 2026 (1,859 of 1,860 counted by Steam).
+- This document summarizes player opinion, not a technical review. Most launch bugs were patched quickly (about eight updates in the first two weeks) and some reviewers flipped to positive after fixes; broken achievements and missing cloud saves were still reported at the end of the review window.
 - Quotes were lightly cleaned (line breaks, censored profanity, HTML/formatting tags) and translated from Chinese, Russian, Japanese, Korean, German, French, Spanish, Portuguese and Turkish where necessary. Attribution gives language, playtime, sentiment, and vote count for the highest-voted quotes.
 - Keyword frequency counts are approximate and English-biased: the same review can touch several themes, and much of the most detailed criticism was written in Chinese and Russian, where keyword matching catches fewer mentions.

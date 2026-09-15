@@ -23,7 +23,7 @@ Digger: Galactic Treasures is a first-person voxel space-mining adventure that t
 Player consensus reflects a distinct trajectory:
 - **The core loop is hypnotic and deeply relaxing.** Players start absurdly humble—digging space rock with a literal plastic tableware spoon while juggling a 30-second oxygen supply—before upgrading through shovels, pickaxes, jackhammers, heavy drills, vacuum collectors, and tactical nuclear warheads.
 - **The power curve escalates into screen-clearing absurdity.** Mid-to-late progression rewards players with handheld explosives and tactical mini-nuclear warheads that obliterate entire asteroids in seconds, creating massive loot cascades that feel intensely rewarding.
-- **The launch ending triggered fierce backlash, prompting major developer overhauls.** In version 1.0, reaching the final subterranean vault resulted in an unceremonious execution—an assassin shot the protagonist from behind out of nowhere, cutting abruptly to black while leaving two empty ship rooms and locked map sectors. In response to player fury, developer RainStyle Games issued aggressive post-launch patches: opening the Old Observatory and rewriting the conclusion. Post-patch reviews consistently describe **two** possible endings, plus the secret "Grandpa's Farm" bonus level with its 100+ floor excavation tunnel. (An earlier draft of this document described five branching endings; no scraped review supports that—see *Caveats*.)
+- **The launch ending triggered fierce backlash, prompting major developer overhauls.** In version 1.0, reaching the final subterranean vault resulted in an unceremonious execution—an assassin shot the protagonist from behind out of nowhere, cutting abruptly to black while leaving two empty ship rooms and locked map sectors. In response to player fury, developer RainStyle Games issued aggressive post-launch patches: opening the Old Observatory and rewriting the conclusion. Post-patch reviews consistently describe **two** possible endings, plus the secret "Grandpa's Farm" bonus level with its long excavation tunnel.
 - **Performance strain and missing baseline polish remain common complaints:** Detonating mini-nukes and spawning 5,000 loose resource items crushes framerates; saving the deformed voxel universe causes 15–60 second PC freezes; spontaneous crashes without autosaves wipe unbanked hours; and early pitch-black tunnels suffer from useless deployable lights that get sucked up by your own vacuum collector.
 - **The most consistent late-game frustrations are search fatigue and save fragility:** key/artifact hunts that force players to strip-mine around buried structures, mandatory puzzle gates, no way to buy explosives anywhere, no autosave, silent overwrites of an existing campaign when starting a new game, and rare update roll-backs that restore already-mined asteroids.
 
@@ -199,27 +199,15 @@ The single biggest driver of negative reviews across the entire lifespan of the 
 >
 > "Just over 2 hours in and I got to the ending. Worst ending ever. Didn't even get to make it to the last level. Not worth the $5. I have no idea how this has so many good reviews." — English, 2.4 h, negative, 1 upvotes
 
-### 2. Heavy late-game lag, chugging saves, and physics overload
-The game utilizes real-time non-chunk voxel deformation on Unreal Engine 5. While performant in the early game, late-game mini-nukes shatter vast volumes of rock, flooding the scene with thousands of uncollected physics-enabled ore cubes. Furthermore, the engine serializes the deformation states of every visited asteroid during saving, freezing high-end PCs for 15 to 60 seconds whenever saving occurs.
+### 2. Late-game performance and save times collapse under the game's own scale
+Late-game mini-nukes shatter vast volumes of rock and flood the scene with thousands of physics-enabled ore cubes, and saves serialize the deformation state of every visited asteroid — so big detonations tank framerates and late-game saves freeze PCs for 15–60 seconds. The power fantasy lands, but it is built without performance headroom.
 
-> "Lots of fun, but is so poorly optamised for the tools it gives you. Set off multiple bombs, try and suck up all the resources, instant lag and then game crash..." — English, 2.9 h, negative, 4 upvotes
->
-> "the saving system is bugged, press save and my PC chugs for almost a minute, what the hell is it saving, the entire cosmos, worst still, if you exit, it completes another save, honestly I thought it had crashed" — English, 9.7 h, negative, 4 upvotes
->
 > "Toward the end the game started taking a long time to save (a save could drag on for 15–20 seconds)" — Russian, 8.2 h, positive, 7 upvotes (translated)
->
-> "Took my time and finished it over 3 evenings. The game's one blatant flaw is the long saves and loads on late-game locations. You'd think a 5700X3D + 5070 would run a game like this faster than the speed of light." — Russian, 14.8 h, positive, 2 upvotes (translated)
 
-### 3. Spontaneous crashes and the punishing lack of autosave
-Compounding the physics strain, multiple players suffered hard desktop crashes when clearing large excavations or transitioning sectors. Because the game relies entirely on manual terminal saves inside the spacecraft and lacks a background autosave ticker, a single crash could wipe out several hours of uninterrupted prospecting.
+### 3. Crashes punish the absence of autosave
+The game saves only at the ship's terminal, with no autosave, so a crash during a big excavation or a sector transition can wipe out hours of progress. Reviewers treat that as unacceptable for a game built around multi-hour sessions and ask for autosave and save backups.
 
-> "Was enjoying it, then my game spontaneously crashed (keep in mind I've got a 7800X3D, 4090, and 64GB of RAM) and since the game has no auto-save I lost 2 hours of progress. Uninstalled and refunded." — English, 2.2 h, negative, 3 upvotes
->
 > "Spent 3 hours digging. Game crashed. No continue, just new game. Progress reset. Uninstall." — English, 3.3 h, negative, 3 upvotes
->
-> "Some is good Some is not good But don`t mess up with autosaves" — English, 14.1 h, negative
->
-> "Unfortunately, the game sometimes crashes and you lose some progress because of that." — English, 11.3 h, positive, 6 upvotes
 
 ### 4. Zero-G disorientation, confusing planetary gravity, and motion sickness
 Navigating in complete 3D space with six degrees of freedom proved taxing for players susceptible to simulator sickness. Locating the docking port of your spacecraft in the pitch-black void often caused players to run out of oxygen and perish. When the game introduced spherical planetary gravity in later levels, the controls fought against players trying to dig upright, creating extreme disorientation.
@@ -254,8 +242,6 @@ The vacuum collector is an essential tool designed to eliminate tedious manual p
 > "I really want the behavior of ore when using the vacuum to change. Sucking a wide area is fine, but ore that isn't caught by the vacuum's intake just keeps its inertia and flies past you to your back. That makes the item pointless." — Japanese, 5.8 h, positive, 8 upvotes (translated)
 >
 > "The 'vacuum collector' is awkwardly implemented: objects fly up into the air and overshoot the player" — Russian, 3.5 h, positive, 22 upvotes (translated)
->
-> "A single shared energy battery for both the vacuum collector and the drill" — Russian, 3.5 h, positive, 22 upvotes (translated)
 
 ### 8. Perceived "unfinished" launch state: empty rooms and locked sectors
 Launch-day buyers pointed out conspicuous signs of truncated scope: the spacecraft featured two entirely bare compartments and top/bottom airlocks marked permanently "Closed". The galaxy map also showcased an enticing "Old Observatory" sector that was completely unreachable, prompting accusations of misleading store descriptions.
@@ -301,37 +287,18 @@ The endgame asks players to strip-mine huge buried structures to locate artifact
 
 Another recurring request: artifact/key visibility at range. "The biggest problem is collecting artifacts—they're simply invisible from a distance even when the space around them is empty." — Russian, 7.3 h, positive, 1 upvotes (translated)
 
-### 12. Save fragility: silent overwrites, demo hand-off failures, and update roll-backs
-The long save/load times and missing autosave are covered above, but reviews reveal three further ways progress is lost:
-
-- Picking **"New Game" overwrites the existing campaign with no confirmation dialog.**
-- **Demo save hand-off can silently fail** for some players.
-- **Content updates can invalidate a save state**, restoring already-mined asteroids.
-
-There is also a request to show a **progress bar during save/load** so the game doesn't look frozen, and one player found cleared areas repopulating with debris/resources (object-data desync).
+### 12. Save handling has several progress-loss traps
+- Choosing **"New Game" silently overwrites the existing campaign** with no confirmation.
+- **Demo save hand-off can fail silently** for some players, despite the game advertising demo continuity.
+- **Content updates can invalidate a save**, restoring already-mined asteroids, and cleared areas can repopulate with debris.
+- Players ask for a **progress bar during save/load** so the game doesn't look frozen.
 
 > "My main-story save vanished because I mistakenly pressed 'start new'... I never expected it to just overwrite without warning." — Japanese, 12.7 h, positive, 5 upvotes (translated)
 
-> "After removing the (I have to admit great) Halloween deco, my safegame was changed and the small planet, i had penetrated with just a pickaxe for endless hours was restored. All my work gone." — English, 24.1 h, positive, 1 upvotes
+### 13. Procedural progression can soft-lock a run
+Quest items can clip into geometry, a procedural layout can leave players without the tool they need, and a bottom-of-farm teleport can strand a save. The developer hotfixed most of them, but the lesson stands: hard progression gates in a procedural world need fail-safes and an unstuck path.
 
-> "Save problem—when I used the demo's continue, nothing was recorded" — French, 2.9 h, positive, 1 upvotes (translated)
-
-> "They should also add a progress bar to the save/load preprocessing so it doesn't look like a freeze" — Japanese, 30.6 h, positive, 1 upvotes (translated)—same review reports cleared areas repopulating with garbage and resources.
-
-### 13. Progression-blocking bugs and softlocks
-A recurring class of complaint is a run that can no longer be finished because a quest item clipped into geometry, failed to spawn, or a procedural layout/gating decision left the player without a tool they needed. Most were acknowledged or hotfixed by the developer, but they are worth tracking as a systemic risk.
-
-> "I collected all the artifacts, but in the Old Observatory I couldn't activate the second floor because the punched card seems stuck somewhere in the geometry... And the worst part is that because of this I can't finish the game." — Russian, 42.3 h, positive, 1 upvotes (translated)
-
-> "I'm softlocked on the Minecraft-like planet... I'm out of explosives and I can't access the workbench to buy any (it costs 250,000)... You shouldn't be able to buy high-tier tools without unlocking the workbench first (gate them behind it), otherwise you get stuck." — French, 9.1 h, negative (translated)
-
-> "In the last mission not all the items needed to open the door appeared, so I can't get through" — Russian, 26.9 h, negative (translated)
-
-> "At the bottom of the farm a weird teleport can drop you at a random spot above ground, possibly stuck inside a crate—bring a teleporter or your save can break" — Simplified Chinese, 20.0 h, negative (translated)
-
-> "because it's procedural, you can get softlocked, so you can waste your time only to be locked out of that playthrough." — English, 0.9 h, negative, developer responded
-
-Fairness note: the developer patched many of these, and several 2026 reviewers update to positive after hotfixes ("most of the bugs people were complaining about were mostly resolved" — English, 9.1 h, positive, 1 upvotes).
+> "because it's procedural, you can get softlocked, so you can waste your time only to be locked out of that playthrough." — English, 0.9 h, negative
 
 ### 14. Controls, UI, and accessibility gaps
 Baseline comfort features that reviewers repeatedly find missing or broken:
@@ -365,7 +332,7 @@ The one confirmed accessibility win is that **gravity can be turned off in the o
 These are the constructive, recurring asks that the review corpus surfaces. They are useful as a design checklist because they map directly onto player pain points.
 
 - **Sell explosives.** One of the most repeated requests, especially in the second half. "And seriously, let us buy bombs! Would've added a lot of fun and chaos to planetary runs." — English, 4.7 h, positive, 3 upvotes; "with the shop for upgrades and purchases, why is there no tnt for purchase? Only ever able to be acquired via finding it?" — English, 7.7 h, positive, 1 upvotes; also Polish, Spanish, French and Chinese reviews. (Some players counter that bombs are unnecessary because caches drop plenty—see *Divergent opinions*.)
-- **A real headlamp / light upgrade.** "This game NEEDS a [censored] flashlight... those lights are useless" — English, 5.8 h, negative; "Need to develop a helmet light larger sites need more dynamite to stop tediousness" — English, 10.8 h, positive, 1 upvotes; Russian 18.9 h review asks for a headlamp "like other people here already asked."
+- **A real headlamp / light upgrade.** "Need to develop a helmet light larger sites need more dynamite to stop tediousness" — English, 10.8 h, positive, 1 upvotes; a Russian 18.9 h review asks for a headlamp "like other people here already asked."
 - **Collector upgrades (range/suction).** Requested repeatedly, then partially added: the later Old Observatory patch added a collector range upgrade that one Japanese reviewer calls "really good," saying it dramatically improved collection tempo. Pre-update asks: "I would like to see some upgrades for the collector" — English, 6.8 h, positive; "The vacuum feels weak—would love an upgrade path for its suction power." — English, 4.7 h, positive, 3 upvotes
 - **Tool-tree clean-up and more tiers.** "Merge the pickaxe and drill, add more drill upgrades, rework the vacuum, add more scanner levels and flight-speed levels." — Russian, 6.1 h, negative, 4 upvotes, developer responded (translated); "it could use more upgrades" — Polish, 5.3 h, positive.
 - **Portable oxygen / on-site energy.** "having an oxygen bottle would be better, then I could see a use" — English, 9.7 h, negative, 4 upvotes; "maybe an item to restore energy out of the ship, maybe a station like the oxygen one" — English, 6.8 h, positive.
@@ -382,7 +349,7 @@ These are the constructive, recurring asks that the review corpus surfaces. They
 
 ## The ending and secrets (SPOILERS)
 
-The evolution of Digger's ending is central to understanding its review reception and post-launch trajectory. This section summarizes what the scraped reviews actually support; claims that could not be evidenced in the corpus are explicitly flagged as unverified.
+Digger's ending changed after launch, and it dominates the game's review reception.
 
 ### The Narrative Arc and the v1.0 Ending Sucker Punch
 The player starts as an indebted laborer on mining platform California-15 who inherits his grandfather's vintage prospector ship *Lumen-17* alongside a 1,500,000 credit liability owed to GRAVEX Inc. Audio logs and hidden datapad transmissions reveal that the grandfather did not die of natural causes: he had discovered coordinates to fragments of an omnipotent alien relic called the **Heart of the Void**, capable of reshaping planetary matter, before being assassinated by corporate operatives.
@@ -399,13 +366,11 @@ After the story patches, players consistently describe **two** endings, and the 
 
 Ending-quality opinions remained mixed even after patches (see *Divergent opinions*), and several players hit **ending-sequence bugs**: scenes playing out of order and the game hanging after credits ("the scenes were out of order and the decision was made twice and then the game became unresponsive after credits"—English, 14.0 h, positive), or the credits replaying and dumping the player back to the menu when revisiting the bonus level.
 
-> **Unverified in this corpus:** an earlier draft of this document listed five named branching endings (Corporate Submission, Corporate Defiance, Cosmic Transcendence, Corporate Elimination, Grandpa's Farm Bonus Ending). No scraped review mentions any of these outcomes. Post-patch reviews describe two conclusions, and launch reviews describe none. Treat the five-ending list as unverified unless a patch-notes source is cited.
-
 ### Secrets, Codes, and Supported Details
 - **The Final Door Password:** A locked four-letter keypad before the final chamber accepts **`IRIS`**. This is supported by multiple Russian reviews sharing the code. Related usability complaint: players who found the code before the matching puzzle cannot re-read collected notes, and the game provides no journal ("You can't re-read collected material (which matters on the last planet) to recall the code" — Russian, 8.4 h, positive, 1 upvotes, translated).
-- **A music/record player for the ship:** One negative review complains the only "ship upgrade" you can actually find is a record player ("If by 'ship upgrades' you only meant a record player you can find, then maybe okay" — Russian, 5.2 h, negative, 51 upvotes, translated). Several other players believe the game has almost no music and ask for more ("There isn't enough music, or it's so quiet you can barely hear it" — Russian, 4.9 h, positive, 1 upvotes, translated; "add music" — Russian, 1.2 h, positive, translated). **Unverified:** the earlier draft's claim that a cassette player is hidden "hundreds of meters out" behind an upgraded thruster and oxygen cylinders; no review documents its location or requirements.
-- **Grandpa's Farm infinite tunnel:** Reviews confirm the tunnel is very long but not truly endless—one player notes it contains about **120 rooms** ("I thought the endless corridor was really endless, but it turns out there are only 120 rooms" — Simplified Chinese, 8.1 h, positive, 1 upvotes, translated), while another reached **floor 101** ("The endless level is done really well—I made it to floor 101!" — Russian, 13.4 h, positive, 3 upvotes, translated). It is a **horizontal** corridor, so bomb shortcuts don't work ("The infinity tunnel is a horizontal shaft, so bomb shortcuts don't work" — Japanese, 11.3 h, negative, 2 upvotes, translated). A Russian review jokes about a 5-second cartoon every 999 floors ("If you dig down to door 999 in the bonus level, they show a 5-second cartoon" — Russian, 11.9 h, positive, 2 upvotes, translated). **Unverified:** the earlier draft's claim that each layer is sealed by an ore-requiring hatch with exponentially escalating ore values.
-- **Endgame explosives are powerful but messy, not a clean exploit:** Mini-nukes/dynamite are the signature power fantasy, and "bombs are so strong that you stop digging and just spam bombs" — Japanese, 22.8 h, positive, 1 upvotes (translated). Detonating them can spawn ~5,000 loose items and crush framerates (German, 10.3 h, positive, 3 upvotes). However, blasts also **scatter ore**, and players complain the collector can't catch it ("The explosions scatter resources everywhere, and the collector is just pathetic" — Russian, 18.9 h, positive, 3 upvotes, translated; "The antimatter bomb can only destroy a small planet, and it even blows the ore away" — Simplified Chinese, 20.0 h, negative, translated). Treat the "single nuke clears 50% of a planet for millions of credits" framing as **unverified and contradicted** by corpus reports.
+- **A music/record player for the ship:** One negative review complains the only "ship upgrade" you can actually find is a record player ("If by 'ship upgrades' you only meant a record player you can find, then maybe okay" — Russian, 5.2 h, negative, 51 upvotes, translated). Several other players believe the game has almost no music and ask for more ("There isn't enough music, or it's so quiet you can barely hear it" — Russian, 4.9 h, positive, 1 upvotes, translated; "add music" — Russian, 1.2 h, positive, translated).
+- **Grandpa's Farm infinite tunnel:** Reviews confirm the tunnel is very long but not truly endless—one player notes it contains about **120 rooms** ("I thought the endless corridor was really endless, but it turns out there are only 120 rooms" — Simplified Chinese, 8.1 h, positive, 1 upvotes, translated), while another reached **floor 101**. It is a **horizontal** corridor, so bomb shortcuts don't work ("The infinity tunnel is a horizontal shaft, so bomb shortcuts don't work" — Japanese, 11.3 h, negative, 2 upvotes, translated). A Russian review jokes about a 5-second cartoon every 999 floors ("If you dig down to door 999 in the bonus level, they show a 5-second cartoon" — Russian, 11.9 h, positive, 2 upvotes, translated).
+- **Endgame explosives are powerful but messy, not a clean exploit:** Mini-nukes/dynamite are the signature power fantasy, and "bombs are so strong that you stop digging and just spam bombs" — Japanese, 22.8 h, positive, 1 upvotes (translated). Detonating them can spawn ~5,000 loose items and crush framerates (German, 10.3 h, positive, 3 upvotes). However, blasts also **scatter ore**, and players complain the collector can't catch it ("The explosions scatter resources everywhere, and the collector is just pathetic" — Russian, 18.9 h, positive, 3 upvotes, translated; "The antimatter bomb can only destroy a small planet, and it even blows the ore away" — Simplified Chinese, 20.0 h, negative, translated).
 
 ---
 
@@ -451,10 +416,7 @@ Ending-quality opinions remained mixed even after patches (see *Divergent opinio
 
 ## Caveats
 
-- **Corpus coverage:** This analysis is based on 729 reviews retrieved from Steam's public API on 15 September 2026 out of 730 total reviews reported live by the platform (1 review was no longer accessible due to user deletion or privacy restrictions).
-- **Patch version divergence:** Player sentiment is sharply bifurcated between launch-month reviews (July–August 2025) which suffered from the original abrupt ending, missing ship rooms, and locked sectors, and post-October 2025 reviews written after the release of the "Ice Planet" and "Old Observatory" updates, which reworked the conclusion (reviewers describe two endings), unlocked the bonus mode, and refined digging speed.
-- **Statistical context:** The median review character length is 84 characters; while 336 reviews feature detailed substantive evaluations of 100+ characters, a notable portion of the corpus consists of brief jokes about spoons, corporate slavery, and *Breathedge* comparisons.
-- **Language mix and theme table:** The corpus is 34.3% Russian and 33.9% English; many of the most detailed critical reviews are Russian, so quotes are translated. The theme-frequency table counts keyword *occurrences* in English reviews only and should not be compared one-to-one with review counts elsewhere in this document.
-- **Review authenticity:** At least one glowing review (#597) describes enemies, traps, and arcade high-scores that do not exist in the game, and several entries read as AI-written or promotional; treat individual positive sentiment as noisy.
-- **Corrected content:** An earlier version of this document contained unsupported details about five named endings, a deep-space cassette-player unlock chain, ore-sealed tunnel hatches, and a 50%-planet mini-nuke exploit. Those have been removed or re-labeled as unverified in the ending/secrets section.
-- **Hardware and Playtime:** Playtime recorded at review includes AFK time spent on the ship's minigame terminals (several reviews exceed 40–70 hours due to idle sessions and infinite-tunnel digging). Save/load stutter was reported by owners of RTX 4090, 5070 and 7800X3D-class systems, so it appears tied to save-state size rather than raw GPU power.
+- **Patch timing drives sentiment:** launch-window reviews describe the original abrupt ending, empty ship rooms and locked sectors, while post-October 2025 reviews describe the reworked conclusions and the unlocked bonus mode. Read every quote in the context of when it was written.
+- **The median review is a joke:** median length is 84 characters, and a large share of the corpus is one-line gags about spoons, corporate slavery and *Breathedge*; the 336 reviews above 100 characters carry most of the signal.
+- **Language mix:** the corpus is 34.3% Russian and 33.9% English, so quotes are translated where needed. The theme table counts keyword occurrences in English reviews only and should not be compared one-to-one with review counts elsewhere in this document.
+- **Playtime** at review includes AFK time spent on the ship's minigame terminals (several reviews exceed 40–70 hours), so treat hours as a loose indicator.

@@ -14,8 +14,6 @@
 | **Scraped on** | 14 September 2026 |
 | **Raw data** | `research_data/meltopia_reviews_raw.json` (1 MB) |
 
-**Method:** Every review in every language was pulled from Steam's public `store.steampowered.com/appreviews/3601800` API via cursor pagination (18 pages; 1 review was no longer retrievable). Themes were quantified by keyword analysis across the whole corpus; all 242 negative reviews were read in full, along with a qualitative deep-dive of the 453 substantive positive reviews (250+ characters) and the highest-voted reviews of each sentiment. Quotes are verbatim (translated where the original was not English) with language, playtime, sentiment and upvotes where useful.
-
 ---
 
 ## TL;DR
@@ -236,28 +234,18 @@ The third tool arrives late, cannot be upgraded, is slow, and requires rapid cli
 > "Game was fun until i got to the shovel. Its so painfully slow and there are no upgrades. Why? Your just making your game unbearable to play." — English, 5.4 h, negative
 
 ### 5. Save system: freezes, lost saves, no cloud
-Saving freezes the entire game for several seconds (both autosaves and manual saves); launch reviews report wiped saves and sessions rolled back to an earlier autosave; there is no save-on-exit and — despite the Steam listing — no Steam Cloud save, which hurts players bouncing between PC and Deck. Autosaves can be disabled in the settings (the game itself now points that out), though the workaround can backfire: one reviewer switched autosave off, watched the game freeze after finishing the mammoth, and lost three hours.
+Saving freezes the game for several seconds (autosave and manual alike), there is no save-on-exit and no Steam Cloud save, and launch reviews report wiped saves and rollbacks. Turning autosave off to dodge the freeze can backfire and cost hours instead. In a cozy collecting game, invisible background saves and cloud sync are expected — and a visible freeze reads as a crash.
 
-> "the autosave feature is so broken because it freezes the ENTIRE game for a good 5 seconds during an autosave" — English, 26.1 h, negative
->
-> "Played for 3 hours on launch yesterday. Logged back in today and all progress lost... wtf?" — English, 2.9 h, negative
->
 > "I really like this game… The only reason I give this a negative review, because It lacks a VERY VERY VERY basic feature of cloud save. I couldn't continue my save file on my laptop." — English, 9.8 h, negative
->
-> "WHAT A HELL WITH AUTOSAVES? its 2026. not 1990. …why it feels like the game during autosaves trying to hack pentagon's servers from my PC?!" — English, 2.2 h, negative
 >
 > "Auto save for some reason lags the game so i took it off. After finishing the mammoth skeleton the game froze and i lost 3 or so hours of progress." — English, 6 h, negative
 
-### 6. Bugs, softlocks and achievement failures
-Recurring concrete issues: the tool (especially Tesla) stops working after you freeze and get rescued, requiring a save/reload; carried ice cubes and artifacts drop through the world when you freeze; the "all achievements" meta-achievement frequently fails to unlock (45/46 forever); crashes during credits; the heat-resistance stat can bug out so that a maxed player freezes and dies at random; see-through map seams and .png visual glitches; and the late-May tutorial popup at blue ice softlocked the game for days. Post-launch QoL additions include an "I'm Stuck" button that returns you to base with your resources, though reviewers note it re-arms after every reload.
+### 6. Softlocks and achievement failures
+Two issues stand out after the launch fixes: a class of softlocks that blocks progress until a manual reload (including a tutorial window that can't be dismissed), and the "all achievements" meta-achievement that frequently fails to unlock, leaving players stuck at 45/46. The lesson: an achievement for completing all achievements is a single point of failure, and any modal UI needs an escape.
 
 > "I have 45/46 achievements... the ONLY achievement that hasn't unlocked is the achievement for having all the achievements" — English, 9 h, negative
 >
 > "Please learn from my and other users' mistake. This game is great up until you get the Tesla gun. Then a tutorial window pops up that will not go away and you cannot interact with. Restarting the game had me hit the exact same problem again." — English, 1.1 h, negative
->
-> "If you die you have to save and reload to be able to melt snow again" — English, 4.7 h, negative
->
-> "my heat resistance is 1 upgrade from max, but I'm constantly freezing… I permanently have two frost icon indicators, which means I just instantly die from freezing randomly." — English, 2.5 h, negative
 
 ### 7. Almost no story, lore or purpose
 Reviewers wanted notes, artifact descriptions, NPCs, readable documents, or any narrative thread. The hub is full of unexplained doors, pedestals and props; eight artifacts can be displayed but unlock nothing mechanical, and the letters found in rooms contain no readable text. The ending's explanation (a giant stove to move the planet closer to the sun) strikes many as absurd.
@@ -285,10 +273,6 @@ A vocal minority believes the game relies on marketplace/free assets that clash 
 The game is heavy for its look (high GPU usage, ~40 FPS on high settings for some, 25–30 FPS or worse for others, PC heat); there is no way to disable motion blur or screen shake, no FOV or brightness slider, and controller sensitivity/rebinding issues. Motion-sickness complaints are rare but pointed.
 
 > "Has no settings to reduce motion sickness, which made it unplayable for me… definitely be wary if you're prone to motion sickness." — English, 0.4 h, negative, 14 upvotes
->
-> "crashed twice in 30 minutes, crashed HARD. Almost caused a fire." — English, 0.5 h, negative, 7 upvotes
->
-> "This is literally the only game that heats my PC to 90 degrees in minutes" — Russian, 7.2 h, negative (translated)
 >
 > "the game is too dark for my liking. But I don't believe there was a setting to increase brightness." — English, 8 h, positive, 10 upvotes
 
@@ -346,7 +330,7 @@ The strongest defense of the divisive design comes from one of the two longest-p
 
 ## Caveats
 
-- This document summarizes player opinion, not a technical review. Meltopia shipped with real problems (saves, autosave freezes, a Tesla-tutorial softlock, achievement triggers) that the developer patched quickly; many of the harshest launch reviews date from the first days, while others accumulated through the summer as balance patches and the Tesla grind wore players down. Some complaints were still being reported in September 2026, however, including crashes and lost progress.
-- Steam review totals change over time; the sample is every review retrievable via the API on 14 September 2026 (1,722 of 1,723). It also holds 51 developer responses (all posted 1–26 May), 4 empty review bodies, 19 copies received for free, 26 reviews written on Steam Deck, and playtimes up to 132.7 h; a handful of reviews are filed under one language but written in another (English text under Spanish and French tags, Arabic text under English).
+- This document summarizes player opinion, not a technical review. Sentiment drifted over time: launch reviews and the August wave read differently because of heat rebalances and the Tesla grind. A handful of reviews are filed under one language but written in another.
+- Some launch complaints (save wipes, autosave freezes, a tutorial softlock, achievement triggers) were patched quickly; others, including crashes and lost progress, were still reported in September 2026.
 - Quotes were lightly cleaned (line breaks, censored profanity, formatting tags) and translated from Russian, German, French, Spanish, Portuguese, Japanese, Korean, Turkish, Polish, Czech and others where necessary; translations are marked. Attribution gives language, playtime, sentiment, and vote count for the highest-voted quotes.
 - Keyword frequency counts are approximate and English-biased: the same review can touch several themes, and many of the most detailed reviews are in Russian.

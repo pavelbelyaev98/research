@@ -259,16 +259,10 @@ Until late upgrades, digging requires clicking the mouse for every cut. A notabl
 >
 > "The game doesn't support steam cloud saves. It's 2025, and I have to manually move the files from one pc to another?" — English, 11 h, negative
 
-### 7. Bugs, crashes and save loss
-Unreal Engine fatal errors, black screens, menu lag, crashes on selling ore or buying upgrades, and — repeatedly — save problems. Saving is entirely manual, requiring interaction with an open notebook on the garage workbench; with no autosave (only a 30-minute reminder), a crash or sudden death wipes unbanked progress. Multiple reviewers also complain that saving records tools and money but fails to reliably preserve the dug hole's voxel geometry across sessions, resetting physical tunnels.
+### 7. Saving and stability undermine long sessions
+Saving is entirely manual — interact with a notebook on the garage workbench — with no autosave and no cloud saves, so a crash or sudden death wipes unbanked progress; reviewers also report saves that keep tools and money but reset the dug tunnels themselves. The design lesson is simple: a game built for long, zone-out sessions needs autosave, cloud saves and reliable terrain persistence, because lost progress is the fastest route to an uninstall.
 
-> "so far I have gotten 'Fatal Error' for the following: Selling Ore, Recharging my battery, Recharging my health, Buying an upgrade, buying dynamite, buying a lamp." — English, 2 h, negative
->
 > "saving only saves your tool upgrades not the hole you've dug" — English, 3.2 h, negative
->
-> "despite saving at least three times, all my progress was lost… it reset EVERYTHING." — English, 9.1 h, positive-with-criticism
->
-> "90 min in the game crashed… all previously saved game data was lost forcing me to start over." — English, 1.7 h, negative
 
 ### 8. Survival friction: battery deaths, fall damage, losing ores
 The battery explodes at 0%, sending you back to the surface having lost everything in your inventory; fall damage is harsh and unforgiving; inventory overflow destroys ore. Many reviewers argue the game didn't need survival mechanics at all.
@@ -354,8 +348,7 @@ You buy a suspiciously cheap house ($10k) advertised with buried treasure in the
 
 ## Caveats
 
-- This document summarizes player opinion, not an objective quality assessment. Some technical issues (crashes, save wipes, achievement tracking) may be platform- or patch-specific and are reported by a minority — the median player review is a short joke, and 89% of all reviews are positive.
-- Steam totals drift; the sample is every review retrievable via the API on 14 September 2026 (20,098 of the 20,101 counted by Steam at that time).
+- This document summarizes player opinion, not an objective assessment. Reporting is skewed by the genre's joke-review culture: the median review is a short joke and 89% of all reviews are positive, so the harshest technical complaints come from a minority.
 - Quotes were lightly cleaned (line breaks, censored profanity, HTML tags) and translated from Russian, Chinese, Korean, Japanese, German, French, Spanish, Portuguese, Polish and Turkish where necessary. Attribution gives language, playtime at review, sentiment, and vote count for the highest-voted quotes.
 - Keyword frequency counts are approximate: the same review can mention several themes, and counting includes short joke reviews. Treat the table as ranking signal, not exact measurement.
-- `playtime_at_review` includes idle/AFK time (one review shows 413 h for a game this size) and is recorded in minutes; 53 reviews have empty text, and this corpus contains no developer responses. Playtime claims in quotes are reported as written, not re-measured.
+- `playtime_at_review` includes idle/AFK time and is recorded in minutes. Playtime claims in quotes are reported as written, not re-measured.

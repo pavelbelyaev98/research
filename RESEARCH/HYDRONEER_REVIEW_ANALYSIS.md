@@ -194,7 +194,7 @@ Hydroneer became a small streaming phenomenon — Let's Game It Out, Real Civil 
 ## What reviewers criticize (the bad)
 
 ### 1. No inventory: one item at a time is the defining complaint
-The single most common criticism across eight years of reviews is the handling system: you carry exactly one physical object, money is itself an object, and every construction project, shopping trip and factory rebuild becomes manual labour. English reviews that discuss the no-inventory design skew 42% positive, far below the corpus average, and late-game builders hit it hardest. A representative 303-upvote review turns the tedium into a short story about carrying foundations across a dwarven ruin; others put a number on it: one reviewer estimates half of their first 90 minutes was spent re-doing dropped items.
+The single most common criticism across the game's whole review history is the handling system: you carry exactly one physical object, money is itself an object, and every construction project, shopping trip and factory rebuild becomes manual labour. English reviews that discuss the no-inventory design skew 42% positive, far below the corpus average, and late-game builders hit it hardest. A representative 303-upvote review turns the tedium into a short story about carrying foundations across a dwarven ruin; others put a number on it: one reviewer estimates half of their first 90 minutes was spent re-doing dropped items.
 
 > "Imagine you're happy with your tier 2 automation set up. It was somewhat temporary but now you're ready to break into tier 3 so you want to straighten your base up. You've been mining down in a cool looking dwarven ruin but your stuff is just laying all over the cave floor and it looks like you're some kind of dwarven hobo. [...] You can buy about 5 foundations at a time because you have to physically put them on a purchase platform and more than that doesn't fit." — English, 17.7 h, negative, 303 upvotes
 >
@@ -222,40 +222,20 @@ The game drops players into the world with almost no in-game explanation, and th
 > "you place below your right hand. Hidden the settings is a switch to turn on a laser sight so you can see where you are dropping it, but even with this, Minecraft has better "drop held item" than this game." — English, 0.4 h, negative, 5 upvotes
 
 ### 3. Physics and item loss: "yeeted into oblivion"
-Objects in Hydroneer are simulated, and reviewers report nuggets exploding out of containers, ore rolling off conveyors, tools and equipment vanishing under the terrain, vehicles flipping into the sky, and items occasionally falling through the world entirely. Losing stock you spent hours mining — or a tool you cannot afford to replace — is a recurring rage point, and one of the oldest complaints in the corpus.
+Objects are fully simulated, so ore rolls off conveyors, nuggets bounce out of containers, and tools or vehicles sometimes vanish under the terrain. Losing stock you spent hours mining is one of the oldest rage points in the corpus — the design lesson is that when physical objects are the signature feature, even "realistic" item loss reads as the game cheating the player.
 
 > "sometimes items get just yeeted into oblivion or dont enter into the container -dumping stuff from one container into another shouldn't depend on each single items drop trajectory but be a fixed motion where items can't miss (20 irons rolling awaaaaaay....)" — English, 1.0 h, negative, 238 upvotes
 >
-> "only to have half of my equipment disappear. The dev suggest buying foundations to put things on to help prevent things from disappearing." — English, 4.4 h, negative, 159 upvotes
->
 > "physics have a tendency to freak out (ore/gem explosions, flipping truck = rocket ship)" — English, 11.9 h, negative, 87 upvotes
->
-> "All my seeds 50 packets of 10, 1000 weight of cut food all just gone/disappeared no idea why [...] Vehicles falling thru the ground on dig sites." — English, 137.8 h, negative, 5 upvotes
->
-> "if you have a loop in the pipe system, the whole game crashes." — German, 58.8 h, negative, 69 upvotes (translated)
 
 ### 4. Save corruption and lost worlds
-Save corruption is the most serious technical issue in the corpus: reviews reference it from 2022 onward, with the loudest wave in 2024–2025, describing entire saves — including the game's own backup save — being wiped or corrupted, sometimes after "save and quit" and sometimes mid-session. A 310-upvote review from February 2025, a 127-hour review from December 2025 and a May 2026 complaint all describe the same failure mode. The developer shipped a save-corruption fix in patch 3.0.9 (March 2025), but individual losses were still being reported through late 2025 and 2026.
+Save corruption is the most trust-destroying technical issue in the corpus, reported from 2022 into 2026: whole saves — including the game's own backup file — wiped or corrupted, sometimes after a normal "save and quit." A fix shipped in March 2025, but losses kept being reported. The lesson: in a 100-hour sandbox, a save system with genuine versioned backups is table stakes, and one save-wipe does more damage than a dozen rough edges.
 
-> "49 hours into the game and loving it to come back to find my world is completely wiped [...] the discord literally has a section for shared save files to get you restarted somewhat after your save is corrupt and unrecoverable" — English, 49.8 h, negative, 310 upvotes
->
-> "Every single save game (With ALL of the save options) have been corupted, lost 88 hours of work to a bug they said would fix YEARS ago DO NOT DOWNLOAD" — English, 88.3 h, negative, 2 upvotes
->
 > "make sure you manually back up your saves regularly because simply saving and exiting the game can corrupt your saves (yes, that includes the "backup" save that isn't a backup - it'll get corrupted right along with your main save" — English, 16.4 h, negative, 18 upvotes
->
-> "this game is +6 years old now and still has a bug that wipes all your progress when you dare to hit "save and quit"" — English, 1.4 h, negative, 9 upvotes
 
 ### 5. Performance collapse in the late game
-Because every ore, gem and item is a simulated object with physics, big factories and large stockpiles melt the frame rate. Reviewers on high-end hardware (RTX 4070 Ti Super, RTX 3070, 32 GB RAM) report drops from 144 FPS to 20, minutes-long freezes when a bucket of gems is picked up, and saves where the frame rate in the endgame is permanently poor. The Mega-Optimization update (May 2026) substantially improved this for many players, but some large-factory owners say it made their saves worse.
+Because every ore, gem and item is a simulated object with physics, big factories and stockpiles melt the frame rate: reviewers report slideshow FPS and minutes-long freezes just picking up a bucket of gems. The May 2026 Mega-Optimization update improved it for many, but some large-factory owners say it made their saves worse. In a genre where scale is the fantasy, performance planning is a core design constraint, not a polish task.
 
-> "my pc was doing fine, yet the game would not respond and completely freeze up when i try to pick up a bucket full of gems [...] my framerate drops from 144 to 20 even though the game only uses 25% or so, on my graphics-card (rtx 4070 ti super, 32Gb ram, intel i9)." — English, 56.3 h, negative, 46 upvotes
->
-> "The lag I had when trying to move my thousands of gems that accumulated.. Well, let's just say calling it a slideshow would be generous and I run with a 3070 and 32gb of ram." — English, 35.3 h, negative, 16 upvotes
->
-> "drag down the FPS and eventually crash the game. [...] every system with more than a dozen or so miners (any tier) will eventually fail as it enters and leaves render range repeatedly while the player plays the game." — English, 264.0 h, negative, 28 upvotes
->
-> "the latest update promising to fix it has made it far worse - less than 1fps, moving far away with 1 key press and now disappearing under the map!!" — English, 682.3 h, negative, 4 upvotes
->
 > "Before the optimization update, the fps would drop to single digits with just 2-3 T3 miners. Now the game runs great! Props to the devs for figuring it out after 2 years." — English, 75.4 h, positive, 8 upvotes
 >
 > "Overall I recommend it, and it's really fun, but once the machinery gets large you only get about 30 FPS. I'd like that improved a bit more." — Japanese, 171.2 h, positive, 5 upvotes (translated)
@@ -399,8 +379,6 @@ Hydroneer has no campaign, no cutscenes and no credits roll. The closest thing t
 
 ## Caveats
 
-- The corpus is every review retrievable through Steam's public review API on 15 September 2026: 28,474 of the 28,477 counted by Steam. Three negative reviews were no longer retrievable; Steam totals and upvote counts change over time.
-- Steam's `filter=all` ordering is unstable for this app — its cursor cycles and returns duplicated batches. The full corpus was therefore pulled with `filter=recent`, which paginates the same complete review set without duplication. Review texts and timestamps are as returned by the API; reviews edited after posting appear with their original creation date and current text.
-- Quotes are verbatim apart from light cleanup of line breaks, markup tags and Steam's censored-profanity characters; elisions are marked `[...]`. Non-English quotes were translated and marked "(translated)". Attribution gives language, playtime at review, sentiment and upvotes as of the scrape date.
+- Quotes are verbatim apart from light cleanup of line breaks, markup tags and Steam's censored-profanity characters; elisions are marked `[...]`. Non-English quotes were translated and marked "(translated)". Attribution gives language, playtime at review, sentiment and upvotes.
 - Keyword theme counts are approximate and English-biased: the same review can mention several themes, and much of the most detailed praise and criticism was written in German, Russian, Chinese, French, Polish, Czech, Japanese and Korean, where keyword matching catches fewer mentions.
-- The corpus includes jokes, memes and low-effort reviews (247 reviews are empty), and long-tail praise is dominated by high-playtime players while negatives are over-represented among players under 2 hours — both ends of the playtime distribution should be read with that in mind.
+- The corpus includes jokes, memes and low-effort reviews, and the playtime distribution bends both ways: long-tail praise is dominated by high-playtime players while negatives are over-represented among players under 2 hours. Read both ends with that in mind.

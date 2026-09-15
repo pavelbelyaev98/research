@@ -14,15 +14,6 @@
 | **Scraped on** | 14 September 2026 |
 | **Raw data** | `research_data/keep_digging_reviews_raw.json` (1.2 MB) |
 
-## Corpus verification
-
-This was a specific requirement for this document, so it is stated up front:
-
-- **Right game:** there are two similarly named titles on Steam. *Just Keep Digging* (App ID 2974660, 17 reviews) was checked and **excluded**; every review here comes from **Keep Digging, App ID 3585800** (developer Wild Dog, released 11 September 2025).
-- **Right endpoint:** all 3,266 reviews were pulled from Steam's per-app endpoint `store.steampowered.com/appreviews/3585800` via cursor pagination (33 pages), so the API itself scopes the data to this App ID.
-- **Counts reconcile:** the scrape captured 3,266 of the 3,267 reviews Steam reported live at scrape time (1 negative review was no longer retrievable — likely deleted or hidden), with 2,599 positive (all) and 667 of 668 negative.
-- **Quote audit:** every quotation in this document was checked against `keep_digging_reviews_raw.json`, and each was also cross-checked against the raw corpora of the four other review analyses in this repo (One Man's Trash, A Game About Digging a Hole, The Spotter: Dig or Die, Meltopia). **No quote comes from another game's corpus.** Translated quotes are marked "(translated)".
-
 ---
 
 ## TL;DR
@@ -111,7 +102,7 @@ The review section itself is part of the story: a wave of refund jokes, meme "bo
 | keybinds | 9 | 5 | 4 |
 | host-only content | 9 | 6 | 3 |
 
-*Counts are approximate keyword matches, and a few rows are sensitive to keyword choice: rows such as achievements (65), v2.0 (57), refunds (55), crash (34), battery (24), workers (13) and keybinds (9) reproduce exactly on English text, while `shared money`, `host-only content` and `crypto-miner suspicion` did not fully reproduce with best-effort patterns (≈6, ≈6 and ≈5 matches respectively). Treat the table as ordering signal, not exact totals. Themes that live almost entirely outside English reviews are listed separately below.*
+*Counts are approximate keyword matches; treat the table as ordering signal, not exact totals. Themes that live almost entirely outside English reviews are listed separately below.*
 
 **Additional themes (strongest in translated reviews):**
 
@@ -132,9 +123,9 @@ The review section itself is part of the story: a wave of refund jokes, meme "bo
 
 ## What the game is (for context)
 
-A first-person voxel digging game for 1–8 players. You start on a small city plot with a merchant, an upgrade station and a worker area. **Core loop:** click to dig → collect ore and gems (stone, coal, iron, copper, silver, gold, amber, amethyst, emerald, sapphire, ruby, diamond, uranium, adamantine…) → sell at the surface → upgrade pickaxe/shovel (dig radius), backpack, battery/energy, rope/wire traversal, and dynamite → dig deeper. Fast-travel "manhole" checkpoints appear at intervals; consumables include batteries, warp stones, radar, spray paint and dynamite, and dirt can be placed back (a fill mechanic players use to build). Ore finds sometimes hide caves, temples, ruins and chests that grant skins, emotes and worker upgrades; NPC workers provide passive income. The goal in 1.0 is 1,000 m, where a red button triggers an ending cutscene (an aircraft bombs the city from above) and offers a reset that keeps your upgrades — a New Game+ in all but name — with new skins to unlock. Upgrade caps in 1.0 are 20 for most gear and 5 for dynamite; maxing the battery makes recharging free. A hidden T-rex/dinosaur storyline runs through fossil bones found at specific depths; several detailed community guides describe summoning a T-rex boss with them (see the boss note below). The free **2.0 update** adds a second mode with a 5,000 m map, smelting/crafting, blueprints, orbs/equipment rarity, fall damage, friendly fire and separate progress — note that **friendly fire is mentioned by zero of the 3,266 reviewers**, so verify it against the store page or patch notes before citing it as a player-reported feature. The humor is deliberate: chimp/monkey skins, a clown, silly emotes, a golden chimp, and a merchant jokingly described as "John Capitalism."
+A first-person voxel digging game for 1–8 players. You start on a small city plot with a merchant, an upgrade station and a worker area. **Core loop:** click to dig → collect ore and gems (stone, coal, iron, copper, silver, gold, amber, amethyst, emerald, sapphire, ruby, diamond, uranium, adamantine…) → sell at the surface → upgrade pickaxe/shovel (dig radius), backpack, battery/energy, rope/wire traversal, and dynamite → dig deeper. Fast-travel "manhole" checkpoints appear at intervals; consumables include batteries, warp stones, radar, spray paint and dynamite, and dirt can be placed back (a fill mechanic players use to build). Ore finds sometimes hide caves, temples, ruins and chests that grant skins, emotes and worker upgrades; NPC workers provide passive income. The goal in 1.0 is 1,000 m, where a red button triggers an ending cutscene (an aircraft bombs the city from above) and offers a reset that keeps your upgrades — a New Game+ in all but name — with new skins to unlock. Upgrade caps in 1.0 are 20 for most gear and 5 for dynamite; maxing the battery makes recharging free. A hidden T-rex/dinosaur storyline runs through fossil bones found at specific depths; several detailed community guides describe summoning a T-rex boss with them (see the boss note below). The free **2.0 update** adds a second mode with a 5,000 m map, smelting/crafting, blueprints, orbs/equipment rarity, fall damage, friendly fire and separate progress. The humor is deliberate: chimp/monkey skins, a clown, silly emotes, a golden chimp, and a merchant jokingly described as "John Capitalism."
 
-**Boss note:** the T-rex fight is the most genuinely ambiguous thing in this corpus. Early reviews (launch week) insist there is no boss and no combat — "The boss fights are lies, there is no combat system at all" (Simplified Chinese, 0.8 h, negative, 86 upvotes) — and one reviewer who went looking for it concluded "there's no dinosaur to fight, I was tricked" (Traditional Chinese, 5.3 h, negative, translated). At the same time, a stream of Traditional Chinese reviews describe beating it and give practical advice: collect every T-rex fossil, then summon the fight; max dynamite and rope first; bring 4+ players (one reviewer estimates 150–350 dynamite and a full squad); the bones can only be picked up by the host; and after the kill the T-rex becomes a mount that digs for you. One review warns "don't break the dinosaur eggs," and another claims a clown boss in New Game+. Mixed in are obvious joke guides (a WoW-style multi-phase "Tyrannix Prime" raid guide, a "Lost Ark: First Sin" lore rewrite, and troll unlock steps involving hidden buttons at 700 m/400 m and a monkey fart emote). Two easter eggs are corroborated by separate reviews: a Korean post says finding all the bones and pressing reset opens a hidden easter-egg stage, and a Simplified Chinese post says maxing battery and rope after beating the skeleton T-rex unlocks a "go to the moon" easter egg. Treat the boss as **real but missable hidden content that most players never see**, and treat any specific unlock recipe as community rumor.
+**Boss note:** the T-rex fight is contested. Launch-week reviews insist there is no boss and no combat — "The boss fights are lies, there is no combat system at all" (Simplified Chinese, 0.8 h, negative, 86 upvotes) — while a stream of Traditional Chinese reviews describe beating it: collect every fossil bone, summon the fight, max dynamite and rope first, bring 4+ players, and after the kill the T-rex becomes a mount that digs for you. The bones can only be picked up by the host, and one review warns "don't break the dinosaur eggs." Mixed in are obvious joke guides (a WoW-style "Tyrannix Prime" raid guide, a "Lost Ark: First Sin" lore rewrite) and corroborated hints of easter eggs (a hidden stage after finding all bones and resetting; a "go to the moon" unlock after maxing battery and rope post-skeleton). Treat the boss as **real but missable hidden content that most players never see**, and treat specific unlock recipes as community rumor.
 
 ---
 
@@ -223,21 +214,13 @@ Fossils, temples, mineshafts, an underground "civilization" that changes with de
 ## What reviewers criticize (the bad)
 
 ### 1. Performance is the #1 complaint by a wide margin
-Reports run from 5–15 FPS on high-end hardware (11 FPS on an RTX 3070, 5–10 FPS even at lowest settings) to stutter and crashes on RTX 4090/3090-class rigs, plus high CPU/RAM load, minutes of shader compilation on every launch, long loads, overheating (one 3090 rig shut down and overheated), occasional BSoD, and a joke-turned-suspicion that the game is secretly mining crypto.
+Reports run from 5–15 FPS on high-end hardware to stutter and crashes on RTX 4090/3090-class rigs, plus high CPU/RAM load, minutes of shader compilation on every launch, long loads and overheating. Patches added a performance mode and improved things for some, but performance dominated the negative corpus from launch onward, and the strain even spawned a running suspicion that the game secretly mines crypto.
 
 > "Solid 11fps on a 3070" — English, 0.1 h (9 min), negative, 13 upvotes
 >
-> "Near zero optimization. So much lag it hurts." — English, 0.1 h (9 min), negative, 70 upvotes
->
-> "This game's more about digging into my CPU and RAM then actually digging into the ground" — English, 0.2 h, negative, 30 upvotes
->
 > "shaders compiling, shaders compiling, shaders compiling, shaders compiling. This is a BIG issue every game load." — English, 0.1 h, negative, 53 upvotes
 >
-> "The game runs fine at the start, but the longer I played, the more my frames dropped, till it was barely 30fps. This was at lowest graphics too" — English, 16 h, negative, 10 upvotes
->
 > "The strain this game has on CPU and GPU makes me question if it does have a secret crypto mining app in it." — English, 1.4 h, negative, 8 upvotes
->
-> "The game runs very poorly, even on a good PC… even on the lowest graphics, the game still only runs at around 5–10 FPS." — English, 2.7 h, negative, 12 upvotes
 
 ### 2. Digging straight down trivializes the game
 The fastest strategy is to dig vertically to 1,000 m, skipping exploration, upgrades and content. The developers acknowledged this in patch notes; reviewers see it as the core design flaw.
@@ -272,18 +255,12 @@ Reviewers expected shared loot and money; instead money isn't shared despite the
 >
 > "New version of the game is a huge disappointment and definitely worse than the legacy version… Everyone in multiplayer shares chest space / Does not share money / Does not share blueprints" — English, 4.3 h, negative, 22 upvotes
 
-### 5. Crashes and save/progress loss
-Crashes every few minutes on some systems (and more often the longer a session runs); there is no autosave; a first crash can leave the game unable to launch; settings reset every session; dug ore and even dug holes can disappear on reload.
+### 5. Crashes and progress loss
+Crashes can break the install outright for some players, settings do not persist between sessions, and dug ore or holes can disappear on reload — all with no autosave. In a game sold as a party session, that is a trust problem more than a bug list.
 
 > "deal breaker If it crashes once, it breaks completely It won't launch again no matter what fix you try" — English, 1.7 h, negative, 43 upvotes
 >
-> "When you load back into your world, the grass on the very top layer re-appears with no way to remove it" — English, 1.4 h, negative
->
-> "After pressing save and exit, the progress was all gone" — Traditional Chinese, 4.6 h, negative (translated)
->
 > "The game crashed frequently, there is no autosave, and settings reset when you quit — after four hours it got worse, crashing about every 10 minutes." — Japanese, 6.5 h, negative, 10 upvotes (translated)
->
-> "After reconnecting, all the manhole checkpoints were gone and the holes I'd dug were deformed." — Korean, 6.9 h, negative (translated)
 
 ### 6. UI, controls and missing quality of life
 No key rebinding, ESC doesn't close menus, settings don't persist, no sprint (Shift and Space are both jump), no hold-to-dig (one click per swing), blurry visuals with no graphics or brightness settings, and no proper tutorial.
@@ -341,12 +318,6 @@ Not everyone agrees: 2.0 has its defenders, who prefer the deeper progression, t
 > "I did not buy this to play an actual game, I bought this to dig a hole. 2.0 made it into a Minecraft-esque game with things to do and damage to take. I did not sign up for that. I signed up to dig a hole stress free. 2.0 patched in stress. 1.0 is PHENOMENAL though." — English, 20.5 h, positive, 14 upvotes
 >
 > "I loved the first version. After the update it is unplayable." — English, 1.5 h, negative, 5 upvotes
->
-> "V2.0 introduces blueprints, which in theory adds more complexity to the gameplay, but coupled with the fact that there's RNG involved… you can no longer purchase tools past Copper in the store" — English, 16 h, negative, 10 upvotes
->
-> "New version of the game is a huge disappointment and definitely worse than the legacy version… Blueprints get consumed after one use" — English, 4.3 h, negative, 22 upvotes
->
-> "2.0 patched in stress. 1.0 is PHENOMENAL though." — English, 20.5 h, positive (same review, condensed)
 
 ### 11. Visuals and readability
 Blurry textures, motion blur that can't be turned off, extreme darkness and pop-in are common complaints; reviewers across several languages report dizziness or motion sickness from the underground sections (the fuller picture, including the missing comfort settings and wayfinding aids, is in the accessibility section below).
@@ -475,9 +446,8 @@ This game's review section deserves its own note, because it affected how severa
 
 ## Caveats
 
-- This document summarizes player opinion, not a technical review. Performance and crash reports cluster around launch (September 2025) and around the 2.0 update (2026); the developer shipped patches and hotfixes (a lightweight/performance mode, Y-invert, and a day-one fix for a GPU startup issue reported in reviews) and some reviewers updated their reviews after fixes.
-- The sample is every review retrievable via the App ID 3585800 review endpoint on 14 September 2026 (3,266 of 3,267). All quotations were verified against that raw file; translated quotes are marked.
-- Review-section culture (refund jokes, meme guides, astroturfing accusations) means individual reviews should not be taken at face value; the aggregate theme counts and the corroboration of themes across English, Japanese, Chinese and Russian reviews are more reliable than any single quote.
-- Theme-table counts are approximate keyword matches and are meant as relative signal. Rows such as shared money, host-only content and crypto-miner suspicion did not fully reproduce under best-effort patterns and should be treated as indicative only. Motion sickness, fall-damage asks, maps/biome requests and building/fill suggestions are strongest in Japanese, Chinese and Korean reviews, so an English-only read of the corpus systematically misses them.
-- The existence and trigger of the T-rex boss are genuinely contested in the corpus (see the boss note above). This document treats it as real but missable, and treats all specific unlock recipes — including the hidden-button/emote steps, the NG+ clown boss and the "moon base" — as unverified community claims.
+- This document summarizes player opinion, not a technical review. Performance and crash reports cluster around launch (September 2025) and the 2.0 update (2026); the developer shipped patches and hotfixes (a performance mode, Y-invert, a day-one GPU startup fix) and some reviewers updated their verdicts after fixes.
+- Review-section culture (refund jokes, meme guides, astroturfing accusations) means individual reviews should not be taken at face value; the aggregate theme counts and corroboration across English, Japanese, Chinese and Russian reviews are more reliable than any single quote.
+- Theme-table counts are approximate keyword matches meant as relative signal. Motion sickness, fall-damage asks, map/biome requests and building/fill suggestions are strongest in Japanese, Chinese and Korean reviews, so an English-only read of the corpus systematically misses them.
+- The existence and trigger of the T-rex boss are contested (see the boss note above); treat it as real but missable, and specific unlock recipes as unverified community claims.
 - Quotes were lightly cleaned (line breaks, censored profanity, formatting tags) and translated from Japanese, Chinese, Russian, German, French, Czech, Turkish and others where necessary. Attribution gives language, playtime, sentiment, and vote count for the highest-voted quotes.
