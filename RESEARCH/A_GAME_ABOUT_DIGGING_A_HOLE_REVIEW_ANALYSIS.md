@@ -186,7 +186,7 @@ Completion commonly takes 30–120 minutes, and a large share of negative review
 >
 > "game feels like a time scam finished in two hours just long enough to not return which I believe was intentional." — English, 2.5 h, negative
 >
-> "70分钟就通关了" / "Beaten in 70 minutes." — Simplified Chinese, 1.2 h, negative (translated)
+> "Beaten in 70 minutes." — Simplified Chinese, 1.2 h, negative (translated)
 
 ### 2. The forced stealth-horror ending with giant moles
 The single most emotional criticism: after ~100 m the game disables your drill, jetpack, lights and dynamite and turns into a stealth/chase sequence against giant moles that one-shot you, before an empty treasure chest and a "you die" ending. Reviewers call it a jarring genre shift, a bait-and-switch, a troll, or a punishing slog; reviews of "A Game About Digging a Hole" asking for the ending to be removed are among the most upvoted negatives.

@@ -13,6 +13,7 @@ from here.**
 | Digger: Galactic Treasures | `DIGGER_GALACTIC_TREASURES_REVIEW_ANALYSIS.md` | `research_data/digger_galactic_treasures_reviews_raw.json` (0.4 MB) | 729 |
 | Hydroneer | `HYDRONEER_REVIEW_ANALYSIS.md` | `research_data/hydroneer_reviews_raw.json` (11 MB) | 28,474 |
 | Ore Factory Squad | `ORE_FACTORY_SQUAD_REVIEW_ANALYSIS.md` | `research_data/ore_factory_squad_reviews_raw.json` (834 KB) | 1,791 |
+| iDigging | `IDIGGING_REVIEW_ANALYSIS.md` | `research_data/idigging_reviews_raw.json` (414 KB) | 862 |
 
 ## How to iterate (Stage 1)
 
