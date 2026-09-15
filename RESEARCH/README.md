@@ -9,7 +9,6 @@ from here.**
 | Keep Digging | `KEEP_DIGGING_REVIEW_ANALYSIS.md` | `research_data/keep_digging_reviews_raw.json` (1.2 MB) | 3,266 |
 | Meltopia | `MELTOPIA_REVIEW_ANALYSIS.md` | `research_data/meltopia_reviews_raw.json` (1 MB) | 1,722 |
 | One Man's Trash | `ONE_MANS_TRASH_REVIEW_ANALYSIS.md` | `research_data/one_mans_trash_reviews_raw.json` (0.2 MB) | 330 |
-| Digger: Galactic Treasures | `DIGGER_GALACTIC_TREASURES_REVIEW_ANALYSIS.md` | `research_data/digger_galactic_treasures_reviews_raw.json` (0.4 MB) | 729 |
 
 ## Notes
 
