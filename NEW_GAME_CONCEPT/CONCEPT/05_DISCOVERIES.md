@@ -11,7 +11,9 @@
 
 Commons include the mineral ladder (coal → copper → iron → silver → gold → emerald → ruby → diamond),
 bottles, plain stones, commonplace scrap, packaging and rubbish. "Common" means routine to find
-repeatedly, not merely familiar.
+repeatedly, not merely familiar. **Uniques exist exactly once per save — never in multiples.**
+Commons get no presentation effort (they collect instantly and are never inspection chores);
+distinctives are the special, repeatable middle tier (D15).
 
 ## 2. The detector
 
@@ -36,7 +38,7 @@ The detector is passive equipment: the player never equips it. They simply dig.
  excavates around them and watches the silhouette resolve.
 3. Once enough is exposed, the object becomes interactable and can be collected.
 4. **Recognition is the reward:** curved metal → handle → rectangular body → "…oh, it's a washing machine."
-5. **Uniques tell a story:** a unique delivers one deadpan sentence of story — on pickup or on inspection, to be decided (D14). The story is carried by the object, never by a narrator.
+5. **Uniques tell a story:** a unique delivers one deadpan sentence of story — on pickup or on inspection, to be decided (D14). Whatever the trigger, inspection is never required for commons. The story is carried by the object, never by a narrator.
 6. No archaeology: no brushing minigame, no 100% cleaning requirement, no identification timers, no
    mailing objects for appraisal. The game decides when enough is revealed; the player
    decides what is worth revealing.
@@ -75,8 +77,9 @@ for spacing. A cluster is a suggestion, never a quest marker.
 
 A few per run (target 3–5): a car, a large appliance pile, a machinery section (D10). The player
 excavates most of it first; extraction is a physical event — a cable descends, attaches, and the
-object is yanked out with physics comedy. No cinematic camera; the player stays in control. Some
-very large discoveries may remain in place permanently as landmarks.
+object is yanked out with physics comedy. No cinematic camera; the player stays in control.
+Extraction always delivers the whole object — a large find that yields only a token part reads as a
+letdown (D10). Some very large discoveries may remain in place permanently as landmarks.
 
 ## 7. Value and rarity
 

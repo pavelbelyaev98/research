@@ -68,7 +68,7 @@ this file: `ITERATION_GUIDE.md`.
 |---|---|---|
 | W01 | Site depth at least 100 m (exact depth and footprint set by feel in playtest) | `CONFIRMED (depth floor) / OPEN (size)` |
 | W02 | Boundaries: reservoir infrastructure (concrete/dam) + bedrock, visually distinct from diggable ground | `CONFIRMED` |
-| W03 | No personal light; open-shaft sky light + dim ambient floor; placeable lamps for real visibility; never pitch black | `CONFIRMED` |
+| W03 | No personal light; open-shaft sky light + dim ambient floor; placeable lamps for real visibility; never pitch black (evidence: developer playthrough — darkness must ramp gradually and never outpace readability or lamp access) | `CONFIRMED` |
 | W04 | Four depth zones with changing ground, minerals and mood; exact material list TBD | `DEFERRED` |
 | W05 | Rare optional hard pockets (concrete plug, river-rock lens, gravel shelf); multiple solutions; no specific-upgrade gating (evidence: One Man's Trash's TNT/worm counterplay existed but was invisible to players — reviewers concluded there was no counterplay; pocket solutions must be legible before commitment; concept `03` §5) | `CONFIRMED` |
 | W06 | Full voxel free-form terrain; tunnels/overhangs; disconnected valuable voxels auto-collect, plain dirt vanishes; debris visual-only | `CONFIRMED` |
@@ -112,12 +112,13 @@ this file: `ITERATION_GUIDE.md`.
 | D07 | First-slice objects: washing machine, hand drill, gearbox, mammoth bone, gramophone | `CONFIRMED` |
 | D08 | Mystery: 3-step escalation (anachronistic junk → too-correct objects → constructed impossibilities) | `CONFIRMED` |
 | D09 | Ending components: 3–4, never lost, no slots, no puzzle, obvious insertion (evidence: iDigging players reached the credits in 8–20 min by falling through collision into the ending trigger — the finale stays behind intentional component insertion; anti-pattern 41) | `CONFIRMED` |
-| D10 | Large discoveries: a few per run; excavated then cable-yanked; some may stay | `CONFIRMED` |
+| D10 | Large discoveries: a few per run; excavated then cable-yanked; some may stay (evidence: developer playthrough — extraction must deliver the whole object; a token part of a large find reads as a letdown) | `CONFIRMED` |
 | D11 | Display form: growing wall/shelf with predefined outlines; no player choice of placement | `CONFIRMED` |
 | D11b | Empty display frames visible; item shapes hidden until discovered | `CONFIRMED` |
 | D12 | Pacing: guaranteed early find; bounded dry spells; one major-scale find per zone; new silhouettes to the end (evidence: Hydroneer's praise concentrates in its early hours while its negatives concentrate in the first two — novelty density starts immediately; first find ≤10 min is a prototype gate, `14` §4) | `CONFIRMED` |
 | D13 | References: original parody only; no real brands or games (evidence: iDigging's real-world political cameo drew dedicated negative review backlash across languages — original parody only; anti-pattern 40) | `CONFIRMED` |
-| D14 | Uniques carry a one-sentence story; delivery trigger (pickup vs inspection) still open | `CONFIRMED (trigger OPEN)` |
+| D14 | Uniques carry a one-sentence story; delivery trigger (pickup vs inspection) still open (evidence: developer playthrough — inspection must never be required for commons; pickup delivery with optional inspection fits) | `CONFIRMED (trigger OPEN)` |
+| D15 | Uniques exist exactly once in the world — never in multiples; common finds get no presentation effort; distinctives are the special, repeatable middle tier | `CONFIRMED` |
 
 ## Round 5 — Interface and accessibility
 
@@ -216,3 +217,8 @@ this file: `ITERATION_GUIDE.md`.
 | 2026-09-15 | Q24 | No-co-op decision re-opened for decisioning (status `DISCUSSING`) | Persistent co-op praise and requests across the review corpora (Keep Digging's #1 praised feature; AGADAH, The Spotter, Hydroneer couch co-op) | assistant (user-requested) |
 | 2026-09-15 | — | Inline evidence flags reworded to game/player-feedback style; dates removed from flags | Developer preference | assistant (user-requested) |
 | 2026-09-15 | — | Ore Factory Squad delta: anti-patterns 46–47 added; evidence extended on 3/4/15/19/34; flags added on Q08/Q17/Q24/S03b/S08/S09/I02/I05/I11/A01/F05; open questions W01/F07/D03/S15 updated; prototype checks added for tool-tier regressions and C4 payback | `RESEARCH/ORE_FACTORY_SQUAD_REVIEW_ANALYSIS.md` | assistant (user-requested) |
+| 2026-09-15 | D15 | Added: uniques exist exactly once — no duplicates; commons get no presentation effort; distinctives stay the special repeatable tier | Developer playthrough: duplicate uniques and item-inspection fatigue in One Man's Trash | user (playthrough) |
+| 2026-09-15 | D10, W03, D14 | Nuances logged: large finds must deliver the whole object; darkness ramps gradually and never outpaces readability; unique stories never require inspecting commons | Developer playthrough: partial-collectible car letdown; "got dark too quickly"; item-popup and inspection annoyance | user (playthrough) |
+| 2026-09-15 | S16, W14 | New open questions: timed/temporary power-ups; non-cave underground structures | Developer playthrough: liked timed boosts but unsure whether the boring game flattered them; unsure whether generated non-cave passages fit the direction; corpus silent on both | user (playthrough) |
+| 2026-09-15 | — | Anti-patterns 48–50 added (no gambling; no hard depth walls forcing in-area grinding; no in-game task checklists); anti-pattern 11 evidence extended with upkeep/overheating | Developer playthrough (One Man's Trash): gambling hard no; early depth blocker; checkbox achievements; overheating annoyance | user (playthrough) |
+| 2026-09-15 | Q06, Q11, Q22b, Q25, Q28, S06, S07, S11, I04, I05, I11, D11, F05, F06, A01 | Confirmed only — no rule change: no characters/faces, ambience-only audio and custom cohesive art, one difficulty, detector never targets commons, jetpack core, legible upgrades, no fall damage, quick sell-then-upgrade flow, no clocks, display collecting, satisfying dig feel | Developer playthrough aligns with existing register and corpus | user (playthrough) |

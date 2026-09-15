@@ -93,7 +93,10 @@ as no solution.
 - **The shaft reads from below:** the main shaft's light column and drifting dust motes make the
   way up legible at any depth — natural light, not a HUD aid, and no map widget (W12, W13).
 - **A dim ambient floor** exists everywhere — the game is never pitch black; you can always barely
- navigate (W03g).
+  navigate (W03g).
+- **The dark arrives gradually.** Zone lighting lowers slowly; lamps are useful well before they are
+  required, and the dim ambient floor keeps silhouettes readable so darkness never outpaces lamp
+  access (W03).
 - **Placeable lamps** provide real visibility, let players mark routes, and light finds for photos.
 - **No personal light.** The tool does not act as a headlamp; darkness in covered areas is a reason
  to place lamps.

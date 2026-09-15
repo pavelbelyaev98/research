@@ -17,6 +17,8 @@ overrides it in `../DECISIONS.md`.
 | 7 | Irreversible build choices | "to try new turret I have to start completely over" | No permanent branches; all purchases additive (`06`) |
 | 44 | Gate progression behind a minigame or non-digging activity | Hydroneer's King's quest demanded token crops, a 1.5-weight lobster and 600-crop soup deliveries — "quest grind fest" | The only gates are money and tool power; the dig is always the answer (`06` §1) |
 | 47 | Ship an upgrade that is bigger but slower in the ground it replaces | Ore Factory Squad's jackhammer was faster per hit but had a smaller bite than the upgraded shovel — players called it "really useless", and its tool tiers read as "more or less the same" | Every new head/tier is measured in time-to-clear and never regresses; new behavior adds speed, access or control (`04`, `06`) |
+| 48 | Add gambling, casino or betting mechanics | Developer playthrough: "Gambling in the game is a hard NO… cheap and bad"; One Man's Trash reviewers split — a funny diversion to some, "do not bet, kids" to others (75.7% return, a ~$3,000 loss over 16,000 spins) | No gambling; money sinks are explicit purchases with visible value (`06`, `07`) |
+| 49 | Wall off depth to force in-area grinding | Developer playthrough: a hard blocker at roughly 20 m forced re-digging the same area; One Man's Trash reviewers also resented the ~$20,000 license gate | The only gates are money and tool power; depth is never artificially walled, and any capability gate is telegraphed before commitment (`06` §1, `03` §5) |
 
 ## Pressure and failure
 
@@ -25,7 +27,7 @@ overrides it in `../DECISIONS.md`.
 | 8 | Delete carried loot on failure | "want to do bad things to the creators"; freeze-loss | Recovery keeps everything; fee + debt only (`06`) |
 | 9 | Add stamina/commute mechanics that interrupt digging | "remove the beer drinking crap… I want to dig"; Hydroneer's no-inventory hauling loop is its biggest complaint | Battery is the only pressure; no commuting design (`03`) |
 | 10 | Punish falls with health/chip damage | "fall damage is not gracious"; 1-voxel specks break legs | Battery knock + stagger; never health (`04`, `10`) |
-| 11 | Add hunger, oxygen, warmth, food meters | "absolutely unnecessary to have dmg in a game like this" | None; NOT-list (`03`) |
+| 11 | Add hunger, oxygen, warmth, food, overheating or other upkeep meters | "absolutely unnecessary to have dmg in a game like this"; developer playthrough: "the overheating mechanic is really annoying" | None; NOT-list (`03`) |
 | 12 | Make darkness pitch black | "extreme darkness" complaints | Dim ambient floor everywhere (`03`) |
 | 13 | Drain battery for looking, reading or standing still | Battery as a nag | Drain only on powered actions (`06`) |
 | 46 | Add a day/night cycle, forced rest or time-gated content | Players recommend Ore Factory Squad as a chill solo game, then cite its short day, night dig penalty and sleep blackouts as the top reason solo play stops being fun | The battery and the player's greed are the only pressure; the clock never gates digging or content (`06`, `10`) |
@@ -67,6 +69,7 @@ overrides it in `../DECISIONS.md`.
 | 33 | Audio-only clues in a music-less game | playable-muted requirement | Visual counterparts for every cue (`09`) |
 | 34 | A permanent tutorial or popup spam | tutorial complaints; Ore Factory Squad's forced, unskippable tutorial that could not be saved through caused restarts before play began | No tutorial; diegetic labels (`07`) |
 | 45 | Land an interaction anywhere but where the player aims | Hydroneer's offset drop cursor — a second cursor below the right hand — is one of its most-criticized mechanics; players learn to bracket-drop instead of using it | Results land at the aim point or at a clearly previewed valid surface (`08` §4, `10` §2) |
+| 50 | Surface achievements as in-game checklists or task lists | Developer playthrough: "collect X bags, sell X items" checkbox tasks were an annoyance; achievements should be a record, not a to-do list | Achievements live on Steam, never as HUD chores (`12`) |
 
 ## Saves and trust
 

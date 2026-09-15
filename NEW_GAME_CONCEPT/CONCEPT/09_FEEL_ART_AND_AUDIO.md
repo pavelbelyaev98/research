@@ -18,7 +18,9 @@ cohesive custom art. Bright and readable, never realistic mud, never asset-store
 | Recent fill | Warm browns, greens, rusty metal, bright sky | Warm daylight, open, hopeful |
 | Old sediment | Grey-blue, clay orange, dull steel | Cool daylight fading, nostalgic |
 | Deep clay/stone | Saturated clay reds, dark rock, wet gleam | Dim, lamp-friendly, heavy |
-| Ancient constructed | Cold tones, unnatural smoothness, faint glow accents | Near-black ambient, lamps essential |
+| Ancient constructed | Cold tones, unnatural smoothness, faint glow accents | Near-black ambient, lamps essential (reached gradually) |
+
+Darkness escalates gradually across the zones; readability always wins over mood (W03, F09).
 
 ## 3. The absurdity, visually
 
