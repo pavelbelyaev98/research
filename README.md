@@ -3,8 +3,8 @@
 This repository holds two things: **evidence** from digging-game reviews, and **the game** being
 designed from it.
 
-**Current status:** decision phase complete for v1; the concept set is written; the next step is a
-research iteration (improve analyses → delta against decisions → new questions).
+**Current status:** the review and developer answers are integrated into the concept set; the
+remaining choices and prototype work are listed in `NEW_GAME_CONCEPT/CONCEPT/13_OPEN_QUESTIONS.md`.
 
 ## The game
 
@@ -80,7 +80,8 @@ Start here: **`NEW_GAME_CONCEPT/CONCEPT/00_README.md`**
 - **Never delete a decision.** Strike it through in the table and add a log entry.
 - **Keep process documents out of the working tree** — git history is the archive; only `CONCEPT/`,
   `DECISIONS.md` and `13_OPEN_QUESTIONS.md` are "live".
-- **Commit in git after each decision round** so every change is revertable.
+- **Commit only when the developer explicitly asks.** Leave edits uncommitted for diff review.
+- **Preserve the existing writing style and structure.** Apply targeted content edits, not rewrites.
 - If a file's purpose changes, update this README's map in the same commit.
 - Keep numbers out of decisions (Rule 8) and production/marketing questions out of the process
   (Rule 5).

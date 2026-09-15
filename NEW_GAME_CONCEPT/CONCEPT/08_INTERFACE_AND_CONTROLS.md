@@ -10,23 +10,23 @@ Minimal by design (I01). The HUD answers exactly one question: *can I keep diggi
 | **Bag** | Count / capacity; turns a warning color as it fills |
 | **Battery** | Current charge; the shared dig + jetpack resource |
 | **Return warning** | Adaptive safe / risky / critical state; never exact required-energy math |
-| **Detector** | Not a widget. Diegetic feedback on the tool plus, at most, a subtle screen-edge hint (F07; presentation TBD) |
+| **Detector** | Diegetic tool reaction plus a subtle screen-edge direction hint (F07); silent, broad, never value/rarity |
 
 Not on the HUD: minimap, compass, ore counters, objective list, damage numbers, news ticker, or any
 permanent tutorial text.
 
 ## 2. Inventory screen
 
-- Inspect-only grid (I04): collected finds with name and a short deadpan inspection line.
-- Uniques additionally carry a one-sentence story; whether it appears on pickup or when inspected is
-  still open (D14).
-- No stats, no equipping, no sorting chores, no selling here.
-- Uniques/components are marked as not sellable and displayed separately from the bag.
-- Opening it is a pause-friendly moment; looking never drains the battery.
+- **No inventory screen** (I04). The bag is abstract; the HUD shows capacity.
+- Sell ordinary finds at the machine. Special exhibits and keys are unsellable and use no bag slots.
+- Inspect objects in the world and on their displays. Placed uniques always allow story rereading;
+ first delivery is decided in play, leaning before placement (D14).
+- No stats, equipping, sorting or discard menu. Looking never drains the battery.
 
 ## 3. Pause menu
 
-Direction (final tabs TBD, I03): Resume · New Game · Settings · Quit, with save status visible.
+Direction (final layout later, I03): Resume · Save & Load · Settings · Exit to Title, with save status
+visible. New Game is on the title screen; replacing an occupied world needs a clear overwrite warning.
 Correct back behavior is mandatory: ESC/B closes the current menu and never traps input. Settings
 persist immediately and across launches.
 
@@ -38,14 +38,13 @@ persist immediately and across launches.
 | Jetpack | Space / A or bumper | Simple input; stable handling; rebindable |
 | Crouch (precision) | Ctrl / stick click | Held; no stealth or stamina |
 | Interact (machines, placement) | E / face button | Context-obvious prompts |
-| Inventory | Tab / select | Inspect grid |
 | C4: throw / detonate | Rebindable pair | Multiple charges; remote detonation |
 | Photo mode | Rebindable | Pause-only |
 
 Rules (I07):
 
 - **Every action is fully rebindable** on every device.
-- **Controller parity is mandatory:** every screen, including shop, inventory and display placement,
+- **Controller parity is mandatory:** every screen, including shop and display placement,
  works with a controller; glyphs swap automatically.
 - **Left-handed preset** mirrors mouse buttons and updates prompts.
 - Sensitivity, invert, deadzone and hold/toggle options exist per action.
@@ -65,22 +64,24 @@ Pause-only and simple (I13): hide HUD, adjust FOV, apply basic filters, toggle a
 camera** (there is no player model to frame). The player composes from their own view — which is the
 point: the hole and the find are the subject.
 
+No postcard export or separate sharing system (Q32); the existing photo mode stays.
+
 ## 7. Save system (player-facing)
 
-- **Autosave** continuously at a measured interval and on events (sales, upgrades, recoveries);
- already implemented in the demo and to be kept (I14).
+- **Autosave** continuously at a measured interval and on events (sales, upgrades, recoveries) (I14).
 - **Three manual save slots** for different worlds/seeds.
 - **Asynchronous, non-blocking save serialization:** save writes must run in background threads or
- delta-diff chunks with a strict latency budget (<100ms), ensuring the game never freezes, chugs,
+ delta-diff chunks with a prototype frame-impact budget (earlier target <100ms), ensuring the game never freezes, chugs,
  or hitches the frame rate when saving large voxel hole states (I14, anti-pattern 42; directly prevents
- the 15–60 second PC freezes observed in *Digger: Galactic Treasures*).
+ the 15–60 second PC freezes observed in *Digger: Galactic Treasures*). Total background save
+ duration is a separate measure from a visible frame hitch.
 - **Independent rolling backups:** several backup generations are written at different save events,
  and a corrupted active save can never take the backups down with it. Loading a damaged save falls
  back to the newest valid generation and says so plainly — the world is never silently reset.
 - Save status is visible but unobtrusive; no save spam.
 - Steam Cloud comes later (I14); the save format is designed so it can be added without changes.
-- Loading restores the exact hole, inventory, display and progression — never fresh terrain with old
- purchases.
+- Loading restores the exact hole, bag, display and progression — never fresh terrain with old
+ purchases. Resume at the saved position with the same charge and loot; no reload travel or refill (I17).
 
 ## 8. Settings that must exist (summary)
 

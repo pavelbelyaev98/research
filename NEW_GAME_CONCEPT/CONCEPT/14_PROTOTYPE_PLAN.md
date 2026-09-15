@@ -8,42 +8,51 @@ discovered here.
 > A player will repeatedly choose "one more thing" over going home, because the detector hint, the
 > partial silhouette, and the next affordable upgrade all pull harder than the battery warning.
 
-If that experience does not occur in the prototype, nothing else matters yet.
+A calm, voluntary return followed by eagerness to dig again is equally valid. Also test whether
+related finds suggest a buried place, upgrades transform the scale of excavation, and major parts
+build curiosity about one larger construction (W15, S17, D18).
 
 ## 2. Vertical slice scope (first playable)
 
 | Element | Slice version |
 |---|---|
 | Site | One diggable area, full voxel, boundaries visible (concrete + bedrock) |
-| Tool | One machine, 2–3 upgrade levels with visible bolt-on changes, hold-to-dig, automatic material adaptation stub |
+| Tool | One machine, 2–3 meaningful upgrade levels with visible bolt-on changes, hold/toggle digging, automatic material adaptation stub |
+| Jetpack | Stable and usable from the start; ordinary falls are harmless |
 | Materials | 3 distinct families with different feel (e.g., soil, clay, rock) |
-| Detector | One prototype presentation (tool reaction + edge hint) and one silent distinctive find |
-| Objects | The five first-slice objects: washing machine, hand drill, gearbox, mammoth bone, gramophone |
-| Clusters | One template (bone scatter or vehicle parts) |
-| Hard pockets | One concrete plug with two solutions (power or C4) |
-| Pressure | Shared battery, return-power warning, recovery fee + debt |
+| Detector | Tool reaction + edge hint, stable target; include one silent optional distinctive |
+| Objects | The five first-slice objects: washing machine, hand drill, gearbox, mammoth bone, gramophone; special exhibit/component placeholders for their interactions |
+| Clusters | One coherent buried scene, using a bone, vehicle, household or workshop template |
+| Hard pockets | One concrete plug diggable by the current tool; upgrades or C4 are much faster |
+| Pressure | Shared action-powered battery, return warning, loot-safe recovery fee/debt with a protected next outing |
 | Economy | Sell All machine, two tracks (Tool, Battery), 1–2 purchases each, transparent shop |
-| Display | One row of outline frames; place the first find; empty frames visible, shapes hidden |
+| Display | Compatible shelf/stand spaces; individual special placement and rereading, no undiscovered silhouettes or inventory screen |
 | Surface | Compact yard: shaft, machine, bench, fuel, display |
-| Interface | Minimal HUD, inspect grid, pause, full rebinding, controller support |
-| Saving | Autosave + restore exact hole (already in demo) |
+| Interface | Minimal HUD, world inspection, pause, full rebinding, controller support |
+| Saving | Autosave + restore exact hole, position, charge, finds and display |
 | Story | One anachronistic junk object for the mystery trail |
 
 Explicitly out of the slice: zones 2–4, the full roster, the ending, achievements, photo mode, late
-sinks, large-object extraction.
+sinks and finished large-object content. Test local extraction beneath an overhang separately and
+early; the whole-object payoff must work without a transport shaft to the sky.
 
 ## 3. Experiments (numbers to discover)
 
 - Voxel size vs. dig satisfaction and recognition readability (W11).
-- Starting shovel speed vs. frustration; upgrade step sizes.
-- Battery drain per stroke vs. desired session length; recovery frequency.
+- Starting shovel speed vs. frustration; fewer stronger upgrade steps and output on familiar ground.
+- Battery drain per powered action vs. outing length; recovery frequency and empty-wallet restart.
 - Bag capacity vs. trip length; where the hard stop actually lands.
 - Detector range, frequency, quiet intervals; how often players follow cues.
-- Recognition: exposure percentage at which players identify each of the five objects.
+- Recognition: exposure percentage at which players identify each of the five objects; test late
+ wide cuts and C4 too. Full-bag overflow and interesting finds must survive.
 - Cluster spacing: how far players search after finding one related object.
-- Hard pocket: how many attempts before players leave and return later.
+- Hard pocket: visible starting-tool progress vs. returning later for a much faster excavation.
 - Rare find value: how many expeditions a "big find" should equal.
-- Station time: seconds spent in the yard per trip.
+- Station time: seconds spent in the yard per trip; nonblocking selling/upgrades and individual
+ special placement without underground carrying.
+- Story delivery: compare before pickup and immediately before placement; display rereading in both.
+- Once deeper content exists: test connected major parts, flexible discovery order, required-find
+ trails, power growth against tougher ground, and useful play after the final major upgrade.
 - Tool-tier regression: time-to-clear per material family for each new head vs the previous tier — no new tier may be slower in ground the player already digs.
 - C4 value: digging time saved per charge vs its price — a charge must clearly pay for itself.
 
@@ -56,17 +65,17 @@ sinks, large-object extraction.
 | Voluntary lateral digging | the majority of testers dig sideways at least once per session unprompted |
 | Recognition quality | ≥ 80% of testers correctly name slice objects from partial exposure |
 | Voluntary full uncovering | ≥ 70% choose to keep revealing an interesting object rather than skip it |
-| Purchase cadence | a meaningful purchase every 30–45 min |
-| Trip decision | testers report the go-home-or-continue moment as tense, not annoying |
+| Purchase cadence | prototype-tuned for fewer stronger steps; 30–45 min is an earlier milestone hypothesis |
+| Trip decision | testers want another outing; pushing for one more find is optional, never a requirement for success |
 | Return friction | yard + return time ≤ ~15% of session time |
 | Station clarity | no tester asks what the Sell or Upgrade stations do after using them once |
-| Recovery | feels like an emergency, never like a shortcut |
+| Recovery | fair, loot-safe and financially recoverable; ordinary return remains convenient |
 | Save integrity | zero lost holes, inventories or display states across interrupted sessions |
 | Feel | no floating snags; no unreachable pickups; no stuck spots |
 | Performance feel | no cold-start hitch on the first dig; stable frame pacing while digging; no progressive decay across a long session (F13) |
-| Save write latency | save serialization takes < 100 ms in background; zero perceptible frame freeze or hitch on save write (I14) |
+| Save write latency | zero perceptible freeze/hitch; frame-impact budget is tested separately from total background save duration |
 | Return navigation | testers find their way back to the surface unaided; none report feeling lost (W13) |
-| Mystery tone | testers describe the deep zone and the impossibilities as awe and curiosity, never dread (Q13) |
+| Mystery tone (deep-zone pass) | once those zones exist, testers describe the impossibilities as awe and curiosity, never dread (Q13) |
 
 ## 5. The core test script (observe, don't explain)
 
@@ -79,11 +88,12 @@ sinks, large-object extraction.
 
 ## 6. Build order
 
-1. **Feel prototype:** dig, materials, cleanup, battery, recovery. No economy, no art.
+1. **Feel prototype:** dig, materials, cleanup, jetpack, battery, recovery. No economy, no art.
 2. **Loop prototype:** sell, upgrade, display, detector, first object recognition.
 3. **Slice:** all vertical-slice elements above with placeholder art (custom models only per A01).
 4. **Pacing pass:** multiple seeds, measure the metrics, tune generation rules.
-5. **Content production:** zones 2–4, full rosters, mystery trail, ending.
+5. **Content production:** zones 2–4, coherent places, connected construction, full rosters and ending.
+ Validate part relationships and the final object before committing the full content set.
 6. **Polish and release prep:** comfort settings, achievements, verification passes.
 
 ## 7. Release gates (design-side)
@@ -91,7 +101,8 @@ sinks, large-object extraction.
 - Core test moment observed repeatedly in external playtests.
 - All validation metrics met or consciously waived by the developer.
 - Muted + auto-dig + controller-only full run completes with no blockers.
-- Clean-save 100% completion verified (achievements, display, tracks, zones).
+- Clean-save 100% completion verified (ending, special exhibits, tracks, zones reached); Steam
+ achievements checked separately, with all required finds available in each seed.
 - No save-loss, no terrain reset, no stuck states, no unreachable finds.
 - First-session comprehension: unguided testers complete one full loop unaided and want a second trip.
 - Session-length stress run keeps dig rhythm stable: no shader or streaming hitch on the normal

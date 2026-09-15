@@ -15,55 +15,66 @@
 
 ## 2. Upgrade tracks (six)
 
-| Track | What it improves | Milestone-level changes (every ~3rd level) |
+| Track | What it improves | Meaningful changes (cadence prototype-tuned) |
 |---|---|---|
-| **Tool** | Power, bite size, adaptation quality | New head/attachment, dramatically faster digging, access to previously tough ground |
+| **Tool** | Power, bite size, adaptation quality | New head/attachment, dramatically faster digging, much faster excavation of previously tough ground |
 | **Battery** | Capacity and efficiency of the shared dig+jetpack battery | Longer expeditions; efficiency that makes old trips trivial |
-| **Jetpack** | Speed, efficiency, altitude, assists | Sustained ascent, steering assists, hover hold |
-| **Inventory** | Bag capacity | Strong steps; a full trip becomes a real haul |
+| **Jetpack** | Speed, efficiency, assists | Sustained ascent, steering assists, hover hold |
+| **Bag capacity** | Bag capacity | Strong steps; a full trip becomes a real haul |
 | **Detector** | Range, cue clarity, broad direction | Confident long-range hunches |
 | **C4** | Blast size, pack size, efficiency | Room-clearing blasts; cheaper demolition |
 
-Per-track level count is flexible (~6 by current design), but the structure stays: many small
-increments with a capability punctuation every roughly third level (S02). The 30–45 minute cadence
-target measures these milestone (capability) purchases, not every level. Every purchase must be
-visible or audible on the tool or the HUD — no "invisible +5%" upgrades.
+Per-track level count is flexible; use **fewer, stronger steps** (S02). Every purchase must noticeably
+improve the next outing — no "invisible +5%" upgrades or cosmetic bolts standing in for power.
+Purchases apply immediately, without a blocking animation. Power growth outpaces tougher ground,
+so late excavation becomes dramatically larger and faster (S17).
 
 ## 3. Money in
 
-- Commons and distinctives sell for money; value bands: common income, distinctive value, rare =
- several expeditions, unique = effect instead of money (D05).
+- Commons and repeatable distinctives sell for money; rare finds can pay for a major purchase.
+ Uniques give display and story, without money or mechanical perks (D05).
+- A fixed price per item type: deeper zones contain richer types or mixes, but a gold bar always
+ has the same price (S03).
 - Common finds stay worthwhile at every depth; the deep game does not turn early income into
  garbage.
 - Rare finds excite without breaking the curve; a rare find should afford one big upgrade, not half
  the tree.
-- Cluster hauls, large-find extraction and display completions provide occasional big paydays.
+- Cluster hauls and saleable large finds provide occasional big paydays. Display completion has no
+ cash reward; the collection and story are the payoff.
 
 ## 4. Money out (including late game)
 
 Primary: the six tracks.
 
-Late-game sinks keep money meaningful after the tracks are maxed (S03b):
+Late-game sinks support remaining discoveries and optional decoration after the tracks are maxed (S03b):
 
-- extra C4 charges and consumables;
-- lamps (buy individually; useful for lighting and photography);
-- display upgrades (more frames/of the display growing, decorative pedestals);
+- extra C4 charges;
+- reusable lamps (buy individually; useful for lighting and photography);
+- display decoration (basic shelf/stand capacity never requires a frame purchase);
 - cosmetic tool skins and yard items;
 - small conveniences (fuel top-ups, spare charges).
 
-There is no point where the intended player has literally nothing to buy while still digging.
+The site is finite. Once its discoveries and upgrades are complete, money may stop mattering. No
+extra upkeep or repeated chores are added just to sustain spending (Q33).
 
 ## 5. Fuel (shared battery)
 
 - One battery powers **digging and jetpack**.
 - Drain occurs only during powered actions; reading, standing, thinking and inspecting never drain.
 - Refills are **purchased at the surface**: full or partial, amount and price shown before purchase;
- bigger tanks keep current fuel rather than granting a refill (S04).
+ bigger tanks keep current fuel rather than granting a refill (S04). The same refill quantity never
+ costs more because the tank grew.
 - **Return-power warning:** an adaptive indicator with safe / risky / critical states — never exact
  required-energy math. It accounts for depth and the route, not just a percentage threshold (S04).
-- At zero fuel anywhere: automatic recovery to the surface with full fuel, **all finds kept**, a
+ Unknown route geometry is not labeled safe.
+- At zero fuel underground: automatic recovery to the surface with full fuel, **all finds kept**, a
  depth-scaled fee, and any shortfall as interest-free debt automatically deducted from future sales
- (Q26f). No manual rescue option; no confirmation prompt.
+ (Q26). No manual rescue option; no confirmation prompt.
+- One disclosed rescue/refill bill, never two charges. Debt repayments protect the income needed for
+ a basic refill. At zero charge in the yard, stay at zero until using the fuel point: no rescue or
+ automatic refill. Walking and surface machines still work; if broke, the same interest-free account
+ covers a basic restart charge.
+- Tune recovery against normal return; shorten tedious travel before increasing the punishment.
 - Recovery never blocks progress, never deletes items, and never permanently ruins a save.
 
 ## 6. Capacity (the bag)
@@ -75,34 +86,40 @@ There is no point where the intended player has literally nothing to buy while s
  can be retrieved later (S05b).
 - **Nothing is ever deleted**: no overflow deletion, no inventory destruction, no loot loss on
  failure of any kind.
-- Uniques and ending components never consume capacity.
+- Uniques and ending components never consume capacity. Full bags stop pickup, not digging or
+ movement; nonblocking overflow remains in the world. No discarding.
 
 ## 7. Selling
 
-- Selling happens only at the surface Sell All machine; the inventory screen never sells.
+- Selling happens only at the surface Sell All machine; there is no inventory screen.
 - **One-button Sell All** (I05) with a physical, comedic machine animation and clear money feedback.
 - Individual selling available at the machine for players who want it.
-- Money is banked instantly on sale; there is no bank/branch/ATM system.
+- Money is banked instantly on sale; there is no bank/branch/ATM system. The haul animation is
+ nonblocking; the player can move on and buy an upgrade immediately.
 
 ## 8. What the economy never does
 
 - No RNG-gated progression (no blueprints replacing shops).
 - No condition/grading system (Q30c).
-- No expiring coupons or time-limited offers.
+- No expiring coupons, time-limited offers or temporary boosts (S16).
+- No found passive upgrades; all permanent mechanical power comes from the existing shop tracks (S10).
 - No multi-currency.
 - No dead end where everything is purchased halfway through the run.
 - No loot deletion as a failure consequence.
 - No item durability; tools never break.
 - No object whose sale value increases by combining, stacking or re-merging — value is fixed per
   type (value-stacking exploits cannot exist by construction).
-- No payed power, no premium currency, no microtransactions.
+- No paid power, no premium currency, no microtransactions.
+- Fix duplicated value, repeated credit, purchase bypasses and premature ending triggers (S15).
+ Harmless physics comedy and free relocation of an owned lamp can remain; moving property is not
+ itself an exploit.
 
 ## 9. Tuning targets (validated in prototype; exact values per Rule 8)
 
 | Metric | Target |
 |---|---|
 | First purchase | affordable from the first sale; within the first minutes |
-| Median time between milestone (capability) purchases | 30–45 min; small level purchases land more often |
+| Median time between milestone (capability) purchases | prototype-tuned for fewer, stronger steps; 30–45 min is an earlier hypothesis |
 | Purchases affordable at any moment | ≥ 3 |
 | Maxed tracks before credits | 50–85% of players (i.e., some left for Continue Playing) |
 | Rare find value | ≈ one big upgrade, never several |

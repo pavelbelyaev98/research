@@ -5,31 +5,35 @@
 | Tier | Count target | Detector | Destination | Money |
 |---|---|---|---|---|
 | **Common** | 20–30 types | Always silent | Sell only | Reliable income, worthwhile at any depth |
-| **Distinctive** | 30–50 types | Noteworthy ones signal; some stay silent by design | **Purpose TBD (D03)** — either first copy to display with duplicates sold, or sell with a snapshot; user is researching | Good money |
-| **Unique** | Small set (a few) | Signals | Kept on the display forever; unsellable; carries a one-sentence story; benefit TBD (must not create a sudden power spike) | No sale |
-| **Rare passives** | TBD (S10, deprioritized) | Signals | Grants a permanent effect (challenge-preserving) | No sale |
+| **Distinctive** | 30–50 types | Noteworthy ones signal; some stay silent by design | Sell only; no first-copy/duplicate routing (D03) | Good money |
+| **Unique** | Small set (a few) | Signals | Kept on the display forever; unsellable; one-sentence story; no mechanical perk | No sale |
+| **Ending parts / keys** | 3–4 finale components; other keys by content | Required parts have a discoverable trail | Unsellable; automatically available when needed | No sale |
 
 Commons include the mineral ladder (coal → copper → iron → silver → gold → emerald → ruby → diamond),
 bottles, plain stones, commonplace scrap, packaging and rubbish. "Common" means routine to find
 repeatedly, not merely familiar. **Uniques exist exactly once per save — never in multiples.**
-Commons get no presentation effort (they collect instantly and are never inspection chores);
-distinctives are the special, repeatable middle tier (D15).
+Commons are visible before quick automatic collection, without inspection prose or popups;
+distinctives are the special, repeatable middle tier (D15). No found passive upgrades (S10).
+
+Each type has one purpose: ordinary and repeatable finds sell; a few special exhibits and keys are
+unsellable. No keep/sell sorting. Ordinary hauls pay, and special finds get their own display moment.
 
 ## 2. The detector
 
 The detector is passive equipment: the player never equips it. They simply dig.
 
-- **Silent and visual.** No audio pings (F07; exact presentation TBD). The tool reacts; a subtle
- screen-edge hint may show direction and proximity. The reference game's edge indicator is a
- researched option.
+- **Silent and visual.** No audio pings. Tool reaction plus a subtle screen-edge hint gives broad
+ direction and proximity (F07); no hidden outline or object identity.
 - **Never reveals value or rarity.** A huge object may read "stronger" because of size, but the
  detector never says what it is. No "special cue" that makes ordinary finds feel like waste.
-- **One foreground target at a time**, stable switching, quiet intervals between cues. Constant
- beeping-like interruption is forbidden.
+- **One foreground target at a time:** keep the current nearby target until collection or moving
+ away. Quiet intervals between cues; no jumping between finds as the camera turns (S06).
 - **Eligibility is authored per object**, never decided by price, size or metal content. Some
  distinctive finds deliberately do not signal, so that digging itself keeps rewarding the player
  outside signal-chasing.
-- Signals can always be ignored; not following one costs nothing but an undiscovered object.
+- Signals can always be ignored; required parts matter when the player chooses to finish the story.
+- Required finds have trails of related objects and the existing broad detector cues. Collected finds
+ stop signaling; revealed but uncollected targets remain detectable. No required detector upgrade (D17).
 
 ## 3. The reveal and recognition loop
 
@@ -38,13 +42,30 @@ The detector is passive equipment: the player never equips it. They simply dig.
  excavates around them and watches the silhouette resolve.
 3. Once enough is exposed, the object becomes interactable and can be collected.
 4. **Recognition is the reward:** curved metal → handle → rectangular body → "…oh, it's a washing machine."
-5. **Uniques tell a story:** a unique delivers one deadpan sentence of story — on pickup or on inspection, to be decided (D14). Whatever the trigger, inspection is never required for commons. The story is carried by the object, never by a narrator.
+5. **Uniques tell a story:** one deadpan sentence, with first delivery decided in play (D14). The
+ developer leans before placement; before pickup versus immediately before placement remains open.
+ Placed objects always support inspection and rereading. No inventory reading or inspection of commons.
 6. No archaeology: no brushing minigame, no 100% cleaning requirement, no identification timers, no
    mailing objects for appraisal. The game decides when enough is revealed; the player
    decides what is worth revealing.
 
 Small/common finds are quick: a bite or two, instant pickup, clear feedback so nothing is collected
-unseen.
+unseen. Interesting finds remain after wide cuts, support cleanup and C4; exposure makes them
+collectible without requiring full cleaning or waiting for the player to name them (D16).
+
+**Moving discoveries** (D21): objects respond physically as surrounding ground is removed. The
+developer reports this is already implemented; retain it as part of the reveal feedback.
+
+**Finds inside finds** (D20): occasional authored containers hold another discovery. Dig out a
+suitcase, expose and open it with the existing tool, then see coins or an odd keepsake inside.
+The outside gives a clue; the contents deliver a second reveal and a small piece of buried history.
+
+- Use a few selected objects, not every box or appliance. Contents fit the container and its scene.
+- Opening happens in the world with the same tool; no lockpicking, extra keys or inventory search.
+- Contents become visible before normal collection. Ordinary valuables sell; special exhibits keep
+ their existing display/story role. The container's own collection must not hide or lose its contents.
+- Contents belong to the save's finite find population; opening or reloading never rerolls or
+ duplicates them. Full-bag overflow follows the normal rules.
 
 ## 4. First-slice objects (built before bulk production)
 
@@ -73,40 +94,54 @@ Five authored micro-scene templates to start, rotated and placed procedurally wi
 Rules: authored relationships, no pre-dug chambers, counted once in the finite population, validated
 for spacing. A cluster is a suggestion, never a quest marker.
 
+Clusters should read as parts of a coherent buried place — a household, workshop or waterworks
+(W15). The relationship gives the next dig a reason beyond another signal.
+
 ## 6. Large discoveries
 
 A few per run (target 3–5): a car, a large appliance pile, a machinery section (D10). The player
-excavates most of it first; extraction is a physical event — a cable descends, attaches, and the
-object is yanked out with physics comedy. No cinematic camera; the player stays in control.
+excavates most of it first; a short local extraction gives the physical payoff, then the whole object
+is transferred to its surface destination. No car-wide shaft to the sky or cinematic camera; the
+player stays in control. Test the animation beneath ceilings without visible cable clipping.
 Extraction always delivers the whole object — a large find that yields only a token part reads as a
-letdown (D10). Some very large discoveries may remain in place permanently as landmarks.
+letdown (D10). Some very large discoveries may remain in place permanently as landmarks; their
+non-extractable nature is clear and discovery is credited in place.
+
+Major discoveries gradually reveal parts of one enormous construction (D18). Matching joints, seams
+and fittings connect them; the final object explains what they belong to. Smaller finds continue around it.
 
 ## 7. Value and rarity
 
-Four bands (D05):
+Value and collection roles (D05):
 
 1. **Common** — reliable income, always worth collecting, never trivialized by depth.
 2. **Distinctive** — good money; the "that haul paid for the drill" tier.
 3. **Rare** — several expeditions' worth, never enough to buy half the upgrade tree at once.
-4. **Unique** — grants an effect instead of money.
+4. **Unique** — permanent display and story, no sale or mechanical effect.
 
 No jackpots that finish the economy; no trash that feels like a waste of a slot.
 
+The same item has the same price at every depth. Deeper zones can contain richer types or mixes;
+a gold bar never receives a depth bonus. “Rare” describes a payout, not another upgrade system.
+
 ## 8. Display integration
 
-- The surface display is a growing shelf/wall/column with **predefined outlines** (D11).
-- **Empty frames are visible from the start; the shape inside stays hidden until discovery**
- (D11b). This gives collection goals without spoiling silhouettes.
-- The player never chooses placement: when a unique (or first-find distinctive, if D03 resolves
- that way) is collected, they carry it to its waiting outline and place it.
+- The surface display is a growing shelf/wall/column with **compatible spaces** (D11).
+- **Empty spaces are visible from the start; undiscovered shapes stay hidden** (D11b).
+- A special exhibit is stored safely on pickup. At the yard, bring it out and place it individually;
+ choose any compatible shelf space or stand, with neat snap placement. No carrying task underground.
 - The display records name + depth found. No prices, no condition, no rarity labels.
+- Placed objects support story inspection and rereading. Completion follows the exhibit collection,
+ not an assigned arrangement. Basic display capacity never requires a frame purchase.
 
 ## 9. Inventory behavior for finds
 
-- The bag is abstract; there is no physical carrying of buckets or crates.
+- The bag is abstract; there is no physical carrying of buckets or crates, and no inventory screen.
 - **Hard stop when full:** the player cannot pick up; the find stays exactly where it is in the
  world, and can be retrieved on a later trip (S05b).
 - **Nothing is ever deleted.** No overflow teleport, no inventory destruction, no drop-on-death.
+ Full capacity stops pickup, not digging or travel; excess valuables persist without blocking the route.
+ No discarding; sale, extraction and reload preserve discovery credit (D17).
 - Uniques and ending components never consume capacity and are never lost.
 
 ## 10. References and humor
@@ -125,4 +160,6 @@ The three-step escalation (D08) is delivered entirely through finds:
 3. **Constructed impossibilities** — machinery built from ancient materials with a modern function.
 
 The trail ends at the final object: **a modern object built in impossibly ancient materials**
-(Q12). See `11_ENDING_AND_MYSTERY.md`.
+(Q12). Its exact identity stays open; its construction makes the earlier major parts fit together.
+An unusually intact ordinary object in undisturbed sediment can foreshadow this without an explanation.
+See `11_ENDING_AND_MYSTERY.md`.

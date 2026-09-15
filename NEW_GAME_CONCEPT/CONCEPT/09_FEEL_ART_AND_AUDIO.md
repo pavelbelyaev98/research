@@ -18,7 +18,7 @@ cohesive custom art. Bright and readable, never realistic mud, never asset-store
 | Recent fill | Warm browns, greens, rusty metal, bright sky | Warm daylight, open, hopeful |
 | Old sediment | Grey-blue, clay orange, dull steel | Cool daylight fading, nostalgic |
 | Deep clay/stone | Saturated clay reds, dark rock, wet gleam | Dim, lamp-friendly, heavy |
-| Ancient constructed | Cold tones, unnatural smoothness, faint glow accents | Near-black ambient, lamps essential (reached gradually) |
+| Ancient constructed | Cold tones, unnatural smoothness, faint glow accents | Dim ambient, ground and object shapes readable; lamps add detail |
 
 Darkness escalates gradually across the zones; readability always wins over mood (W03, F09).
 
@@ -42,21 +42,21 @@ Chunky, weighted and steady (F05):
 - Audio is per material: sand hisses, clay thumps, rock cracks, concrete grinds (F12).
 - The machine's behavior and sound improve with upgrades, so power is felt in the hands, not read
  from a stat screen.
-- Downward digging feels good with the starting shovel; upgrades make it feel ridiculous.
+- Downward digging feels good with the starting shovel; upgrades make it feel ridiculous. Power
+ outpaces tougher ground, while automatic material responses stay distinct through the final tier (S17).
 
 ## 5. Material behavior
 
-Each material family has a distinct response profile (F12):
+Each material family has a distinct response profile (F12). Start with the same five working groups
+as `03_WORLD_AND_SITE.md`; the exact material list remains open:
 
 | Material | Bite | Residue | Sound |
 |---|---|---|---|
-| Dry sand | Fast, prone to spilling | Pours, no clumps | Soft hiss |
-| Soil | Even | Crumbs | Dull thud |
-| Clay | Sticky, slower | Clumps that stick | Wet thump |
+| Loose earth (sand / soil) | Fast spilling / even cuts | Pours / crumbs | Soft hiss / dull thud |
+| Clay / sediment | Sticky or resistant, steady | Clumps / flat chips | Wet thump / muffled crunch |
 | Gravel | Trickles | Loose stones | Rattle |
-| Compact sediment | Resistant, steady | Flat chips | Muffled crunch |
 | Rock | Slow, chipping | Shards | Sharp crack |
-| Concrete | Very tough for early tools | Sparks, dust | Grinding screech |
+| Diggable concrete | Tough; early tools still make visible progress | Sparks, dust | Grinding screech |
 
 ## 6. Audio design
 
@@ -80,14 +80,14 @@ Ambience and feedback only. **No music. No voice acting** (F06, Q22b).
 Comfort-safe effects (F08):
 
 - Dust, crumbs, sparkles, smoke from C4, splash from water-adjacent areas.
-- No screen shake by default, no blood or gore, no full-screen flashes, no chromatic aberration,
+- No screen shake, no blood or gore, no full-screen flashes, no chromatic aberration,
  no forced bloom.
 - Particles never collide and never deal damage.
 - Intensity is adjustable; nothing visually discomforting is mandatory.
 
 ## 8. UI art
 
-Clear, readable, industrial-worksite in flavor (F10 direction: not retro, exact style TBD): stenciled
+Clear, readable, industrial-worksite in flavor (F10; final visual treatment later): stenciled
 labels, simple type, high contrast, scale-friendly. UI never competes with the world; it stays out of
 the way.
 
@@ -95,5 +95,5 @@ the way.
 
 The game should naturally produce absurd, striking screenshots: a ridiculous machine silhouetted in
 a deep hole, a gramophone half-buried in pale sediment, a car mid-yank on a cable, a warm lamp pool
-in a near-black zone. Photo mode (pause-only, HUD hidden) exists for exactly these moments
+in a dim ancient zone. Photo mode (pause-only, HUD hidden) exists for exactly these moments
 (I13).

@@ -10,11 +10,20 @@ Delivered entirely through finds, never through NPCs or text popups (Q11, D08):
 | 2. Too correct | Deep clay/stone | A rustless tool, a bottle standing upright under tons of sediment, a manufactured part matching no machine nearby | "Wait. Something put this here." |
 | 3. Constructed impossibilities | Ancient constructed | Machinery built from ancient materials with a modern function; objects that are deliberately placed | "This should not exist." |
 
+**One enormous construction** (D18): the major discoveries gradually reveal related parts. Matching
+joints, seams and fittings make the connection visible; the final object explains what they belong
+to. The player uncovers it along their own route, with different discovery orders.
+
+An intact ordinary object in undisturbed sediment can establish the wrongness early. The connection
+should read through the objects, not through a code or explanation; the growing question is “how big
+is this thing, and what is it?”
+
 Rules:
 
 - Each step lives in its zone; never dumped together.
 - Never signposted by UI or dialogue; the display wall serves as the quiet record.
-- Each impossible find is also a real discovery with its own reward; the trail is not a fetch quest.
+- Each impossible find is also a real discovery with its own reward. The mystery can be ignored
+ while digging; its components are required when the player chooses to finish the story.
 - **Awe, never dread.** The impossible is presented as craft, wonder and wrongness — never as a
   threat, a pursuit or a presence. No stalking or chase staging, no "something is watching" cues;
   darkness stays calm (Q13). The player should feel *"this should not exist"*, never *"something is
@@ -27,10 +36,13 @@ Three or four objects outside the normal bag (D09):
 - They are parts of the final mechanism (e.g., segments that fit a housing found at the bottom).
 - They never consume inventory capacity, and can never be lost — not by recovery, falling, or any
  failure state.
-- They live in a small permanent case at the surface and appear on the way to the finale.
-- Inserting them at the final object is one obvious interaction, not a puzzle.
+- They can appear in a permanent case at the surface, but ownership makes them automatically
+ available at the final object. No inventory or retrieval trip.
+- One obvious interaction inserts any owned parts, leaving missing sockets visible. Partial visits
+ are optional; the player can fit the complete set at once. No puzzle.
 - Their placement is off the main shaft, rewarding lateral exploration and giving the anti-straight-
- down design its endgame teeth.
+ down design its endgame teeth. Related objects and the existing broad detector make each required
+ part discoverable; every seed contains all parts, reachable with baseline equipment.
 
 ## 3. The final discovery
 
@@ -39,7 +51,10 @@ chosen yet; it is decided after the loop works, with directions such as:
 
 - an absurd household technology reconstructed from ancient materials;
 - machinery whose function is unmistakably modern but whose construction predates everything;
-- some familiar modern invention that is *too familiar*, found where nothing human should reach.
+- some familiar modern invention that is *too familiar*, found where nothing human should reach;
+- an impossibly ancient original of the player's machine.
+
+None is selected. The final object makes the larger construction's earlier parts fit together (D18).
 
 The payoff is not the object's name; it is the certainty: **this should absolutely not exist here.**
 The object must be readable at a glance and unmistakably manufactured.
@@ -55,13 +70,16 @@ Rules (C01):
  replacement gameplay mode.
 - No requirement to have maxed every track or found every unique before finishing.
 - Pausing/saving remains available; the finale cannot soft-lock progress.
+- Activation requires intentional insertion of the complete component set, never just reaching a
+ depth, boundary or trigger volume.
 
 ## 5. The ending cutscene
 
-- Short, deadpan, and emotionally earned: the impossible object is confirmed; the protagonist
+- **One ending**, pausable and skippable. Short, deadpan, and emotionally earned: the impossible object is confirmed; the protagonist
   becomes famous for the discovery, not rich in the way they planned.
 - Fame is shown diegetically (Q31): a media wall in the yard — news clippings, a radio, a small TV —
-  starts filling with reports after the discovery; no characters, no dialogue, no crowd.
+  starts filling with printed/captioned reports after the discovery; no characters, dialogue, crowd,
+  music or voices. Radio/TV props stay silent or captioned.
 - No retcon that erases the player's work; the dig mattered and the world reacts to it.
 - The reports reference the finds actually displayed and the depths reached — the epilogue pays off
   this hole, never a generic montage.
@@ -74,9 +92,10 @@ After the cutscene (S12):
 
 - The player returns to the same save with all equipment, upgrades, terrain, display and economy
  intact.
-- Remaining upgrades can be purchased; missed finds are still findable; display outlines can be
- completed; achievements remain obtainable.
-- Late-game money sinks stay live (S03b), so income still means something.
+- Remaining upgrades can be purchased; missed finds are still findable; the special collection can
+ be completed in any compatible display arrangement; achievements remain obtainable.
+- Late-game purchases support remaining discoveries or decoration (S03b). Once the finite site and
+ upgrades are complete, money may stop mattering; no endless layers or extra post-game campaign (Q33).
 - Nothing requires a new game; the game explicitly states that the run continues.
 
 ## 7. Completion
@@ -84,14 +103,14 @@ After the cutscene (S12):
 Per P05:
 
 - **Beaten:** the final object is found and the components assembled; credits roll.
-- **100%:** all display outlines filled, all upgrade tracks maxed, all zones explored (stat view),
- and the achievement set completed.
+- **100% on this save:** ending completed, all special exhibits collected and placed, all upgrade
+ tracks maxed, and every zone reached. Steam achievements are a separate record. “Explored” never
+ means clearing the zone's terrain.
 - **Never required:** clearing every voxel of terrain, erasing the player's own useful routes, or
  filling an "all dirt removed" meter.
 
 ## 8. Undecided
 
 - The exact final object (direction locked, object TBD after prototype).
-- Whether the ending has any variants (default assumption: one ending; not yet decided).
 - Exact staging and length of the cutscene.
 These are listed in `13_OPEN_QUESTIONS.md` and are non-blocking for prototype work.

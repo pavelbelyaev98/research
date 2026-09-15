@@ -9,7 +9,7 @@ avoidable complaints about hands, eyes, motion or pressure. This one does not.
 | Setting | Default | Options |
 |---|---|---|
 | Field of view | 90° | 60–110°, unit toggle |
-| Camera shake | Low | 0–100% |
+| Camera shake | Off | No digging or C4 shake |
 | Head bob | Off | Off / subtle / on |
 | Comfort preset | Available at first launch | One click applies FOV, no bob, no shake, soft transitions |
 | Forced roll / camera lean | Never | Not a feature |
@@ -17,18 +17,18 @@ avoidable complaints about hands, eyes, motion or pressure. This one does not.
 
 Design rules:
 
-- No screen shake from digging, ever; shake only exists where it can be disabled (F05, F08).
+- No screen shake from digging or C4 (F05, F08).
 - No cinematic camera takeovers, no rotating elevator shots on the critical path.
 - Camera motion is smooth at any frame rate.
-- A player who says "I get motion sick" in the first-launch wizard gets the comfort preset applied
-  automatically.
-- A short first-launch camera preview ("look around — does this feel right?") lets the player set
-  FOV and shake and applies the comfort preset before the first dig.
+- A player who selects motion comfort in the optional first-launch preview gets the comfort preset
+  applied automatically.
+- An optional first-launch camera preview ("look around — does this feel right?") lets the player set
+  FOV and comfort settings before the first dig.
 
 ## 2. Motor accessibility
 
-- **Hold-to-dig** is the default; a **toggle** is available; an **auto-dig assist** keeps digging at
- the aim point while held (I10).
+- **Hold-to-dig** runs while held; **toggle** runs until toggled off. Any additional auto-dig assist
+ needs a distinct purpose beyond these two inputs (I10).
 - Every hold action has a toggle equivalent.
 - **One-hand presets** for left-only and right-only play, on keyboard/mouse and controller.
 - **Full rebinding** of everything, including menus (I07).
@@ -36,7 +36,8 @@ Design rules:
 - Generous input buffering: inputs during animations are never dropped.
 - Aim/placement assistance: snap-to-valid-surface placement for C4 and lamps, generous interaction
  radii, no pixel-perfect hotspots.
-- No health management and no fall death: bigger falls only stagger you and knock the battery, and extreme falls trigger recovery (Q28), so nothing punitive happens while learning controls.
+- No health management or fall death: ordinary falls give harmless landing feedback, without battery
+ loss, input lock or surface recovery (Q28). Learning movement does not cost progress.
 
 ## 3. Vision
 
@@ -45,7 +46,7 @@ Design rules:
 - **Shape + label redundancy** everywhere: no information is color-only (F12).
 - Contrast and brightness options; the game is readable at both ends of the display range.
 - **Subtitles for all significant sounds** (I09), including ambient tells, with size/background
- options (deferred until the text pass, I12).
+ options chosen in the text pass; the captions themselves remain required under I09.
 - UI scale/font scale planned as an optional later addition (I12).
 - Detector feedback is visual by design; the game is fully playable muted.
 
@@ -67,7 +68,7 @@ Zero-pressure design (I11):
 - **No FOMO**: no daily rewards, no limited events, no login streaks.
 - **No jumpscares, no horror, no combat** (Q13). Dark areas exist but are calm, never scary.
 - Intensity warnings are unnecessary by content policy, but a brief note about dark areas appears in
- the first-launch settings tour (I11).
+ the optional first-launch settings preview (I11).
 - The return-power warning is informational, never panicky; recovery always protects the player's
  finds.
 

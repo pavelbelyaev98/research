@@ -31,12 +31,12 @@ collectathons and false "no cheating" detectors. None of that exists here.
 | 1 | Story | Reach and expose the final impossible object |
 | 2 | Depth | Reach the deepest zone for the first time |
 | 3 | Tool | Fully upgrade the machine's Tool track |
-| 4 | Discovery | Fill the first display row / collect the first unique |
+| 4 | Discovery | Place the first special exhibit |
 | 5 | Discovery | Find a complete fossil or micro-scene set |
-| 6 | Collection | Fill a meaningful fraction of the display outlines |
+| 6 | Collection | Place a meaningful fraction of the special collection |
 | 7 | Fun | Perform a natural absurd action (e.g., extract a car, or something equally silly) |
 | 8 | Completion | All tracks maxed |
-| 9 | Completion | All display outlines filled |
+| 9 | Completion | All special exhibits collected and placed |
 | 10 | Mystery | Discover all three mystery-escalation finds |
 
 Final list should stay in the 5–10 range and prefer "things players naturally want to do anyway".
@@ -46,11 +46,12 @@ Final list should stay in the 5–10 range and prefer "things players naturally 
 | State | Requirement |
 |---|---|
 | **Beaten** | Final object found and components assembled; credits shown |
-| **100%** | Display outlines complete + all upgrade tracks maxed + all zones explored (stat view) + achievement set complete |
+| **100%** | Ending completed + all special exhibits collected and placed + all upgrade tracks maxed + every zone reached |
 | **Never required** | 100% terrain removal, perfectly straight shafts, retaining every temporary item |
 
 Achievements must remain attainable after the ending on the same save (S12): missed finds are still
-findable, remaining upgrades purchasable, the display completable.
+findable, remaining upgrades purchasable, the display completable. Arrangement is the player's choice;
+“zones explored” means reached, never terrain cleared. Steam achievements are a separate record.
 
 ## 5. Tracked stats (for the completion screen)
 
@@ -58,10 +59,14 @@ findable, remaining upgrades purchasable, the display completable.
  fossils recovered, large objects extracted, mystery finds found, recoveries used, seeds played.
 - Stats are informational; only the 100% definition uses a subset.
 
+A new run starts fresh, with different arrangements of the complete required content set (S13).
+No equipment/collection carryover or seed-exclusive completion requirement.
+
 ## 6. Implementation requirements
 
-- Profile-level stat store written with the save; achievements derived from stats and re-granted on
- load when conditions are met.
+- Completion uses this save's discoveries, exhibits, purchases and reached zones. Profile/Steam
+ records never substitute for a new world's progress. Discovery credit survives sale, extraction and
+ reload; earned achievement records persist.
 - Offline earning queues locally and syncs to Steam when available.
 - A clean-save 100% verification run must pass before release, including with assists enabled
  (`14_PROTOTYPE_PLAN.md` lists this as a release gate).

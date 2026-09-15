@@ -1,7 +1,7 @@
 # Something Down There — Concept
 
-**This document set is written entirely from confirmed decisions.** Every rule here traces to an entry
-in `../DECISIONS.md`. Nothing is assumed; anything undecided is listed in
+**This document set records the current decisions and explicit open choices.** Every rule here traces
+to an entry in `../DECISIONS.md`, with the developer's answers and reasons. Anything undecided is listed in
 `13_OPEN_QUESTIONS.md`. For how research iterations update this design, see `../ITERATION_GUIDE.md`.
 
 ## The game in one paragraph
@@ -13,7 +13,9 @@ hole with one evolving, increasingly ridiculous machine, follow silent detector 
 oddities, reveal objects by their shape before you know what they are, haul them home before your
 shared battery dies, sell everything ordinary at a janky Sell All machine, and upgrade. You dig
 deeper through four zones, from recent rubbish to old sediment to deep clay and finally to something
-constructed that should not exist. The last find changes everything; then you keep playing.
+constructed that should not exist. The finds belong to a buried place with a history; major discoveries
+gradually reveal parts of one enormous construction. The last find makes their connection clear; then
+you keep playing.
 
 **Platform:** PC (Windows), Unity. Full controller support. **Rating:** E10+ / PEGI 7.
 **Price:** $6.99–9.99. **Length:** 3–5 h first completion. **Audio:** ambience and feedback only.
@@ -21,15 +23,17 @@ constructed that should not exist. The last find changes everything; then you ke
 ## The seven pillars
 
 1. **The hole is yours.** Full voxel terrain, untouched start, no pre-dug paths, no intended route.
- Sideways digging earns its keep through clusters and finds, never through depth multipliers.
+ Sideways digging earns its keep through related places and finds; the same item has the same price
+ at every depth. No map.
 2. **The signal and the reveal.** A silent detector builds a hunch; the reward is recognizing an
  object from its half-buried shape. No value radar. No treasure GPS.
 3. **One ridiculous machine.** A single tool that visibly escalates into a garage-built absurdity.
- Automatic adaptation, no mode chores, no replacement tool that invalidates your investment.
+ Automatic adaptation through the final tier; power outpaces tougher ground. No mode chores, no
+ replacement tool that invalidates your investment.
 4. **Always a reason to dig, never a reason to fear losing it.** Money is banked only on the surface,
  but recovery never deletes your finds. The only real cost of failure is time and a fee.
 5. **Short, dense, replayable.** 30–60 minute sessions, 3–5 hours to the ending, randomized
- placement per save, a personal display that only your hole could fill.
+ placement per save, fresh progression on a new run, and a personal display you arrange yourself.
 6. **Fun first, honest always.** Controlled absurdity with deadpan delivery. No horror, no combat,
  no jump scares, no bait-and-switch. The store page tells the truth.
 7. **Respect the body and the schedule.** Hold-to-dig, full rebinding, comfort settings, no FOMO, no
@@ -46,8 +50,8 @@ constructed that should not exist. The last find changes everything; then you ke
 | `04_TOOL_AND_MOVEMENT.md` | The machine, adaptation, attachments, jetpack, crouch, C4 |
 | `05_DISCOVERIES.md` | Find tiers, detector rules, clusters, slice objects, large finds |
 | `06_PROGRESSION_AND_ECONOMY.md` | Tracks, levels, money, fuel, capacity, recovery |
-| `07_SURFACE_HUB_AND_DISPLAY.md` | Yard, machines, signage, the outline display |
-| `08_INTERFACE_AND_CONTROLS.md` | HUD, inventory, pause, controls, photo mode, saves |
+| `07_SURFACE_HUB_AND_DISPLAY.md` | Yard, machines, signage, the special display |
+| `08_INTERFACE_AND_CONTROLS.md` | HUD, object inspection, pause, controls, photo mode, saves |
 | `09_FEEL_ART_AND_AUDIO.md` | Visual style, zone palettes, dig feel, material feel, audio, FX |
 | `10_ACCESSIBILITY_AND_COMFORT.md` | Motion, motor, vision, hearing, cognitive design |
 | `11_ENDING_AND_MYSTERY.md` | Mystery trail, final object, components, Continue Playing |

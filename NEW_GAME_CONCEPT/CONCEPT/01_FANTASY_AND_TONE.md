@@ -11,6 +11,10 @@ The site is believable as a place people once cared about and then forgot: water
 rusted ladders, valve houses, cracked concrete, stranded river junk. The excavation happens in the
 open air, in daylight, with the sky visible above the hole.
 
+**A buried place with a history** (W15): drowned workshops, household remains and old waterworks.
+Objects belong together; an engine suggests more of the workshop nearby. These are content directions,
+not the final roster. The believable history makes deeper impossibilities stand out.
+
 **Inspiration note (do not name in-game):** the real phenomenon of falling water levels exposing
 mammoth bones in riverbeds is the seed for the fantasy.
 
@@ -47,15 +51,19 @@ Built from objects, never from cutscenes or characters (no NPCs, Q11):
 3. **Increasingly impossible late** — deliberate, immaculate, constructed things.
 4. **The final discovery** — a **modern object built in impossibly ancient materials** (Q12).
 
-The display wall records each strange find so the player builds the story themselves. Nothing is
-signposted by UI text.
+Major discoveries gradually reveal parts of **one enormous construction** (D18). Matching joints,
+seams and fittings connect them; the final object reveals what they belong to. The player still
+chooses the digging route and can encounter parts in different orders.
+
+The display wall records special finds so the player builds the story themselves. Nothing is
+signposted by UI text. Earlier discoveries gain meaning as the larger form becomes clear.
 
 ## 6. Boundaries (what this game is not)
 
 No archaeology sim, no survival, no crafting, no puzzles, no inventory management, no museum
 management, no realistic geology, no infinite procedural world, no walking sim, no tool-swapping
 chore, no automation of the digging, no lava/gas/oxygen/hunger/earthquakes, no health bar, no
-horror, no combat, no jump scares, no timed pressure in normal play (Q13, Q28f, P05).
+horror, no combat, no jump scares, no timed pressure in normal play (Q13, Q28, P05).
 
 ## 7. Audience and rating
 

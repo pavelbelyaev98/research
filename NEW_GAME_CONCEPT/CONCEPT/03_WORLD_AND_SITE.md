@@ -6,11 +6,16 @@ A drained river-fed reservoir. The working floor sits inside visible former bank
 retaining walls, and leftover waterworks. It is finite, believable and clearly bounded.
 
 - **Dimensions:** depth at least 100 m; exact depth and footprint are set by feel in playtest (W01).
-  Depth is the progression axis; the footprint stays contained.
+  Depth is the progression axis; the footprint stays contained, with useful lateral room for branches.
 - **Surface:** authored, not procedurally generated into ugliness. A small worksite yard
  (see `07_SURFACE_HUB_AND_DISPLAY.md`).
 - **Underground:** fully diggable voxel ground except permanent boundaries.
 - **No pre-existing caves or tunnels:** every opening in the ground is one the player made.
+
+- **Buried structures:** authored walls, machinery and filled interiors are allowed (W14). The
+ player digs every opening; no pre-dug rooms or passage network.
+- **Buried history:** workshop, household and waterworks finds belong together (W15). Major parts
+ gradually reveal one enormous construction, whose exact form remains open (D18).
 
 ## 2. Boundaries (why you cannot dig forever)
 
@@ -41,46 +46,60 @@ Zone names are placeholders; final naming is content work.
 
 ## 4. Materials
 
-Working set (7 families; exact list TBD, W04): soil, clay, gravel, compact sediment, rock, dry sand,
-hard rock — plus concrete near structures. Each family differs in **behavior**, not just color
-(F12):
+Working set (exact list TBD, W04): prototype five response groups — loose earth, clay/sediment,
+gravel, rock and diggable concrete. Soil, sand and harder variants can look different within these
+groups. Each family differs in **behavior**, not just color (F12):
 
-- sand pours and collapses quickly;
+- sand pours and spills quickly;
 - clay sticks and clumps;
 - gravel trickles;
 - compact sediment resists evenly;
 - rock chips and cracks;
-- concrete sparks and barely yields until the right power level.
+- concrete sparks and resists, but the starting tool always makes visible progress.
 
 The tool adapts automatically to the material (see `04_TOOL_AND_MOVEMENT.md`); materials reward the
-right behavior but never lock it out.
+right behavior but never lock it out. These are cutting responses and visual debris, not a global
+collapse hazard. Power growth outpaces tougher ground over the campaign (S17).
+
+**Dig along the seam** (W16): some ground has visible cracks or material boundaries. Cutting along
+one frees a larger local section with less work than digging through its center. For example, follow
+a clay seam around a rock section and break that section away. The ground offers a small choice:
+"where would a cut do the most?"
+
+- Use the same tool and normal digging input; broad, readable seams need no precise tracing.
+- Digging straight through always works. Seams offer an optional efficiency gain from the start;
+ stronger upgrades make the resulting cuts larger and more satisfying.
+- Removal stays local to the worked section. Finds survive for normal collection, and unrelated
+ ledges or overhangs remain intact; this does not add a collapse hazard.
 
 ## 5. Tough ground: hard pockets
 
 A small number of memorable, optional obstacles (5–8 target) — never walls across the main descent
-(W05b):
+(W05):
 
 | Example | Feel | Behind it |
 |---|---|---|
-| Concrete plug | Barely scratched by early tools | A waterworks alcove with a rare part |
+| Concrete plug | Slow but visible progress with early tools | A waterworks alcove with a rare part |
 | River-rock lens | Dense boulder cluster | A complete fossil |
 | Compacted gravel shelf | Slows digging for a while | An older, richer pocket of finds |
 
-Every pocket has **multiple solutions**: sufficient tool power, C4, or patience/routing. Discovering
-one early and demolishing it later is a designed moment of power.
+Every pocket has **multiple solutions**: the current tool, C4, or routing. Upgrades make excavation
+much faster. Discovering one early and demolishing it later is a designed moment of power.
 
 Solutions must be **legible before commitment**: the player can see that a pocket has an answer before
 sinking time into it — distinct seams, cracks or fittings that read as C4-friendly, a material
-clearly unlike the eternal boundaries, and a tool that reacts to what it cannot yet bite. "Come back
-with more power" is always a visible answer, never a dead end. An undiscoverable solution is the same
+clearly unlike the eternal boundaries, and a tool that visibly chips even the tough ground. "Come back
+with more power" is an optional shortcut, never the only answer. An undiscoverable solution is the same
 as no solution.
 
 ## 6. Terrain technology and cleanup
 
 - **Full voxel**: every diggable cube can be removed; tunnels, overhangs and trenches are legal
  (W06). Chunk size prototype-tuned (W11).
-- **No floating specks**: after a dig, disconnected valuable voxels convert to pickups and fly to the
-  player, while plain dirt crumbs simply vanish; nothing collidable is ever left suspended.
+- **No floating specks**: disconnected valuables become visible pickups and collect if the bag has
+  space; plain dirt crumbs vanish. Full-bag overflow persists nearby without blocking movement.
+- **Interesting finds survive cleanup:** terrain removal and C4 never delete them or bypass deliberate
+  collection (D16).
 - **Debris is visual only**: particles never collide and never deal damage.
 - **Collision always matches the visible mesh.**
 - **Substantial structures survive**: ledges, tunnels and overhangs the player built are preserved;
@@ -90,26 +109,30 @@ as no solution.
 ## 7. Lighting and darkness
 
 - **Sky light reaches down open shafts** and fades with depth (F09).
-- **The shaft reads from below:** the main shaft's light column and drifting dust motes make the
-  way up legible at any depth — natural light, not a HUD aid, and no map widget (W12, W13).
-- **A dim ambient floor** exists everywhere — the game is never pitch black; you can always barely
-  navigate (W03g).
-- **The dark arrives gradually.** Zone lighting lowers slowly; lamps are useful well before they are
-  required, and the dim ambient floor keeps silhouettes readable so darkness never outpaces lamp
-  access (W03).
-- **Placeable lamps** provide real visibility, let players mark routes, and light finds for photos.
+- **The shaft reads from below:** its light column and drifting dust are landmarks where the shaft
+  is visible. Light does not pass through overhangs; the jetpack and reusable lamps support returns.
+  No map, ever (W12, W13).
+- **A dim ambient floor** exists everywhere — ground and object shapes always remain readable
+  (W03).
+- **The dark arrives gradually.** Zone lighting lowers slowly; ambient light preserves recognition.
+  Lamps improve detail, color and atmosphere without becoming a requirement to see the ground (W03).
+- **Placeable lamps** improve visibility, mark familiar places and light finds for photos. Owned
+ lamps are reusable, repositionable and do not expire or drain charge; lost support leaves them
+ recoverable nearby. Digging and C4 cannot destroy them.
 - **No personal light.** The tool does not act as a headlamp; darkness in covered areas is a reason
  to place lamps.
-- **Zone lighting moods:** warm daylight near the surface → cool dim mid-depths → near-black deep
- where lamps are effectively required.
+- **Zone lighting moods:** warm daylight near the surface → cool dim mid-depths → quiet, dim deep
+ ground whose silhouettes remain readable.
 
 ## 8. Randomization rules
 
-- Authored: zone layout, depth ranges, boundary placement, general difficulty curve.
+- Authored: zone layout, depth ranges, boundary placement, general difficulty curve and relationships
+ between buried places and the connected construction parts.
 - Randomized per save: find positions, depths within bands, rotations, cluster layouts, some
- surrounding junk (W09).
+ surrounding junk (W09). Variation preserves how related objects and construction parts fit together.
 - The generator produces a candidate layout and validates pacing (Section 4 of
  `02_CORE_LOOP.md`) before accepting it.
+- Every seed contains all required finds, reachable and discoverable with baseline equipment (D17).
 - The accepted population is finite and persisted; patches never reroll an existing save.
 
 ## 9. No hazards
