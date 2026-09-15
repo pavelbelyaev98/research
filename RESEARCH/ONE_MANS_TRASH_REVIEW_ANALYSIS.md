@@ -16,6 +16,72 @@
 
 ---
 
+## My playthrough (primary evidence)
+
+*Notes from my own full playthrough of One Man's Trash — written by me, the developer of our game, not by One Man's Trash's developer. This is the primary design evidence in this document: the corpus sections below explain what players experienced, while these notes state what our game must not repeat. Where reviewers agree, disagree or stay silent, it is noted in italics.*
+
+### The core problem: no satisfaction
+I got no satisfaction from this game, and every other digging game I have played felt far more satisfying to actually dig in. The world was big but empty, so the size only stretched the boredom out. I had to use Cheat Engine to get through it, which is its own verdict. **This game should be one of the biggest examples of what not to do in our game.**
+
+*Corpus: this is a minority experience — the "genuinely satisfying, hypnotic" loop is the document's most repeated praise (Praise 1), and 86% of reviews are positive. But the longer-playtime critics say the same thing in softer words: "relaxing for the first hour or two then just a painful, annoying slog", and the game is "too long given the lack of variety" (Criticism 7).*
+
+### Items and collectibles
+- New-item pop-ups annoy me: when I first see an uncollected item it briefly appears on screen, and the next pickup is normal. I do not care about looking at items that much, especially common ones.
+- Looking at a guitar or any other item is not interesting at all.
+- **Uniques should exist exactly once in the game, never in multiples.** Mid-tier finds — treasures and items that are neither common junk nor uniques — should still feel special. Common items should get no presentation effort at all. Uniques can have a short story that players can look at.
+- I liked the collectibles and the shelf where they are stored: interacting with it and seeing how many I had collected was genuinely nice.
+- Finding a large object, like a car, was underwhelming: I expected to collect the car itself, and all I could collect was a part of it. **Big discoveries need a big payoff.**
+- The scanner as a single object item was incredibly bad — it acted like an X-ray that revealed common items.
+- Being able to delete items from the inventory is interesting when collecting junk; I am unsure whether our game should have it, and would rather decide from the reviews.
+
+*Corpus: collectible hunting is widely praised as the game's best part (Praise 4); the shelf itself is not discussed, but the collection fantasy clearly lands. No review raises unique duplicates or the pop-up interruption. Reviewers treat the cars, train cars, mines and spaceship as the game's best asset (Praise 4), so my reaction to the car diverges from most. The one scanner complaint in the corpus is the opposite of mine — a translated review calls it "completely useless" for endgame cleanup because its range is too small (Criticism 8). Item deletion is not a review theme; the nearest signal is the two-slot inventory limit that silently destroys older items (Criticism 3).*
+
+### Progression, gates and friction
+- There are too many upgrades, and the upgrades did not make sense — I did not care about reading about them.
+- At roughly 20 m a hard depth blocker stopped me from digging deeper and forced me to keep digging out my current area instead. **Blocking progress to force grinding is off-putting.**
+- Powerful timed upgrades felt good to use. That may only be because the base game was boring, so I am unsure they belong in our game; I would rather decide from the corpus.
+- Fall damage is annoying, and the overheating mechanic is really annoying.
+- I did not like that there was no jetpack. **I would prefer a jetpack over the rope or any other get-back-up mechanic.**
+
+*Corpus: shallow, meaningless upgrades are a top criticism (Criticism 3: "upgrades are tiny and lack impact", invisible +5% effects), and reviewers also hate tier/license gating (the ~$20,000 membership wall). The missing jetpack is agreed on, with the rope dividing opinion (Criticism 5; Divergent opinions). Timed upgrades and overheating are not review themes, so there is no support either way.*
+
+### Selling and UI
+- One interface for both selling and buying/upgrading is good UX: after selling I can upgrade immediately, without walking anywhere. I am also fine with the classic split where one place sells and another buys — as long as **selling itself is made more interesting**.
+
+*Corpus: the sell/buy split is not something reviewers discuss; the related complaint is that upgrades never change what you do, only their numbers (Criticism 3).*
+
+### Modes, achievements and gambling
+- The game has several modes, but I am not sure anyone found the non-cozy ones fun.
+- In-game achievements ("collect X bags", "sell X items") were super annoying — they showed up as a checkbox and I really do not want that. The game also had tons of bugs.
+- Gambling in the game is a hard NO for me: it is cheap and bad.
+
+*Corpus: cozy mode is the most-requested and most-praised addition (Praise 7). Abyss mode does have at least one fan ("pretty fun, enjoyed getting all the achievements and playing on abyss mode" — English, 8.3 h, positive). In-game checkbox tasks are not a review theme; reviewers judge the Steam achievements as fair after the launch hotfix, while bugs and progress loss are a recurring complaint (Criticism 4). Gambling is genuinely mixed — a funny diversion to some, and "do not bet, kids" to others, with a measured 75.7% return and one reviewer losing ~$3,000 over 16,000 spins (Divergent opinions).*
+
+### Presentation, tone and world
+- Music is terribly annoying, and the sounds are no better.
+- **The game feels completely dead inside** — cheap assets, annoying sounds and music, no soul at all, and nothing interesting to look at.
+- The game got dark too quickly.
+- Underground generated structures and passages that are not caves are interesting, but I am unsure whether they push the game in the wrong direction.
+- Pocket areas — mini caves and small holes where items were abundant — were not bad. They broke up the digging and, in a game this boring, saved me time.
+
+*Corpus: music splits reviewers — some call the soundtrack relaxing, while a detailed translated review says the audio is grating and recommends playing muted (Criticism 8). The visuals are the opposite story: reviewers mostly call the game pretty and charming (Praise 5), and the harshest visual verdict in the corpus is "lacks any pizzaz, boring reskins only" (Divergent opinions) — nobody in the English reviews calls it soulless or asset-flip-like. The darkening depths are usually praised as atmosphere (Praise 5), so "too dark" is my complaint alone. Handcrafted rooms and discoveries are praised (Praise 4), which matches the pocket areas; the non-cave structures are not discussed.*
+
+### Characters
+- This game convinced me of one thing for certain: **I do not want characters or faces of someone in our game, or on the cover and marketing.**
+
+*Corpus: no reviewer asks for fewer characters; the ex-wife premise is a minor, mostly positive theme (theme table: wife / ex-wife story, 6 mentions).*
+
+### Does my experience match the reviews?
+- **Agrees with the documented criticism:** shallow, meaningless upgrades; forced progression gating; bugs and lost progress; the back half turning into a slog; missing jetpack and rope friction; and the game's best parts being cozy mode and collectibles. All of these recur in the corpus (Criticism 3–5 and 7; Divergent opinions).
+- **A minority reading of a mostly positive game:** 85.8% of the 330 reviews are positive, so "no satisfaction at all" is mine — most reviewers call the loop satisfying (Praise 1). The big empty map, "too dark" (darkness is usually praised as atmosphere, Praise 5) and the car letdown (discoveries are the game's most-praised asset, Praise 4) sit outside the mainstream too.
+- **Not found anywhere in the English reviews:** the "dead inside / no soul / stupid assets" verdict (no English review uses that framing, and visual criticism is rare even among the 29 English negatives), plus characters/faces, overheating, timed upgrades, in-game checkbox tasks and the 20 m depth blocker as I described them. These are my own observations and should be weighted as such.
+- **Mixed in the corpus:** gambling (a hard no for me; reviewers split) and music (some find it relaxing, at least one translated review finds it grating).
+
+### Bottom line
+Treat One Man's Trash as a negative reference. The corpus shows which pieces worked (cozy mode, collectibles, the first hours) and which did not (shallow upgrades, license gates, bugs, empty length). My playthrough says the same thing more bluntly: none of it is worth copying unless the core digging is satisfying and discovery actually pays off.
+
+---
+
 ## TL;DR
 
 One Man's Trash is a short, cheap, satisfying "dig-hole" game that is easy to recommend for a relaxed weekend — and just as easy to describe as a 3–5 hour clone of *A Game About Digging a Hole* that overstays its welcome and hides a horror game inside a cozy one. Its own hook is the story: you have bought a plot of landfill to recover a buried hard drive holding a fortune in Bitcoin — inspired by the true story of a man who threw away 8,000 BTC — and the dig ends with a choice between the crypto and a mystery box.
