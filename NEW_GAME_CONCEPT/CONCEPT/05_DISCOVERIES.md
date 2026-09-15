@@ -112,8 +112,12 @@ Extraction always delivers the whole object — a large find that yields only a 
 letdown. Some very large discoveries may remain in place permanently as landmarks; their
 non-extractable nature is clear and discovery is credited in place.
 
-Major discoveries gradually reveal parts of one enormous construction. Matching joints, seams
-and fittings connect them; the final object explains what they belong to. Smaller finds continue around it.
+Major discoveries are connected. In the current experimental direction they are pieces of one huge
+buried structure the player keeps meeting along the route — a curved wall here, another piece
+deeper down, pieces that only later prove to share an edge, a joint or a material. Matching joints,
+seams and fittings connect them; the final object explains what they belong to. Another option
+being considered is parts collected to open something, possibly at ground level. What the parts add
+up to is still an open question. Smaller finds continue around the major ones.
 
 ## 7. Value and rarity
 
@@ -168,3 +172,9 @@ The trail ends at the final object: **a modern object built in impossibly ancien
 Its exact identity stays open; its construction makes the earlier major parts fit together.
 An unusually intact ordinary object in undisturbed sediment can foreshadow this without an explanation.
 See [Ending and Mystery](11_ENDING_AND_MYSTERY.md).
+
+Impossible materials carry one small, consistent contact signature: an unusually clean cut, a
+glass-like resonance, dust that settles too neatly. It is material feedback at the moment of
+contact, always with a visual counterpart so the game works muted — never a direction, proximity or
+value cue, and never something that reads as responding. See
+[Game Feel, Art and Audio](09_FEEL_ART_AND_AUDIO.md).

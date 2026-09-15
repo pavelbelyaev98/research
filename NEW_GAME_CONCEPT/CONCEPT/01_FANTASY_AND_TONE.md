@@ -52,9 +52,13 @@ Built from objects, never from cutscenes or characters (no NPCs):
 3. **Increasingly impossible late** — deliberate, immaculate, constructed things.
 4. **The final discovery** — a **modern object built in impossibly ancient materials**.
 
-Major discoveries gradually reveal parts of **one enormous construction**. Matching joints,
-seams and fittings connect them; the final object reveals what they belong to. The player still
-chooses the digging route and can encounter parts in different orders.
+The major discoveries are connected, and **what they add up to is still an open question**. The
+current experimental direction is one huge buried structure: the player keeps finding pieces of the
+same object while digging — a curved wall here, another piece deeper down — and only later sees
+that the pieces share an edge, a joint or a material. Matching joints, seams and fittings connect
+them; the final object reveals what they belong to. Another option being considered is collecting
+parts that open something, possibly at ground level. The player still chooses the digging route and
+can encounter parts in different orders.
 
 The display wall records special finds so the player builds the story themselves. Nothing is
 signposted by UI text. Earlier discoveries gain meaning as the larger form becomes clear.

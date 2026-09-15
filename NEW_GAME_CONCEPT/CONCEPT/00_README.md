@@ -12,9 +12,9 @@ hole with one evolving, increasingly ridiculous machine, follow silent detector 
 oddities, reveal objects by their shape before you know what they are, haul them home before your
 shared battery dies, sell everything ordinary at a janky Sell All machine, and upgrade. You dig
 deeper through four zones, from recent rubbish to old sediment to deep clay and finally to something
-constructed that should not exist. The finds belong to a buried place with a history; major discoveries
-gradually reveal parts of one enormous construction. The last find makes their connection clear; then
-you keep playing.
+constructed that should not exist. The finds belong to a buried place with a history, and the major
+discoveries are connected. What they add up to is still open: one huge buried structure, or parts
+collected to open something else. The last find makes the connection clear; then you keep playing.
 
 **Platform:** PC (Windows), Unity. Solo, full controller support. **Rating target:** E10+ / PEGI 7.
 **Price:** $6.99–9.99. **Length:** 3–5 h first completion. **Audio:** ambience and feedback only.

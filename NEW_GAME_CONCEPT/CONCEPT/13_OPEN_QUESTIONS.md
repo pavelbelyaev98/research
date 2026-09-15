@@ -9,6 +9,7 @@ Once a choice is made, document it in the relevant chapter and remove it here.
 |---|---|---|
 | Special-item story | Before pickup / immediately before placement | Test both; leaning before placement. Placed objects always support inspection and rereading. No inventory delivery |
 | Find rosters | Exact common and distinctive object lists | Keep the 20–30 / 30–50 type targets; validate the five slice objects, then expand coherent buried scenes. Special exhibits remain a small separate set |
+| Mystery payoff | One huge buried structure found piece by piece / parts collected to open something (possibly at ground level) / another payoff | Experimental. Test after the core loop works; the one-structure idea is a current direction, not a commitment, and can be dropped without changing the loop |
 | Final meaningful purchase | Exact point in the campaign | Test ~75–85% of first completion; leave worthwhile excavation after the final purchase |
 | Zone names | Final names | Keep the current descriptive placeholders until content work |
 | Achievements | Final 5–10 achievements | Use the [candidate set](12_ACHIEVEMENTS_AND_COMPLETION.md#3-candidate-set-to-be-finalized-with-content); natural accomplishments, no grind or seed-exclusive requirements |
@@ -17,10 +18,10 @@ Once a choice is made, document it in the relevant chapter and remove it here.
 
 | Topic | Open choice | Leaning / next step |
 |---|---|---|
-| Site dimensions | Exact depth and footprint | Compact and vertical, at least 100 m deep, with useful lateral room for buried places and the larger construction |
+| Site dimensions | Exact depth and footprint | Compact and vertical, at least 100 m deep, with useful lateral room for buried places and the major connected finds |
 | Materials | Final roster and useful variants | Start with five response groups: loose earth, clay/sediment, gravel, rock and diggable concrete; each must feel distinct |
 | Voxel/chunk size | 0.5 m / 0.25 m / 1.0 m working options | Test recognition, digging feel and travel. Cut scale and streamed-region size are separate measurements |
-| Final object | Ancient household technology / modern machine in ancient materials / ancient original of the player's machine / another object | Choose after the loop works. Its recognizable modern function must explain the enormous construction; no candidate is selected |
+| Final object | Ancient household technology / modern machine in ancient materials / ancient original of the player's machine / another object | Choose after the loop works. Its recognizable modern function must explain the major connected finds (see Mystery payoff); no candidate is selected |
 
 ## Interface and ending
 

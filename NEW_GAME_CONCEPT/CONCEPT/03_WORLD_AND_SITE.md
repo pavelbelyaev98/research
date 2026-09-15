@@ -14,8 +14,11 @@ retaining walls, and leftover waterworks. It is finite, believable and clearly b
 
 - **Buried structures:** authored walls, machinery and filled interiors are allowed. The
  player digs every opening; no pre-dug rooms or passage network.
-- **Buried history:** workshop, household and waterworks finds belong together. Major parts
- gradually reveal one enormous construction, whose exact form remains open.
+- **Buried history:** workshop, household and waterworks finds belong together. Major parts are
+  connected: in the current experimental direction they are pieces of one huge buried structure the
+  player keeps finding — a curved wall in one place, another piece deeper down, pieces that only
+  later read as the same object. Another option being considered is parts collected to open
+  something, possibly at ground level. What the parts add up to is still an open question.
 
 ## 2. Boundaries (why you cannot dig forever)
 
@@ -28,7 +31,9 @@ Permanent boundaries must look categorically different from any diggable materia
   reservoir's edge reads as ground meeting stone, with no fake-water interaction problems.
 
 Rule: never use the same material look for "tough but diggable" and "eternal wall". Players must
-know at a glance what will eventually yield.
+know at a glance what will eventually yield. If the buried-structure direction is used, it is never
+a boundary: its built surfaces stay clearly different from bedrock and concrete walls, and routes
+around it stay open.
 
 ## 3. The four zones
 
@@ -130,9 +135,9 @@ as no solution.
 ## 8. Randomization rules
 
 - Authored: zone layout, depth ranges, boundary placement, general difficulty curve and relationships
- between buried places and the connected construction parts.
+  between buried places and the connected major finds.
 - Randomized per save: find positions, depths within bands, rotations, cluster layouts, some
- surrounding junk. Variation preserves how related objects and construction parts fit together.
+  surrounding junk. Variation preserves how related objects and major parts fit together.
 - The generator produces a candidate layout and validates [discovery pacing](02_CORE_LOOP.md#4-pacing-rules-generation-enforces-these)
  before accepting it.
 - Every seed contains all special exhibits, ending parts and achievement-relevant finds, reachable

@@ -9,7 +9,7 @@ Purpose: prove the loop before content exists. Numerical targets are starting po
 
 A calm, voluntary return followed by eagerness to dig again is equally valid. Also test whether
 related finds suggest a buried place, upgrades transform the scale of excavation, and major parts
-build curiosity about one larger construction.
+build curiosity about what they add up to.
 
 ## 2. Vertical slice scope (first playable)
 
@@ -53,10 +53,14 @@ without a transport shaft to the sky or cable clipping.
 - Station time: seconds spent in the yard per trip; nonblocking selling/upgrades and individual
  special placement without underground carrying.
 - Story delivery: compare before pickup and immediately before placement; display rereading in both.
-- Once deeper content exists: test connected major parts, flexible discovery order, required-find
- trails, power growth against tougher ground, and useful play after the final major upgrade.
+- Once deeper content exists: test connected major parts and whichever payoff direction is chosen
+  (repeated encounters with one huge buried structure are the current experiment), flexible
+  discovery order, required-find trails, power growth against tougher ground, and useful play after
+  the final major upgrade.
 - Tool-tier regression: time-to-clear per material family for each new head vs the previous tier — no new tier may be slower in ground the player already digs.
 - C4 value: digging time saved per charge vs its price — a charge must clearly pay for itself.
+- Impossibility signature: testers read the clean cut, resonance and dust as wrong material — never
+  as a presence, a value cue or something reacting — including with audio muted.
 
 ## 4. Validation metrics (playtest gates)
 
@@ -78,6 +82,7 @@ without a transport shaft to the sky or cable clipping.
 | Save write latency | zero perceptible freeze/hitch; frame-impact budget is tested separately from total background save duration |
 | Return navigation | testers find their way back to the surface unaided; none report feeling lost |
 | Mystery tone (deep-zone pass) | once those zones exist, testers describe the impossibilities as awe and curiosity, never dread |
+| Impossibility signature (deep-zone pass) | the contact signature reads as wrong material, never as a response, direction or value cue |
 
 ## 5. The core test script (observe, don't explain)
 
@@ -94,7 +99,7 @@ without a transport shaft to the sky or cable clipping.
 2. **Loop prototype:** sell, upgrade, display, detector, first object recognition.
 3. **Slice:** all vertical-slice elements above with placeholder art (custom models only).
 4. **Pacing pass:** multiple seeds, measure the metrics, tune generation rules.
-5. **Content production:** zones 2–4, coherent places, connected construction, full rosters and ending.
+5. **Content production:** zones 2–4, coherent places, connected major finds, full rosters and ending.
  Validate part relationships and the final object before committing the full content set.
 6. **Polish and release prep:** comfort settings, achievements, verification passes.
 

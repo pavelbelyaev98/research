@@ -10,9 +10,14 @@ Delivered entirely through finds, never through NPCs or text popups:
 | 2. Too correct | Deep clay/stone | A rustless tool, a bottle standing upright under tons of sediment, a manufactured part matching no machine nearby | "Wait. Something put this here." |
 | 3. Constructed impossibilities | Ancient constructed | Machinery built from ancient materials with a modern function; objects that are deliberately placed | "This should not exist." |
 
-**One enormous construction**: the major discoveries gradually reveal related parts. Matching
-joints, seams and fittings make the connection visible; the final object explains what they belong
-to. The player uncovers it along their own route, with different discovery orders.
+**One huge buried structure (experimental direction)**: the major discoveries gradually reveal
+related parts, and the player keeps finding pieces of the same object along the route — a curved
+wall here, another piece deeper down, pieces that only later prove to share an edge, a joint or a
+material. Matching joints, seams and fittings make the connection visible; the final object
+explains what they belong to. Another option being considered is collecting parts that open
+something, possibly at ground level. What the parts add up to stays an open question. The player
+uncovers it along their own route, with different discovery orders; free-form routes and clearly
+distinguishable bedrock boundaries are never compromised.
 
 An intact ordinary object in undisturbed sediment can establish the wrongness early. The connection
 should read through the objects, not through a code or explanation; the growing question is “how big
@@ -28,12 +33,17 @@ Rules:
   threat, a pursuit or a presence. No stalking or chase staging, no "something is watching" cues;
   darkness stays calm. The player should feel *"this should not exist"*, never *"something is
   coming"*.
+- **Signature, never a response.** Impossible materials carry a small, consistent contact
+  signature — clean cut, glass-like resonance, too-neat dust — with a visual counterpart. It is
+  material feedback at contact, never direction, proximity or value, and never something that
+  reacts to the player.
 
 ## 2. The ending components
 
 Three or four objects outside the normal bag:
 
-- They are parts of the final mechanism (e.g., segments that fit a housing found at the bottom).
+- They are parts of the final payoff: they fit a mechanism or structure whose exact form is still
+  open (it may even be at ground level).
 - They never consume inventory capacity, and can never be lost — not by recovery, falling, or any
  failure state.
 - They can appear in a permanent case at the surface, but ownership makes them automatically
@@ -54,7 +64,7 @@ chosen yet; it is decided after the loop works, with directions such as:
 - some familiar modern invention that is *too familiar*, found where nothing human should reach;
 - an impossibly ancient original of the player's machine.
 
-None is selected. The final object makes the larger construction's earlier parts fit together.
+None is selected. The final object makes the earlier major parts fit together.
 
 The payoff is not the object's name; it is the certainty: **this should absolutely not exist here.**
 The object must be readable at a glance and unmistakably manufactured.
@@ -113,6 +123,8 @@ After the cutscene:
 
 ## 8. Undecided
 
+- The mystery payoff: one huge buried structure (current experimental direction), parts that open
+  something, or another answer.
 - The exact final object (direction locked, object TBD after prototype).
 - Exact staging and length of the cutscene.
 

@@ -43,7 +43,7 @@ return is as valid as pushing for one more find.
 | Hour 1 | **Recent fill** | Slow shovel, believable finds, first purchases, first hard pocket |
 | Hours 2–3 | **Old sediment** | Real capability jumps, clusters, first "too modern for this depth" oddity |
 | Hours 3–4 | **Deep clay/stone** | Richer finds, lamps, connected major parts; growing power exceeds the tougher ground |
-| Hours 4–5 | **Ancient constructed** | Large, fast excavation; the final object explains the enormous construction; ending and Continue Playing |
+| Hours 4–5 | **Ancient constructed** | Large, fast excavation; the final object reveals what the major finds were for; ending and Continue Playing |
 
 The last meaningful purchase should land near the end of the run so its power gets used (timing
 prototype-tuned).
@@ -56,7 +56,7 @@ prototype-tuned).
 - Dry spells between noteworthy discoveries are bounded along representative exploration routes;
   this is not an elapsed-time guarantee for every possible path.
 - Related objects cluster; unrelated major finds never clump.
-- One guaranteed major-scale discovery per zone; the large parts build the connected reveal.
+- One guaranteed major-scale discovery per zone; the major parts connect to each other, so the mystery grows with depth (the exact payoff is still open).
 - New object silhouettes keep appearing until the end; the late game is never "more dirt".
 - Novelty is never dumped early: strong finds are distributed across all four zones.
 - These rules validate a candidate layout before it is accepted; an accepted population persists and

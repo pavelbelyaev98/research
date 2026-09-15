@@ -58,6 +58,7 @@ See [Fantasy and Tone](01_FANTASY_AND_TONE.md).
 | Unadvertised horror or scary content | No horror or scary content |
 | Bait-and-switch ending or genre shift | Normal systems at the finale; honest ending |
 | Disable the player's tools for drama | Tools always work |
+| Imply something conscious in the impossible materials | A small material signature only — clean cut, resonance, dust, with a visual counterpart; never a response, direction or value cue |
 | Toilet/body-sound humor or joke spam | Deadpan object humor, rare, no sound gags |
 | NPCs, dialogue trees, or quest-givers | Machines and finds only |
 | Fake difficulty through controls getting worse | Jetpack only improves; control quality never degrades |

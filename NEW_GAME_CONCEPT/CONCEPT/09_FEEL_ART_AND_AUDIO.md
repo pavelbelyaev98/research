@@ -60,6 +60,13 @@ as [World and Site](03_WORLD_AND_SITE.md); the exact material list remains open:
 | Rock | Slow, chipping | Shards | Sharp crack |
 | Diggable concrete | Tough; early tools still make visible progress | Sparks, dust | Grinding screech |
 
+**Impossibility signature:** ancient fabricated materials add one small, consistent response on top
+of the working groups — an unusually clean cut, a glass-like resonance, dust that settles too
+neatly. The signature appears only where the tool contacts the material, never as a direction,
+proximity or value cue. It is a property of the material, never an answer: nothing in it reacts to
+the player's presence, position or attention. Every part has a visual counterpart so the game stays
+readable muted, and it never signals a threat.
+
 ## 6. Audio design
 
 Ambience and feedback only. **No music. No voice acting**.
@@ -71,7 +78,8 @@ Ambience and feedback only. **No music. No voice acting**.
 - **No audio-only clues.** Every sound that carries information has a visual counterpart. The
   detector is silent by design and readable while muted.
 - **No threat-adjacent audio anywhere.** The deep zone hums; it never breathes, whispers, follows or
-  stalks. Nothing in the mix implies a presence ([Ending and Mystery](11_ENDING_AND_MYSTERY.md)).
+  stalks. Nothing in the mix implies a presence, and the impossible-material resonance never sounds
+  like a response ([Ending and Mystery](11_ENDING_AND_MYSTERY.md)).
 - **Mix:** ambience stays under the dig loop; picking, digging and the Sell All machine are the
  loudest, most satisfying elements.
 - Licensed audio may be used where needed, but custom is preferred; every sound is reviewed for
