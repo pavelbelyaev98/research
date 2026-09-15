@@ -50,7 +50,7 @@ Rules:
 - **Controller parity is mandatory:** every screen, including shop and display placement,
  works with a controller; glyphs swap automatically.
 - **Left-handed preset** mirrors mouse buttons and updates prompts.
-- Sensitivity, invert, deadzone and hold/toggle options exist per action.
+- Sensitivity, invert, deadzone and hold/toggle options exist per action and per input device.
 - Optional gyro for fine control.
 - No action in the game requires rapid repeated input, simultaneous multi-button holds, or mashing.
 
@@ -87,7 +87,7 @@ No postcard export or separate sharing system; the existing photo mode stays.
 
 ## 8. Settings that must exist (summary)
 
-Motion comfort (FOV, bob, comfort preset), controls (rebinding, sensitivity, handedness),
+Motion comfort (FOV, bob, comfort preset), controls (rebinding with a one-click reset to defaults, sensitivity, handedness),
 audio (ambience/SFX levels, mute), UI (scale where applicable), gameplay toggles (hold/toggle dig; additional assist if useful), and save management. Options persist immediately; every effect that exists has a
 corresponding control.
 

@@ -15,7 +15,7 @@ Start here: **[Something Down There — Concept](NEW_GAME_CONCEPT/CONCEPT/00_REA
 
 ## The evidence
 
-[Research index](RESEARCH/README.md) lists all nine game analyses and their raw review data.
+[Research index](RESEARCH/README.md) lists all six game analyses and their raw review data.
 
 The analyses explain what players experienced. The concept chapters describe the game being made;
 earlier research notes do not override later design choices.
